@@ -38,3 +38,37 @@
 - Set **BASE_URL** to your production domain so `sitemap.xml` and `robots.txt` use correct URLs.
 - City pages are at `/time/<slug>` (e.g. `/time/new-york`) and include meta tags and schema.org JSON-LD.
 - Submit your sitemap in Google Search Console: `https://your-domain.com/sitemap.xml`.
+
+---
+
+## 7. Custom domain (e.g. timenow.co.in on Hostinger)
+
+After the app is live on Render (e.g. `https://timenow-global.onrender.com`), you can use your own domain.
+
+### On Render
+
+1. Open your **Web Service** → **Settings** → **Custom Domains**.
+2. Click **Add Custom Domain**.
+3. Add **timenow.co.in** (root). Render may also show **www.timenow.co.in**; add it if you want both.
+4. Render will show the DNS records you need. Note:
+   - **Root (timenow.co.in):** use the **A record** target IP Render shows (e.g. `216.24.57.1`).
+   - **www:** use the **CNAME** target (e.g. `timenow-global.onrender.com`).
+5. Wait for Render to issue SSL (can take a few minutes after DNS is correct).
+
+### On Hostinger
+
+1. Log in to **hPanel** → **Domains** → select **timenow.co.in** → **DNS / Nameservers** → **DNS records** (or “Manage DNS”).
+2. Add or edit records:
+
+   | Type  | Name | Value / Target |
+   |-------|------|----------------|
+   | **A** | `@`  | `216.24.57.1` (or the IP Render shows for your service) |
+   | **CNAME** | `www` | `timenow-global.onrender.com` (your Render service hostname) |
+
+3. Remove any conflicting **A** or **CNAME** for `@` or `www` that point elsewhere.
+4. Save. DNS can take a few minutes up to 24 hours to propagate.
+
+### After DNS is live
+
+- In Render **Environment**, set **BASE_URL** = `https://timenow.co.in` so sitemap and robots use the correct domain.
+- Visit `https://timenow.co.in` and `https://www.timenow.co.in`; Render will serve HTTPS once the certificate is ready.
