@@ -1,46 +1,181 @@
-# TimeNow Global
+**TimeNow – Global Time & Productivity Tools**
 
-Production-grade world clock and time tools: accurate time sync, SEO city pages, shareable meeting/countdown links, and modular vanilla JS.
+**TimeNow** is a modern web application designed to help users manage global time efficiently. It provides real-time world clocks, timezone comparisons, sun windows, weather information, and productivity tools for people working across multiple time zones.
 
-## Structure
+The goal of **TimeNow** is simple: make global time coordination effortless for remote teams, travelers, developers, and global businesses.
 
-```
-/public
-  index.html       # Main app (uses /css, /js)
-  /css
-    main.css
-  /js
-    app.js         # Entry (ES modules)
-    clock.js       # NTP-style sync, tick loop (requestAnimationFrame)
-    cities.js      # City list, slugs, resolveZoneFromCities
-    timezone.js    # IANA validation, formatTime, getOffsetStr
-    tools.js       # Time diff, event adjuster, jet lag, overlap, relative
-    ui.js          # Theme, accordion, city strip, multi-clock
-    utils.js
-server.js          # Static + /api/time, /time/:city, /meeting, /countdown, sitemap, robots
-package.json
-DEPLOY.md          # Render deployment
-```
 
-## Run locally
+🌐 Website: https://timenow.co.in/
 
-```bash
-npm start
-# or: node server.js
-```
 
-Open http://localhost:3000 (or `PORT` env).
+**🚀 Features**
 
-## Features
+**1. Global City Time Search**
 
-- **Accurate time:** `/api/time` returns server timestamp; client computes offset and shows “Your clock is accurate to ±X ms”.
-- **City pages (SEO):** `/time/new-york`, `/time/london`, etc. Meta + schema.org.
-- **Shareable links:** `/meeting?time=14:00&from=NewYork&to=London`, `/countdown?event=Launch&date=2026-12-01`.
-- **World clocks:** Pin cities, persisted in localStorage; reorder by add/remove.
-- **Time tools:** Difference explainer, event adjuster, jet lag, workhours overlap, relative time translator.
-- **Accessibility:** ARIA, labels, high-contrast media query.
-- **Monetization:** `.ad-slot` placeholder in layout.
+Instantly search for any city in the world
 
-## Deploy
+Displays current local time
 
-See [DEPLOY.md](DEPLOY.md) for Render. Set `BASE_URL` for sitemap/robots.
+Supports hundreds of cities worldwide
+
+Optimized for quick meeting planning
+
+**2. Real-Time World Clocks**
+
+Pin multiple cities
+
+Monitor time across different regions
+
+Automatically adjusts for Daylight Saving Time (DST)
+
+**3. Timezone Comparison**
+
+Compare multiple cities simultaneously to:
+
+Plan meetings
+
+Schedule calls
+
+Coordinate remote teams
+
+Avoid off-hour communication
+
+**4. Sun Windows**
+
+Displays solar events for each city:
+
+Sunrise
+
+Sunset
+
+Day length
+
+Golden hour
+
+Helpful for:
+
+Photographers
+
+Travelers
+
+Outdoor planners
+
+
+**5. Weather Information**
+
+Each city page includes:
+
+Current weather
+
+Temperature
+
+Conditions
+
+Future weather forecast
+
+Helps users plan travel or meetings around weather conditions.
+
+
+**6. City Information**
+
+Every city page includes:
+
+Quick summary of the city
+
+Popular attractions
+
+Best restaurants
+
+Historical context
+
+This transforms TimeNow into a mini city intelligence tool.
+
+**7. Pinned Cities Dashboard**
+
+Users can pin frequently used cities for quick access.
+
+Benefits:
+
+Instant time reference
+
+Fast meeting planning
+
+Easy timezone monitoring
+
+**8. AI-Generated City Insights**
+
+TimeNow uses AI to generate:
+
+Travel highlights
+
+City summaries
+
+Cultural insights
+
+Local tips
+
+**9. Fast Global Search**
+
+Optimized search experience:
+
+Autocomplete suggestions
+
+Instant results
+
+Minimal latency
+
+**10. Mobile Friendly Design**
+
+Fully responsive UI:
+
+Desktop
+
+Tablet
+
+Mobile
+
+Perfect for users checking time on the go.
+
+**🧠 Why TimeNow?**
+
+Remote work and global teams create timezone chaos.
+
+Common problems:
+
+"What time is it in Tokyo?"
+
+"Is it working hours in London?"
+
+"When does the sun set in Dubai?"
+
+"Can I schedule a meeting with New York?"
+
+TimeNow solves this instantly.
+
+**🎯 Target Users**
+
+TimeNow is designed for:
+
+Remote Teams
+
+Coordinate meetings across multiple time zones.
+
+Global Businesses
+
+Monitor business hours worldwide.
+
+Developers & Engineers
+
+Track server locations and deployment regions.
+
+Travelers
+
+Understand local time and daylight hours.
+
+Photographers
+
+Track sunrise and sunset times.
+
+Digital Nomads
+
+Manage work across continents.
