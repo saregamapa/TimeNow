@@ -497,8 +497,9 @@ const APP_HEADER_HTML = '<header class="app-header" role="banner"><div class="he
 /** Google Tag Manager (GTM-5764J5L6): inject in head and after body on every page. */
 const GTM_HEAD = '<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({\'gtm.start\':new Date().getTime(),event:\'gtm.js\'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!=\'dataLayer\'?\'&l=\'+l:\'\';j.async=true;j.src=\'https://www.googletagmanager.com/gtm.js?id=\'+i+dl;f.parentNode.insertBefore(j,f);})(window,document,\'script\',\'dataLayer\',\'GTM-5764J5L6\');</script>';
 const GTM_NOSCRIPT = '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5764J5L6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>';
+const ADSENSE_HEAD = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6109958393336514" crossorigin="anonymous"></script><meta name="google-adsense-account" content="ca-pub-6109958393336514">';
 /** Head (fonts + CSS) same as frontpage so footer and typography match. */
-const LIST_PAGE_HEAD = GTM_HEAD + '<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Libre+Baskerville:700&family=Oswald:wght@500&family=DM+Sans:wght@600&display=swap" rel="stylesheet"/><link rel="stylesheet" href="/css/main.css"/>';
+const LIST_PAGE_HEAD = GTM_HEAD + ADSENSE_HEAD + '<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Libre+Baskerville:700&family=Oswald:wght@500&family=DM+Sans:wght@600&display=swap" rel="stylesheet"/><link rel="stylesheet" href="/css/main.css"/>';
 /** Footer HTML (same as frontpage): brand + nav with emojis. */
 const APP_FOOTER_HTML = '<footer class="global-footer" role="contentinfo"><p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p><nav class="footer-nav" aria-label="Footer"><a href="/about">📄 About</a><a href="/privacy">🔒 Privacy</a><a href="/terms">📋 Terms</a><a href="/contact">✉️ Contact</a><a href="/sitemap.xml">🗺️ Sitemap</a></nav></footer>';
 
@@ -828,7 +829,7 @@ function renderTimeDiffPage(cityA, cityB) {
 /** 404 page when city slug is not found. */
 function city404Html(slug) {
   const s = escapeHtml((slug || '').trim() || 'unknown');
-  return '<!DOCTYPE html><html lang="en"><head>' + GTM_HEAD + '<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>City not found | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body>' + GTM_NOSCRIPT + '<header class="top-bar"><a href="/" class="logo">TimeNow</a></header><main class="main"><section class="section"><h1 class="section-title">City not found</h1><p>We could not find a city with the slug &quot;' + s + '&quot;.</p><p><a href="/">View world clock</a> or search for a city above.</p></section></main>' + APP_FOOTER_HTML + '</body></html>';
+  return '<!DOCTYPE html><html lang="en"><head>' + GTM_HEAD + ADSENSE_HEAD + '<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>City not found | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body>' + GTM_NOSCRIPT + '<header class="top-bar"><a href="/" class="logo">TimeNow</a></header><main class="main"><section class="section"><h1 class="section-title">City not found</h1><p>We could not find a city with the slug &quot;' + s + '&quot;.</p><p><a href="/">View world clock</a> or search for a city above.</p></section></main>' + APP_FOOTER_HTML + '</body></html>';
 }
 
 function escapeHtml(s) {
@@ -864,6 +865,9 @@ function meetingPageHtml(q) {
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-5764J5L6');</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6109958393336514"
+     crossorigin="anonymous"></script>
+  <meta name="google-adsense-account" content="ca-pub-6109958393336514">
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Meeting time: ${from} & ${to} | TimeNow</title>
@@ -908,6 +912,9 @@ function countdownPageHtml(q) {
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-5764J5L6');</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6109958393336514"
+     crossorigin="anonymous"></script>
+  <meta name="google-adsense-account" content="ca-pub-6109958393336514">
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Countdown: ${event} | TimeNow</title>
@@ -1068,7 +1075,7 @@ const server = http.createServer((req, res) => {
       return;
     }
     res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
-    res.end('<!DOCTYPE html><html lang="en"><head>' + GTM_HEAD + '<title>Continent not found | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body>' + GTM_NOSCRIPT + '<header class="top-bar"><a href="/" class="logo">TimeNow</a></header><main class="main"><section class="section"><h1>Continent not found</h1><p><a href="/">Home</a></p></section></main></body></html>');
+    res.end('<!DOCTYPE html><html lang="en"><head>' + GTM_HEAD + ADSENSE_HEAD + '<title>Continent not found | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body>' + GTM_NOSCRIPT + '<header class="top-bar"><a href="/" class="logo">TimeNow</a></header><main class="main"><section class="section"><h1>Continent not found</h1><p><a href="/">Home</a></p></section></main></body></html>');
     return;
   }
 
@@ -1082,7 +1089,7 @@ const server = http.createServer((req, res) => {
       return;
     }
     res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
-    res.end('<!DOCTYPE html><html lang="en"><head>' + GTM_HEAD + '<title>Country not found | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body>' + GTM_NOSCRIPT + '<header class="top-bar"><a href="/" class="logo">TimeNow</a></header><main class="main"><section class="section"><h1>Country not found</h1><p><a href="/">Home</a></p></section></main></body></html>');
+    res.end('<!DOCTYPE html><html lang="en"><head>' + GTM_HEAD + ADSENSE_HEAD + '<title>Country not found | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body>' + GTM_NOSCRIPT + '<header class="top-bar"><a href="/" class="logo">TimeNow</a></header><main class="main"><section class="section"><h1>Country not found</h1><p><a href="/">Home</a></p></section></main></body></html>');
     return;
   }
 
@@ -1131,7 +1138,7 @@ const server = http.createServer((req, res) => {
       return;
     }
     res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
-    res.end('<!DOCTYPE html><html lang="en"><head>' + GTM_HEAD + '<title>Not found | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body>' + GTM_NOSCRIPT + '<header class="top-bar"><a href="/" class="logo">TimeNow</a></header><main class="main"><section class="section"><h1>Page not found</h1><p><a href="/">Home</a></p></section></main></body></html>');
+    res.end('<!DOCTYPE html><html lang="en"><head>' + GTM_HEAD + ADSENSE_HEAD + '<title>Not found | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body>' + GTM_NOSCRIPT + '<header class="top-bar"><a href="/" class="logo">TimeNow</a></header><main class="main"><section class="section"><h1>Page not found</h1><p><a href="/">Home</a></p></section></main></body></html>');
     return;
   }
 
