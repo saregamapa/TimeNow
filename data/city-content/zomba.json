@@ -1,0 +1,55 @@
+{
+  "overview": "Zomba is a vibrant city located in southern Malawi, serving as the administrative capital of the Zomba District. Nestled at the foot of the scenic Zomba Plateau, it boasts a rich cultural heritage and plays a crucial role in the region's education and governance. With a population of approximately 118,440, Zomba is known for its lush landscapes, historical significance, and as a hub for both local and international visitors seeking to explore Malawi's natural beauty and cultural diversity.",
+  "history": "Zomba was established in the late 19th century as the capital of British Central Africa. It has played a significant role in Malawi's history, especially during the colonial period.",
+  "economy": "The economy of Zomba is primarily driven by agriculture, with smallholder farming being a key component. Additionally, the city hosts various educational institutions and local businesses that contribute to its economic landscape, promoting trade and employment opportunities.",
+  "tourism": "Zomba attracts tourists with its stunning landscapes, including the Zomba Plateau, which offers hiking and breathtaking views. Visitors can explore the botanical gardens, the historic Zomba Central Market, and the nearby waterfalls, making it a perfect destination for nature lovers and those interested in Malawian culture.",
+  "best_places": [
+    "Zomba Plateau",
+    "Botanical Gardens",
+    "Chamberlain Falls",
+    "Zomba Central Market",
+    "Malawi College of Forestry and Wildlife",
+    "Zomba Mountain"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Sunbird Ku Chawe",
+      "description": "A popular restaurant offering a mix of local and international cuisine with stunning views."
+    },
+    {
+      "name": "The Zomba Café",
+      "description": "Known for its cozy atmosphere and delicious coffee, perfect for a casual meal."
+    },
+    {
+      "name": "Kachulu Beach Restaurant",
+      "description": "Offers a unique dining experience by the lake with fresh seafood and local dishes."
+    },
+    {
+      "name": "The Garden Restaurant",
+      "description": "A charming spot featuring a variety of Malawian dishes in a beautiful garden setting."
+    }
+  ],
+  "weather_summary": "Zomba experiences a temperate climate with mild, rainy winters and warm, humid summers.",
+  "faqs": [
+    {
+      "question": "What time zone is Zomba in?",
+      "answer": "Zomba is in the Africa/Blantyre time zone."
+    },
+    {
+      "question": "Does Zomba observe daylight saving time?",
+      "answer": "No, Zomba does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Zomba?",
+      "answer": "The population of Zomba is approximately 118,440."
+    },
+    {
+      "question": "When does sunrise typically occur in Zomba?",
+      "answer": "Sunrise in Zomba typically occurs around 5:30 AM to 6:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Zomba?",
+      "answer": "The best time to visit Zomba is during the dry season from May to September when the weather is cooler and more pleasant."
+    }
+  ]
+}

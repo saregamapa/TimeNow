@@ -1,0 +1,56 @@
+{
+  "overview": "Biskra, located in northeastern Algeria, serves as a vital cultural and economic hub in the region. Known for its rich history and strategic position near the Sahara Desert, Biskra is a city where traditional and modern influences blend seamlessly. With a population of approximately 204,661, it plays a significant role in agriculture and tourism, attracting visitors with its unique landscapes and historical sites.",
+  "history": "Biskra has ancient roots, originally established as a Roman settlement known as Vescera. It has historically been a crucial stop for caravans traveling across the Sahara, contributing to its cultural richness.",
+  "economy": "The economy of Biskra is primarily driven by agriculture, particularly the cultivation of dates and citrus fruits. Additionally, the city has seen growth in tourism and small-scale manufacturing, making it an important economic center in Algeria.",
+  "tourism": "Biskra attracts visitors with its stunning natural landscapes, including the nearby Aurès Mountains and the picturesque palm groves. Key attractions include the ancient ruins of the Roman city, the Biskra Museum, and the vibrant local markets, where tourists can experience the city's rich cultural heritage.",
+  "best_places": [
+    "Biskra Museum",
+    "Palm Grove of Biskra",
+    "Roman Ruins of Vescera",
+    "Aurès Mountains",
+    "Ksar of Biskra",
+    "El-Ksar",
+    "Sidi Okba Mosque"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant El-Moustaqbal",
+      "description": "A popular spot known for its traditional Algerian cuisine."
+    },
+    {
+      "name": "Le Relais",
+      "description": "Offers a mix of local and international dishes in a cozy atmosphere."
+    },
+    {
+      "name": "La Table de Biskra",
+      "description": "Famous for its delicious grilled meats and fresh salads."
+    },
+    {
+      "name": "Café des Arts",
+      "description": "A charming café perfect for enjoying coffee and pastries."
+    }
+  ],
+  "weather_summary": "Biskra experiences hot summers and mild winters, with minimal rainfall throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Biskra in?",
+      "answer": "Biskra is in the Africa/Algiers time zone."
+    },
+    {
+      "question": "Does Biskra observe daylight saving time?",
+      "answer": "No, Biskra does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Biskra?",
+      "answer": "The population of Biskra is approximately 204,661."
+    },
+    {
+      "question": "When does sunrise typically occur in Biskra?",
+      "answer": "Sunrise in Biskra typically occurs around 6:30 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Biskra?",
+      "answer": "The best time to visit Biskra is during the spring and autumn months when the weather is mild and pleasant."
+    }
+  ]
+}

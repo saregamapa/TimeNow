@@ -1,0 +1,59 @@
+{
+  "overview": "Mumbai, the bustling capital of Maharashtra, is India's financial powerhouse and one of the most populous cities in the world, with a population of over 12.6 million. Located on the west coast of India, it serves as a major hub for commerce, culture, and entertainment, making it a vital city not just for India, but for the global economy. Known for its vibrant film industry, diverse population, and rich history, Mumbai attracts millions of visitors each year, contributing to its status as a melting pot of cultures and ideas.",
+  "history": "Mumbai was originally a cluster of islands inhabited by fishing communities. It transformed into a significant trading port during the British colonial era, leading to its rapid urbanization and development.",
+  "economy": "Mumbai is the financial capital of India, housing the Bombay Stock Exchange and numerous multinational corporations. Key industries include finance, textiles, entertainment, and information technology, making it a crucial economic driver for the country.",
+  "tourism": "Tourists flock to Mumbai for its iconic landmarks and rich cultural heritage. Major attractions include the Gateway of India, Marine Drive, and the historic Elephanta Caves. Visitors can also enjoy the vibrant street food scene and explore the bustling markets that showcase the city's diverse offerings.",
+  "best_places": [
+    "Gateway of India",
+    "Marine Drive",
+    "Chhatrapati Shivaji Maharaj Terminus",
+    "Elephanta Caves",
+    "Juhu Beach",
+    "Colaba Causeway"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Leopold Cafe",
+      "description": "A historic cafe known for its lively atmosphere and diverse menu."
+    },
+    {
+      "name": "Bukhara",
+      "description": "Famous for its North Indian cuisine and tandoori specialties."
+    },
+    {
+      "name": "The Table",
+      "description": "Offers a farm-to-table dining experience with global cuisine."
+    },
+    {
+      "name": "Britannia & Co.",
+      "description": "Renowned for its Parsi dishes and charming old-world ambiance."
+    },
+    {
+      "name": "Cafe Madras",
+      "description": "A popular spot for authentic South Indian breakfast and coffee."
+    }
+  ],
+  "weather_summary": "Mumbai experiences a tropical climate with hot, humid summers and mild, rainy winters.",
+  "faqs": [
+    {
+      "question": "What time zone is Mumbai in?",
+      "answer": "Mumbai is in the Asia/Kolkata time zone."
+    },
+    {
+      "question": "Does Mumbai observe daylight saving time?",
+      "answer": "No, Mumbai does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Mumbai?",
+      "answer": "Mumbai has a population of approximately 12.69 million people."
+    },
+    {
+      "question": "When does sunrise typically occur in Mumbai?",
+      "answer": "Sunrise in Mumbai typically occurs between 6:00 AM and 6:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Mumbai?",
+      "answer": "The best time to visit Mumbai is from November to February when the weather is cooler and more pleasant."
+    }
+  ]
+}

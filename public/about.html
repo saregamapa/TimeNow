@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — TimeNow</title>
+  <meta name="description" content="TimeNow is your reliable companion for navigating time across the globe—built for remote workers, international teams, travelers, and anyone who lives or works across time zones." />
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body>
+  <header class="app-header" role="banner">
+    <div class="header-container">
+      <div class="header-left">
+        <a href="/" class="logo" aria-label="TimeNow home">TimeNow</a>
+      </div>
+      <div class="header-right">
+        <a href="/continents">Continents</a>
+        <a href="/countries">Countries</a>
+        <a href="/world-clock">World Clock</a>
+        <a href="/tools">Tools</a>
+        <div class="header-search-wrap">
+          <label for="global-search" class="visually-hidden">Search cities</label>
+          <input type="text" id="global-search" class="header-search-input" placeholder="Search" autocomplete="off" aria-label="Search cities" />
+          <div id="global-search-results" class="global-search-results" aria-live="polite"></div>
+        </div>
+        <button type="button" class="theme-btn" id="theme-btn" title="Toggle theme" aria-label="Toggle dark/light theme">🌙</button>
+        <button type="button" class="sound-btn theme-btn" id="sound-btn" title="Clock tick sound" aria-label="Toggle clock tick sound">🔇</button>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="section about-page">
+      <h1 class="section-title">📄 About TimeNow</h1>
+      <p>TimeNow is your reliable companion for navigating time across the globe—built for remote workers, international teams, travelers, digital nomads, and anyone who lives or works across time zones.</p>
+
+      <h2>Our Mission</h2>
+      <p>In a world where collaboration happens 24/7 across continents, confusion over "what time is it there?" shouldn't slow anyone down. We created TimeNow to make time simple, accurate, and beautiful. Whether you're scheduling a meeting between Wisconsin and Tokyo, planning a flight to avoid jet lag, or just checking sunrise in Paris, TimeNow delivers precise, real-time information with zero hassle.</p>
+      <p>We believe time should work for you—not the other way around.</p>
+
+      <h2>What Makes TimeNow Different</h2>
+      <ul>
+        <li><strong>Atomic-level accuracy</strong> — We sync with NTP servers so your displayed time matches reality within milliseconds. See exactly how accurate your clock is.</li>
+        <li><strong>Intelligent timezone handling</strong> — Auto-detect your location, support for every IANA timezone, automatic DST adjustments, and clear explanations of offsets and changes.</li>
+        <li><strong>Live world clocks &amp; pinning</strong> — Keep an eye on multiple cities at once, reorder them, and save your favorites forever (stored securely in your browser).</li>
+        <li><strong>Smart scheduling tools</strong> — From meeting overlap finders and event time adjusters to jet lag planners and relative time translators ("tomorrow morning" in your zone = what time in theirs?).</li>
+        <li><strong>Sun data</strong> — See sunrise, sunset, and daylight hours for any city.</li>
+        <li><strong>Beautiful &amp; readable design</strong> — Large, clear typography, dark/light modes, responsive layout, and subtle animations that make checking time feel effortless and modern.</li>
+        <li><strong>SEO-friendly city pages</strong> — Dedicated pages for thousands of cities with maps, detailed timezone info and growing AI-generated insights (history, tourism, economy, FAQs).</li>
+      </ul>
+
+      <h2>Who We Built This For</h2>
+      <ul>
+        <li>Remote teams juggling calls across 5+ time zones</li>
+        <li>Freelancers coordinating with clients worldwide</li>
+        <li>Travelers minimizing jet lag and planning itineraries</li>
+        <li>Families staying connected across oceans</li>
+        <li>Anyone tired of unreliable converters or cluttered apps</li>
+      </ul>
+      <p>TimeNow started as a simple single-page clock to solve a personal pain point (coordinating across CST and other zones), and it grew into a full-featured global time hub because the need was real—and still is.</p>
+
+      <h2>Our Values</h2>
+      <ul>
+        <li><strong>Privacy first</strong> — We don't track you, sell data, or require accounts. Everything personal (like pinned cities) stays in your browser via localStorage.</li>
+        <li><strong>Accuracy &amp; reliability</strong> — We prioritize correct timekeeping and transparent sources over flashy features.</li>
+        <li><strong>Accessibility</strong> — Large text, high contrast options, ARIA labels, and keyboard-friendly navigation.</li>
+        <li><strong>Free core experience</strong> — Most features are completely free; we may add optional premium perks in the future (ad-light, advanced exports, etc.) without gating essentials.</li>
+      </ul>
+
+      <h2>Behind the Scenes</h2>
+      <p>TimeNow is an independent project built with love using modern web technologies: Node.js on the backend for fast APIs and dynamic pages, vanilla JavaScript + CSS for a lightweight, speedy frontend, and data from trusted sources like IANA timezones and OpenStreetMap.</p>
+      <p>We're constantly improving—adding more cities, smarter AI tools (like personalized overlap suggestions), better mobile experience, and curated content for every location.</p>
+
+      <p>Thank you for using TimeNow. We're excited to help make your global life a little easier, one tick at a time.</p>
+      <p>Have feedback, feature ideas, or just want to say hi? <a href="/contact">Reach out via the Contact page</a>.</p>
+      <p class="about-tagline"><strong>TimeNow — Time, simplified. Worldwide.</strong></p>
+      <p><a href="/">Back to home</a></p>
+    </section>
+  </main>
+  <footer class="global-footer" role="contentinfo">
+    <p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="/about">📄 About</a>
+      <a href="/privacy">🔒 Privacy</a>
+      <a href="/terms">📋 Terms</a>
+      <a href="/contact">✉️ Contact</a>
+    </nav>
+  </footer>
+  <script type="module" src="/js/app.js"></script>
+  <script src="/js/search.js" defer></script>
+</body>
+</html>

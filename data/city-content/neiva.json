@@ -1,0 +1,60 @@
+{
+  "overview": "Neiva, the capital of the Huila department in Colombia, is a vibrant city located in the central part of the country. Known for its rich cultural heritage and strategic location along the Magdalena River, Neiva serves as an important economic and transportation hub in the region. With a population of approximately 357,392, it plays a vital role in agriculture, commerce, and tourism, attracting visitors with its lush landscapes and historical significance.",
+  "history": "Neiva was founded in 1539 by the Spanish conquistador Antonio de Lebrija. The city has played a crucial role in Colombia's history, particularly during the independence movement.",
+  "economy": "Neiva's economy is primarily driven by agriculture, with key industries including coffee, sugarcane, and livestock. The city also has a growing commercial sector, with numerous businesses and markets that contribute to its economic vitality.",
+  "tourism": "Tourism in Neiva offers visitors a mix of natural beauty and cultural experiences. Key attractions include the nearby Tatacoa Desert, the historic Cathedral of Neiva, and the annual Festival of San Pedro, which showcases local traditions and music.",
+  "best_places": [
+    "Tatacoa Desert",
+    "Cathedral of Neiva",
+    "Plaza de la Paz",
+    "Parque Isla de los Gatos",
+    "Museo Arqueológico",
+    "El Mohán",
+    "Parque de la Música"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Casa de la Abuela",
+      "description": "A cozy spot known for traditional Colombian dishes."
+    },
+    {
+      "name": "Restaurante El Corral",
+      "description": "Famous for its grilled meats and local specialties."
+    },
+    {
+      "name": "Café del Río",
+      "description": "A charming café offering coffee and light meals."
+    },
+    {
+      "name": "Pizzería La Toscana",
+      "description": "Popular for its delicious pizzas and family-friendly atmosphere."
+    },
+    {
+      "name": "Restaurante La Casona",
+      "description": "Known for its diverse menu featuring regional cuisine."
+    }
+  ],
+  "weather_summary": "Neiva typically experiences a warm climate with a distinct wet season and dry season throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Neiva in?",
+      "answer": "Neiva is in the America/Bogota time zone."
+    },
+    {
+      "question": "Does Neiva observe daylight saving time?",
+      "answer": "No, Neiva does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Neiva?",
+      "answer": "The population of Neiva is approximately 357,392."
+    },
+    {
+      "question": "When does sunrise typically occur in Neiva?",
+      "answer": "Sunrise in Neiva typically occurs around 5:45 AM to 6:00 AM."
+    },
+    {
+      "question": "What is the best time to visit Neiva?",
+      "answer": "The best time to visit Neiva is during the dry season, from December to March, for pleasant weather."
+    }
+  ]
+}

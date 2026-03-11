@@ -1,0 +1,59 @@
+{
+  "overview": "Montería is a vibrant city located in the northern region of Colombia, serving as the capital of Córdoba Department. With a population of approximately 490,935, it plays a crucial role in the region's economy and culture. Known for its rich agricultural heritage, particularly in cattle ranching and rice production, Montería is also a hub for trade and commerce, making it an essential city in South America.",
+  "history": "Founded in 1777, Montería has a rich history influenced by indigenous cultures and Spanish colonization. It became a key economic center in the 20th century, particularly for agriculture.",
+  "economy": "Montería's economy is primarily driven by agriculture, with significant contributions from cattle ranching, rice production, and banana cultivation. The city also hosts various businesses and trade activities, making it a vital economic hub in the region.",
+  "tourism": "Tourism in Montería offers visitors a blend of cultural and natural attractions. Key sites include the Sinú River, where visitors can enjoy water activities, and the city’s parks and plazas, which showcase local art and architecture. The annual festivals also draw tourists, highlighting the city's vibrant culture and traditions.",
+  "best_places": [
+    "Parque de la Vida",
+    "Catedral de Montería",
+    "Puente de los Suspiros",
+    "Río Sinú",
+    "Plaza Cultural del Sinú",
+    "Zoológico de Montería"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurante La Casa de la Abuela",
+      "description": "A popular spot known for its traditional Colombian dishes."
+    },
+    {
+      "name": "El Fogón de la Abuela",
+      "description": "Offers a cozy atmosphere with a variety of grilled meats and local cuisine."
+    },
+    {
+      "name": "Restaurante El Pez",
+      "description": "Famous for its fresh seafood and river fish specialties."
+    },
+    {
+      "name": "Café del Río",
+      "description": "A charming café known for its coffee and light meals."
+    },
+    {
+      "name": "Pizzeria La Toscana",
+      "description": "Offers delicious pizzas with a local twist in a family-friendly setting."
+    }
+  ],
+  "weather_summary": "Montería experiences a tropical climate with warm temperatures year-round and a distinct wet season.",
+  "faqs": [
+    {
+      "question": "What time zone is Montería in?",
+      "answer": "Montería is in the America/Bogota time zone."
+    },
+    {
+      "question": "Does Montería observe daylight saving time?",
+      "answer": "No, Montería does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Montería?",
+      "answer": "Montería has a population of approximately 490,935 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Montería?",
+      "answer": "Sunrise in Montería usually occurs around 5:45 AM to 6:00 AM throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Montería?",
+      "answer": "The best time to visit Montería is during the dry season, from December to March, for pleasant weather."
+    }
+  ]
+}

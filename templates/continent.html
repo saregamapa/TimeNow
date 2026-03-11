@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>{{pageTitle}}</title>
+  <meta name="description" content="{{metaDescription}}"/>
+  <link rel="stylesheet" href="/css/main.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Place","name":{{continentJson}}}</script>
+</head>
+<body>
+  <header class="app-header" role="banner">
+    <div class="header-container">
+      <div class="header-left"><a href="/" class="logo" aria-label="TimeNow home">TimeNow</a></div>
+      <div class="header-right">{{headerRightHtml}}</div>
+    </div>
+  </header>
+  <main class="main city-page">
+    {{breadcrumbsHtml}}
+
+    <section class="hero city-hero">
+      <p class="hero-subtext">Current time in {{continent}}</p>
+      <h1 class="section-title">🌍 {{continent}} — countries and cities</h1>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">🗺️ {{continent}} on the map</h2>
+      <div class="detail-page-map-wrap">{{mapHtml}}</div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">🗺️ Countries in {{continent}}</h2>
+      <p class="internal-links-list">{{countryListHtml}}</p>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">🏙️ Major cities in {{continent}}</h2>
+      <p class="internal-links-list">{{cityListHtml}}</p>
+    </section>
+
+    <footer class="global-footer" role="contentinfo">
+      <p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/about">📄 About</a><a href="/privacy">🔒 Privacy</a><a href="/terms">📋 Terms</a><a href="/contact">✉️ Contact</a>
+      </nav>
+    </footer>
+  </main>
+  <script type="module" src="/js/app.js"></script>
+  <script src="/js/search.js" defer></script>
+  <script>
+(function(){var btn=document.getElementById('theme-btn');if(btn){var theme=localStorage.getItem('timenow-theme')||(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',theme==='dark'?'':'light');btn.textContent=theme==='dark'?'☀️':'🌙';btn.addEventListener('click',function(){theme=document.documentElement.getAttribute('data-theme')==='light'?'dark':'light';document.documentElement.setAttribute('data-theme',theme==='dark'?'':'light');localStorage.setItem('timenow-theme',theme);btn.textContent=theme==='dark'?'☀️':'🌙';});}})();
+  </script>
+</body>
+</html>

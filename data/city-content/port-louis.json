@@ -1,0 +1,59 @@
+{
+  "overview": "Port Louis, the vibrant capital of Mauritius, is a bustling port city located on the island's northwest coast. As the economic and administrative center of the country, it plays a crucial role in trade and commerce within the Indian Ocean region. With its rich cultural heritage, diverse population, and picturesque waterfront, Port Louis attracts both tourists and business travelers, making it a key hub in Africa.",
+  "history": "Founded in 1735 by French governor Mahe de Labourdonnais, Port Louis served as a strategic naval base during colonial times. Its harbor became a vital stop for ships traveling between Europe and Asia.",
+  "economy": "Port Louis is the economic heart of Mauritius, hosting key industries such as finance, textiles, and tourism. The city's port facilitates significant trade, while its freeport zone attracts international businesses, contributing to the nation's economic growth.",
+  "tourism": "Visitors to Port Louis can explore a variety of attractions, including the bustling Central Market, the historic Aapravasi Ghat, and the stunning Caudan Waterfront. The city's rich cultural tapestry is showcased in its museums and festivals, making it a must-visit destination for those seeking to experience the unique blend of cultures in Mauritius.",
+  "best_places": [
+    "Central Market",
+    "Aapravasi Ghat",
+    "Caudan Waterfront",
+    "Fort Adelaide",
+    "Champ de Mars",
+    "Blue Penny Museum"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Rougaille Creole",
+      "description": "A popular spot for authentic Mauritian cuisine in a cozy setting."
+    },
+    {
+      "name": "Le Capitaine",
+      "description": "Known for its fresh seafood and stunning harbor views."
+    },
+    {
+      "name": "L'Atelier du Gourmet",
+      "description": "Offers a fine dining experience with a fusion of local and international flavors."
+    },
+    {
+      "name": "The Courtyard",
+      "description": "A charming restaurant featuring a diverse menu and a relaxing atmosphere."
+    },
+    {
+      "name": "Cafe de la Plage",
+      "description": "A beachfront café perfect for enjoying local snacks and refreshing drinks."
+    }
+  ],
+  "weather_summary": "Port Louis experiences a tropical climate with warm temperatures year-round and a rainy season from December to March.",
+  "faqs": [
+    {
+      "question": "What time zone is Port Louis in?",
+      "answer": "Port Louis is in the Indian/Mauritius time zone."
+    },
+    {
+      "question": "Does Port Louis observe daylight saving time?",
+      "answer": "No, Port Louis does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Port Louis?",
+      "answer": "The population of Port Louis is approximately 155,226."
+    },
+    {
+      "question": "When does sunrise typically occur in Port Louis?",
+      "answer": "Sunrise in Port Louis typically occurs around 6:15 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Port Louis?",
+      "answer": "The best time to visit Port Louis is from May to December, when the weather is cooler and drier."
+    }
+  ]
+}

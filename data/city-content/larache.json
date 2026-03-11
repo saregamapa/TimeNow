@@ -1,0 +1,54 @@
+{
+  "overview": "Larache is a vibrant coastal city located in northern Morocco, along the Atlantic Ocean. Known for its rich history and cultural significance, Larache serves as a vital port and trade center, connecting various regions of the country. With a population of approximately 136,505, the city boasts a unique blend of Moroccan and Spanish influences, evident in its architecture and local customs, making it an intriguing destination for both tourists and scholars alike.",
+  "history": "Larache was founded in the 15th century and has served as an important trading port throughout its history. The city played a key role during the Spanish colonial period, influencing its cultural and architectural landscape.",
+  "economy": "The economy of Larache is primarily driven by agriculture, fishing, and trade. The city's strategic location as a port facilitates the export of agricultural products, while local fishing industries contribute significantly to the region's economy.",
+  "tourism": "Larache attracts visitors with its stunning beaches, historic medina, and vibrant markets. Key attractions include the Casbah of Larache, the scenic waterfront, and the nearby archaeological site of Lixus, where tourists can explore ancient ruins and enjoy local cuisine in charming cafés.",
+  "best_places": [
+    "Casbah of Larache",
+    "Lixus Archaeological Site",
+    "Larache Beach",
+    "Medina of Larache",
+    "Plage de Belyounech"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant Al-Madina",
+      "description": "Offers a delightful selection of traditional Moroccan dishes in a cozy setting."
+    },
+    {
+      "name": "Le Petit Café",
+      "description": "A popular spot for coffee and light snacks with a charming atmosphere."
+    },
+    {
+      "name": "Restaurant La Mer",
+      "description": "Specializes in fresh seafood, providing stunning views of the Atlantic Ocean."
+    },
+    {
+      "name": "Café de la Plage",
+      "description": "Known for its beachfront location and casual dining experience."
+    }
+  ],
+  "weather_summary": "Larache enjoys a Mediterranean climate with mild, rainy winters and warm summers, perfect for beach activities.",
+  "faqs": [
+    {
+      "question": "What time zone is Larache in?",
+      "answer": "Larache is in the Africa/Casablanca time zone."
+    },
+    {
+      "question": "Does Larache observe daylight saving time?",
+      "answer": "Yes, Larache observes daylight saving time, typically from late March to late October."
+    },
+    {
+      "question": "What is the population of Larache?",
+      "answer": "The population of Larache is approximately 136,505."
+    },
+    {
+      "question": "When does sunrise typically occur in Larache?",
+      "answer": "Sunrise in Larache typically occurs between 6:30 AM and 7:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Larache?",
+      "answer": "The best time to visit Larache is during spring and early fall, when the weather is mild and pleasant."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "overview": "Baltimore, located in the northeastern United States, is a vibrant city known for its rich history, diverse culture, and significant role as a major seaport. As the largest city in Maryland, it serves as an economic and cultural hub, attracting visitors and businesses alike. With a population of approximately 585,708, Baltimore boasts a unique blend of historic charm and modern innovation, making it an important player in the Mid-Atlantic region.",
+  "history": "Founded in 1729, Baltimore played a pivotal role during the American Revolution and the War of 1812. Its strategic harbor contributed to its growth as a key trading and shipping center.",
+  "economy": "Baltimore's economy is diverse, with key industries including healthcare, biotechnology, and education. The presence of major institutions like Johns Hopkins University and the Johns Hopkins Hospital bolsters its economic landscape, attracting talent and investment.",
+  "tourism": "Visitors to Baltimore can explore a variety of attractions, including the iconic Inner Harbor, the historic Fort McHenry, and the renowned National Aquarium. The city's vibrant arts scene, delicious seafood, and rich cultural heritage offer something for everyone, making it a popular destination for both leisure and education.",
+  "best_places": [
+    "Inner Harbor",
+    "Fort McHenry",
+    "National Aquarium",
+    "Baltimore Museum of Art",
+    "Oriole Park at Camden Yards",
+    "The Walters Art Museum",
+    "Fells Point",
+    "Patterson Park"
+  ],
+  "best_restaurants": [
+    {
+      "name": "The Capital Grille",
+      "description": "An upscale steakhouse known for its dry-aged steaks and extensive wine list."
+    },
+    {
+      "name": "Thames Street Oyster House",
+      "description": "A popular seafood restaurant offering fresh oysters and stunning harbor views."
+    },
+    {
+      "name": "Woodberry Kitchen",
+      "description": "A farm-to-table restaurant focusing on locally sourced ingredients and seasonal dishes."
+    },
+    {
+      "name": "Gertrude's",
+      "description": "Located in the Baltimore Museum of Art, it serves classic Maryland cuisine with a modern twist."
+    },
+    {
+      "name": "Pazo",
+      "description": "An Italian-inspired restaurant known for its vibrant atmosphere and tapas-style dishes."
+    }
+  ],
+  "weather_summary": "Baltimore experiences humid subtropical weather, with hot summers and mild winters, often accompanied by rainfall.",
+  "faqs": [
+    {
+      "question": "What time zone is Baltimore in?",
+      "answer": "Baltimore is in the America/New_York time zone."
+    },
+    {
+      "question": "Does Baltimore observe daylight saving time?",
+      "answer": "Yes, Baltimore observes daylight saving time, moving the clock forward in spring and back in fall."
+    },
+    {
+      "question": "What is the population of Baltimore?",
+      "answer": "The population of Baltimore is approximately 585,708."
+    },
+    {
+      "question": "When does sunrise typically occur in Baltimore?",
+      "answer": "Sunrise in Baltimore typically occurs around 6:00 AM in summer and 7:30 AM in winter."
+    },
+    {
+      "question": "What is the best time to visit Baltimore?",
+      "answer": "The best time to visit Baltimore is during the spring and fall when the weather is mild and festivals are abundant."
+    }
+  ]
+}

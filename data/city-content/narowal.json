@@ -1,0 +1,54 @@
+{
+  "overview": "Narowal is a vibrant city located in the Punjab province of Pakistan, serving as a significant cultural and economic hub. With a population of approximately 130,692, it plays a vital role in regional trade and agriculture. Its strategic location near the Indian border enhances its importance, making it a focal point for cross-border interactions and commerce. The city is known for its rich history, diverse culture, and warm hospitality, attracting visitors and businesses alike.",
+  "history": "Narowal was founded in the 19th century and has since evolved into a key urban center in Punjab. It played a significant role during the partition of India in 1947, shaping its modern identity.",
+  "economy": "The economy of Narowal is primarily driven by agriculture, with key crops including wheat, rice, and sugarcane. Additionally, small-scale industries and trade contribute significantly to the local economy, providing employment opportunities and enhancing the city’s economic landscape.",
+  "tourism": "Tourism in Narowal offers visitors a glimpse into its rich cultural heritage and historical sites. Key attractions include the Gurdwara Darbar Sahib, which draws pilgrims and tourists alike, and various local markets where visitors can experience traditional crafts and cuisine. Nature lovers can also enjoy the scenic landscapes surrounding the city.",
+  "best_places": [
+    "Gurdwara Darbar Sahib",
+    "Shah Kamal Mosque",
+    "Narowal Fort",
+    "Sukhchain Park",
+    "Baba Farid Shrine"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Al-Madina Restaurant",
+      "description": "A popular spot known for its delicious Pakistani cuisine."
+    },
+    {
+      "name": "Khana Khazana",
+      "description": "Offers a variety of traditional dishes in a cozy atmosphere."
+    },
+    {
+      "name": "Bukhari Restaurant",
+      "description": "Famous for its barbecue and local specialties."
+    },
+    {
+      "name": "Nawab Restaurant",
+      "description": "Known for its family-friendly dining and diverse menu."
+    }
+  ],
+  "weather_summary": "Narowal experiences hot summers and mild winters, with a monsoon season bringing occasional rainfall.",
+  "faqs": [
+    {
+      "question": "What time zone is Narowal in?",
+      "answer": "Narowal is in the Asia/Karachi time zone."
+    },
+    {
+      "question": "Does Narowal observe daylight saving time?",
+      "answer": "No, Narowal does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Narowal?",
+      "answer": "The population of Narowal is approximately 130,692."
+    },
+    {
+      "question": "When does sunrise typically occur in Narowal?",
+      "answer": "Sunrise in Narowal typically occurs between 5:30 AM and 6:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Narowal?",
+      "answer": "The best time to visit Narowal is during the cooler months from October to March."
+    }
+  ]
+}

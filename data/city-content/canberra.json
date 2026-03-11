@@ -1,0 +1,59 @@
+{
+  "overview": "Canberra, the capital city of Australia, is located in the Australian Capital Territory (ACT) and serves as the political and administrative center of the nation. Established as a compromise between rival cities Sydney and Melbourne, it plays a vital role in the governance and culture of Australia. With a population of approximately 367,752, Canberra is not only known for its beautiful parks and gardens but also for its vibrant arts scene and numerous national institutions, making it a significant city in Oceania.",
+  "history": "Canberra was officially selected as the capital of Australia in 1908 to resolve the rivalry between Sydney and Melbourne. The city was designed by American architect Walter Burley Griffin, with construction beginning in 1913.",
+  "economy": "Canberra's economy is primarily driven by the public sector, with a strong presence of government agencies and institutions. Additionally, education, health care, and tourism contribute significantly to the local economy, making it a hub for innovation and services.",
+  "tourism": "Tourism in Canberra is vibrant, with visitors flocking to explore its numerous national landmarks and cultural institutions. Key attractions include the Australian War Memorial, the National Gallery of Australia, and the Australian National Botanic Gardens, offering a mix of history, art, and natural beauty that captivates tourists year-round.",
+  "best_places": [
+    "Australian War Memorial",
+    "National Gallery of Australia",
+    "Parliament House",
+    "Australian National Botanic Gardens",
+    "Questacon",
+    "National Museum of Australia"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Ottoman Cuisine",
+      "description": "A renowned restaurant offering authentic Turkish dishes in a warm and inviting atmosphere."
+    },
+    {
+      "name": "Monster Kitchen and Bar",
+      "description": "A trendy eatery known for its creative menu and vibrant decor, perfect for casual dining."
+    },
+    {
+      "name": "Pialligo Estate",
+      "description": "A farm-to-table restaurant that emphasizes fresh, local ingredients in a picturesque setting."
+    },
+    {
+      "name": "The Cupping Room",
+      "description": "A popular cafe famous for its specialty coffee and delicious brunch options."
+    },
+    {
+      "name": "Morks",
+      "description": "An acclaimed restaurant blending Thai flavors with modern Australian cuisine."
+    }
+  ],
+  "weather_summary": "Canberra experiences mild winters and warm summers, characterized by low humidity and occasional heat waves.",
+  "faqs": [
+    {
+      "question": "What time zone is Canberra in?",
+      "answer": "Canberra is in the Australia/Sydney time zone."
+    },
+    {
+      "question": "Does Canberra observe daylight saving time?",
+      "answer": "Yes, Canberra observes daylight saving time, typically from the first Sunday in October to the first Sunday in April."
+    },
+    {
+      "question": "What is the population of Canberra?",
+      "answer": "As of the latest estimates, Canberra has a population of approximately 367,752 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Canberra?",
+      "answer": "Sunrise in Canberra varies throughout the year, generally occurring between 6:00 AM and 7:30 AM."
+    },
+    {
+      "question": "What is the best time to visit Canberra?",
+      "answer": "The best time to visit Canberra is during spring (September to November) and autumn (March to May) when the weather is mild and pleasant."
+    }
+  ]
+}

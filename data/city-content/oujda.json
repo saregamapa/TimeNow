@@ -1,0 +1,54 @@
+{
+  "overview": "Oujda is a vibrant city located in northeastern Morocco, near the Algerian border. As the capital of the Oriental region, it serves as a crucial economic and cultural hub, connecting various trade routes. With a population of approximately 539,711, Oujda plays an essential role in the region's development, showcasing a blend of rich history, diverse culture, and modern amenities that attract both locals and visitors alike.",
+  "history": "Founded in the 10th century, Oujda has historically served as a strategic military outpost. It has witnessed significant events, including the establishment of various dynasties and its role in the Moroccan independence movement.",
+  "economy": "Oujda's economy is primarily driven by agriculture, trade, and manufacturing, with key industries including textiles and food processing. The city's strategic location enhances its role as a commercial center, facilitating trade between Morocco and neighboring countries.",
+  "tourism": "Tourists visiting Oujda can explore its rich heritage through attractions like the historic Medina, the majestic Bab Sidi Abdel Wahab gate, and the vibrant local souks. The city also offers beautiful parks and gardens, making it a pleasant destination for those looking to experience Moroccan culture and hospitality.",
+  "best_places": [
+    "Medina of Oujda",
+    "Bab Sidi Abdel Wahab",
+    "Parc Lalla Meriem",
+    "Sidi Yahya Mosque",
+    "Musee d'Histoire et des Civilisations"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant Le Relais",
+      "description": "A popular spot offering a mix of Moroccan and Mediterranean cuisine."
+    },
+    {
+      "name": "Café Restaurant La Paix",
+      "description": "Known for its cozy atmosphere and traditional Moroccan dishes."
+    },
+    {
+      "name": "Pizzeria L'Italien",
+      "description": "Offers delicious Italian fare alongside local favorites."
+    },
+    {
+      "name": "Restaurant Al-Madina",
+      "description": "Famous for its authentic Moroccan tagines and couscous."
+    }
+  ],
+  "weather_summary": "Oujda experiences a Mediterranean climate with hot, dry summers and mild, wet winters.",
+  "faqs": [
+    {
+      "question": "What time zone is Oujda in?",
+      "answer": "Oujda is in the Africa/Casablanca time zone."
+    },
+    {
+      "question": "Does Oujda observe daylight saving time?",
+      "answer": "Yes, Oujda observes daylight saving time, typically from late March to late October."
+    },
+    {
+      "question": "What is the population of Oujda?",
+      "answer": "The population of Oujda is approximately 539,711."
+    },
+    {
+      "question": "When does sunrise typically occur in Oujda?",
+      "answer": "Sunrise in Oujda typically occurs around 6:30 AM, but this can vary slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Oujda?",
+      "answer": "The best time to visit Oujda is during spring (March to May) and fall (September to November) when the weather is mild and pleasant."
+    }
+  ]
+}

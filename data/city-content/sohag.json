@@ -1,0 +1,55 @@
+{
+  "overview": "Sohag is a vibrant city located in southern Egypt, serving as the capital of the Sohag Governorate. With a population of approximately 266,944, it plays a crucial role in the region's economy and culture. Situated along the banks of the Nile River, Sohag is known for its rich history and proximity to ancient Egyptian sites, making it a significant hub for both commerce and tourism in Africa.",
+  "history": "Sohag has a rich historical background, dating back to ancient times when it was known as the city of Ta-Seti. It has been a center for trade and culture throughout various dynasties in Egypt's history.",
+  "economy": "The economy of Sohag is primarily driven by agriculture, with fertile lands producing crops such as cotton and grains. Additionally, the city has seen growth in small-scale industries and trade, contributing to its overall economic development.",
+  "tourism": "Tourism in Sohag is centered around its historical and cultural attractions, including the nearby ancient temples and archaeological sites. Visitors often explore the Temple of Seti I, the Red Monastery, and the beautiful Nile River, offering a glimpse into Egypt's rich heritage.",
+  "best_places": [
+    "Temple of Seti I",
+    "Red Monastery",
+    "Nile Corniche",
+    "Sohag Museum",
+    "Monastery of Saint Anthony",
+    "Al-Mahatta Park"
+  ],
+  "best_restaurants": [
+    {
+      "name": "El-Wahy Restaurant",
+      "description": "A popular spot known for its authentic Egyptian cuisine."
+    },
+    {
+      "name": "Al-Masry Restaurant",
+      "description": "Offers a variety of traditional dishes in a cozy setting."
+    },
+    {
+      "name": "Sohag Fish Restaurant",
+      "description": "Specializes in fresh seafood and local fish delicacies."
+    },
+    {
+      "name": "Cafe Al-Madina",
+      "description": "A casual café serving snacks and beverages, perfect for a quick bite."
+    }
+  ],
+  "weather_summary": "Sohag typically experiences hot, dry summers and mild winters, with occasional rainfall during the winter months.",
+  "faqs": [
+    {
+      "question": "What time zone is Sohag in?",
+      "answer": "Sohag is in the Africa/Cairo time zone."
+    },
+    {
+      "question": "Does Sohag observe daylight saving time?",
+      "answer": "No, Sohag does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Sohag?",
+      "answer": "The population of Sohag is approximately 266,944."
+    },
+    {
+      "question": "When does sunrise typically occur in Sohag?",
+      "answer": "Sunrise in Sohag typically occurs around 5:30 AM to 6:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Sohag?",
+      "answer": "The best time to visit Sohag is during the cooler months from October to April."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "overview": "Setúbal is a vibrant city located on the Setúbal Peninsula in Portugal, known for its stunning natural beauty and rich cultural heritage. Situated just south of Lisbon, it serves as an important port and commercial center, contributing significantly to the region's economy. With its picturesque coastline, historic architecture, and proximity to the Arrábida Natural Park, Setúbal attracts visitors seeking both relaxation and adventure, making it a key destination in Europe.",
+  "history": "Setúbal has ancient roots, with evidence of human settlement dating back to the Roman era. It played a vital role in Portugal's maritime history, particularly during the Age of Discoveries.",
+  "economy": "Setúbal's economy is primarily driven by its port, which facilitates trade and fishing. Additionally, tourism, agriculture, and manufacturing are significant contributors, making it a diverse economic hub in the region.",
+  "tourism": "Tourism in Setúbal is thriving, with visitors drawn to its beautiful beaches, such as Praia da Figueirinha, and the stunning landscapes of Arrábida Natural Park. The city also boasts historical sites like the São Filipe Castle and the lively Mercado do Livramento, where local culinary delights can be sampled.",
+  "best_places": [
+    "Arrábida Natural Park",
+    "São Filipe Castle",
+    "Praia da Figueirinha",
+    "Mercado do Livramento",
+    "Troia Peninsula",
+    "Setúbal Marina"
+  ],
+  "best_restaurants": [
+    {
+      "name": "O Rápido",
+      "description": "A popular seafood restaurant known for its fresh fish and vibrant atmosphere."
+    },
+    {
+      "name": "Casa do Mar",
+      "description": "Offers stunning ocean views and specializes in traditional Portuguese cuisine."
+    },
+    {
+      "name": "A Casa do Bacalhau",
+      "description": "Famous for its cod dishes, this restaurant is a local favorite."
+    },
+    {
+      "name": "Taberna da Praça",
+      "description": "A cozy spot serving authentic Portuguese tapas and wines."
+    },
+    {
+      "name": "Restaurante O Pescador",
+      "description": "Renowned for its seafood dishes and welcoming ambiance."
+    }
+  ],
+  "weather_summary": "Setúbal enjoys a Mediterranean climate with mild, rainy winters and warm, dry summers.",
+  "faqs": [
+    {
+      "question": "What time zone is Setúbal in?",
+      "answer": "Setúbal is in the Europe/Lisbon time zone."
+    },
+    {
+      "question": "Does Setúbal observe daylight saving time?",
+      "answer": "Yes, Setúbal observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Setúbal?",
+      "answer": "Setúbal has a population of approximately 118,166 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Setúbal?",
+      "answer": "Sunrise in Setúbal typically occurs between 6:30 AM and 7:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Setúbal?",
+      "answer": "The best time to visit Setúbal is during the spring and early autumn when the weather is pleasant and the tourist crowds are smaller."
+    }
+  ]
+}

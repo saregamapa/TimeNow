@@ -1,0 +1,59 @@
+{
+  "overview": "Columbia, located in the heart of South Carolina, is a vibrant city known for its rich history and cultural significance. As the state capital, it serves as a political and economic hub, playing a crucial role in governance and commerce. With a population of approximately 142,416, Columbia is a center of education and innovation, home to the University of South Carolina, which contributes to its dynamic atmosphere and diverse community.",
+  "history": "Columbia was founded in 1786 as the state capital of South Carolina, strategically chosen for its central location. The city played a significant role during the Civil War and has since evolved into a modern urban center.",
+  "economy": "Columbia's economy is diverse, with key industries including education, healthcare, and manufacturing. The presence of major institutions like the University of South Carolina and Fort Jackson, the largest military installation in the U.S., fuels local businesses and attracts investment.",
+  "tourism": "Tourism in Columbia offers a mix of historical and recreational attractions. Visitors can explore the South Carolina State Museum, stroll through the lush Riverbanks Zoo and Garden, or enjoy the vibrant arts scene at the Columbia Museum of Art. The city's parks and outdoor spaces also provide opportunities for hiking, biking, and enjoying the scenic beauty of the area.",
+  "best_places": [
+    "South Carolina State House",
+    "Riverbanks Zoo and Garden",
+    "Columbia Museum of Art",
+    "Congaree National Park",
+    "Finlay Park",
+    "Harbison State Forest"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Motor Supply Co. Bistro",
+      "description": "A farm-to-table restaurant known for its eclectic menu and vibrant atmosphere."
+    },
+    {
+      "name": "Blue Marlin",
+      "description": "Offers a taste of Lowcountry cuisine with a focus on fresh seafood and local ingredients."
+    },
+    {
+      "name": "The Whig",
+      "description": "A casual pub famous for its extensive beer selection and hearty comfort food."
+    },
+    {
+      "name": "DiPrato's",
+      "description": "Known for its gourmet sandwiches and homemade pimento cheese."
+    },
+    {
+      "name": "Lula Drake",
+      "description": "A wine bar that pairs fine wines with artisanal small plates in a cozy setting."
+    }
+  ],
+  "weather_summary": "Columbia experiences hot, humid summers and mild winters, with a mix of sunny and rainy days throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Columbia in?",
+      "answer": "Columbia is in the America/New_York time zone."
+    },
+    {
+      "question": "Does Columbia observe daylight saving time?",
+      "answer": "Yes, Columbia observes daylight saving time, typically from the second Sunday in March to the first Sunday in November."
+    },
+    {
+      "question": "What is the population of Columbia?",
+      "answer": "Columbia has a population of approximately 142,416 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Columbia?",
+      "answer": "Sunrise in Columbia varies throughout the year, generally occurring between 6:30 AM and 7:30 AM."
+    },
+    {
+      "question": "What is the best time to visit Columbia?",
+      "answer": "The best time to visit Columbia is during the spring and fall when the weather is mild and outdoor activities are plentiful."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "overview": "Pasto, Colombia, is a vibrant city located in the southern part of the country, nestled in the Andes Mountains. With a population of approximately 392,930, it serves as a cultural and economic hub for the Nariño department. Known for its rich history and stunning landscapes, Pasto is significant for its role in agriculture and trade, making it an essential center for both local and international commerce.",
+  "history": "Founded in 1537 by Spanish conquistador Sebastián de Belalcázar, Pasto has played a crucial role in Colombia's history. It was an important stop for travelers and traders between the Andean region and the Pacific coast.",
+  "economy": "Pasto's economy is primarily driven by agriculture, with coffee, sugarcane, and dairy products being key industries. Additionally, the city has a growing commercial sector that supports local businesses and attracts investment, contributing to its economic development.",
+  "tourism": "Tourism in Pasto is highlighted by its stunning natural beauty and cultural heritage. Visitors flock to attractions like the Santuario de Las Lajas, the Carnival of Pasto, and the nearby Galeras Volcano, offering a mix of adventure and cultural experiences.",
+  "best_places": [
+    "Santuario de Las Lajas",
+    "Plaza de Nariño",
+    "Galera Volcano",
+    "Museo Taminango",
+    "Parque Arboleda",
+    "Catedral de Pasto"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Casona",
+      "description": "A renowned restaurant offering traditional Colombian dishes in a cozy atmosphere."
+    },
+    {
+      "name": "El Fogón",
+      "description": "Famous for its grilled meats and local specialties, perfect for meat lovers."
+    },
+    {
+      "name": "Café del Parque",
+      "description": "A charming café known for its coffee and light snacks, ideal for a relaxing break."
+    },
+    {
+      "name": "Restaurante La 7",
+      "description": "Offers a diverse menu with both local and international cuisine in a vibrant setting."
+    }
+  ],
+  "weather_summary": "Pasto experiences mild temperatures year-round, with a rainy season that typically peaks in April and October.",
+  "faqs": [
+    {
+      "question": "What time zone is Pasto in?",
+      "answer": "Pasto is in the America/Bogota time zone."
+    },
+    {
+      "question": "Does Pasto observe daylight saving time?",
+      "answer": "No, Pasto does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Pasto?",
+      "answer": "The population of Pasto is approximately 392,930."
+    },
+    {
+      "question": "When does sunrise typically occur in Pasto?",
+      "answer": "Sunrise in Pasto typically occurs between 5:45 AM and 6:15 AM throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Pasto?",
+      "answer": "The best time to visit Pasto is during the dry season, from December to March, when the weather is milder."
+    }
+  ]
+}

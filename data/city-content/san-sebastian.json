@@ -1,0 +1,59 @@
+{
+  "overview": "Donostia / San Sebastián, located in the Basque Country of Spain, is renowned for its stunning beaches, vibrant culture, and culinary excellence. Nestled along the picturesque Bay of Biscay, this coastal city serves as a significant cultural and economic hub in northern Spain. With a population of approximately 185,357, it attracts visitors from around the world who come to experience its rich heritage, beautiful landscapes, and world-famous pintxos.",
+  "history": "Founded in the early 12th century, Donostia / San Sebastián has played a crucial role in maritime trade and cultural exchange. Its strategic location made it an important city during the Spanish Empire.",
+  "economy": "Donostia / San Sebastián boasts a diverse economy, with key industries including tourism, gastronomy, and technology. The city is a center for innovation and entrepreneurship, attracting businesses and startups, particularly in the culinary and tech sectors.",
+  "tourism": "Tourism is a vital part of Donostia / San Sebastián's economy, with visitors drawn to its stunning beaches like La Concha and its vibrant old town, Parte Vieja. The city is also famous for its culinary scene, hosting numerous Michelin-starred restaurants and lively pintxos bars, making it a gastronomic paradise.",
+  "best_places": [
+    "La Concha Beach",
+    "Old Town (Parte Vieja)",
+    "Monte Igueldo",
+    "San Telmo Museoa",
+    "Pintxos Bars",
+    "Miramar Palace"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Arzak",
+      "description": "A three-Michelin-star restaurant known for its innovative Basque cuisine."
+    },
+    {
+      "name": "Mugaritz",
+      "description": "Renowned for its creative dishes and unique dining experience."
+    },
+    {
+      "name": "Bar Nestor",
+      "description": "Famous for its delicious pintxos and local atmosphere."
+    },
+    {
+      "name": "A Fuego Negro",
+      "description": "A trendy spot offering modern takes on traditional Basque dishes."
+    },
+    {
+      "name": "La Cuchara de San Telmo",
+      "description": "Popular for its small plates and vibrant ambiance."
+    }
+  ],
+  "weather_summary": "The city experiences mild, rainy winters and warm summers, making it a pleasant year-round destination.",
+  "faqs": [
+    {
+      "question": "What time zone is Donostia / San Sebastián in?",
+      "answer": "Donostia / San Sebastián is in the Europe/Madrid time zone."
+    },
+    {
+      "question": "Does Donostia / San Sebastián observe daylight saving time?",
+      "answer": "Yes, Donostia / San Sebastián observes daylight saving time, adjusting clocks forward in spring and back in autumn."
+    },
+    {
+      "question": "What is the population of Donostia / San Sebastián?",
+      "answer": "The population of Donostia / San Sebastián is approximately 185,357."
+    },
+    {
+      "question": "When does sunrise typically occur in Donostia / San Sebastián?",
+      "answer": "Sunrise in Donostia / San Sebastián typically occurs around 7:30 AM in summer and 8:30 AM in winter."
+    },
+    {
+      "question": "What is the best time to visit Donostia / San Sebastián?",
+      "answer": "The best time to visit is from late spring to early autumn, when the weather is warm and festivals are abundant."
+    }
+  ]
+}

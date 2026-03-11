@@ -1,0 +1,55 @@
+{
+  "overview": "Tete is a vibrant city located in northwestern Mozambique, serving as a crucial economic and transportation hub. Situated along the Zambezi River, Tete plays a significant role in trade, connecting various regions within Mozambique and neighboring countries. Its diverse culture and strategic location make it an important center for commerce, agriculture, and tourism, attracting both business and leisure travelers alike.",
+  "history": "Tete was established in the late 19th century and became an important port for trade along the Zambezi River. The city played a key role during the colonial period and the Mozambican War of Independence.",
+  "economy": "The economy of Tete is primarily driven by agriculture, mining, and trade. Key industries include coal mining, agriculture, and small-scale manufacturing, which contribute significantly to the local and national economy, making Tete a vital economic player in Mozambique.",
+  "tourism": "Tourism in Tete offers visitors a mix of natural beauty and cultural experiences. Popular attractions include the stunning Zambezi River, local markets, and historical sites. Tourists can engage in activities such as river cruises, wildlife viewing, and exploring the rich cultural heritage of the region.",
+  "best_places": [
+    "Zambezi River",
+    "Tete Cathedral",
+    "Tete Museum",
+    "Mphanda Nkuwa Dam",
+    "Mavonde Market",
+    "Mount Binga"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurante Tete",
+      "description": "A popular spot offering traditional Mozambican cuisine with a focus on fresh seafood."
+    },
+    {
+      "name": "Pizzaria Tete",
+      "description": "Known for its delicious pizzas and casual dining atmosphere."
+    },
+    {
+      "name": "Churrasqueira do Zambeze",
+      "description": "Specializes in grilled meats and local dishes, perfect for a hearty meal."
+    },
+    {
+      "name": "Café Central",
+      "description": "A cozy café ideal for coffee lovers, serving a variety of snacks and pastries."
+    }
+  ],
+  "weather_summary": "Tete experiences a tropical climate with hot, rainy summers and mild, dry winters.",
+  "faqs": [
+    {
+      "question": "What time zone is Tete in?",
+      "answer": "Tete is in the Africa/Maputo time zone."
+    },
+    {
+      "question": "Does Tete observe daylight saving time?",
+      "answer": "No, Tete does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Tete?",
+      "answer": "The population of Tete is approximately 357,000."
+    },
+    {
+      "question": "When does sunrise typically occur in Tete?",
+      "answer": "Sunrise in Tete typically occurs between 5:30 AM and 6:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Tete?",
+      "answer": "The best time to visit Tete is during the dry season, from May to October, when temperatures are milder."
+    }
+  ]
+}

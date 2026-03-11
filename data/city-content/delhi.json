@@ -1,0 +1,60 @@
+{
+  "overview": "Delhi, the capital city of India, is a vibrant metropolis located in the northern part of the country. It serves as a significant political, cultural, and economic hub, reflecting a blend of ancient history and modern development. With a population of over 11 million, Delhi is not only the most populous city in India but also a key player in the region's growth, making it a focal point for commerce, education, and tourism in Asia.",
+  "history": "Delhi has a rich history, with its origins dating back to the 6th century BC. It has served as a capital for various empires, including the Mughal Empire, which left a lasting impact on its architecture and culture.",
+  "economy": "Delhi's economy is one of the largest in India, driven by sectors such as information technology, telecommunications, and tourism. The city is a major commercial center, hosting numerous multinational corporations and thriving markets, contributing significantly to the country's GDP.",
+  "tourism": "Delhi attracts millions of tourists each year, drawn by its historical landmarks and cultural diversity. Key attractions include the Red Fort, India Gate, and Qutub Minar, where visitors can explore the rich heritage and vibrant street life, as well as enjoy local cuisine and shopping experiences.",
+  "best_places": [
+    "Red Fort",
+    "India Gate",
+    "Qutub Minar",
+    "Humayun's Tomb",
+    "Lotus Temple",
+    "Jama Masjid",
+    "Connaught Place"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Bukhara",
+      "description": "Famous for its authentic North Indian cuisine and tandoori dishes."
+    },
+    {
+      "name": "Karol Bagh's Jain Chawal Wale",
+      "description": "A popular spot known for its delicious vegetarian meals."
+    },
+    {
+      "name": "Indian Accent",
+      "description": "Offers a modern twist on traditional Indian dishes in a fine dining setting."
+    },
+    {
+      "name": "Paranthe Wali Gali",
+      "description": "A street famous for its variety of stuffed parathas and local snacks."
+    },
+    {
+      "name": "SodaBottleOpenerWala",
+      "description": "A quirky restaurant serving Parsi cuisine in a vibrant atmosphere."
+    }
+  ],
+  "weather_summary": "Delhi experiences hot summers, mild winters, and a monsoon season, with extreme temperatures possible.",
+  "faqs": [
+    {
+      "question": "What time zone is Delhi in?",
+      "answer": "Delhi is in the Asia/Kolkata time zone."
+    },
+    {
+      "question": "Does Delhi observe daylight saving time?",
+      "answer": "No, Delhi does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Delhi?",
+      "answer": "The population of Delhi is approximately 11,034,555."
+    },
+    {
+      "question": "When does sunrise typically occur in Delhi?",
+      "answer": "Sunrise in Delhi typically occurs between 5:30 AM and 6:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Delhi?",
+      "answer": "The best time to visit Delhi is from October to March, when the weather is cooler and more pleasant."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "overview": "Skopje, the capital of North Macedonia, is a vibrant city located in the heart of the Balkan Peninsula. With a population of approximately 474,889, it serves as the political, cultural, and economic hub of the country. Skopje's rich history and diverse architecture, blending ancient and modern influences, make it a significant destination in Europe, attracting visitors interested in its unique heritage and lively atmosphere.",
+  "history": "Skopje has a rich history dating back to the 4th century BC when it was known as Scupi. Throughout the centuries, it has been influenced by various civilizations, including the Romans and Ottomans, shaping its cultural landscape.",
+  "economy": "Skopje plays a crucial role in North Macedonia's economy, contributing significantly to the country's GDP. Key industries include manufacturing, trade, and services, with a growing focus on tourism and information technology, which are becoming increasingly important for local development.",
+  "tourism": "Tourism in Skopje offers a blend of historical and cultural experiences, with attractions like the Stone Bridge, the Old Bazaar, and the Millennium Cross. Visitors can explore museums, enjoy local cuisine, and experience vibrant nightlife, making Skopje a captivating destination for travelers.",
+  "best_places": [
+    "Stone Bridge",
+    "Old Bazaar",
+    "Millennium Cross",
+    "Macedonia Square",
+    "Skopje Fortress",
+    "Museum of the Macedonian Struggle",
+    "Church of St. Panteleimon"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant Nasa",
+      "description": "Known for its traditional Macedonian dishes and warm atmosphere."
+    },
+    {
+      "name": "La Terazza",
+      "description": "Offers stunning views and a diverse menu featuring Mediterranean cuisine."
+    },
+    {
+      "name": "Bistro Kultura",
+      "description": "A cozy spot popular for its local specialties and artisanal coffee."
+    },
+    {
+      "name": "Vodenica",
+      "description": "Famous for its unique setting and delicious grilled meats."
+    },
+    {
+      "name": "Pivnica An",
+      "description": "A lively brewery restaurant known for its local beers and hearty meals."
+    }
+  ],
+  "weather_summary": "Skopje experiences hot summers and cold winters, with a continental climate that includes occasional rain.",
+  "faqs": [
+    {
+      "question": "What time zone is Skopje in?",
+      "answer": "Skopje is in the Europe/Skopje time zone."
+    },
+    {
+      "question": "Does Skopje observe daylight saving time?",
+      "answer": "Yes, Skopje observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Skopje?",
+      "answer": "The population of Skopje is approximately 474,889."
+    },
+    {
+      "question": "When does sunrise typically occur in Skopje?",
+      "answer": "Sunrise in Skopje typically occurs between 6:00 AM and 7:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Skopje?",
+      "answer": "The best time to visit Skopje is during spring (April to June) or fall (September to October) when the weather is mild and pleasant."
+    }
+  ]
+}

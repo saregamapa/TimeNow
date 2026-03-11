@@ -1,0 +1,58 @@
+{
+  "overview": "Eldoret is a vibrant city located in the western region of Kenya, serving as a key commercial and administrative hub. With a population of approximately 475,716, it plays a significant role in the agricultural and educational sectors of the country. Known for its rich cultural diversity and proximity to the Great Rift Valley, Eldoret attracts visitors and investors alike, making it an important center for trade and innovation in East Africa.",
+  "history": "Eldoret was founded in the early 20th century as a railway depot and grew rapidly due to its strategic location. It became a significant agricultural center, particularly for tea and maize production.",
+  "economy": "Eldoret's economy is primarily driven by agriculture, with key industries including tea, maize, and horticulture. The city also hosts various businesses and educational institutions, contributing to its status as an economic powerhouse in the region.",
+  "tourism": "Visitors to Eldoret can explore stunning attractions such as the scenic Kerio Valley and the Eldoret Museum, which showcases local history and culture. The city is also famous for its athletic training camps, drawing sports enthusiasts and aspiring runners from around the world.",
+  "best_places": [
+    "Kerio Valley",
+    "Eldoret Museum",
+    "Iten Viewpoint",
+    "Eldoret Sports Club",
+    "Rift Valley Sports Club"
+  ],
+  "best_restaurants": [
+    {
+      "name": "The Well",
+      "description": "A popular spot known for its diverse menu and cozy atmosphere."
+    },
+    {
+      "name": "KFC Eldoret",
+      "description": "Fast food favorite offering a variety of fried chicken meals."
+    },
+    {
+      "name": "Java House",
+      "description": "A well-known café chain serving coffee and light meals."
+    },
+    {
+      "name": "The Bistro",
+      "description": "Offers a mix of local and international cuisine in a relaxed setting."
+    },
+    {
+      "name": "Siam Restaurant",
+      "description": "Specializes in Thai cuisine with a unique dining experience."
+    }
+  ],
+  "weather_summary": "Eldoret experiences mild temperatures with a rainy season, making it a pleasant place year-round.",
+  "faqs": [
+    {
+      "question": "What time zone is Eldoret in?",
+      "answer": "Eldoret is in the Africa/Nairobi time zone."
+    },
+    {
+      "question": "Does Eldoret observe daylight saving time?",
+      "answer": "No, Eldoret does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Eldoret?",
+      "answer": "Eldoret has a population of approximately 475,716 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Eldoret?",
+      "answer": "Sunrise in Eldoret typically occurs around 6:30 AM throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Eldoret?",
+      "answer": "The best time to visit Eldoret is during the dry seasons from June to September and December to February."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "overview": "Cali, Colombia, located in the Valle del Cauca department, is a vibrant city known for its rich cultural heritage and dynamic salsa music scene. As the third-largest city in Colombia with a population of approximately 2.4 million, Cali plays a crucial role in the country's economy and cultural landscape. Its strategic location near the Pacific coast makes it an important hub for trade and commerce, attracting both local and international businesses.",
+  "history": "Cali was founded in 1536 by Spanish conquistador Sebastián de Belalcázar. It has since evolved into a significant cultural and economic center in Colombia.",
+  "economy": "Cali's economy is diverse, with key industries including agriculture, manufacturing, and services. The city is particularly known for its sugarcane production and has a growing technology sector, making it an attractive destination for business investment.",
+  "tourism": "Cali offers a variety of attractions for visitors, including the iconic Cristo Rey statue and the vibrant San Antonio neighborhood. Tourists can enjoy the city's famous salsa clubs, explore its rich history at museums, and savor local cuisine, making it a lively destination for cultural experiences.",
+  "best_places": [
+    "Cristo Rey",
+    "San Antonio",
+    "Zoológico de Cali",
+    "Parque de los Gatos",
+    "La Tertulia Museum",
+    "Plaza de Caicedo"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Platillos Voladores",
+      "description": "A popular spot known for its innovative fusion cuisine."
+    },
+    {
+      "name": "El Zaguán",
+      "description": "Offers traditional Colombian dishes in a cozy setting."
+    },
+    {
+      "name": "La Guacharaca",
+      "description": "Famous for its vibrant atmosphere and delicious local fare."
+    },
+    {
+      "name": "Restaurante La Casona",
+      "description": "Known for its exquisite seafood and stunning views."
+    },
+    {
+      "name": "Salsa y Sazón",
+      "description": "A must-visit for those wanting to experience authentic Cali-style salsa and food."
+    }
+  ],
+  "weather_summary": "Cali enjoys a tropical climate with warm temperatures year-round and a distinct wet season from April to November.",
+  "faqs": [
+    {
+      "question": "What time zone is Cali in?",
+      "answer": "Cali is in the America/Bogota time zone."
+    },
+    {
+      "question": "Does Cali observe daylight saving time?",
+      "answer": "No, Cali does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Cali?",
+      "answer": "Cali has a population of approximately 2,392,877 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Cali?",
+      "answer": "Sunrise in Cali usually occurs between 5:45 AM and 6:15 AM throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Cali?",
+      "answer": "The best time to visit Cali is during the dry season from December to March, when the weather is pleasant."
+    }
+  ]
+}

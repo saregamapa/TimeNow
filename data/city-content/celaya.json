@@ -1,0 +1,55 @@
+{
+  "overview": "Celaya, located in the heart of Mexico, is a vibrant city in the state of Guanajuato. With a population of approximately 340,387, it serves as an important economic and cultural hub in North America. Known for its rich history and culinary delights, particularly its famous cajeta (a caramel-like treat), Celaya attracts visitors with its charming architecture and lively atmosphere. The city's strategic location makes it a key transit point for trade and tourism in the region.",
+  "history": "Celaya was founded in 1542 and played a significant role during Mexico's War of Independence. Its historical significance is marked by various battles and events that shaped the nation.",
+  "economy": "The economy of Celaya is diverse, with key industries including agriculture, manufacturing, and commerce. The city is known for its production of leather goods and agricultural products, making it a vital center for trade and economic activity in the region.",
+  "tourism": "Tourism in Celaya is centered around its rich cultural heritage and local cuisine. Visitors can explore historical sites like the Parroquia de San Francisco, enjoy the vibrant local markets, and savor traditional dishes. The annual Cajeta Festival also draws many tourists, celebrating the city’s famous sweet treat.",
+  "best_places": [
+    "Parroquia de San Francisco",
+    "Plaza Parque Morelos",
+    "Templo del Carmen",
+    "Museo de la Ciudad",
+    "Cerro de los Remedios",
+    "Mercado de Celaya"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Casa de la Cajeta",
+      "description": "Known for its delicious cajeta and traditional Mexican dishes."
+    },
+    {
+      "name": "El Rincón de los Abuelos",
+      "description": "A family-friendly restaurant offering a variety of local specialties."
+    },
+    {
+      "name": "Los Arcos",
+      "description": "Famous for its grilled meats and vibrant atmosphere."
+    },
+    {
+      "name": "Café de la Plaza",
+      "description": "A charming café perfect for enjoying coffee and pastries."
+    }
+  ],
+  "weather_summary": "Celaya experiences a temperate climate with mild winters and warm summers, ideal for year-round visits.",
+  "faqs": [
+    {
+      "question": "What time zone is Celaya in?",
+      "answer": "Celaya is in the America/Mexico_City time zone."
+    },
+    {
+      "question": "Does Celaya observe daylight saving time?",
+      "answer": "Yes, Celaya observes daylight saving time, typically from the first Sunday in April to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Celaya?",
+      "answer": "The population of Celaya is approximately 340,387."
+    },
+    {
+      "question": "When does sunrise typically occur in Celaya?",
+      "answer": "Sunrise in Celaya typically occurs around 6:30 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Celaya?",
+      "answer": "The best time to visit Celaya is during the dry season from November to April when the weather is pleasant."
+    }
+  ]
+}

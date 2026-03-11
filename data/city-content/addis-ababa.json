@@ -1,0 +1,60 @@
+{
+  "overview": "Addis Ababa, the capital city of Ethiopia, is a vibrant metropolis located in the heart of the East African highlands. Known as the political and cultural hub of Ethiopia, it plays a crucial role in African diplomacy, housing the headquarters of the African Union and various international organizations. With a population of approximately 3.86 million, Addis Ababa is a melting pot of diverse cultures, rich history, and economic activity, making it a key city on the continent.",
+  "history": "Founded in the late 19th century, Addis Ababa became the capital of Ethiopia in 1886. It has played a significant role in the country's history, particularly during the struggle against colonialism.",
+  "economy": "Addis Ababa serves as Ethiopia's economic engine, with key industries including manufacturing, trade, and services. The city is home to numerous businesses, international organizations, and markets, contributing significantly to the nation's GDP and employment.",
+  "tourism": "Visitors to Addis Ababa can explore a variety of attractions, including the National Museum of Ethiopia, home to the famous fossil 'Lucy', and the Holy Trinity Cathedral, a stunning example of Ethiopian Orthodox architecture. The bustling Merkato market offers an authentic shopping experience, while the Entoto Mountains provide breathtaking views of the city.",
+  "best_places": [
+    "National Museum of Ethiopia",
+    "Holy Trinity Cathedral",
+    "Entoto Mountains",
+    "Merkato Market",
+    "Addis Ababa University",
+    "Meskel Square",
+    "Ethnological Museum"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Kategna Restaurant",
+      "description": "Famous for its authentic Ethiopian cuisine and vibrant atmosphere."
+    },
+    {
+      "name": "Dashen Restaurant",
+      "description": "Offers a wide variety of traditional dishes in a cozy setting."
+    },
+    {
+      "name": "Sishu",
+      "description": "Known for its fusion of Ethiopian and international flavors."
+    },
+    {
+      "name": "Taitu Hotel Restaurant",
+      "description": "Historic dining spot offering traditional Ethiopian meals."
+    },
+    {
+      "name": "Bole Road",
+      "description": "A popular area with numerous cafes and eateries showcasing local and international cuisine."
+    }
+  ],
+  "weather_summary": "Addis Ababa experiences mild temperatures year-round, with a rainy season from June to September and dry, sunny weather for the rest of the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Addis Ababa in?",
+      "answer": "Addis Ababa is in the Africa/Addis_Ababa time zone."
+    },
+    {
+      "question": "Does Addis Ababa observe daylight saving time?",
+      "answer": "No, Addis Ababa does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Addis Ababa?",
+      "answer": "The population of Addis Ababa is approximately 3.86 million."
+    },
+    {
+      "question": "When does sunrise typically occur in Addis Ababa?",
+      "answer": "Sunrise in Addis Ababa typically occurs between 6:00 AM and 6:30 AM throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Addis Ababa?",
+      "answer": "The best time to visit Addis Ababa is during the dry season, from October to May, when the weather is most pleasant."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "overview": "New Delhi, the capital of India, is a vibrant metropolis located in the northern part of the country. As a central hub for politics, culture, and commerce, it plays a crucial role in shaping national policies and trends. Known for its rich history, diverse population of approximately 317,797, and a blend of modern and traditional architecture, New Delhi attracts visitors and businesses alike, making it a significant city in Asia.",
+  "history": "New Delhi was officially inaugurated as the capital of India in 1931, replacing Kolkata. Designed by British architects Edwin Lutyens and Herbert Baker, it symbolizes India's colonial past and its journey towards independence.",
+  "economy": "New Delhi serves as a major economic center in India, with key industries including information technology, telecommunications, and tourism. The city's strategic location and robust infrastructure support a thriving business environment, attracting both domestic and international investments.",
+  "tourism": "Tourists flock to New Delhi for its rich cultural heritage and historical landmarks. Key attractions include the India Gate, Qutub Minar, and the Red Fort, where visitors can explore India's history and enjoy vibrant local markets and cuisine.",
+  "best_places": [
+    "India Gate",
+    "Qutub Minar",
+    "Red Fort",
+    "Lotus Temple",
+    "Humayun's Tomb",
+    "Akshardham Temple"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Bukhara",
+      "description": "Famous for its North Indian cuisine, especially its kebabs."
+    },
+    {
+      "name": "Indian Accent",
+      "description": "Offers a contemporary twist on traditional Indian dishes."
+    },
+    {
+      "name": "Saravana Bhavan",
+      "description": "Renowned for authentic South Indian vegetarian fare."
+    },
+    {
+      "name": "Chaat Corner",
+      "description": "Popular for its delicious street food and snacks."
+    },
+    {
+      "name": "Olive Bar & Kitchen",
+      "description": "A trendy spot known for its Mediterranean-inspired menu."
+    }
+  ],
+  "weather_summary": "New Delhi experiences hot summers, mild winters, and a monsoon season with heavy rainfall.",
+  "faqs": [
+    {
+      "question": "What time zone is New Delhi in?",
+      "answer": "New Delhi is in the Asia/Kolkata time zone."
+    },
+    {
+      "question": "Does New Delhi observe daylight saving time?",
+      "answer": "No, New Delhi does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of New Delhi?",
+      "answer": "The population of New Delhi is approximately 317,797."
+    },
+    {
+      "question": "When does sunrise typically occur in New Delhi?",
+      "answer": "Sunrise in New Delhi typically occurs between 6:00 AM and 6:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit New Delhi?",
+      "answer": "The best time to visit New Delhi is from October to March when the weather is cooler and more pleasant."
+    }
+  ]
+}

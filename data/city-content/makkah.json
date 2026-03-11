@@ -1,0 +1,59 @@
+{
+  "overview": "Makkah, located in the western region of Saudi Arabia, is one of the most significant cities in the Islamic world, serving as the birthplace of the Prophet Muhammad and the site of the Kaaba, the holiest shrine in Islam. As the destination for millions of Muslim pilgrims each year, Makkah plays a vital role in religious tourism and cultural heritage. With a population of approximately 1.5 million, it is a bustling city that combines deep historical roots with modern development, making it a unique hub of spirituality and commerce.",
+  "history": "Makkah's history dates back thousands of years, with its founding linked to the tribe of Quraysh. It has been a pilgrimage site since ancient times, solidifying its importance in Islamic tradition.",
+  "economy": "Makkah's economy is heavily influenced by religious tourism, with millions visiting annually for Hajj and Umrah. Key industries include hospitality, retail, and construction, catering to the needs of pilgrims and residents alike.",
+  "tourism": "Makkah attracts millions of visitors each year, primarily for religious purposes. The Grand Mosque, housing the Kaaba, is the city's main attraction, along with sites like Mount Arafat and the historic caves of Hira, where pilgrims reflect and pray.",
+  "best_places": [
+    "The Grand Mosque",
+    "Kaaba",
+    "Mount Arafat",
+    "Cave of Hira",
+    "Makkah Clock Tower",
+    "Abraj Al Bait Towers"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Al Baik",
+      "description": "Famous for its fried chicken and fast food, a must-try for visitors."
+    },
+    {
+      "name": "Shawarma House",
+      "description": "Known for delicious shawarma and Middle Eastern dishes."
+    },
+    {
+      "name": "Makkah Restaurant",
+      "description": "Offers a variety of traditional Saudi dishes in a family-friendly setting."
+    },
+    {
+      "name": "Kudu",
+      "description": "Popular for its breakfast options and quick-service meals."
+    },
+    {
+      "name": "Al Tazaj",
+      "description": "Specializes in grilled chicken and flavorful Middle Eastern cuisine."
+    }
+  ],
+  "weather_summary": "Makkah experiences a hot desert climate with extremely hot summers and mild winters.",
+  "faqs": [
+    {
+      "question": "What time zone is Makkah in?",
+      "answer": "Makkah is in the Asia/Riyadh time zone."
+    },
+    {
+      "question": "Does Makkah observe daylight saving time?",
+      "answer": "No, Makkah does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Makkah?",
+      "answer": "Makkah has a population of approximately 1,578,722."
+    },
+    {
+      "question": "When does sunrise typically occur in Makkah?",
+      "answer": "Sunrise in Makkah typically occurs around 6:00 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Makkah?",
+      "answer": "The best time to visit Makkah is during the cooler months from November to February."
+    }
+  ]
+}

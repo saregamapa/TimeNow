@@ -1,0 +1,60 @@
+{
+  "overview": "Meknes, located in northern Morocco, is a city rich in history and culture, serving as one of the country's imperial cities. With a population of approximately 568,295, it plays a vital role in the region's economy and heritage. Known for its stunning architecture and historical significance, Meknes attracts visitors seeking to explore its ancient medinas, vibrant markets, and the nearby ruins of Roman Volubilis, making it a key destination in Africa.",
+  "history": "Founded in the 11th century, Meknes became a significant imperial city under Sultan Moulay Ismail in the 17th century. Its historical importance is underscored by its UNESCO World Heritage status.",
+  "economy": "Meknes has a diverse economy, primarily driven by agriculture, textiles, and handicrafts. The city's strategic location also facilitates trade, making it a hub for local and regional businesses, contributing significantly to Morocco's overall economic landscape.",
+  "tourism": "Tourism in Meknes is centered around its rich historical sites, including the grand Bab Mansour gate and the Royal Palace. Visitors often explore the bustling souks, enjoy traditional Moroccan cuisine, and take day trips to nearby attractions like the ancient Roman ruins of Volubilis.",
+  "best_places": [
+    "Bab Mansour",
+    "Royal Palace",
+    "Volubilis",
+    "Mausoleum of Moulay Ismail",
+    "Dar Jamai Museum",
+    "Meknes Medina",
+    "Place El Hedim"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant Riad Yacout",
+      "description": "A charming restaurant offering traditional Moroccan dishes in a beautiful riad setting."
+    },
+    {
+      "name": "Le Riad",
+      "description": "Known for its authentic Moroccan cuisine and cozy atmosphere."
+    },
+    {
+      "name": "La Table de la Kasbah",
+      "description": "Features a mix of Moroccan and Mediterranean flavors in a historic location."
+    },
+    {
+      "name": "Café Maure",
+      "description": "A popular spot for enjoying Moroccan tea and pastries with a view."
+    },
+    {
+      "name": "Restaurant Boulangerie",
+      "description": "Famous for its fresh bread and pastries, perfect for a quick snack."
+    }
+  ],
+  "weather_summary": "Meknes experiences a Mediterranean climate with hot, dry summers and mild, wet winters.",
+  "faqs": [
+    {
+      "question": "What time zone is Meknes in?",
+      "answer": "Meknes is in the Africa/Casablanca time zone."
+    },
+    {
+      "question": "Does Meknes observe daylight saving time?",
+      "answer": "Yes, Meknes observes daylight saving time, typically from late March to late October."
+    },
+    {
+      "question": "What is the population of Meknes?",
+      "answer": "The population of Meknes is approximately 568,295."
+    },
+    {
+      "question": "When does sunrise typically occur in Meknes?",
+      "answer": "Sunrise in Meknes typically occurs around 6:30 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Meknes?",
+      "answer": "The best time to visit Meknes is during spring (March to May) and fall (September to November) when the weather is mild."
+    }
+  ]
+}

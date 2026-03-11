@@ -1,0 +1,59 @@
+{
+  "overview": "Ivano-Frankivsk, located in western Ukraine, serves as an important cultural and economic hub in the region. With a population of approximately 238,196, it stands out for its rich history and vibrant community. The city is strategically positioned near the Carpathian Mountains, making it a gateway for both tourism and trade, and it plays a significant role in connecting various parts of Ukraine and neighboring countries.",
+  "history": "Founded in 1662, Ivano-Frankivsk has a storied past influenced by various cultures and empires. It was named after the famous Ukrainian writer Ivan Franko in 1962, reflecting its cultural significance.",
+  "economy": "Ivano-Frankivsk's economy is diverse, with key industries including manufacturing, agriculture, and services. The city is also recognized for its growing IT sector, attracting businesses and startups that contribute to local employment and innovation.",
+  "tourism": "Tourism in Ivano-Frankivsk thrives due to its picturesque landscapes and historical architecture. Visitors can explore the vibrant Market Square, the stunning Rynok Square, and the nearby Carpathian Mountains, which offer hiking, skiing, and breathtaking views.",
+  "best_places": [
+    "Market Square",
+    "Rynok Square",
+    "Ivano-Frankivsk Regional Art Museum",
+    "Shevchenko Park",
+    "The Cathedral of the Holy Resurrection",
+    "Carpathian National Nature Park"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant Garmata",
+      "description": "A popular spot known for its traditional Ukrainian cuisine and cozy atmosphere."
+    },
+    {
+      "name": "Knyzhka",
+      "description": "Offers a unique blend of local dishes and European flavors in a charming setting."
+    },
+    {
+      "name": "Pizzeria Mamma Mia",
+      "description": "Famous for its delicious pizzas and family-friendly environment."
+    },
+    {
+      "name": "Cafe Dnister",
+      "description": "A cozy cafe known for its coffee and pastries, perfect for a casual meet-up."
+    },
+    {
+      "name": "Bistro Koleso",
+      "description": "Serves hearty meals with a focus on fresh, locally sourced ingredients."
+    }
+  ],
+  "weather_summary": "Ivano-Frankivsk experiences mild, rainy winters and warm summers, with occasional heat waves during peak season.",
+  "faqs": [
+    {
+      "question": "What time zone is Ivano-Frankivsk in?",
+      "answer": "Ivano-Frankivsk is in the Europe/Kyiv time zone."
+    },
+    {
+      "question": "Does Ivano-Frankivsk observe daylight saving time?",
+      "answer": "Yes, Ivano-Frankivsk observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Ivano-Frankivsk?",
+      "answer": "The population of Ivano-Frankivsk is approximately 238,196."
+    },
+    {
+      "question": "When does sunrise typically occur in Ivano-Frankivsk?",
+      "answer": "Sunrise in Ivano-Frankivsk typically occurs around 6:30 AM in summer and 7:30 AM in winter."
+    },
+    {
+      "question": "What is the best time to visit Ivano-Frankivsk?",
+      "answer": "The best time to visit Ivano-Frankivsk is during late spring and early autumn when the weather is mild and pleasant."
+    }
+  ]
+}

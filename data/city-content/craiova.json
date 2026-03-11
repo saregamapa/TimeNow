@@ -1,0 +1,59 @@
+{
+  "overview": "Craiova is a vibrant city located in the Oltenia region of Romania, serving as an important cultural and economic hub. With a population of approximately 234,140, it stands as one of the largest cities in the country. Craiova's rich history, diverse architecture, and educational institutions contribute to its significance in Romania, making it a key player in both regional and national contexts.",
+  "history": "Craiova has a storied past, first mentioned in historical documents in the 15th century. It played a crucial role as a political and cultural center throughout Romanian history.",
+  "economy": "The economy of Craiova is diverse, with key industries including automotive manufacturing, agriculture, and textiles. The city is home to several major companies and serves as a commercial center for the surrounding region, fostering economic growth and employment opportunities.",
+  "tourism": "Tourism in Craiova is enriched by its historical landmarks and cultural sites. Visitors can explore the impressive Craiova Botanical Garden, the stunning Nicolae Romanescu Park, and the historic city center, which features beautiful architecture and vibrant local markets, making it a delightful destination for travelers.",
+  "best_places": [
+    "Nicolae Romanescu Park",
+    "Craiova Botanical Garden",
+    "Oltenia Museum",
+    "Saint Demetrius Cathedral",
+    "Craiova Art Museum",
+    "University of Craiova"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Pizzeria",
+      "description": "A popular spot known for its delicious wood-fired pizzas and cozy atmosphere."
+    },
+    {
+      "name": "Casa Băniei",
+      "description": "Offers traditional Romanian dishes in a charming, historic setting."
+    },
+    {
+      "name": "Restaurant Trattoria",
+      "description": "Famous for its Italian cuisine and warm, inviting ambiance."
+    },
+    {
+      "name": "Bistro La Violeta",
+      "description": "A trendy bistro serving a mix of local and international dishes."
+    },
+    {
+      "name": "Café 7",
+      "description": "A stylish café known for its artisanal coffee and light bites."
+    }
+  ],
+  "weather_summary": "Craiova experiences hot summers and mild winters, with occasional rain throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Craiova in?",
+      "answer": "Craiova is in the Europe/Bucharest time zone."
+    },
+    {
+      "question": "Does Craiova observe daylight saving time?",
+      "answer": "Yes, Craiova observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Craiova?",
+      "answer": "The population of Craiova is approximately 234,140."
+    },
+    {
+      "question": "When does sunrise typically occur in Craiova?",
+      "answer": "Sunrise in Craiova typically occurs around 6:30 AM to 7:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Craiova?",
+      "answer": "The best time to visit Craiova is during spring and early autumn when the weather is mild and pleasant."
+    }
+  ]
+}

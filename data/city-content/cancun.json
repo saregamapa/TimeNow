@@ -1,0 +1,59 @@
+{
+  "overview": "Cancún, located on the northeastern coast of the Yucatán Peninsula in Mexico, is a vibrant city renowned for its stunning beaches and thriving tourism industry. As a major tourist destination in North America, Cancún attracts millions of visitors each year, drawn by its crystal-clear waters, luxury resorts, and rich cultural heritage. The city's strategic location near ancient Mayan ruins and natural wonders further enhances its appeal, making it a significant hub for both leisure and business activities.",
+  "history": "Cancún was founded in 1970 as a tourism project by the Mexican government. Its rapid development transformed it from a small fishing village into a world-renowned resort city.",
+  "economy": "The economy of Cancún is primarily driven by tourism, with thousands of hotels, restaurants, and entertainment venues catering to visitors. Additionally, the city serves as a business hub for regional trade and commerce, bolstered by its international airport and infrastructure.",
+  "tourism": "Cancún is famous for its breathtaking beaches, vibrant nightlife, and proximity to ancient Mayan sites like Tulum and Chichen Itza. Visitors can enjoy water sports, explore eco-parks, or relax in luxury resorts, making it a perfect destination for both adventure seekers and those looking to unwind.",
+  "best_places": [
+    "Chichen Itza",
+    "Tulum",
+    "Isla Mujeres",
+    "Cenote Ik Kil",
+    "Xcaret Park",
+    "El Rey Ruins"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Habichuela",
+      "description": "A renowned restaurant offering traditional Mexican cuisine with a beautiful garden setting."
+    },
+    {
+      "name": "Puerto Madero",
+      "description": "A high-end steakhouse known for its excellent cuts of meat and stunning waterfront views."
+    },
+    {
+      "name": "Harry's Prime Steakhouse",
+      "description": "Upscale dining featuring prime steaks and a sophisticated atmosphere."
+    },
+    {
+      "name": "El Fish Fritanga",
+      "description": "A casual spot famous for its fresh seafood and laid-back vibe."
+    },
+    {
+      "name": "Casa Tequila",
+      "description": "A vibrant restaurant specializing in authentic Mexican dishes and a wide selection of tequila."
+    }
+  ],
+  "weather_summary": "Cancún experiences a tropical climate, characterized by warm temperatures year-round and a distinct wet season from May to October.",
+  "faqs": [
+    {
+      "question": "What time zone is Cancún in?",
+      "answer": "Cancún is in the America/Cancun time zone."
+    },
+    {
+      "question": "Does Cancún observe daylight saving time?",
+      "answer": "No, Cancún does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Cancún?",
+      "answer": "The population of Cancún is approximately 888,797."
+    },
+    {
+      "question": "When does sunrise typically occur in Cancún?",
+      "answer": "Sunrise in Cancún typically occurs between 6:00 AM and 6:30 AM throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Cancún?",
+      "answer": "The best time to visit Cancún is from December to April, when the weather is warm and dry."
+    }
+  ]
+}

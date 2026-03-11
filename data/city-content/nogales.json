@@ -1,0 +1,54 @@
+{
+  "overview": "Nogales, Mexico, located in the northern part of the state of Sonora, serves as a vital border city adjacent to Nogales, Arizona, in the United States. With a population of approximately 264,782, it plays a significant role in trade and cultural exchange between the two countries. Its strategic location fosters economic growth and attracts visitors interested in exploring its rich history and vibrant community.",
+  "history": "Founded in the late 19th century, Nogales has historically served as a key trading post along the U.S.-Mexico border. The city has evolved significantly, becoming an essential hub for cross-border commerce.",
+  "economy": "Nogales' economy is primarily driven by trade, manufacturing, and agriculture. The city hosts numerous maquiladoras, which are factories that import materials and export finished goods, contributing to job creation and economic development in the region.",
+  "tourism": "Tourism in Nogales offers visitors a blend of cultural experiences and natural beauty. Key attractions include the Nogales International Museum, local markets, and the scenic landscapes of the surrounding Sonoran Desert, making it a unique destination for both history enthusiasts and outdoor adventurers.",
+  "best_places": [
+    "Nogales International Museum",
+    "Plaza de la Madre",
+    "Elías Calles Park",
+    "Museo de Arte de Nogales",
+    "Mercado de Nogales"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Roca",
+      "description": "A popular spot known for its delicious Mexican seafood dishes."
+    },
+    {
+      "name": "Tacos El Güero",
+      "description": "Famous for its authentic street-style tacos and vibrant atmosphere."
+    },
+    {
+      "name": "Café de la Plaza",
+      "description": "A cozy café offering a variety of local and international dishes."
+    },
+    {
+      "name": "El Mesón",
+      "description": "A well-loved restaurant known for its traditional Sonoran cuisine."
+    }
+  ],
+  "weather_summary": "Nogales experiences mild winters and warm summers, with low humidity and plenty of sunshine year-round.",
+  "faqs": [
+    {
+      "question": "What time zone is Nogales in?",
+      "answer": "Nogales is in the America/Hermosillo time zone."
+    },
+    {
+      "question": "Does Nogales observe daylight saving time?",
+      "answer": "No, Nogales does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Nogales?",
+      "answer": "The population of Nogales is approximately 264,782."
+    },
+    {
+      "question": "When does sunrise typically occur in Nogales?",
+      "answer": "Sunrise in Nogales typically occurs around 6:00 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Nogales?",
+      "answer": "The best time to visit Nogales is during the cooler months from October to April, when the weather is pleasant."
+    }
+  ]
+}

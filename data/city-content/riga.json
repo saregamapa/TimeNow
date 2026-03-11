@@ -1,0 +1,60 @@
+{
+  "overview": "Riga, the capital of Latvia, is a vibrant city located on the Baltic Sea. Known for its stunning Art Nouveau architecture and rich cultural heritage, Riga serves as a significant economic and political center in the Baltic region. With a population of approximately 742,572, it plays a crucial role in connecting Eastern and Western Europe, making it a focal point for trade, tourism, and cultural exchange.",
+  "history": "Riga was founded in 1201 and quickly became a major trading hub in the Baltic region. Its strategic location has made it a key player in various historical events, including its role in the Hanseatic League.",
+  "economy": "Riga's economy is diverse, with key industries including information technology, finance, and tourism. The city serves as a business hub for the Baltic states, attracting both local and international companies, which contribute to its growing economic landscape.",
+  "tourism": "Riga attracts millions of visitors each year with its charming old town, a UNESCO World Heritage site, featuring cobblestone streets and medieval buildings. Tourists enjoy exploring landmarks such as the Freedom Monument, the House of Blackheads, and the bustling Central Market, as well as experiencing the city's vibrant nightlife and cultural events.",
+  "best_places": [
+    "Old Town",
+    "Freedom Monument",
+    "House of Blackheads",
+    "Riga Central Market",
+    "St. Peter's Church",
+    "Art Nouveau District",
+    "Riga Castle"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Folkklubs Ala Pagrabs",
+      "description": "A cozy restaurant offering traditional Latvian cuisine and live folk music."
+    },
+    {
+      "name": "Riga Black Balsam",
+      "description": "Known for its signature herbal liqueur, this restaurant serves local dishes in a rustic setting."
+    },
+    {
+      "name": "Vincents",
+      "description": "An upscale dining experience featuring contemporary European cuisine with a focus on local ingredients."
+    },
+    {
+      "name": "Lido",
+      "description": "A popular chain serving Latvian comfort food in a casual, family-friendly atmosphere."
+    },
+    {
+      "name": "Milda",
+      "description": "Offers a modern twist on traditional Latvian dishes with a focus on seasonal ingredients."
+    }
+  ],
+  "weather_summary": "Riga experiences mild, rainy winters and warm summers with occasional heat waves.",
+  "faqs": [
+    {
+      "question": "What time zone is Riga in?",
+      "answer": "Riga is in the Europe/Riga time zone."
+    },
+    {
+      "question": "Does Riga observe daylight saving time?",
+      "answer": "Yes, Riga observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Riga?",
+      "answer": "The population of Riga is approximately 742,572."
+    },
+    {
+      "question": "When does sunrise typically occur in Riga?",
+      "answer": "Sunrise in Riga varies throughout the year, occurring around 8 AM in winter and as early as 4 AM in summer."
+    },
+    {
+      "question": "What is the best time to visit Riga?",
+      "answer": "The best time to visit Riga is during late spring and early autumn, when the weather is mild and outdoor events are plentiful."
+    }
+  ]
+}

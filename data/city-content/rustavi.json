@@ -1,0 +1,59 @@
+{
+  "overview": "Rustavi, located in the eastern part of Georgia, is a significant industrial city situated just southeast of Tbilisi, the capital. With a population of approximately 128,249, Rustavi plays a crucial role in the country's economy, primarily through its steel and manufacturing industries. The city is known for its rich cultural heritage and strategic location, making it a vital hub for trade and commerce in the region.",
+  "history": "Founded in the 1940s, Rustavi emerged as an important industrial center during the Soviet era. It has since evolved, reflecting Georgia's economic transitions and cultural shifts.",
+  "economy": "Rustavi's economy is largely driven by its industrial sector, particularly steel production and manufacturing. The city hosts various factories and enterprises, contributing significantly to Georgia's overall economic landscape and providing numerous job opportunities for residents.",
+  "tourism": "Visitors to Rustavi can explore its vibrant history and culture through various attractions, including the Rustavi Theatre and the historic Old Town. The city's parks and recreational areas offer a pleasant environment for relaxation, while local markets provide a taste of Georgian cuisine and craftsmanship.",
+  "best_places": [
+    "Rustavi Theatre",
+    "Old Town",
+    "Rustavi Park",
+    "Rustavi Industrial Museum",
+    "St. George's Church",
+    "Rustavi Market"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant Tbilisi",
+      "description": "A popular spot offering traditional Georgian dishes in a cozy atmosphere."
+    },
+    {
+      "name": "Cafe Rustavi",
+      "description": "Known for its delicious coffee and light snacks, perfect for a quick break."
+    },
+    {
+      "name": "Khachapuri House",
+      "description": "Specializes in the famous Georgian cheese bread, khachapuri, and other local delicacies."
+    },
+    {
+      "name": "Pasta & Pizza",
+      "description": "Offers a variety of Italian dishes, including freshly made pasta and pizza."
+    },
+    {
+      "name": "Chveni Karchkhadze",
+      "description": "A family-run restaurant famous for its authentic Georgian cuisine and warm hospitality."
+    }
+  ],
+  "weather_summary": "Rustavi experiences mild winters and warm summers, with a mix of sunny days and occasional rain.",
+  "faqs": [
+    {
+      "question": "What time zone is Rustavi in?",
+      "answer": "Rustavi is in the Asia/Tbilisi time zone."
+    },
+    {
+      "question": "Does Rustavi observe daylight saving time?",
+      "answer": "Yes, Rustavi observes daylight saving time, typically from late March to late October."
+    },
+    {
+      "question": "What is the population of Rustavi?",
+      "answer": "The population of Rustavi is approximately 128,249."
+    },
+    {
+      "question": "When does sunrise typically occur in Rustavi?",
+      "answer": "Sunrise in Rustavi typically occurs between 6:00 AM and 7:00 AM, varying by season."
+    },
+    {
+      "question": "What is the best time to visit Rustavi?",
+      "answer": "The best time to visit Rustavi is during the spring and early autumn when the weather is mild and pleasant."
+    }
+  ]
+}

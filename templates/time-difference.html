@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>{{pageTitle}}</title>
+  <meta name="description" content="{{metaDescription}}"/>
+  <link rel="stylesheet" href="/css/main.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":{{pageTitleJson}},"description":{{metaDescriptionJson}}}</script>
+</head>
+<body>
+  <header class="app-header" role="banner">
+    <div class="header-container">
+      <div class="header-left"><a href="/" class="logo" aria-label="TimeNow home">TimeNow</a></div>
+      <div class="header-right">{{headerRightHtml}}</div>
+    </div>
+  </header>
+  <main class="main city-page">
+    {{breadcrumbsHtml}}
+
+    <section class="section">
+      <h1 class="section-title">⏱️ Time difference: {{cityA}} and {{cityB}}</h1>
+      <div class="time-diff-two-col">
+        <div class="time-diff-city">
+          <h2 class="section-title">{{cityA}}</h2>
+          <div class="time-display" id="time-a">{{timeA}}</div>
+          <p class="hero-date" id="date-str">{{dateStr}}</p>
+        </div>
+        <div class="time-diff-city">
+          <h2 class="section-title">{{cityB}}</h2>
+          <div class="time-display" id="time-b">{{timeB}}</div>
+          <p class="hero-date">{{dateStr}}</p>
+        </div>
+      </div>
+      <p class="time-diff-summary"><strong>Difference:</strong> {{cityB}} is <span id="diff-text">{{diffText}}</span> {{cityA}}.</p>
+    </section>
+
+    <section class="section info-block">
+      <h2 class="section-title">👥 Working hours overlap (9:00–17:00 local)</h2>
+      <div class="info-content">{{overlapHtml}}</div>
+      <div class="overlap-chart-wrap">{{overlapChartHtml}}</div>
+    </section>
+
+    <section class="section info-block">
+      <h2 class="section-title">📅 Example meeting times</h2>
+      <div class="info-content"><p>{{examplesHtml}}</p></div>
+    </section>
+
+    <footer class="global-footer" role="contentinfo">
+      <p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/about">📄 About</a><a href="/privacy">🔒 Privacy</a><a href="/terms">📋 Terms</a><a href="/contact">✉️ Contact</a>
+      </nav>
+    </footer>
+  </main>
+  <script>
+(function() {
+  const zoneA = {{zoneAJson}};
+  const zoneB = {{zoneBJson}};
+  function diffFromZone(dt, fromZone, toZone) {
+    var from = dt.toLocaleString('en-CA', { timeZone: fromZone, hour: 'numeric', minute: 'numeric', hour12: false }).replace(':', '');
+    var to = dt.toLocaleString('en-CA', { timeZone: toZone, hour: 'numeric', minute: 'numeric', hour12: false }).replace(':', '');
+    var fromM = parseInt(from.slice(0,2), 10) * 60 + parseInt(from.slice(2), 10);
+    var toM = parseInt(to.slice(0,2), 10) * 60 + parseInt(to.slice(2), 10);
+    var diff = (toM - fromM + 24*60) % (24*60);
+    if (diff > 12*60) diff -= 24*60;
+    var h = Math.floor(Math.abs(diff)/60);
+    var m = Math.abs(diff)%60;
+    var sign = diff >= 0 ? 'ahead of' : 'behind';
+    return (h ? h + 'h ' : '') + (m ? m + 'm ' : '') + sign;
+  }
+  function tick() {
+    var dt = new Date();
+    var elA = document.getElementById('time-a');
+    var elB = document.getElementById('time-b');
+    var elD = document.getElementById('diff-text');
+    var elDate = document.getElementById('date-str');
+    if (elA) elA.textContent = dt.toLocaleTimeString('en-GB', { timeZone: zoneA, hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
+    if (elB) elB.textContent = dt.toLocaleTimeString('en-GB', { timeZone: zoneB, hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
+    if (elD) elD.textContent = diffFromZone(dt, zoneA, zoneB).replace('ahead of','ahead of').replace('behind','behind');
+    if (elDate) elDate.textContent = dt.toLocaleDateString('en-US', { timeZone: zoneA, weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+  }
+  setInterval(tick, 1000);
+  tick();
+})();
+  </script>
+  <script type="module" src="/js/app.js"></script>
+  <script src="/js/search.js" defer></script>
+  <script>
+(function(){var btn=document.getElementById('theme-btn');if(btn){var theme=localStorage.getItem('timenow-theme')||(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',theme==='dark'?'':'light');btn.textContent=theme==='dark'?'☀️':'🌙';btn.addEventListener('click',function(){theme=document.documentElement.getAttribute('data-theme')==='light'?'dark':'light';document.documentElement.setAttribute('data-theme',theme==='dark'?'':'light');localStorage.setItem('timenow-theme',theme);btn.textContent=theme==='dark'?'☀️':'🌙';});}})();
+  </script>
+</body>
+</html>

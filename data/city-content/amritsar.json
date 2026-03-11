@@ -1,0 +1,60 @@
+{
+  "overview": "Amritsar, located in the northwestern Indian state of Punjab, is a vibrant city known for its rich cultural heritage and historical significance. As the spiritual center for Sikhs, it is home to the iconic Golden Temple, attracting millions of pilgrims and tourists each year. With a population of approximately 1.16 million, Amritsar plays a vital role in India's socio-economic landscape, blending tradition with modernity and serving as a key hub for trade and tourism in the region.",
+  "history": "Amritsar was founded in 1577 by Guru Ram Das, the fourth Sikh Guru, who established the city around the sacred Amrit Sarovar. It has since been a pivotal site in Sikh history, particularly during the struggle for Indian independence.",
+  "economy": "Amritsar's economy is diverse, with key industries including textiles, tourism, and agriculture. The city is also known for its thriving handicrafts and jewelry sectors, contributing significantly to both local and national markets.",
+  "tourism": "Tourism in Amritsar is largely centered around the Golden Temple, a UNESCO World Heritage site, known for its stunning architecture and serene atmosphere. Visitors also explore the Jallianwala Bagh memorial, the Partition Museum, and enjoy local cuisine, making it a rich cultural experience.",
+  "best_places": [
+    "Golden Temple",
+    "Jallianwala Bagh",
+    "Partition Museum",
+    "Durgiana Temple",
+    "Gobindgarh Fort",
+    "Akal Takht",
+    "Wagah Border"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Kesar Da Dhaba",
+      "description": "Famous for its authentic Punjabi cuisine and vibrant atmosphere."
+    },
+    {
+      "name": "Bharawan Da Dhaba",
+      "description": "Known for its delicious vegetarian dishes and traditional dining experience."
+    },
+    {
+      "name": "Crystal Restaurant",
+      "description": "A popular spot offering a mix of Indian and continental dishes."
+    },
+    {
+      "name": "Amritsari Kulcha Junction",
+      "description": "Specializes in the famous Amritsari Kulcha, a must-try local delicacy."
+    },
+    {
+      "name": "Gurdas Ram Jalebi Wala",
+      "description": "Renowned for serving the best jalebis in the city."
+    }
+  ],
+  "weather_summary": "Amritsar experiences hot summers, mild winters, and a monsoon season with moderate rainfall.",
+  "faqs": [
+    {
+      "question": "What time zone is Amritsar in?",
+      "answer": "Amritsar is in the Asia/Kolkata time zone."
+    },
+    {
+      "question": "Does Amritsar observe daylight saving time?",
+      "answer": "No, Amritsar does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Amritsar?",
+      "answer": "The population of Amritsar is approximately 1,159,227."
+    },
+    {
+      "question": "When does sunrise typically occur in Amritsar?",
+      "answer": "Sunrise in Amritsar typically occurs around 6:00 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Amritsar?",
+      "answer": "The best time to visit Amritsar is from October to March, when the weather is cooler and more pleasant."
+    }
+  ]
+}

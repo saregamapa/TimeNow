@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>{{pageTitle}}</title>
+  <meta name="description" content="{{metaDescription}}"/>
+  <link rel="stylesheet" href="/css/main.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <script type="application/ld+json">{{structuredDataJson}}</script>
+  {{faqSchemaScript}}
+</head>
+<body>
+  <header class="app-header" role="banner">
+    <div class="header-container">
+      <div class="header-left"><a href="/" class="logo" aria-label="TimeNow home">TimeNow</a></div>
+      <div class="header-right">{{headerRightHtml}}</div>
+    </div>
+  </header>
+  <main class="main city-page">
+    {{breadcrumbsHtml}}
+
+    <!-- SECTION 1: City Hero -->
+    <section class="hero city-hero">
+      <p class="hero-subtext">Current Time in {{city}}</p>
+      <div class="hero-time-wrap"><div class="time-display" id="hero-time">{{timeStr}}</div></div>
+      <div class="hero-date" id="hero-date">{{dateStr}}</div>
+      <div class="hero-meta"><span class="tz-name">{{tzLong}}</span><span class="tz-abbr">{{tzShort}}</span><span class="tz-offset">{{offset}}</span></div>
+      <div class="format-toggle" role="group" aria-label="Time format">
+        <button type="button" id="btn-24" class="active">24h</button>
+        <button type="button" id="btn-12">12h</button>
+      </div>
+    </section>
+
+    <!-- About [City]: description, population, country, continent (SEO content) -->
+    {{aboutCitySectionHtml}}
+
+    <!-- SECTION 2: Sun Information -->
+    <section class="section info-block">
+      <h2 class="section-title">☀️ Sun</h2>
+      <div class="sun-grid">
+        <div class="sun-item"><span class="sun-icon">🌅</span><span>{{sunrise}}</span><span class="sun-label">Sunrise</span></div>
+        <div class="sun-item"><span class="sun-icon">🌇</span><span>{{sunset}}</span><span class="sun-label">Sunset</span></div>
+        <div class="sun-item"><span class="sun-icon">☀️</span><span>{{duration}}</span><span class="sun-label">Day length</span></div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Timezone Details -->
+    <section class="section info-block">
+      <h2 class="section-title">🌍 Timezone details</h2>
+      <div class="info-content">
+        <p><strong>{{offset}}</strong> — {{tzLong}}</p>
+        <p>IANA time zone: <code>{{iana}}</code></p>
+        <p>{{dstText}}</p>
+        {{nextChangeText}}
+      </div>
+    </section>
+
+    <!-- AI-generated content: About, History, Economy, Tourism, FAQ (when data/city-content/<slug>.json exists) -->
+    {{overviewSectionHtml}}
+    {{historySectionHtml}}
+    {{economySectionHtml}}
+    {{tourismSectionHtml}}
+    {{bestPlacesSectionHtml}}
+    {{bestRestaurantsSectionHtml}}
+    {{faqSectionHtml}}
+
+    <!-- SECTION 5: City Map -->
+    <section class="section">
+      <h2 class="section-title">🗺️ {{city}} on world map</h2>
+      <div class="city-map-wrap">{{mapHtml}}</div>
+    </section>
+
+    <!-- SECTION 6: Time Difference from [City] -->
+    <section class="section">
+      <h2 class="section-title">⏱️ Time difference from {{city}}</h2>
+      <div class="time-diff-wrap" data-from-zone="{{timezone}}">
+        <table class="time-diff-table" id="time-diff-table">
+          <thead><tr><th>City</th><th>Local time</th><th>Difference</th><th></th></tr></thead>
+          <tbody>{{timeDiffTableBody}}</tbody>
+        </table>
+        <div class="add-city-wrap">
+          <input type="text" id="add-diff-city" placeholder="Add city (e.g. London)" aria-label="Add city"/>
+          <button type="button" id="btn-add-diff-city">➕ Add city</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: Great Places to Visit -->
+    <section class="section">
+      <h2 class="section-title">✨ Great places to visit in {{city}}</h2>
+      <div class="places-grid" id="places-grid">{{placesHtml}}</div>
+    </section>
+
+    <!-- Internal linking: Nearby, Popular, Major cities -->
+    <section class="section internal-links">
+      {{internalLinksHtml}}
+    </section>
+
+    <footer class="global-footer" role="contentinfo">
+      <p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/about">📄 About</a><a href="/privacy">🔒 Privacy</a><a href="/terms">📋 Terms</a><a href="/contact">✉️ Contact</a>
+      </nav>
+    </footer>
+  </main>
+  <script>
+(function() {
+  var wrap = document.querySelector('.time-diff-wrap');
+  var zone = (wrap && wrap.getAttribute('data-from-zone')) || {{timezoneJson}};
+  const cityName = {{cityJson}};
+  var use24 = true;
+  try { use24 = localStorage.getItem('timenow-use24') !== '12'; } catch(e) {}
+  function getOpts() { return { timeZone: zone, hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: !use24 }; }
+  function tick() {
+    var refZone = (document.querySelector('.time-diff-wrap') && document.querySelector('.time-diff-wrap').getAttribute('data-from-zone')) || zone;
+    const dt = new Date();
+    var el = document.getElementById('hero-time');
+    if (el) el.textContent = dt.toLocaleTimeString('en-GB', getOpts());
+    el = document.getElementById('hero-date');
+    if (el) el.textContent = dt.toLocaleDateString('en-US', { timeZone: zone, weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+    document.querySelectorAll('#time-diff-table tbody tr').forEach(function(tr) {
+      var z = tr.dataset.zone;
+      if (!z) return;
+      var timeEl = tr.querySelector('.diff-time');
+      var diffEl = tr.querySelector('.diff-diff');
+      if (timeEl) timeEl.textContent = dt.toLocaleTimeString('en-GB', { timeZone: z, hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: !use24 });
+      if (diffEl) diffEl.textContent = diffFromZone(dt, refZone, z);
+    });
+  }
+  function diffFromZone(dt, fromZone, toZone) {
+    var opts = { hour12: false };
+    var from = dt.toLocaleString('en-CA', { timeZone: fromZone, hour: 'numeric', minute: 'numeric' }).replace(':', '');
+    var to = dt.toLocaleString('en-CA', { timeZone: toZone, hour: 'numeric', minute: 'numeric' }).replace(':', '');
+    var fromM = parseInt(from.slice(0,2), 10) * 60 + parseInt(from.slice(2), 10);
+    var toM = parseInt(to.slice(0,2), 10) * 60 + parseInt(to.slice(2), 10);
+    var diff = (toM - fromM + 24*60) % (24*60);
+    if (diff > 12*60) diff -= 24*60;
+    var h = Math.floor(Math.abs(diff)/60);
+    var m = Math.abs(diff)%60;
+    var sign = diff >= 0 ? 'ahead' : 'behind';
+    return (h ? h + 'h ' : '') + (m ? m + 'm ' : '') + sign;
+  }
+  var btn24 = document.getElementById('btn-24');
+  var btn12 = document.getElementById('btn-12');
+  if (btn24 && btn12) {
+    if (!use24) { btn24.classList.remove('active'); btn12.classList.add('active'); }
+    btn24.addEventListener('click', function() { use24 = true; try { localStorage.setItem('timenow-use24', '24'); } catch(e) {} btn24.classList.add('active'); btn12.classList.remove('active'); tick(); });
+    btn12.addEventListener('click', function() { use24 = false; try { localStorage.setItem('timenow-use24', '12'); } catch(e) {} btn12.classList.add('active'); btn24.classList.remove('active'); tick(); });
+  }
+  setInterval(tick, 1000);
+  tick();
+  document.getElementById('btn-add-diff-city') && document.getElementById('btn-add-diff-city').addEventListener('click', function() {
+    var input = document.getElementById('add-diff-city');
+    var name = (input && input.value.trim()) || '';
+    if (!name) return;
+    var refWrap = document.querySelector('.time-diff-wrap');
+    var pageZone = (refWrap && refWrap.getAttribute('data-from-zone')) || zone;
+    var zones = { 'London':'Europe/London','New York':'America/New_York','Tokyo':'Asia/Tokyo','Paris':'Europe/Paris','Berlin':'Europe/Berlin','Dubai':'Asia/Dubai','Sydney':'Australia/Sydney','Singapore':'Asia/Singapore','Toronto':'America/Toronto','Los Angeles':'America/Los_Angeles','Mumbai':'Asia/Kolkata','Delhi':'Asia/Kolkata','Bangalore':'Asia/Kolkata','Hong Kong':'Asia/Hong_Kong','Bangkok':'Asia/Bangkok','Moscow':'Europe/Moscow','Cape Town':'Africa/Johannesburg','Rio':'America/Sao_Paulo','San Francisco':'America/Los_Angeles' };
+    var zoneGuess = zones[name] || 'UTC';
+    var tbody = document.querySelector('#time-diff-table tbody');
+    if (!tbody) return;
+    var dt = new Date();
+    var row = document.createElement('tr');
+    row.dataset.zone = zoneGuess;
+    row.innerHTML = '<td>' + name.replace(/</g,'&lt;') + '</td><td class="diff-time">' + dt.toLocaleTimeString('en-GB', { timeZone: zoneGuess, hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: !use24 }) + '</td><td class="diff-diff">' + diffFromZone(dt, pageZone, zoneGuess) + '</td><td><button type="button" class="btn-remove-city" aria-label="Remove">×</button></td>';
+    tbody.appendChild(row);
+    input.value = '';
+  });
+  document.getElementById('time-diff-table') && document.getElementById('time-diff-table').addEventListener('click', function(e) {
+    if (e.target.classList.contains('btn-remove-city')) e.target.closest('tr').remove();
+  });
+})();
+  </script>
+  <script type="module" src="/js/app.js"></script>
+  <script src="/js/search.js" defer></script>
+  <script>
+(function() {
+  var btn = document.getElementById('theme-btn');
+  if (btn) {
+    var theme = localStorage.getItem('timenow-theme') || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme === 'dark' ? '' : 'light');
+    btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+    btn.addEventListener('click', function() {
+      theme = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', theme === 'dark' ? '' : 'light');
+      localStorage.setItem('timenow-theme', theme);
+      btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+    });
+  }
+})();
+(function() {
+  var accordion = document.querySelector('.faq-accordion');
+  if (!accordion) return;
+  accordion.querySelectorAll('.faq-question').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var expanded = btn.getAttribute('aria-expanded') === 'true';
+      var answer = btn.nextElementSibling;
+      btn.setAttribute('aria-expanded', !expanded);
+      if (answer) answer.classList.toggle('open', !expanded);
+    });
+  });
+})();
+  </script>
+</body>
+</html>

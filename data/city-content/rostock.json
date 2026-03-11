@@ -1,0 +1,59 @@
+{
+  "overview": "Rostock, located in northeastern Germany on the Baltic Sea, is a vibrant port city known for its rich maritime history and cultural significance. As one of the largest cities in the state of Mecklenburg-Vorpommern, Rostock serves as a key economic and educational hub, housing the University of Rostock, one of the oldest universities in the country. Its picturesque old town, bustling harbor, and proximity to the stunning Baltic coastline make Rostock an important destination for both tourists and locals alike.",
+  "history": "Founded in the 11th century, Rostock quickly became a significant trading hub in the Hanseatic League. Its strategic location facilitated maritime trade and cultural exchange throughout the Middle Ages.",
+  "economy": "Rostock's economy is primarily driven by shipbuilding, maritime services, and tourism. The city's port is one of the largest in Germany, supporting international trade and offering various logistics services, while the university fosters innovation and research.",
+  "tourism": "Rostock attracts visitors with its charming blend of history and modernity. Key attractions include the historic St. Mary's Church, the bustling Rostock Harbor, and the nearby seaside resort of Warnemünde, where guests can enjoy beautiful beaches, waterfront dining, and vibrant festivals throughout the year.",
+  "best_places": [
+    "St. Mary's Church",
+    "Rostock Harbor",
+    "Warnemünde Beach",
+    "Kunsthalle Rostock",
+    "Rostock Zoo",
+    "Historic Market Square"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Die Kogge",
+      "description": "A popular restaurant offering fresh seafood dishes with a local touch."
+    },
+    {
+      "name": "Restaurant Bülow",
+      "description": "Known for its exquisite regional cuisine and cozy atmosphere."
+    },
+    {
+      "name": "Kaffeehaus Rostock",
+      "description": "A charming café famous for its delicious pastries and coffee."
+    },
+    {
+      "name": "Dreikönig",
+      "description": "Offers a mix of traditional German and modern culinary delights."
+    },
+    {
+      "name": "Fischer's Fritz",
+      "description": "A seafood restaurant with stunning views of the harbor."
+    }
+  ],
+  "weather_summary": "Rostock experiences a temperate maritime climate with mild winters and warm summers, often accompanied by rainfall.",
+  "faqs": [
+    {
+      "question": "What time zone is Rostock in?",
+      "answer": "Rostock is in the Europe/Berlin time zone."
+    },
+    {
+      "question": "Does Rostock observe daylight saving time?",
+      "answer": "Yes, Rostock observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Rostock?",
+      "answer": "Rostock has a population of approximately 198,293 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Rostock?",
+      "answer": "Sunrise times in Rostock vary throughout the year, generally occurring between 5:00 AM and 8:00 AM."
+    },
+    {
+      "question": "What is the best time to visit Rostock?",
+      "answer": "The best time to visit Rostock is during the summer months, from June to August, when the weather is warm and festivals are abundant."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "overview": "Safi, located on the Atlantic coast of Morocco, is a vibrant city known for its rich history and cultural significance. As the capital of the Safi Province, it plays a crucial role in trade and fishing, contributing to the local economy. The city is renowned for its ceramics and pottery, attracting artisans and visitors alike. Its strategic position along the coast makes it a hub for maritime activities and a gateway for exploring Morocco's diverse landscapes.",
+  "history": "Safi was founded in the 12th century and has historically served as an important port city. It was a significant center for trade and cultural exchange between Africa and Europe.",
+  "economy": "The economy of Safi is primarily driven by fishing, agriculture, and ceramics. The city is famous for its pottery industry, with numerous workshops producing traditional Moroccan ceramics that are sought after both locally and internationally. Additionally, Safi's port facilitates trade and commerce, boosting the local economy.",
+  "tourism": "Tourism in Safi is centered around its historical sites, beautiful beaches, and vibrant markets. Visitors can explore the ancient medina, visit the impressive Safi Castle, and enjoy the scenic coastal views. The city's rich artisan culture, particularly in pottery, offers unique shopping experiences, making it a delightful destination for travelers.",
+  "best_places": [
+    "Safi Castle",
+    "Safi Medina",
+    "Boulevard Moulay Youssef",
+    "Safi Beach",
+    "Ceramics Museum",
+    "Port of Safi"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant La Mer",
+      "description": "A popular seafood restaurant offering fresh catches of the day with stunning ocean views."
+    },
+    {
+      "name": "Le Relais de l'Atlantique",
+      "description": "Known for its traditional Moroccan cuisine and warm atmosphere, perfect for family dining."
+    },
+    {
+      "name": "Café de la Plage",
+      "description": "A beachfront café serving delicious snacks and beverages, ideal for a relaxing afternoon."
+    },
+    {
+      "name": "Restaurant Al Kasbah",
+      "description": "Offers a mix of Moroccan and Mediterranean dishes in a charming setting."
+    }
+  ],
+  "weather_summary": "Safi experiences a Mediterranean climate with mild, wet winters and warm, dry summers.",
+  "faqs": [
+    {
+      "question": "What time zone is Safi in?",
+      "answer": "Safi is in the Africa/Casablanca time zone."
+    },
+    {
+      "question": "Does Safi observe daylight saving time?",
+      "answer": "Yes, Safi observes daylight saving time, typically from late March to late October."
+    },
+    {
+      "question": "What is the population of Safi?",
+      "answer": "The population of Safi is approximately 336,883 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Safi?",
+      "answer": "Sunrise in Safi typically occurs around 6:30 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Safi?",
+      "answer": "The best time to visit Safi is during the spring and fall when the weather is mild and pleasant."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "overview": "Sancti Spíritus is a vibrant city located in central Cuba, known for its rich cultural heritage and historical significance. As the capital of the Sancti Spíritus Province, it serves as a crucial hub for commerce and education in the region. The city is characterized by its colonial architecture, picturesque landscapes, and friendly atmosphere, making it an essential stop for travelers exploring Cuba's diverse offerings.",
+  "history": "Founded in 1514, Sancti Spíritus is one of the oldest cities in Cuba. It played a key role in the island's early colonial development and has retained much of its historical charm.",
+  "economy": "The economy of Sancti Spíritus is primarily driven by agriculture, with sugarcane and tobacco being the key industries. Additionally, small-scale manufacturing and tourism contribute to the local economy, providing job opportunities and fostering community development.",
+  "tourism": "Tourism in Sancti Spíritus attracts visitors with its charming streets and historical sites, such as the iconic Yayabo Bridge and the picturesque Plaza Mayor. Tourists can enjoy exploring local museums, experiencing traditional Cuban music, and savoring authentic cuisine in the city's vibrant atmosphere.",
+  "best_places": [
+    "Yayabo Bridge",
+    "Plaza Mayor",
+    "Iglesia Parroquial Mayor del Espíritu Santo",
+    "Museo de Arte Colonial",
+    "Parque Serafín Sánchez",
+    "Cerro de la Loma del Puerto"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurante El Rincón",
+      "description": "A popular spot known for its delicious traditional Cuban dishes."
+    },
+    {
+      "name": "La Casa de la Música",
+      "description": "Famous for its lively atmosphere and local music performances."
+    },
+    {
+      "name": "Restaurante El Rápido",
+      "description": "Offers a variety of quick bites and local favorites."
+    },
+    {
+      "name": "Café de la Plaza",
+      "description": "A charming café ideal for enjoying coffee and pastries."
+    },
+    {
+      "name": "El Patio",
+      "description": "Known for its fresh seafood and inviting outdoor seating."
+    }
+  ],
+  "weather_summary": "The city experiences a tropical climate with warm temperatures year-round and a wet season from May to October.",
+  "faqs": [
+    {
+      "question": "What time zone is Sancti Spíritus in?",
+      "answer": "Sancti Spíritus is in the America/Havana time zone."
+    },
+    {
+      "question": "Does Sancti Spíritus observe daylight saving time?",
+      "answer": "No, Sancti Spíritus does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Sancti Spíritus?",
+      "answer": "The population of Sancti Spíritus is approximately 127,069."
+    },
+    {
+      "question": "When does sunrise typically occur in Sancti Spíritus?",
+      "answer": "Sunrise in Sancti Spíritus typically occurs around 6:30 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Sancti Spíritus?",
+      "answer": "The best time to visit Sancti Spíritus is during the dry season, from November to April, when the weather is more pleasant."
+    }
+  ]
+}

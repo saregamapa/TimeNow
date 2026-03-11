@@ -1,0 +1,59 @@
+{
+  "overview": "Coquitlam, located in British Columbia, Canada, is a vibrant city that plays a crucial role in the Greater Vancouver area. With a population of approximately 148,625, it serves as a hub for both residential living and business opportunities. Known for its picturesque parks, diverse communities, and proximity to natural landscapes, Coquitlam offers a unique blend of urban and outdoor experiences, making it a significant destination in North America.",
+  "history": "Coquitlam was officially incorporated as a city in 1992, but its history dates back to the early 19th century when it was primarily inhabited by Indigenous peoples. The arrival of European settlers in the late 1800s marked the beginning of its development as a community.",
+  "economy": "Coquitlam's economy is diverse, with key industries including retail, healthcare, and technology. The city hosts numerous businesses and commercial centers, contributing significantly to the regional economy and providing ample job opportunities for residents.",
+  "tourism": "Tourism in Coquitlam thrives on its stunning natural beauty and recreational facilities. Visitors can explore attractions like the scenic Lafarge Lake, the historic Maillardville neighborhood, and various hiking trails, making it an ideal destination for outdoor enthusiasts and families alike.",
+  "best_places": [
+    "Lafarge Lake",
+    "Mundy Park",
+    "Coquitlam Centre",
+    "Town Centre Park",
+    "Mason Park",
+    "Evergreen Cultural Centre"
+  ],
+  "best_restaurants": [
+    {
+      "name": "The Keg Steakhouse + Bar",
+      "description": "A popular chain known for its delicious steaks and warm atmosphere."
+    },
+    {
+      "name": "Cora's Breakfast and Lunch",
+      "description": "Famous for its hearty breakfast options and family-friendly vibe."
+    },
+    {
+      "name": "Sushi Mori",
+      "description": "A local favorite offering fresh sushi and Japanese cuisine."
+    },
+    {
+      "name": "Pasta Polo",
+      "description": "A cozy Italian restaurant renowned for its homemade pasta dishes."
+    },
+    {
+      "name": "Browns Socialhouse",
+      "description": "A casual dining spot offering a diverse menu and vibrant atmosphere."
+    }
+  ],
+  "weather_summary": "Coquitlam experiences mild, rainy winters and warm summers with occasional heat waves.",
+  "faqs": [
+    {
+      "question": "What time zone is Coquitlam in?",
+      "answer": "Coquitlam is in the America/Vancouver time zone."
+    },
+    {
+      "question": "Does Coquitlam observe daylight saving time?",
+      "answer": "Yes, Coquitlam observes daylight saving time, typically starting in March and ending in November."
+    },
+    {
+      "question": "What is the population of Coquitlam?",
+      "answer": "Coquitlam has a population of approximately 148,625 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Coquitlam?",
+      "answer": "Sunrise in Coquitlam varies throughout the year, generally occurring between 6:30 AM and 8:00 AM."
+    },
+    {
+      "question": "What is the best time to visit Coquitlam?",
+      "answer": "The best time to visit Coquitlam is during the summer months, when the weather is warm and outdoor activities abound."
+    }
+  ]
+}

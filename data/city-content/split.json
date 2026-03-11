@@ -1,0 +1,59 @@
+{
+  "overview": "Split, Croatia, is a vibrant coastal city located on the eastern shore of the Adriatic Sea. As the second-largest city in Croatia, it serves as a cultural and economic hub, attracting visitors with its rich history and stunning architecture. Split is renowned for its UNESCO World Heritage Site, Diocletian's Palace, which showcases the city's Roman heritage, making it a significant destination for both tourism and local commerce.",
+  "history": "Founded as a Roman palace for Emperor Diocletian in the 4th century, Split has evolved into a key urban center over the centuries. Its historical significance is highlighted by well-preserved ancient structures and a blend of cultural influences.",
+  "economy": "Split's economy is primarily driven by tourism, shipbuilding, and trade. The city's port is one of the busiest in the Mediterranean, facilitating commerce and contributing to the local economy, while tourism brings in substantial revenue through visitors exploring its historical sites and natural beauty.",
+  "tourism": "Tourism in Split thrives on its stunning coastline, historical landmarks, and vibrant atmosphere. Visitors flock to explore the ancient Diocletian's Palace, relax on the beautiful beaches, and enjoy the lively promenade, while local festivals and culinary experiences further enhance the city's appeal.",
+  "best_places": [
+    "Diocletian's Palace",
+    "Marjan Hill",
+    "Cathedral of Saint Domnius",
+    "Riva Waterfront",
+    "Bacvice Beach",
+    "Split Archaeological Museum"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Konoba Fetivi",
+      "description": "A cozy eatery known for its authentic Dalmatian seafood dishes."
+    },
+    {
+      "name": "Bistro Dida",
+      "description": "Offers traditional Croatian cuisine in a charming, rustic setting."
+    },
+    {
+      "name": "Restaurant Zrno Soli",
+      "description": "Features a stunning view and specializes in Mediterranean-inspired meals."
+    },
+    {
+      "name": "Pizzeria Galija",
+      "description": "Famous for its delicious pizzas and vibrant atmosphere."
+    },
+    {
+      "name": "Luka Ice Cream & Cakes",
+      "description": "A popular spot for homemade ice cream and sweet treats."
+    }
+  ],
+  "weather_summary": "Split enjoys a Mediterranean climate with hot, dry summers and mild, rainy winters.",
+  "faqs": [
+    {
+      "question": "What time zone is Split in?",
+      "answer": "Split is in the Europe/Zagreb time zone."
+    },
+    {
+      "question": "Does Split observe daylight saving time?",
+      "answer": "Yes, Split observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Split?",
+      "answer": "The population of Split is approximately 149,830 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Split?",
+      "answer": "Sunrise in Split varies throughout the year, generally occurring between 6:00 AM and 7:00 AM."
+    },
+    {
+      "question": "What is the best time to visit Split?",
+      "answer": "The best time to visit Split is during late spring or early fall, when the weather is pleasant and tourist crowds are smaller."
+    }
+  ]
+}

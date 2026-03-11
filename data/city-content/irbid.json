@@ -1,0 +1,59 @@
+{
+  "overview": "Irbid, located in northern Jordan, is a vibrant city known for its rich cultural heritage and educational institutions. As the capital of the Irbid Governorate, it plays a crucial role in the region's economy and serves as a hub for trade and commerce. With a population of approximately 569,068, Irbid is one of the largest cities in Jordan, attracting visitors and residents alike with its blend of modernity and tradition.",
+  "history": "Irbid has a storied past, dating back to ancient times when it was known as Arabella. It has served as an important center for trade and education throughout various historical periods.",
+  "economy": "Irbid's economy is diverse, with key industries including agriculture, education, and retail. The city is home to several universities and colleges, making it a center for higher education that attracts students from across the region, contributing to its economic vitality.",
+  "tourism": "Visitors to Irbid can explore a variety of attractions, including the ancient ruins of Gadara and the scenic landscapes of the surrounding countryside. The city's vibrant markets and cultural festivals also offer a glimpse into local life, making it a unique destination for tourists seeking both history and modern experiences.",
+  "best_places": [
+    "Gadara",
+    "The Archaeological Museum",
+    "Irbid City Center",
+    "Yarmouk University",
+    "Ajloun Castle",
+    "Al-Hasan Sports City"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Al-Quds Restaurant",
+      "description": "Famous for its traditional Jordanian dishes and warm atmosphere."
+    },
+    {
+      "name": "Shawarma Al-Rahman",
+      "description": "Popular spot known for delicious shawarma and quick service."
+    },
+    {
+      "name": "Mansaf House",
+      "description": "Specializes in Mansaf, the national dish of Jordan, served in a cozy setting."
+    },
+    {
+      "name": "Cafe Moka",
+      "description": "A trendy cafe offering a variety of coffee and light snacks."
+    },
+    {
+      "name": "Al-Majd Restaurant",
+      "description": "Known for its extensive menu of Middle Eastern cuisine and family-friendly environment."
+    }
+  ],
+  "weather_summary": "Irbid experiences mild winters and hot, dry summers, with occasional rainfall in spring and autumn.",
+  "faqs": [
+    {
+      "question": "What time zone is Irbid in?",
+      "answer": "Irbid is in the Asia/Amman time zone."
+    },
+    {
+      "question": "Does Irbid observe daylight saving time?",
+      "answer": "Yes, Irbid observes daylight saving time, typically from March to October."
+    },
+    {
+      "question": "What is the population of Irbid?",
+      "answer": "Irbid has a population of approximately 569,068 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Irbid?",
+      "answer": "Sunrise in Irbid typically occurs between 6:00 AM and 6:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Irbid?",
+      "answer": "The best time to visit Irbid is during the spring (March to May) and autumn (September to November) when the weather is mild."
+    }
+  ]
+}

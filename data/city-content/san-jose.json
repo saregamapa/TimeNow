@@ -1,0 +1,59 @@
+{
+  "overview": "San José, the capital city of Costa Rica, serves as the political, cultural, and economic heart of the country. Located in the Central Valley, it is surrounded by lush mountains and offers a vibrant urban atmosphere. With a population of approximately 335,007, San José plays a crucial role in Central America, attracting visitors for its rich history, diverse culture, and burgeoning tech industry, making it an essential hub for both business and tourism.",
+  "history": "San José was founded in 1738 and became the capital of Costa Rica in 1823. Its strategic location contributed to its growth as a center for trade and governance.",
+  "economy": "San José's economy is diverse, with key industries including technology, finance, and tourism. The city is home to numerous multinational companies and startups, making it a vital player in Central America's economic landscape.",
+  "tourism": "Tourism in San José offers a mix of cultural experiences and natural beauty. Visitors can explore the National Theatre, the Pre-Columbian Gold Museum, and vibrant local markets, while also enjoying nearby attractions like lush rainforests and volcanoes.",
+  "best_places": [
+    "National Theatre of Costa Rica",
+    "Pre-Columbian Gold Museum",
+    "Metropolitan Cathedral",
+    "Parque Nacional",
+    "Museo de Arte Costarricense",
+    "Mercado Central"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurante Silvestre",
+      "description": "A contemporary restaurant known for its innovative Costa Rican cuisine."
+    },
+    {
+      "name": "La Criollita",
+      "description": "A popular spot offering traditional Costa Rican dishes in a cozy setting."
+    },
+    {
+      "name": "Tin Jo",
+      "description": "An Asian fusion restaurant celebrated for its vibrant flavors and ambiance."
+    },
+    {
+      "name": "El Patio del Ministerio",
+      "description": "Known for its local dishes and charming outdoor seating."
+    },
+    {
+      "name": "Tenedor Argentino",
+      "description": "A renowned steakhouse specializing in Argentinian cuisine."
+    }
+  ],
+  "weather_summary": "San José features a temperate climate with a distinct wet season from May to November and a dry season from December to April.",
+  "faqs": [
+    {
+      "question": "What time zone is San José in?",
+      "answer": "San José is in the America/Costa_Rica time zone."
+    },
+    {
+      "question": "Does San José observe daylight saving time?",
+      "answer": "No, San José does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of San José?",
+      "answer": "The population of San José is approximately 335,007."
+    },
+    {
+      "question": "When does sunrise typically occur in San José?",
+      "answer": "Sunrise in San José typically occurs between 5:30 AM and 6:00 AM throughout the year."
+    },
+    {
+      "question": "What is the best time to visit San José?",
+      "answer": "The best time to visit San José is during the dry season, from December to April, when the weather is pleasant and ideal for outdoor activities."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "overview": "Subotica, located in northern Serbia near the Hungarian border, is a vibrant city known for its rich cultural heritage and architectural beauty. With a population of around 100,000, it serves as a significant economic and cultural hub in the region. The city's unique blend of Serbian and Hungarian influences makes it an interesting destination for both locals and tourists, showcasing a diverse array of traditions, festivals, and culinary delights.",
+  "history": "Subotica was founded in the 18th century and quickly became an important trade center. Its strategic location fostered a melting pot of cultures, particularly Serbian and Hungarian.",
+  "economy": "The economy of Subotica is diverse, with key industries including agriculture, manufacturing, and services. The city is also known for its vibrant small business sector, which contributes significantly to the local economy and employment.",
+  "tourism": "Tourists flock to Subotica for its stunning Art Nouveau architecture, particularly the City Hall and the Synagogue. Visitors can explore the beautiful Palić Lake nearby, enjoy local festivals, and savor the unique flavors of traditional Serbian and Hungarian cuisine.",
+  "best_places": [
+    "City Hall",
+    "Synagogue",
+    "Palić Lake",
+    "Raichle Palace",
+    "Subotica Market",
+    "National Theatre",
+    "City Park"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Taverna",
+      "description": "A cozy spot offering authentic Serbian dishes in a warm atmosphere."
+    },
+    {
+      "name": "Restoran Veljkov",
+      "description": "Known for its delicious Hungarian specialties and friendly service."
+    },
+    {
+      "name": "Caffe Bar M",
+      "description": "A popular café famous for its coffee and light snacks."
+    },
+    {
+      "name": "Picerija KFC",
+      "description": "A fast-food favorite serving pizza and fried chicken."
+    },
+    {
+      "name": "Caffe Duga",
+      "description": "Offers a relaxed environment with a variety of beverages and pastries."
+    }
+  ],
+  "weather_summary": "Subotica experiences hot summers and cold winters, with moderate rainfall throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Subotica in?",
+      "answer": "Subotica is in the Europe/Belgrade time zone."
+    },
+    {
+      "question": "Does Subotica observe daylight saving time?",
+      "answer": "Yes, Subotica observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Subotica?",
+      "answer": "The population of Subotica is approximately 100,000."
+    },
+    {
+      "question": "When does sunrise typically occur in Subotica?",
+      "answer": "Sunrise in Subotica typically occurs around 6:00 AM in summer and 7:30 AM in winter."
+    },
+    {
+      "question": "What is the best time to visit Subotica?",
+      "answer": "The best time to visit Subotica is during the spring and early autumn when the weather is mild and pleasant."
+    }
+  ]
+}

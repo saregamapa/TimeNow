@@ -1,0 +1,60 @@
+{
+  "overview": "Santa Marta, located on the Caribbean coast of Colombia, is a vibrant city known for its stunning beaches and rich cultural heritage. As one of the oldest cities in South America, it serves as a vital port and a gateway to the Sierra Nevada mountains. With a population of approximately 499,192, Santa Marta plays a significant role in the region's economy and tourism, attracting visitors with its historical sites and natural beauty.",
+  "history": "Founded in 1525 by Spanish conquistador Rodrigo de Bastidas, Santa Marta is one of the oldest cities in Colombia. It has been a key port throughout its history, facilitating trade and cultural exchange.",
+  "economy": "Santa Marta's economy is primarily driven by tourism, agriculture, and commerce. The city is known for its banana and coffee exports, while its port serves as a crucial hub for shipping goods, enhancing its economic significance in the region.",
+  "tourism": "Tourism in Santa Marta thrives on its beautiful beaches, historical landmarks, and proximity to natural parks. Visitors flock to attractions like Tayrona National Natural Park, the historic Quinta de San Pedro Alejandrino, and the picturesque Rodadero beach, making it a popular destination for both relaxation and adventure.",
+  "best_places": [
+    "Tayrona National Natural Park",
+    "Quinta de San Pedro Alejandrino",
+    "Rodadero Beach",
+    "Santa Marta Cathedral",
+    "Parque de los Novios",
+    "Taganga",
+    "Minca"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Ouzo",
+      "description": "A Mediterranean restaurant known for its fresh seafood and vibrant atmosphere."
+    },
+    {
+      "name": "Lulo",
+      "description": "Offers a variety of Colombian dishes with a focus on local ingredients."
+    },
+    {
+      "name": "Donde Chucho",
+      "description": "Famous for its traditional Caribbean cuisine and laid-back setting."
+    },
+    {
+      "name": "La Canoa",
+      "description": "A popular spot for enjoying local seafood and stunning views of the sea."
+    },
+    {
+      "name": "El Bistro",
+      "description": "Combines international flavors with Colombian cuisine in a cozy environment."
+    }
+  ],
+  "weather_summary": "Santa Marta enjoys a tropical climate with warm temperatures year-round and a distinct wet season.",
+  "faqs": [
+    {
+      "question": "What time zone is Santa Marta in?",
+      "answer": "Santa Marta is in the America/Bogota time zone."
+    },
+    {
+      "question": "Does Santa Marta observe daylight saving time?",
+      "answer": "No, Santa Marta does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Santa Marta?",
+      "answer": "The population of Santa Marta is approximately 499,192."
+    },
+    {
+      "question": "When does sunrise typically occur in Santa Marta?",
+      "answer": "Sunrise in Santa Marta typically occurs around 5:45 AM to 6:00 AM throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Santa Marta?",
+      "answer": "The best time to visit Santa Marta is from December to April when the weather is drier and more pleasant."
+    }
+  ]
+}

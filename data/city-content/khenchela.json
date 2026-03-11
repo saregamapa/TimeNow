@@ -1,0 +1,54 @@
+{
+  "overview": "Khenchela is a vibrant city located in northeastern Algeria, serving as the capital of Khenchela Province. With a population of approximately 114,472, it plays a significant role in the region's cultural and economic landscape. Nestled in the Aurès Mountains, Khenchela is known for its rich history, scenic beauty, and agricultural significance, making it an essential hub for both locals and visitors alike.",
+  "history": "Khenchela has a rich historical background, originally founded as a Roman settlement known as 'Timgad.' It has since evolved into a key center for Berber culture and history in Algeria.",
+  "economy": "The economy of Khenchela is primarily driven by agriculture, with fertile lands producing various crops. Additionally, small-scale industries and local businesses contribute to the economic landscape, providing employment and supporting the community.",
+  "tourism": "Khenchela attracts visitors with its stunning natural landscapes and historical sites. Tourists can explore the nearby Aurès Mountains, visit ancient ruins, and enjoy the local culture through traditional markets and festivals, offering a unique glimpse into Algerian heritage.",
+  "best_places": [
+    "Aurès Mountains",
+    "Khenchela Museum",
+    "El-Mansourah",
+    "Roman Ruins of Timgad",
+    "Khenchela Park"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant El-Mansour",
+      "description": "A popular spot known for its traditional Algerian dishes."
+    },
+    {
+      "name": "Café de la Paix",
+      "description": "A cozy café offering a variety of pastries and local snacks."
+    },
+    {
+      "name": "Le Relais",
+      "description": "Known for its warm ambiance and delicious Mediterranean cuisine."
+    },
+    {
+      "name": "Restaurant La Terrasse",
+      "description": "Features a beautiful view and a menu of regional specialties."
+    }
+  ],
+  "weather_summary": "Khenchela experiences mild winters and hot summers, with occasional rainfall during the spring and autumn months.",
+  "faqs": [
+    {
+      "question": "What time zone is Khenchela in?",
+      "answer": "Khenchela is in the Africa/Algiers time zone."
+    },
+    {
+      "question": "Does Khenchela observe daylight saving time?",
+      "answer": "No, Khenchela does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Khenchela?",
+      "answer": "The population of Khenchela is approximately 114,472."
+    },
+    {
+      "question": "When does sunrise typically occur in Khenchela?",
+      "answer": "Sunrise in Khenchela typically occurs between 6:00 AM and 7:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Khenchela?",
+      "answer": "The best time to visit Khenchela is during spring and autumn when the weather is mild and pleasant."
+    }
+  ]
+}

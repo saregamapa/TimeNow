@@ -1,0 +1,58 @@
+{
+  "overview": "Manzanillo, located on the southeastern coast of Cuba, is a vibrant city known for its rich cultural heritage and strategic importance as a port. With a population of approximately 128,188, it serves as a vital hub for trade and commerce in the region. The city's picturesque beaches, historical landmarks, and lively atmosphere make it a key destination for both locals and tourists, contributing to its significance in North America.",
+  "history": "Founded in the early 18th century, Manzanillo played a crucial role as a port for sugar and tobacco exports. Its strategic location made it a target during various colonial conflicts.",
+  "economy": "Manzanillo's economy is primarily driven by its port activities, which facilitate trade in goods such as sugar and nickel. Additionally, tourism contributes significantly, with various businesses catering to visitors seeking to explore the city's natural beauty and cultural offerings.",
+  "tourism": "Tourism in Manzanillo is centered around its stunning beaches, historical sites, and vibrant local culture. Visitors can enjoy activities such as water sports, exploring colonial architecture, and experiencing traditional Cuban music and cuisine, all of which showcase the city's unique charm.",
+  "best_places": [
+    "Playa de Manzanillo",
+    "Cerro de la Vigía",
+    "Museo Municipal",
+    "Parque de los Mártires",
+    "Iglesia de San Lorenzo"
+  ],
+  "best_restaurants": [
+    {
+      "name": "El Cielo",
+      "description": "A popular spot known for its fresh seafood and stunning ocean views."
+    },
+    {
+      "name": "Restaurante La Casa",
+      "description": "Offers a variety of traditional Cuban dishes in a cozy atmosphere."
+    },
+    {
+      "name": "La Guarida",
+      "description": "Renowned for its delicious local cuisine and vibrant ambiance."
+    },
+    {
+      "name": "Café de Paris",
+      "description": "A charming café famous for its pastries and coffee."
+    },
+    {
+      "name": "Paladar El Limon",
+      "description": "Features a menu focused on fresh, locally sourced ingredients."
+    }
+  ],
+  "weather_summary": "Manzanillo experiences a tropical climate with warm temperatures year-round and a wet season from May to October.",
+  "faqs": [
+    {
+      "question": "What time zone is Manzanillo in?",
+      "answer": "Manzanillo is in the America/Havana time zone."
+    },
+    {
+      "question": "Does Manzanillo observe daylight saving time?",
+      "answer": "Yes, Manzanillo observes daylight saving time, typically from March to November."
+    },
+    {
+      "question": "What is the population of Manzanillo?",
+      "answer": "The population of Manzanillo is approximately 128,188."
+    },
+    {
+      "question": "When does sunrise typically occur in Manzanillo?",
+      "answer": "Sunrise in Manzanillo typically occurs between 6:30 AM and 7:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Manzanillo?",
+      "answer": "The best time to visit Manzanillo is during the dry season, from November to April, when the weather is pleasant."
+    }
+  ]
+}

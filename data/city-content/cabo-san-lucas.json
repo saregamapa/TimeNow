@@ -1,0 +1,59 @@
+{
+  "overview": "Cabo San Lucas is a vibrant resort city located at the southern tip of Mexico's Baja California Peninsula. Known for its stunning beaches, luxury resorts, and lively nightlife, it serves as a major tourist destination in North America. With a population of approximately 202,694, Cabo San Lucas plays a significant role in the region's economy, primarily driven by tourism and hospitality.",
+  "history": "Cabo San Lucas was originally a fishing village before becoming a prominent tourist destination in the late 20th century. Its strategic location made it a key stop for maritime trade and exploration.",
+  "economy": "The economy of Cabo San Lucas is primarily fueled by tourism, with key industries including hospitality, fishing, and real estate. The city's numerous resorts and entertainment venues attract millions of visitors each year, significantly contributing to local and regional economic growth.",
+  "tourism": "Cabo San Lucas is famous for its breathtaking natural beauty, including the iconic Arch of Cabo San Lucas and stunning beaches such as Medano Beach. Visitors can enjoy a variety of activities, including water sports, golfing, and exploring vibrant nightlife options, making it a perfect getaway for travelers seeking relaxation and adventure.",
+  "best_places": [
+    "The Arch of Cabo San Lucas",
+    "Medano Beach",
+    "Lover's Beach",
+    "Cabo San Lucas Marina",
+    "San Jose del Cabo",
+    "Cabo Pulmo National Park"
+  ],
+  "best_restaurants": [
+    {
+      "name": "El Farallon",
+      "description": "A cliffside restaurant offering fresh seafood and stunning ocean views."
+    },
+    {
+      "name": "The Office on the Beach",
+      "description": "A lively beachfront restaurant known for its casual atmosphere and delicious Mexican cuisine."
+    },
+    {
+      "name": "Flora's Field Kitchen",
+      "description": "A farm-to-table restaurant featuring organic ingredients and a beautiful outdoor setting."
+    },
+    {
+      "name": "Los Tres Gallos",
+      "description": "A local favorite for authentic Mexican dishes and warm hospitality."
+    },
+    {
+      "name": "Maro's Shrimp House",
+      "description": "Famous for its shrimp dishes and laid-back vibe, perfect for seafood lovers."
+    }
+  ],
+  "weather_summary": "Cabo San Lucas enjoys a warm desert climate with sunny days, mild winters, and minimal rainfall throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Cabo San Lucas in?",
+      "answer": "Cabo San Lucas is in the America/Mazatlan time zone."
+    },
+    {
+      "question": "Does Cabo San Lucas observe daylight saving time?",
+      "answer": "Yes, Cabo San Lucas observes daylight saving time, typically from the first Sunday in April to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Cabo San Lucas?",
+      "answer": "Cabo San Lucas has a population of approximately 202,694 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Cabo San Lucas?",
+      "answer": "Sunrise in Cabo San Lucas generally occurs between 6:00 AM and 7:00 AM, depending on the time of year."
+    },
+    {
+      "question": "What is the best time to visit Cabo San Lucas?",
+      "answer": "The best time to visit Cabo San Lucas is from late fall to early spring, when the weather is mild and pleasant."
+    }
+  ]
+}

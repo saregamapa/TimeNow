@@ -1,0 +1,59 @@
+{
+  "overview": "Beirut, the capital of Lebanon, is a vibrant city located on the eastern Mediterranean coast. Known for its rich history, cultural diversity, and significance as a financial hub, Beirut plays a crucial role in the Middle East. With a population of approximately 1.9 million, it serves as a center for commerce, education, and tourism, attracting visitors with its unique blend of modernity and tradition.",
+  "history": "Beirut has been inhabited since ancient times, with its history dating back over 5,000 years. It has served as a vital trade and cultural center throughout various empires, including the Phoenicians and Ottomans.",
+  "economy": "Beirut's economy is diverse, with key industries including finance, tourism, and real estate. The city is a major business hub in the region, attracting international companies and investors, which contributes significantly to Lebanon's overall economic landscape.",
+  "tourism": "Tourism in Beirut is thriving, with visitors drawn to its historical sites, vibrant nightlife, and beautiful Mediterranean coastline. Key attractions include the National Museum of Beirut, the picturesque Corniche, and the bustling markets of Gemmayzeh, where travelers can experience the city's rich cultural tapestry.",
+  "best_places": [
+    "National Museum of Beirut",
+    "Corniche",
+    "Beirut Souks",
+    "Pigeon Rocks",
+    "Mohammad Al-Amin Mosque",
+    "Sursock Museum"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Tawlet",
+      "description": "A popular eatery offering a daily changing menu of authentic Lebanese dishes."
+    },
+    {
+      "name": "Al Falamanki",
+      "description": "Known for its traditional Lebanese ambiance and delicious mezze."
+    },
+    {
+      "name": "Em Sherif",
+      "description": "Famed for its exquisite Lebanese cuisine and elegant setting."
+    },
+    {
+      "name": "Cafe Younes",
+      "description": "A beloved local café known for its rich coffee and relaxed atmosphere."
+    },
+    {
+      "name": "Karam Beirut",
+      "description": "Offers a modern twist on classic Lebanese dishes in a chic environment."
+    }
+  ],
+  "weather_summary": "Beirut experiences a Mediterranean climate with mild, rainy winters and hot, dry summers.",
+  "faqs": [
+    {
+      "question": "What time zone is Beirut in?",
+      "answer": "Beirut is in the Asia/Beirut time zone."
+    },
+    {
+      "question": "Does Beirut observe daylight saving time?",
+      "answer": "Yes, Beirut observes daylight saving time, typically moving the clock forward in March and back in October."
+    },
+    {
+      "question": "What is the population of Beirut?",
+      "answer": "The population of Beirut is approximately 1,916,100."
+    },
+    {
+      "question": "When does sunrise typically occur in Beirut?",
+      "answer": "Sunrise in Beirut typically occurs around 6:00 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Beirut?",
+      "answer": "The best time to visit Beirut is during the spring (March to May) and fall (September to November) when the weather is pleasant."
+    }
+  ]
+}

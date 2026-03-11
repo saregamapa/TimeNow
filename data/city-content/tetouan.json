@@ -1,0 +1,55 @@
+{
+  "overview": "Tétouan, located in northern Morocco, is a vibrant city known for its rich cultural heritage and historical significance. Nestled between the Rif Mountains and the Mediterranean Sea, it serves as a crucial link between Europe and Africa. With a population of approximately 415,810, Tétouan is recognized for its unique blend of traditional Moroccan architecture and Spanish influences, making it an important center for commerce and tourism in the region.",
+  "history": "Tétouan was founded in the late 13th century and became a significant cultural and political hub during the Spanish protectorate in the early 20th century. Its medina is a UNESCO World Heritage site, showcasing its historical importance.",
+  "economy": "The economy of Tétouan is primarily driven by industries such as textiles, handicrafts, and agriculture. The city also plays a vital role in trade due to its proximity to the Mediterranean, attracting businesses and fostering economic growth.",
+  "tourism": "Tétouan offers a wealth of attractions for visitors, including its historic medina, which is a UNESCO World Heritage site, and the Royal Palace. Tourists can explore the vibrant souks, enjoy local cuisine, and visit nearby beaches, making it a delightful destination for cultural and recreational experiences.",
+  "best_places": [
+    "Medina of Tétouan",
+    "Royal Palace",
+    "Musee Archeologique",
+    "Plage Martil",
+    "Parc de la Ville",
+    "Café Hafa"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant El Reducto",
+      "description": "Known for its authentic Moroccan cuisine in a charming setting."
+    },
+    {
+      "name": "Café La Place",
+      "description": "A popular spot for locals, offering delicious pastries and coffee."
+    },
+    {
+      "name": "Restaurant Al Mandar",
+      "description": "Offers a variety of traditional dishes with a contemporary twist."
+    },
+    {
+      "name": "Dar Al Maimoune",
+      "description": "Specializes in Moroccan tagines and couscous in a cozy atmosphere."
+    }
+  ],
+  "weather_summary": "Tétouan experiences a Mediterranean climate with mild, wet winters and hot, dry summers.",
+  "faqs": [
+    {
+      "question": "What time zone is Tétouan in?",
+      "answer": "Tétouan is in the Africa/Casablanca time zone."
+    },
+    {
+      "question": "Does Tétouan observe daylight saving time?",
+      "answer": "Yes, Tétouan observes daylight saving time, typically from late March to late October."
+    },
+    {
+      "question": "What is the population of Tétouan?",
+      "answer": "The population of Tétouan is approximately 415,810."
+    },
+    {
+      "question": "When does sunrise typically occur in Tétouan?",
+      "answer": "Sunrise in Tétouan typically occurs around 6:30 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Tétouan?",
+      "answer": "The best time to visit Tétouan is during spring and fall, when the weather is mild and pleasant."
+    }
+  ]
+}

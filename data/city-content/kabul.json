@@ -1,0 +1,61 @@
+{
+  "overview": "Kabul, the capital city of Afghanistan, is located in the eastern part of the country and serves as its political, cultural, and economic center. With a population of approximately 4.4 million, it plays a vital role in regional connectivity and development. Kabul's rich history and diverse heritage make it a significant city in Asia, attracting interest from historians, travelers, and businesspeople alike.",
+  "history": "Kabul has a long and storied history, with roots tracing back over 3,500 years. It has served as a key cultural and commercial hub throughout various empires, including the Persian and Maurya empires.",
+  "economy": "Kabul's economy is primarily driven by trade, agriculture, and services. Key industries include textiles, construction, and food production, with many businesses focusing on local crafts and goods to support the community and promote economic growth.",
+  "tourism": "Tourism in Kabul is growing, with visitors drawn to its historical sites and cultural experiences. Major attractions include the stunning Babur Gardens, the National Museum of Afghanistan, and the iconic Kabul Citadel, where tourists can explore the rich history and vibrant culture of the city.",
+  "best_places": [
+    "Babur Gardens",
+    "Kabul Citadel",
+    "National Museum of Afghanistan",
+    "Shahr-e Naw Park",
+    "Pul-e Khishti Mosque",
+    "Kabul Zoo",
+    "Sultan Ghari",
+    "Bagh-e Bala"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Kabul Restaurant",
+      "description": "A popular spot offering traditional Afghan cuisine in a cozy atmosphere."
+    },
+    {
+      "name": "Kabul Star",
+      "description": "Known for its delicious kebabs and authentic Afghan dishes."
+    },
+    {
+      "name": "Bamiyan Restaurant",
+      "description": "Features a diverse menu and is famous for its friendly service."
+    },
+    {
+      "name": "Kandahar Restaurant",
+      "description": "Offers a taste of southern Afghan flavors in a welcoming environment."
+    },
+    {
+      "name": "Kabul Café",
+      "description": "A great place to enjoy coffee and light meals while soaking in local culture."
+    }
+  ],
+  "weather_summary": "Kabul experiences a continental climate with cold winters and hot summers, often featuring clear skies.",
+  "faqs": [
+    {
+      "question": "What time zone is Kabul in?",
+      "answer": "Kabul is in the Asia/Kabul time zone."
+    },
+    {
+      "question": "Does Kabul observe daylight saving time?",
+      "answer": "No, Kabul does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Kabul?",
+      "answer": "The population of Kabul is approximately 4,434,550."
+    },
+    {
+      "question": "When does sunrise typically occur in Kabul?",
+      "answer": "Sunrise in Kabul typically occurs between 5:30 AM and 6:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Kabul?",
+      "answer": "The best time to visit Kabul is during spring (March to May) and autumn (September to November) when the weather is mild."
+    }
+  ]
+}

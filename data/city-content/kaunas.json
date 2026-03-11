@@ -1,0 +1,60 @@
+{
+  "overview": "Kaunas, the second-largest city in Lithuania, is a vibrant cultural and economic hub located in the central part of the country. Nestled at the confluence of the Neris and Nemunas rivers, it serves as a key transportation and educational center. With a population of approximately 289,380, Kaunas is known for its rich history, stunning architecture, and dynamic arts scene, making it a significant destination for both locals and tourists alike.",
+  "history": "Kaunas was first mentioned in historical records in 1361 and played a pivotal role as a strategic defensive stronghold throughout the centuries. It became the temporary capital of Lithuania between the two World Wars, shaping its political and cultural landscape.",
+  "economy": "Kaunas has a diverse economy, with key industries including manufacturing, technology, and services. The city is home to numerous businesses and startups, contributing significantly to Lithuania's overall economic growth and innovation.",
+  "tourism": "Tourism in Kaunas is thriving, with visitors drawn to its rich architectural heritage, including the impressive Kaunas Castle and the modernist buildings of the interwar period. The city also offers vibrant cultural experiences, such as museums, art galleries, and local festivals that celebrate Lithuanian traditions.",
+  "best_places": [
+    "Kaunas Castle",
+    "Laisvės Alėja",
+    "Devils' Museum",
+    "Žalgiris Arena",
+    "Maironis Museum of Lithuanian Literature",
+    "Ninth Fort",
+    "Vytautas the Great War Museum"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restoranas Monte Pacis",
+      "description": "A charming restaurant located in a former monastery, serving traditional Lithuanian dishes."
+    },
+    {
+      "name": "Uoksas",
+      "description": "Known for its creative menu and modern ambiance, offering a unique dining experience."
+    },
+    {
+      "name": "Sushi Express",
+      "description": "A popular spot for sushi lovers, combining fresh ingredients with a cozy atmosphere."
+    },
+    {
+      "name": "Kavine Kultas",
+      "description": "A local favorite offering a variety of Lithuanian and European dishes in a casual setting."
+    },
+    {
+      "name": "Piano Man",
+      "description": "An elegant venue featuring live music and a diverse menu, perfect for a night out."
+    }
+  ],
+  "weather_summary": "Kaunas experiences mild, rainy winters and warm summers, with occasional heat waves.",
+  "faqs": [
+    {
+      "question": "What time zone is Kaunas in?",
+      "answer": "Kaunas is in the Europe/Vilnius time zone."
+    },
+    {
+      "question": "Does Kaunas observe daylight saving time?",
+      "answer": "Yes, Kaunas observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Kaunas?",
+      "answer": "The population of Kaunas is approximately 289,380."
+    },
+    {
+      "question": "When does sunrise typically occur in Kaunas?",
+      "answer": "Sunrise in Kaunas typically occurs around 6:30 AM in summer and 8:30 AM in winter."
+    },
+    {
+      "question": "What is the best time to visit Kaunas?",
+      "answer": "The best time to visit Kaunas is during the late spring and early autumn when the weather is mild and pleasant."
+    }
+  ]
+}

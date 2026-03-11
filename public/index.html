@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TimeNow — Exact time, any time zone</title>
+  <meta name="description" content="Exact time now. World clock, time zone converter, sunrise & sunset. Compare time across cities. Free, accurate, minimal." />
+  <meta property="og:title" content="TimeNow — Exact time, any time zone" />
+  <meta property="og:description" content="Exact time now. World clock, sunrise & sunset, meeting planner. Compare time across cities." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Libre+Baskerville:700&family=Oswald:wght@500&family=DM+Sans:wght@600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/main.css" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"TimeNow","description":"Exact time, world clock, time zone converter, sunrise and sunset"}
+  </script>
+</head>
+<body>
+  <header class="app-header" role="banner">
+    <div class="header-container">
+      <div class="header-left">
+        <a href="/" class="logo" aria-label="TimeNow home">TimeNow</a>
+      </div>
+      <div class="header-right">
+        <a href="/continents">Continents</a>
+        <a href="/countries">Countries</a>
+        <a href="/world-clock">World Clock</a>
+        <a href="/tools">Tools</a>
+        <div class="header-search-wrap">
+          <label for="global-search" class="visually-hidden">Search cities</label>
+          <input type="text" id="global-search" class="header-search-input" placeholder="Search" autocomplete="off" aria-label="Search cities" />
+          <div id="global-search-results" class="global-search-results" aria-live="polite"></div>
+        </div>
+        <button type="button" class="theme-btn" id="theme-btn" title="Toggle theme" aria-label="Toggle dark/light theme">🌙</button>
+        <button type="button" class="sound-btn theme-btn" id="sound-btn" title="Clock tick sound" aria-label="Toggle clock tick sound">🔇</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Hero: dominant clock (Time.is style, refined) -->
+    <section class="hero" aria-label="Main clock">
+      <p class="hero-subtext" id="hero-subtext">Current time in your location</p>
+      <div class="hero-time-wrap">
+        <div class="time-display" id="hero-time" aria-live="polite">00:00:00</div>
+      </div>
+      <div class="hero-date" id="hero-date">—</div>
+      <div class="hero-meta">
+        <span class="tz-name" id="hero-tz-long">—</span>
+        <span class="tz-abbr" id="hero-tz-abbr"></span>
+        <span class="tz-offset" id="hero-tz-offset">—</span>
+      </div>
+      <p class="accuracy-line hidden" id="accuracy" aria-live="polite"></p>
+      <div class="format-toggle" role="group" aria-label="Time format">
+        <button type="button" id="btn-24" class="active">24h</button>
+        <button type="button" id="btn-12">12h</button>
+      </div>
+    </section>
+
+    <!-- Timezone information -->
+    <section class="info-block timezone-section tz-info" aria-label="Timezone details">
+      <h2 class="info-title">Timezone</h2>
+      <div class="info-content">
+        <p id="tz-offset-display"><strong id="tz-offset-value">—</strong> <span id="tz-long-name" class="muted"></span></p>
+        <p>IANA time zone: <code id="tz-iana">—</code></p>
+        <p id="tz-dst">—</p>
+        <p id="tz-latest-change" class="muted"></p>
+        <p id="tz-next-change" class="muted"></p>
+      </div>
+    </section>
+
+    <!-- Sun: sunrise, sunset, daylight progress -->
+    <section class="info-block sun-info" aria-label="Sun times">
+      <h2 class="info-title">Sun</h2>
+      <div class="sun-window">
+        <div class="sun-row">
+          <span id="sun-sunrise" class="sun-rise-cell">—</span>
+          <span id="sun-sunset" class="sun-set-cell">—</span>
+        </div>
+        <div class="sun-progress" role="presentation" aria-hidden="true">
+          <div class="sun-progress-bar" id="sun-progress-bar"></div>
+        </div>
+      </div>
+      <p class="muted" style="margin-top:0.5rem;font-size:0.875rem;"><span id="sun-duration">—</span> daylight</p>
+    </section>
+
+    <!-- World Clocks: default 10 cities (click opens city page) -->
+    <section class="section world-clocks-default" aria-label="World clocks">
+      <h2 class="section-title">World Clocks</h2>
+      <div class="world-clocks-grid" id="world-clocks-default" role="list">
+        <!-- Filled by JS: New York, London, Paris, Tokyo, Bangalore, Sydney, Dubai, Singapore, Los Angeles, Berlin -->
+      </div>
+    </section>
+
+    <!-- Your pinned clocks (optional) -->
+    <section class="section world-clocks section-pinned" aria-label="Your pinned clocks">
+      <h2 class="section-title">Your Pinned Clocks</h2>
+      <p class="pinned-clocks-hint muted">Select any city from the <strong>🏙️ Cities</strong> section below to pin its clock here, or add by name.</p>
+      <div class="add-clock-wrap">
+        <label for="add-clock-input" class="visually-hidden">Add city</label>
+        <input type="text" id="add-clock-input" placeholder="Add city or timezone" aria-label="City or timezone to add" />
+        <button type="button" id="add-clock-btn">➕ Add clock</button>
+        <p id="add-clock-msg" class="add-clock-msg muted" aria-live="polite"></p>
+      </div>
+      <div class="multi-clock-grid pinned-cities-grid" id="multi-clock-grid" role="list"></div>
+    </section>
+
+    <!-- Cities: quick select -->
+    <section class="section cities-section">
+      <h2 class="section-title">Cities</h2>
+      <div class="city-strip" id="city-strip"></div>
+    </section>
+
+    <!-- Meeting planner: two cities, overlap -->
+    <section class="section meeting-section" aria-label="Meeting planner">
+      <h2 class="section-title">Meeting planner</h2>
+      <div class="meeting-planner">
+        <div class="meeting-row">
+          <label for="meeting-city-a">City A</label>
+          <input type="text" id="meeting-city-a" placeholder="e.g. New York" />
+          <span class="meeting-time" id="meeting-time-a">—</span>
+        </div>
+        <div class="meeting-row">
+          <label for="meeting-city-b">City B</label>
+          <input type="text" id="meeting-city-b" placeholder="e.g. London" />
+          <span class="meeting-time" id="meeting-time-b">—</span>
+        </div>
+        <p class="meeting-overlap muted" id="meeting-overlap"></p>
+      </div>
+    </section>
+
+    <!-- Accordion: more tools -->
+    <section class="section accordion-section" id="more-tools">
+      <h2 class="section-title">More tools</h2>
+      <div class="ai-tools">
+        <div class="accordion-item">
+          <button type="button" class="accordion-head" aria-expanded="false">⏱️ Time difference</button>
+          <div class="accordion-body">
+            <div class="tool-form">
+              <label for="diff-city-a">City A (IANA)</label>
+              <input type="text" id="diff-city-a" placeholder="America/Chicago" />
+              <label for="diff-city-b">City B (IANA)</label>
+              <input type="text" id="diff-city-b" placeholder="Europe/London" />
+              <button type="button" id="btn-diff">Explain</button>
+              <div class="tool-output" id="out-diff"></div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button type="button" class="accordion-head" aria-expanded="false">📅 Event time in other zones</button>
+          <div class="accordion-body">
+            <div class="tool-form">
+              <label for="event-time">Time</label>
+              <input type="text" id="event-time" placeholder="14:00" />
+              <label for="event-tz">Timezone (IANA)</label>
+              <input type="text" id="event-tz" placeholder="America/New_York" />
+              <label for="event-targets">Show in (comma IANA)</label>
+              <input type="text" id="event-targets" placeholder="Europe/London, Asia/Tokyo" />
+              <button type="button" id="btn-event">Get times</button>
+              <div class="tool-output" id="out-event"></div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button type="button" class="accordion-head" aria-expanded="false">✈️ Jet lag planner</button>
+          <div class="accordion-body">
+            <div class="tool-form">
+              <label for="jetlag-origin">Origin</label>
+              <input type="text" id="jetlag-origin" placeholder="America/Chicago" />
+              <label for="jetlag-dest">Destination</label>
+              <input type="text" id="jetlag-dest" placeholder="Europe/London" />
+              <label for="jetlag-date">Travel date</label>
+              <input type="date" id="jetlag-date" />
+              <button type="button" id="btn-jetlag">Get schedule</button>
+              <div class="tool-output" id="out-jetlag"></div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button type="button" class="accordion-head" aria-expanded="false">👥 Work hours overlap</button>
+          <div class="accordion-body">
+            <div class="tool-form">
+              <label for="overlap-zones">Zones (one per line)</label>
+              <textarea id="overlap-zones" rows="3" placeholder="America/New_York\nEurope/London"></textarea>
+              <label for="overlap-hours">Hours (e.g. 9-17)</label>
+              <input type="text" id="overlap-hours" value="9-17" />
+              <button type="button" id="btn-overlap">Find overlap</button>
+              <div class="tool-output" id="out-overlap"></div>
+              <div class="overlap-bars" id="overlap-bars"></div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button type="button" class="accordion-head" aria-expanded="false">💬 Relative time (“tomorrow 9am”)</button>
+          <div class="accordion-body">
+            <div class="tool-form">
+              <label for="relative-phrase">Phrase</label>
+              <input type="text" id="relative-phrase" placeholder="tomorrow morning" />
+              <label for="relative-tz">Timezone</label>
+              <input type="text" id="relative-tz" placeholder="America/Chicago" />
+              <label for="relative-others">Also in (comma IANA)</label>
+              <input type="text" id="relative-others" placeholder="Europe/London" />
+              <button type="button" id="btn-relative">Translate</button>
+              <div class="tool-output" id="out-relative"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="global-footer" role="contentinfo">
+    <p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="/about">📄 About</a>
+      <a href="/privacy">🔒 Privacy</a>
+      <a href="/terms">📋 Terms</a>
+      <a href="/contact">✉️ Contact</a>
+    </nav>
+  </footer>
+
+  <script type="module" src="/js/app.js"></script>
+  <script src="/js/search.js" defer></script>
+</body>
+</html>

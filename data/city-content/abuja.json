@@ -1,0 +1,60 @@
+{
+  "overview": "Abuja, the capital city of Nigeria, is strategically located in the center of the country, making it a vital political and administrative hub. Established as the capital in 1991, Abuja was chosen for its central location, which promotes national unity and accessibility. With a population of approximately 2.69 million, it is a melting pot of cultures and a focal point for economic activities, international diplomacy, and tourism in Africa.",
+  "history": "Abuja was officially designated as Nigeria's capital in 1991, replacing Lagos due to its central location. The city was planned to accommodate the growing population and political needs of the nation.",
+  "economy": "Abuja's economy is diverse, with key industries including telecommunications, construction, and trade. As the political center of Nigeria, it attracts numerous businesses and international organizations, contributing significantly to the country's economic landscape.",
+  "tourism": "Abuja offers a variety of attractions for visitors, including the iconic Aso Rock, the National Mosque, and the Nigerian National Christian Centre. Tourists can explore cultural sites, enjoy local cuisine, and participate in vibrant festivals that reflect the city's rich heritage.",
+  "best_places": [
+    "Aso Rock",
+    "National Mosque",
+    "Nigerian National Christian Centre",
+    "Millennium Park",
+    "Jabi Lake",
+    "National Museum",
+    "Art and Craft Village"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Nkoyo",
+      "description": "A fine dining restaurant offering a blend of local and international cuisines."
+    },
+    {
+      "name": "Bistro 7",
+      "description": "Known for its modern ambiance and diverse menu featuring continental dishes."
+    },
+    {
+      "name": "The Secret Garden",
+      "description": "A cozy spot with a serene atmosphere, perfect for enjoying Nigerian delicacies."
+    },
+    {
+      "name": "Zodiac Restaurant",
+      "description": "Offers a unique fusion of African and Asian flavors in a stylish setting."
+    },
+    {
+      "name": "Wakkis",
+      "description": "Famous for its delicious Indian cuisine and vibrant dining experience."
+    }
+  ],
+  "weather_summary": "Abuja experiences a tropical savanna climate with distinct wet and dry seasons, featuring warm temperatures year-round.",
+  "faqs": [
+    {
+      "question": "What time zone is Abuja in?",
+      "answer": "Abuja is in the Africa/Lagos time zone."
+    },
+    {
+      "question": "Does Abuja observe daylight saving time?",
+      "answer": "No, Abuja does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Abuja?",
+      "answer": "The population of Abuja is approximately 2.69 million."
+    },
+    {
+      "question": "When does sunrise typically occur in Abuja?",
+      "answer": "Sunrise in Abuja typically occurs around 6:00 AM local time."
+    },
+    {
+      "question": "What is the best time to visit Abuja?",
+      "answer": "The best time to visit Abuja is during the dry season, from November to March, when the weather is more pleasant."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "overview": "Santiago de Cuba, located on the southeastern coast of Cuba, is the country’s second-largest city and a significant cultural hub. Known for its rich history and vibrant music scene, it plays a crucial role in Cuban identity. The city is also a key port and has historical importance as the site of the 1959 revolution, making it a focal point for both locals and tourists alike.",
+  "history": "Founded in 1515 by Diego Velázquez de Cuéllar, Santiago de Cuba served as the first capital of the island. Its strategic location made it a vital military and commercial center during colonial times.",
+  "economy": "Santiago de Cuba's economy is primarily driven by tourism, agriculture, and manufacturing. The city is known for its rum production and is a key player in the export of sugar and tobacco, contributing significantly to the national economy.",
+  "tourism": "Tourism in Santiago de Cuba thrives on its rich cultural heritage and historical landmarks. Visitors flock to attractions such as the Castillo del Morro, the vibrant Parque de Céspedes, and the famous Casa de la Trova, where they can enjoy live music and dance.",
+  "best_places": [
+    "Castillo del Morro",
+    "Parque de Céspedes",
+    "Casa de la Trova",
+    "Cementerio de Santa Ifigenia",
+    "Museo del Carnaval",
+    "Plaza de la Revolución"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurante El Palco",
+      "description": "Known for its stunning views and delicious local cuisine."
+    },
+    {
+      "name": "La Casa de la Musica",
+      "description": "A lively spot famous for its music and vibrant atmosphere."
+    },
+    {
+      "name": "Restaurante La Finca",
+      "description": "Offers a unique farm-to-table dining experience with fresh ingredients."
+    },
+    {
+      "name": "El Mesón de la Cerveza",
+      "description": "Popular for its craft beers and traditional Cuban dishes."
+    },
+    {
+      "name": "Restaurante El Rincón del Viejo",
+      "description": "Features a cozy atmosphere and a menu of authentic Cuban flavors."
+    }
+  ],
+  "weather_summary": "Santiago de Cuba experiences a tropical climate with warm temperatures year-round and a wet season from May to October.",
+  "faqs": [
+    {
+      "question": "What time zone is Santiago de Cuba in?",
+      "answer": "Santiago de Cuba is in the America/Havana time zone."
+    },
+    {
+      "question": "Does Santiago de Cuba observe daylight saving time?",
+      "answer": "No, Santiago de Cuba does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Santiago de Cuba?",
+      "answer": "The population of Santiago de Cuba is approximately 555,865."
+    },
+    {
+      "question": "When does sunrise typically occur in Santiago de Cuba?",
+      "answer": "Sunrise in Santiago de Cuba typically occurs around 6:30 AM local time."
+    },
+    {
+      "question": "What is the best time to visit Santiago de Cuba?",
+      "answer": "The best time to visit Santiago de Cuba is from December to April when the weather is cooler and drier."
+    }
+  ]
+}

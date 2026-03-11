@@ -1,0 +1,60 @@
+{
+  "overview": "Cuernavaca, known as the 'City of Eternal Spring,' is located in the state of Morelos, Mexico. This vibrant city, situated just south of Mexico City, is renowned for its pleasant climate, rich history, and lush gardens. Cuernavaca serves as a popular weekend getaway for residents of the capital and is significant for its cultural heritage, making it a hub for art, education, and tourism.",
+  "history": "Cuernavaca was founded in the 12th century by the Nahua people and later became a crucial site during the Spanish conquest. Its historical significance is highlighted by the presence of ancient ruins and colonial architecture.",
+  "economy": "The economy of Cuernavaca is diverse, with key industries including tourism, agriculture, and education. The city is home to numerous hotels, restaurants, and cultural institutions that attract visitors year-round, contributing significantly to its economic vitality.",
+  "tourism": "Tourism in Cuernavaca thrives on its historical sites, beautiful gardens, and pleasant climate. Visitors can explore the Palace of Cortés, the stunning Borda Garden, and the Cathedral of Cuernavaca, while also enjoying local cuisine and cultural festivals that showcase the city's vibrant traditions.",
+  "best_places": [
+    "Palace of Cortés",
+    "Borda Garden",
+    "Cuernavaca Cathedral",
+    "Teopanzolco Archaeological Zone",
+    "Robert Brady Museum",
+    "Cocoyoc",
+    "Las Estacas"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Casa de la India",
+      "description": "A charming restaurant offering authentic Indian cuisine in a cozy setting."
+    },
+    {
+      "name": "El Faisán",
+      "description": "Known for its traditional Mexican dishes and vibrant atmosphere."
+    },
+    {
+      "name": "La India Bonita",
+      "description": "Offers a fusion of local flavors and classic Mexican recipes."
+    },
+    {
+      "name": "Café de la Selva",
+      "description": "A delightful café famous for its coffee and light meals."
+    },
+    {
+      "name": "La Casa de los Abuelos",
+      "description": "A family-run establishment serving homemade Mexican specialties."
+    }
+  ],
+  "weather_summary": "Cuernavaca enjoys a mild climate with warm summers and cool, pleasant winters, making it a year-round destination.",
+  "faqs": [
+    {
+      "question": "What time zone is Cuernavaca in?",
+      "answer": "Cuernavaca is in the America/Mexico_City time zone."
+    },
+    {
+      "question": "Does Cuernavaca observe daylight saving time?",
+      "answer": "Yes, Cuernavaca observes daylight saving time, typically from early April to late October."
+    },
+    {
+      "question": "What is the population of Cuernavaca?",
+      "answer": "Cuernavaca has a population of approximately 338,650 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Cuernavaca?",
+      "answer": "Sunrise in Cuernavaca typically occurs between 6:00 AM and 6:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Cuernavaca?",
+      "answer": "The best time to visit Cuernavaca is during the dry season from November to April, when the weather is most pleasant."
+    }
+  ]
+}

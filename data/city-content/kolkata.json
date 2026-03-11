@@ -1,0 +1,60 @@
+{
+  "overview": "Kolkata, located in eastern India, is the capital of West Bengal and one of the country's largest cities, with a population of approximately 4.6 million. Known for its rich cultural heritage, Kolkata plays a significant role in art, literature, and education in India. The city is a major commercial and financial hub, often referred to as the 'Cultural Capital of India' due to its vibrant festivals, historical landmarks, and diverse cuisine, making it an essential destination for both business and tourism.",
+  "history": "Kolkata was founded as a trading post by the British East India Company in 1690. It became the capital of British India until 1911, playing a pivotal role in the country's colonial history.",
+  "economy": "Kolkata's economy is diverse, with key industries including information technology, textiles, and manufacturing. The city serves as a vital business center, attracting investments and fostering entrepreneurship, which contributes significantly to its regional and national economic landscape.",
+  "tourism": "Tourism in Kolkata is vibrant, featuring attractions like the iconic Victoria Memorial, Howrah Bridge, and the bustling markets of New Market. Visitors can explore the city's rich history through its colonial architecture, enjoy cultural festivals, and indulge in local delicacies, making it a unique experience for travelers.",
+  "best_places": [
+    "Victoria Memorial",
+    "Howrah Bridge",
+    "Dakshineswar Kali Temple",
+    "Indian Museum",
+    "Marble Palace",
+    "Eden Gardens",
+    "New Market"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Bengali Kitchen",
+      "description": "Famous for authentic Bengali cuisine and seafood delicacies."
+    },
+    {
+      "name": "Peter Cat",
+      "description": "Known for its delicious Chelo Kebabs and cozy ambiance."
+    },
+    {
+      "name": "Kewpie's",
+      "description": "A popular spot for traditional Bengali home-style cooking."
+    },
+    {
+      "name": "Flurys",
+      "description": "Iconic tea room famous for its pastries and breakfast options."
+    },
+    {
+      "name": "6 Ballygunge Place",
+      "description": "Offers a delightful experience of Bengali cuisine in a heritage setting."
+    }
+  ],
+  "weather_summary": "Kolkata experiences a tropical wet-and-dry climate, with hot summers, a monsoon season, and mild winters.",
+  "faqs": [
+    {
+      "question": "What time zone is Kolkata in?",
+      "answer": "Kolkata is in the Asia/Kolkata time zone."
+    },
+    {
+      "question": "Does Kolkata observe daylight saving time?",
+      "answer": "No, Kolkata does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Kolkata?",
+      "answer": "Kolkata has a population of approximately 4.6 million people."
+    },
+    {
+      "question": "When does sunrise typically occur in Kolkata?",
+      "answer": "Sunrise in Kolkata typically occurs between 5:30 AM and 6:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Kolkata?",
+      "answer": "The best time to visit Kolkata is between October and March when the weather is cooler and more pleasant."
+    }
+  ]
+}

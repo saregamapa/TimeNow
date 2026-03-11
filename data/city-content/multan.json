@@ -1,0 +1,55 @@
+{
+  "overview": "Multan, known as the 'City of Saints,' is a historic city located in the Punjab province of Pakistan. It serves as a vital economic and cultural hub, boasting a rich heritage that dates back thousands of years. Multan's strategic location along major trade routes has made it an important center for commerce and tourism, attracting visitors with its unique blend of history and modernity.",
+  "history": "Multan has a storied past, believed to have been founded over 5,000 years ago. It has served as a significant center for various civilizations, including the Indus Valley and later, Islamic empires.",
+  "economy": "Multan's economy is diverse, with key industries including agriculture, textiles, and manufacturing. The city is renowned for its production of mangoes and has a thriving trade sector that supports local and regional markets.",
+  "tourism": "Tourism in Multan is vibrant, with visitors drawn to its historical sites and rich cultural heritage. Key attractions include the stunning shrines of Sufi saints, the ancient Multan Fort, and the vibrant local bazaars, offering a glimpse into the city's traditional crafts and cuisine.",
+  "best_places": [
+    "Shrine of Bahauddin Zakariya",
+    "Multan Fort",
+    "Tomb of Shah Rukn-e-Alam",
+    "Hussain Agahi Bazaar",
+    "Multan Museum",
+    "Shrine of Shah Shams Tabrez"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Sadiq Restaurant",
+      "description": "A popular spot for traditional Pakistani cuisine, known for its biryani and kebabs."
+    },
+    {
+      "name": "Chaat Gali",
+      "description": "Famous for its delicious street food, offering a variety of chaat and snacks."
+    },
+    {
+      "name": "Al-Maida Restaurant",
+      "description": "Offers a mix of local and international dishes in a family-friendly environment."
+    },
+    {
+      "name": "Bukhara Restaurant",
+      "description": "Known for its authentic Pakistani barbecue and rich flavors."
+    }
+  ],
+  "weather_summary": "Multan experiences hot summers and mild winters, with a dry climate and occasional monsoon rains.",
+  "faqs": [
+    {
+      "question": "What time zone is Multan in?",
+      "answer": "Multan is in the Asia/Karachi time zone."
+    },
+    {
+      "question": "Does Multan observe daylight saving time?",
+      "answer": "No, Multan does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Multan?",
+      "answer": "The population of Multan is approximately 2,169,915."
+    },
+    {
+      "question": "When does sunrise typically occur in Multan?",
+      "answer": "Sunrise in Multan typically occurs around 6:00 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Multan?",
+      "answer": "The best time to visit Multan is between October and March when the weather is mild and pleasant."
+    }
+  ]
+}

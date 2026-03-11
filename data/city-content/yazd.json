@@ -1,0 +1,55 @@
+{
+  "overview": "Yazd, located in central Iran, is a historical city known for its unique architecture and rich cultural heritage. As a UNESCO World Heritage Site, it showcases remarkable examples of desert architecture, including wind towers and mud-brick buildings. With a population of approximately 477,905, Yazd serves as a vibrant center for Zoroastrian culture and history, making it an important destination for both tourists and scholars alike.",
+  "history": "Yazd has a history dating back to ancient Persia, serving as a significant center for Zoroastrianism. Its strategic location along trade routes contributed to its development and cultural richness over the centuries.",
+  "economy": "The economy of Yazd is primarily driven by agriculture, textiles, and handicrafts. The city is particularly known for its Persian carpets and traditional silk weaving, which attract both local and international markets.",
+  "tourism": "Yazd attracts visitors with its stunning historical sites, including the Jameh Mosque, the Zoroastrian Fire Temple, and the ancient city of Yazd itself. Tourists often explore the narrow winding streets, enjoy local cuisine, and experience the unique desert landscapes surrounding the city.",
+  "best_places": [
+    "Jameh Mosque",
+    "Zoroastrian Fire Temple",
+    "Dowlat Abad Garden",
+    "Yazd Water Museum",
+    "Amir Chakhmaq Complex",
+    "Old Town of Yazd"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Cafe Javid",
+      "description": "A cozy spot known for its delicious Persian dishes and warm atmosphere."
+    },
+    {
+      "name": "Traditional Restaurant",
+      "description": "Offers a variety of authentic Iranian meals in a traditional setting."
+    },
+    {
+      "name": "Shah Abbas Restaurant",
+      "description": "Famous for its kebabs and local specialties, providing a delightful dining experience."
+    },
+    {
+      "name": "Saffron Restaurant",
+      "description": "Known for its aromatic saffron-infused dishes and inviting ambiance."
+    }
+  ],
+  "weather_summary": "Yazd experiences hot, dry summers and mild winters, with limited rainfall throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Yazd in?",
+      "answer": "Yazd is in the Asia/Tehran time zone."
+    },
+    {
+      "question": "Does Yazd observe daylight saving time?",
+      "answer": "Yes, Yazd observes daylight saving time, typically from March to September."
+    },
+    {
+      "question": "What is the population of Yazd?",
+      "answer": "The population of Yazd is approximately 477,905."
+    },
+    {
+      "question": "When does sunrise typically occur in Yazd?",
+      "answer": "Sunrise in Yazd typically occurs around 6:00 AM, but varies throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Yazd?",
+      "answer": "The best time to visit Yazd is during spring (March to May) and autumn (September to November) when temperatures are milder."
+    }
+  ]
+}

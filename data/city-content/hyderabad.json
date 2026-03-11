@@ -1,0 +1,60 @@
+{
+  "overview": "Hyderabad, the capital of the Indian state of Telangana, is a vibrant metropolis located in southern India. Known for its rich history and cultural heritage, it serves as a major center for technology and commerce. With a population of over 6.9 million, Hyderabad is a key player in India's IT industry, often referred to as 'Cyberabad'. The city is renowned for its historical landmarks, delicious cuisine, and a unique blend of traditional and modern lifestyles, making it a significant destination in Asia.",
+  "history": "Founded in 1591 by Muhammad Quli Qutb Shah, Hyderabad has a rich historical tapestry. It once served as a prominent center for trade and culture in southern India.",
+  "economy": "Hyderabad boasts a diverse economy, primarily driven by information technology, pharmaceuticals, and biotechnology. The presence of major global companies and startups has transformed the city into a significant business hub, attracting investments and talent from around the world.",
+  "tourism": "Hyderabad offers a plethora of attractions for visitors, including the iconic Charminar, the historic Golconda Fort, and the serene Hussain Sagar Lake. Tourists can indulge in the city's famous biryani, explore local markets, and experience the vibrant culture through festivals and events.",
+  "best_places": [
+    "Charminar",
+    "Golconda Fort",
+    "Hussain Sagar Lake",
+    "Ramoji Film City",
+    "Birla Mandir",
+    "Shilparamam",
+    "Salar Jung Museum"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Bawarchi",
+      "description": "Famous for its authentic Hyderabadi biryani and traditional Indian dishes."
+    },
+    {
+      "name": "Paradise",
+      "description": "A renowned chain known for its delectable biryani and rich Mughlai cuisine."
+    },
+    {
+      "name": "Cafe Bahar",
+      "description": "Popular for its flavorful biryani and a variety of local delicacies."
+    },
+    {
+      "name": "Chutneys",
+      "description": "Specializes in South Indian cuisine, offering a range of chutneys and dosa varieties."
+    },
+    {
+      "name": "Nawab's",
+      "description": "Offers a royal dining experience with a menu inspired by Mughlai heritage."
+    }
+  ],
+  "weather_summary": "Hyderabad experiences hot summers, mild winters, and a monsoon season with moderate rainfall.",
+  "faqs": [
+    {
+      "question": "What time zone is Hyderabad in?",
+      "answer": "Hyderabad is in the Asia/Kolkata time zone."
+    },
+    {
+      "question": "Does Hyderabad observe daylight saving time?",
+      "answer": "No, Hyderabad does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Hyderabad?",
+      "answer": "The population of Hyderabad is approximately 6,993,262."
+    },
+    {
+      "question": "When does sunrise typically occur in Hyderabad?",
+      "answer": "Sunrise in Hyderabad typically occurs between 6:00 AM and 6:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Hyderabad?",
+      "answer": "The best time to visit Hyderabad is between October and March when the weather is pleasant."
+    }
+  ]
+}

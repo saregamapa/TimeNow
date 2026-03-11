@@ -1,0 +1,59 @@
+{
+  "overview": "New Cairo, located in Egypt, is a rapidly developing urban area that serves as a modern extension of the capital, Cairo. Established in the early 2000s, it plays a pivotal role in accommodating the growing population and providing a hub for education, business, and culture. With its strategic location and contemporary infrastructure, New Cairo is becoming increasingly significant in the region, attracting both residents and visitors alike.",
+  "history": "New Cairo was founded in 2000 as part of Egypt's initiative to alleviate congestion in central Cairo. It has since developed into a key urban center, housing various educational institutions and commercial enterprises.",
+  "economy": "New Cairo's economy is bolstered by its diverse industries, including education, real estate, and technology. The city is home to numerous international schools, universities, and business parks, making it a vital area for investment and economic growth.",
+  "tourism": "Visitors to New Cairo can explore a variety of attractions, including the stunning Al-Azhar Park and the vibrant Cairo Festival City Mall. The city also offers cultural experiences, shopping, and dining options, making it a desirable destination for both locals and tourists. Additionally, its proximity to historical sites in Cairo enhances its appeal.",
+  "best_places": [
+    "Al-Azhar Park",
+    "Cairo Festival City Mall",
+    "American University in Cairo",
+    "New Cairo Sports Club",
+    "The Waterway",
+    "The British University in Egypt"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Sequoia",
+      "description": "A popular restaurant offering Mediterranean cuisine with stunning views of the Nile."
+    },
+    {
+      "name": "The Grill",
+      "description": "Known for its delicious grilled meats and cozy atmosphere."
+    },
+    {
+      "name": "Zitouni",
+      "description": "Offers traditional Egyptian dishes in a warm, inviting setting."
+    },
+    {
+      "name": "Koshary Abou Tarek",
+      "description": "Famous for its authentic Koshary, a beloved Egyptian street food."
+    },
+    {
+      "name": "Nola Cupcakes",
+      "description": "A delightful bakery specializing in gourmet cupcakes and sweet treats."
+    }
+  ],
+  "weather_summary": "New Cairo experiences hot summers and mild winters, with minimal rainfall throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is New Cairo in?",
+      "answer": "New Cairo is in the Africa/Cairo time zone."
+    },
+    {
+      "question": "Does New Cairo observe daylight saving time?",
+      "answer": "No, New Cairo does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of New Cairo?",
+      "answer": "The population of New Cairo is approximately 313,139."
+    },
+    {
+      "question": "When does sunrise typically occur in New Cairo?",
+      "answer": "Sunrise in New Cairo typically occurs between 5:30 AM and 6:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit New Cairo?",
+      "answer": "The best time to visit New Cairo is during the cooler months, from October to April, when temperatures are more pleasant."
+    }
+  ]
+}

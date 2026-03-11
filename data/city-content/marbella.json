@@ -1,0 +1,60 @@
+{
+  "overview": "Marbella, located on the southern coast of Spain in the province of Málaga, is a vibrant city known for its stunning beaches, luxurious lifestyle, and rich cultural heritage. As a prominent resort destination in the Costa del Sol, Marbella attracts visitors from around the globe, offering a blend of traditional Andalusian charm and modern amenities. With a population of approximately 156,295, it plays a significant role in the region's economy and tourism, making it a key player in Spain's Mediterranean allure.",
+  "history": "Founded by the Romans, Marbella has a rich history that includes Moorish influence during the 8th century. It evolved from a small fishing village into a glamorous resort town in the mid-20th century.",
+  "economy": "Marbella's economy is primarily driven by tourism, real estate, and hospitality. The city is home to numerous luxury hotels, upscale shops, and fine dining establishments, making it a hub for affluent visitors and investors.",
+  "tourism": "Visitors flock to Marbella for its beautiful beaches, vibrant nightlife, and cultural attractions such as the historic Old Town and the famous Puerto Banús marina. Outdoor activities like golfing and water sports are also popular, making it a versatile destination for all types of travelers.",
+  "best_places": [
+    "Puerto Banús",
+    "Marbella Old Town",
+    "Playa de la Fontanilla",
+    "Avenida del Mar",
+    "Casa del Corregidor",
+    "Bonsai Museum",
+    "La Alameda Park"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Skina",
+      "description": "A Michelin-starred restaurant known for its innovative Mediterranean cuisine."
+    },
+    {
+      "name": "Nobu Marbella",
+      "description": "Famous for its Japanese-Peruvian fusion dishes and upscale dining experience."
+    },
+    {
+      "name": "El Lago",
+      "description": "A Michelin-starred restaurant with a focus on local ingredients and stunning lake views."
+    },
+    {
+      "name": "La Meridiana",
+      "description": "Offers a delightful mix of traditional Spanish dishes in a charming setting."
+    },
+    {
+      "name": "Casa Blanca",
+      "description": "Known for its fresh seafood and authentic Spanish tapas."
+    }
+  ],
+  "weather_summary": "Marbella enjoys a Mediterranean climate with mild winters and hot summers, perfect for year-round visits.",
+  "faqs": [
+    {
+      "question": "What time zone is Marbella in?",
+      "answer": "Marbella is in the Europe/Madrid time zone."
+    },
+    {
+      "question": "Does Marbella observe daylight saving time?",
+      "answer": "Yes, Marbella observes daylight saving time, moving one hour ahead in the summer."
+    },
+    {
+      "question": "What is the population of Marbella?",
+      "answer": "Marbella has a population of approximately 156,295 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Marbella?",
+      "answer": "Sunrise in Marbella typically occurs around 7:30 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Marbella?",
+      "answer": "The best time to visit Marbella is during the spring and fall when the weather is pleasant and the tourist crowds are smaller."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "overview": "Cap-Haïtien, located on the northern coast of Haiti, is the country's second-largest city and a vital cultural and economic hub. Known for its rich history and beautiful coastal scenery, it plays a significant role in trade and tourism. With a population of approximately 134,815, Cap-Haïtien serves as a gateway to exploring Haiti's historical sites, including the nearby Citadelle Laferrière, making it an important destination in North America.",
+  "history": "Founded in the 17th century, Cap-Haïtien was once the capital of Haiti and a key port during the colonial era. Its historical significance is highlighted by its role in the Haitian Revolution.",
+  "economy": "The economy of Cap-Haïtien is driven by agriculture, trade, and tourism. Key industries include the export of coffee and cocoa, while the city also serves as a commercial center for surrounding rural areas, bolstering local businesses and employment.",
+  "tourism": "Cap-Haïtien attracts visitors with its stunning beaches, vibrant culture, and historical landmarks. Tourists often explore the Citadelle Laferrière, a UNESCO World Heritage site, as well as the nearby Sans-Souci Palace, while enjoying local cuisine and engaging with the city's lively markets.",
+  "best_places": [
+    "Citadelle Laferrière",
+    "Sans-Souci Palace",
+    "Labadee",
+    "Bord de Mer",
+    "Fort Delpeche"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant O'Planteur",
+      "description": "A popular spot known for its authentic Haitian dishes and vibrant atmosphere."
+    },
+    {
+      "name": "Le Grand Hotel",
+      "description": "Offers a variety of local and international cuisine with beautiful ocean views."
+    },
+    {
+      "name": "L'Auberge du Picolet",
+      "description": "Famous for its seafood and traditional Haitian meals in a cozy setting."
+    },
+    {
+      "name": "Café Chérie",
+      "description": "A charming café serving delicious pastries and coffee, perfect for a quick bite."
+    }
+  ],
+  "weather_summary": "Cap-Haïtien typically enjoys a tropical climate with warm temperatures year-round and a distinct wet season.",
+  "faqs": [
+    {
+      "question": "What time zone is Cap-Haïtien in?",
+      "answer": "Cap-Haïtien is in the America/Port-au-Prince time zone."
+    },
+    {
+      "question": "Does Cap-Haïtien observe daylight saving time?",
+      "answer": "No, Cap-Haïtien does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Cap-Haïtien?",
+      "answer": "The population of Cap-Haïtien is approximately 134,815."
+    },
+    {
+      "question": "When does sunrise typically occur in Cap-Haïtien?",
+      "answer": "Sunrise in Cap-Haïtien typically occurs between 6:00 AM and 6:30 AM throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Cap-Haïtien?",
+      "answer": "The best time to visit Cap-Haïtien is during the dry season, from November to April, when temperatures are more comfortable."
+    }
+  ]
+}

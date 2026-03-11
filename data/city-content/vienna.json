@@ -1,0 +1,60 @@
+{
+  "overview": "Vienna, the capital of Austria, is a vibrant city known for its rich cultural heritage, stunning architecture, and historical significance. Located in Central Europe, it serves as a major political, economic, and cultural hub. With a population of approximately 1.7 million, Vienna is renowned for its contributions to music, art, and philosophy, making it a vital center for European culture and a popular destination for tourists worldwide.",
+  "history": "Vienna's history dates back to Roman times when it was established as a military outpost. Over the centuries, it grew into a significant center of power, especially during the Habsburg dynasty.",
+  "economy": "Vienna boasts a diverse economy, with key industries including tourism, finance, and technology. The city is home to numerous international organizations, making it a crucial business hub in Europe, attracting both investment and talent.",
+  "tourism": "Tourism in Vienna thrives on its rich history and cultural attractions. Visitors flock to iconic sites such as the Schönbrunn Palace, St. Stephen's Cathedral, and the Vienna State Opera, while enjoying the city's famous coffee culture and vibrant arts scene.",
+  "best_places": [
+    "Schönbrunn Palace",
+    "St. Stephen's Cathedral",
+    "Belvedere Palace",
+    "Vienna State Opera",
+    "Prater Park",
+    "MuseumsQuartier",
+    "Hofburg Palace"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Figlmüller",
+      "description": "Famous for its traditional Wiener Schnitzel, this restaurant is a must-visit for authentic Austrian cuisine."
+    },
+    {
+      "name": "Plachutta",
+      "description": "Renowned for its Tafelspitz, Plachutta offers a classic Viennese dining experience in an elegant setting."
+    },
+    {
+      "name": "Café Central",
+      "description": "This historic café is perfect for enjoying coffee and pastries in a stunning, traditional ambiance."
+    },
+    {
+      "name": "Gasthaus Pöschl",
+      "description": "A popular spot for locals, known for its cozy atmosphere and delicious, hearty Austrian dishes."
+    },
+    {
+      "name": "Das Loft",
+      "description": "Located on the rooftop, this restaurant offers stunning views of the city along with contemporary cuisine."
+    }
+  ],
+  "weather_summary": "Vienna experiences mild, rainy winters and warm summers, with occasional heat waves and comfortable temperatures.",
+  "faqs": [
+    {
+      "question": "What time zone is Vienna in?",
+      "answer": "Vienna is in the Europe/Vienna time zone."
+    },
+    {
+      "question": "Does Vienna observe daylight saving time?",
+      "answer": "Yes, Vienna observes daylight saving time, typically starting from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Vienna?",
+      "answer": "Vienna has a population of approximately 1,691,468 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Vienna?",
+      "answer": "Sunrise in Vienna varies by season, generally occurring between 6:00 AM and 7:30 AM."
+    },
+    {
+      "question": "What is the best time to visit Vienna?",
+      "answer": "The best time to visit Vienna is during spring (April to June) and fall (September to October) when the weather is pleasant and crowds are manageable."
+    }
+  ]
+}

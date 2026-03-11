@@ -1,0 +1,59 @@
+{
+  "overview": "Prague, the capital of Czechia, is a vibrant city located in the heart of Europe. Known for its stunning architecture, rich history, and cultural significance, it serves as a major political, economic, and cultural hub. With a population of over 1.1 million, Prague attracts millions of visitors each year, making it a key destination for tourism and international business.",
+  "history": "Founded in the 9th century, Prague has played a pivotal role in Central European history. It served as the capital of the Kingdom of Bohemia and later became a significant cultural center during the Austro-Hungarian Empire.",
+  "economy": "Prague's economy is diverse, with key industries including tourism, finance, and technology. The city is home to many multinational companies and startups, contributing to its reputation as a growing business center in Europe.",
+  "tourism": "Tourism in Prague thrives thanks to its breathtaking attractions, including the iconic Charles Bridge, Prague Castle, and the historic Old Town Square. Visitors can explore charming streets, enjoy local cuisine, and immerse themselves in the city's rich cultural heritage.",
+  "best_places": [
+    "Prague Castle",
+    "Charles Bridge",
+    "Old Town Square",
+    "St. Vitus Cathedral",
+    "Astronomical Clock",
+    "Wenceslas Square"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Degustation Bohême Bourgeoise",
+      "description": "A Michelin-starred restaurant offering modern Czech cuisine with a focus on seasonal ingredients."
+    },
+    {
+      "name": "Kampa Park",
+      "description": "Located by the Vltava River, this upscale restaurant is known for its exquisite views and fine dining."
+    },
+    {
+      "name": "Field",
+      "description": "Another Michelin-starred establishment, Field serves innovative dishes inspired by Czech traditions."
+    },
+    {
+      "name": "Lokál",
+      "description": "A popular spot for traditional Czech dishes and fresh Pilsner beer in a lively atmosphere."
+    },
+    {
+      "name": "Cafe Louvre",
+      "description": "A historic café offering a blend of Czech and international cuisine, famous for its coffee and desserts."
+    }
+  ],
+  "weather_summary": "Prague experiences mild, rainy winters and warm summers with occasional heat waves.",
+  "faqs": [
+    {
+      "question": "What time zone is Prague in?",
+      "answer": "Prague is in the Europe/Prague time zone."
+    },
+    {
+      "question": "Does Prague observe daylight saving time?",
+      "answer": "Yes, Prague observes daylight saving time, shifting one hour forward in spring and back in autumn."
+    },
+    {
+      "question": "What is the population of Prague?",
+      "answer": "The population of Prague is approximately 1,165,581."
+    },
+    {
+      "question": "When does sunrise typically occur in Prague?",
+      "answer": "Sunrise in Prague typically occurs between 6:00 AM and 7:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Prague?",
+      "answer": "The best time to visit Prague is during spring (April to June) and fall (September to October) for pleasant weather and fewer crowds."
+    }
+  ]
+}

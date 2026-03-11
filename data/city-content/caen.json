@@ -1,0 +1,60 @@
+{
+  "overview": "Caen is a historic city located in the Normandy region of France, known for its rich cultural heritage and significant role during World War II. As the capital of Calvados, it serves as a vital economic and educational hub, attracting visitors with its beautiful architecture and vibrant atmosphere. With a population of approximately 110,624, Caen blends historical significance with modern urban life, making it an essential destination in Europe.",
+  "history": "Founded in the 10th century, Caen played a pivotal role during the Norman conquest of England. The city is also notable for its involvement in World War II, particularly during the Battle of Caen.",
+  "economy": "Caen's economy is diverse, with key industries including education, healthcare, and technology. The presence of several higher education institutions fosters innovation and attracts businesses, contributing significantly to the local economy and job market.",
+  "tourism": "Visitors to Caen can explore a wealth of attractions, including the stunning Caen Memorial Museum, the historic Château de Caen, and the beautiful Abbaye aux Hommes. The city also offers charming streets filled with shops, cafes, and restaurants, making it a delightful destination for tourists seeking to experience French culture and history.",
+  "best_places": [
+    "Château de Caen",
+    "Caen Memorial Museum",
+    "Abbaye aux Hommes",
+    "Abbaye aux Dames",
+    "Jardin des Plantes",
+    "Eglise Saint-Pierre",
+    "Musee des Beaux-Arts"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Le Bistrot de la Gare",
+      "description": "A cozy bistro offering traditional French cuisine with a modern twist."
+    },
+    {
+      "name": "La Table de Marie",
+      "description": "Known for its seasonal menu and fresh, local ingredients."
+    },
+    {
+      "name": "Restaurant La Cale",
+      "description": "A seafood restaurant famous for its fresh catch and waterfront views."
+    },
+    {
+      "name": "L'Atelier des Gourmets",
+      "description": "Offers a fine dining experience with an emphasis on regional dishes."
+    },
+    {
+      "name": "Café des Images",
+      "description": "A charming café that serves delicious pastries and coffee."
+    }
+  ],
+  "weather_summary": "Caen experiences mild, rainy winters and warm summers, with occasional heat waves during peak summer months.",
+  "faqs": [
+    {
+      "question": "What time zone is Caen in?",
+      "answer": "Caen is in the Europe/Paris time zone."
+    },
+    {
+      "question": "Does Caen observe daylight saving time?",
+      "answer": "Yes, Caen observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Caen?",
+      "answer": "The population of Caen is approximately 110,624."
+    },
+    {
+      "question": "When does sunrise typically occur in Caen?",
+      "answer": "Sunrise in Caen varies by season, generally occurring between 7:00 AM and 8:30 AM."
+    },
+    {
+      "question": "What is the best time to visit Caen?",
+      "answer": "The best time to visit Caen is during spring and early autumn when the weather is mild and pleasant."
+    }
+  ]
+}

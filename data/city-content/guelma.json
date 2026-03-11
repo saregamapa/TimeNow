@@ -1,0 +1,59 @@
+{
+  "overview": "Guelma, a vibrant city in northeastern Algeria, serves as a crucial cultural and economic hub in the region. Nestled near the Mediterranean coast, it boasts a rich history and a diverse population of approximately 120,000 residents. Guelma is known for its archaeological sites, stunning landscapes, and its role as a center for agriculture and trade, making it an essential part of Algeria's heritage and growth.",
+  "history": "Guelma has roots dating back to Roman times when it was known as Timgad. The city has played a significant role in various historical events, particularly during the French colonial period.",
+  "economy": "The economy of Guelma is primarily driven by agriculture, with fertile lands producing a variety of crops. Additionally, the city has developed a growing industrial sector, contributing to local employment and regional trade.",
+  "tourism": "Tourists flock to Guelma for its historical sites, including the ancient Roman ruins and the picturesque landscapes surrounding the city. Visitors can explore the rich cultural heritage, enjoy local cuisine, and participate in various outdoor activities, making Guelma a captivating destination.",
+  "best_places": [
+    "Roman Ruins of Timgad",
+    "Guelma Museum",
+    "Barrage de Guelma",
+    "Ksar de Guelma",
+    "La Cascade",
+    "Les Jardins de Guelma"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Le Restaurant de la Mer",
+      "description": "A popular spot known for its fresh seafood and stunning views."
+    },
+    {
+      "name": "Café des Arts",
+      "description": "A cozy café offering a range of traditional Algerian dishes."
+    },
+    {
+      "name": "El-Mouradia",
+      "description": "Famous for its flavorful couscous and local specialties."
+    },
+    {
+      "name": "Pizzeria Guelma",
+      "description": "Offers a variety of delicious pizzas in a family-friendly atmosphere."
+    },
+    {
+      "name": "Restaurant Al-Waha",
+      "description": "Known for its warm ambiance and authentic Algerian cuisine."
+    }
+  ],
+  "weather_summary": "Guelma experiences a Mediterranean climate with hot, dry summers and mild, wet winters.",
+  "faqs": [
+    {
+      "question": "What time zone is Guelma in?",
+      "answer": "Guelma is in the Africa/Algiers time zone."
+    },
+    {
+      "question": "Does Guelma observe daylight saving time?",
+      "answer": "No, Guelma does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Guelma?",
+      "answer": "The population of Guelma is approximately 120,004 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Guelma?",
+      "answer": "Sunrise in Guelma typically occurs around 6:30 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Guelma?",
+      "answer": "The best time to visit Guelma is during spring and autumn when the weather is mild and pleasant."
+    }
+  ]
+}

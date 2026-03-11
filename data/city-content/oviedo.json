@@ -1,0 +1,55 @@
+{
+  "overview": "Oviedo, the capital of the Asturias region in northern Spain, is a cultural and historical hub known for its rich heritage and stunning architecture. Nestled in the foothills of the Cantabrian Mountains, it serves as a gateway to both natural beauty and urban sophistication. With a population of approximately 220,027, Oviedo plays a significant role in the region's economy and is celebrated for its vibrant arts scene, making it an essential destination for both tourists and locals alike.",
+  "history": "Founded in the 8th century, Oviedo became an important religious and administrative center during the Kingdom of Asturias. Its historical significance is highlighted by numerous medieval structures that reflect its rich heritage.",
+  "economy": "Oviedo's economy is diverse, with key industries including manufacturing, technology, and services. The city is also an educational hub, hosting several universities that contribute to research and innovation, bolstering its economic relevance in the region.",
+  "tourism": "Tourism in Oviedo thrives on its historical charm and natural surroundings. Visitors flock to explore the UNESCO World Heritage sites, such as the Cathedral of San Salvador, and enjoy the picturesque parks and vibrant local cuisine. The city also hosts various cultural festivals, attracting tourists year-round.",
+  "best_places": [
+    "Cathedral of San Salvador",
+    "Parque de San Francisco",
+    "Museo de Bellas Artes de Asturias",
+    "Calle Uría",
+    "La Foncalada",
+    "Plaza del Ayuntamiento"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Casa Gerardo",
+      "description": "A Michelin-starred restaurant known for its innovative Asturian cuisine."
+    },
+    {
+      "name": "La Corte de Pelayo",
+      "description": "Offers traditional Asturian dishes in a cozy, rustic setting."
+    },
+    {
+      "name": "El Raitán",
+      "description": "Famous for its fresh seafood and stunning views of the city."
+    },
+    {
+      "name": "La Taberna del Zurdo",
+      "description": "A popular spot for tapas and local wines with a lively atmosphere."
+    }
+  ],
+  "weather_summary": "Oviedo experiences mild, rainy winters and moderate summers, making it a lush and green destination year-round.",
+  "faqs": [
+    {
+      "question": "What time zone is Oviedo in?",
+      "answer": "Oviedo is in the Europe/Madrid time zone."
+    },
+    {
+      "question": "Does Oviedo observe daylight saving time?",
+      "answer": "Yes, Oviedo observes daylight saving time, typically moving the clock forward in March and back in October."
+    },
+    {
+      "question": "What is the population of Oviedo?",
+      "answer": "The population of Oviedo is approximately 220,027."
+    },
+    {
+      "question": "When does sunrise typically occur in Oviedo?",
+      "answer": "Sunrise in Oviedo typically occurs around 8:30 AM in winter and around 6:30 AM in summer."
+    },
+    {
+      "question": "What is the best time to visit Oviedo?",
+      "answer": "The best time to visit Oviedo is during spring and early autumn when the weather is mild and pleasant."
+    }
+  ]
+}

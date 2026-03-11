@@ -1,0 +1,60 @@
+{
+  "overview": "Kraków, located in southern Poland, is one of the country's oldest and most significant cities, renowned for its rich cultural heritage and historical importance. As the former capital of Poland, it boasts a vibrant arts scene, impressive architecture, and a lively atmosphere. With a population of approximately 804,237, Kraków serves as a major academic and economic hub, making it a vital center for education and tourism in Europe.",
+  "history": "Kraków was founded in the 7th century and served as the capital of Poland until the late 16th century. Its historical significance is highlighted by its well-preserved medieval core, which is a UNESCO World Heritage Site.",
+  "economy": "Kraków's economy is diverse, with key industries including information technology, education, and tourism. The city is home to numerous international companies and startups, contributing to its reputation as a growing business center in Central Europe.",
+  "tourism": "Kraków attracts millions of visitors each year, drawn by its stunning architecture, historical sites, and vibrant cultural scene. Key attractions include the Wawel Castle, the historic Main Market Square, and the Jewish Quarter, where visitors can explore rich history and enjoy local cuisine.",
+  "best_places": [
+    "Wawel Castle",
+    "Main Market Square",
+    "St. Mary's Basilica",
+    "Kazimierz District",
+    "Oskar Schindler's Factory",
+    "Planty Park",
+    "The Cloth Hall"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Pod Aniołami",
+      "description": "A charming restaurant known for its traditional Polish cuisine and medieval ambiance."
+    },
+    {
+      "name": "Wesele",
+      "description": "Offers a delightful array of Polish dishes in a cozy, rustic setting."
+    },
+    {
+      "name": "Zazie Bistro",
+      "description": "A French-inspired bistro serving delicious, seasonal dishes with a local twist."
+    },
+    {
+      "name": "Chata",
+      "description": "Famous for its hearty Polish meals and warm, welcoming atmosphere."
+    },
+    {
+      "name": "Cafe Camelot",
+      "description": "A quaint cafe known for its delicious pastries and vibrant decor."
+    }
+  ],
+  "weather_summary": "Kraków experiences mild, rainy winters and warm summers, with occasional heat waves.",
+  "faqs": [
+    {
+      "question": "What time zone is Kraków in?",
+      "answer": "Kraków is in the Europe/Warsaw time zone."
+    },
+    {
+      "question": "Does Kraków observe daylight saving time?",
+      "answer": "Yes, Kraków observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Kraków?",
+      "answer": "The population of Kraków is approximately 804,237."
+    },
+    {
+      "question": "When does sunrise typically occur in Kraków?",
+      "answer": "Sunrise in Kraków typically occurs between 5:00 AM and 7:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Kraków?",
+      "answer": "The best time to visit Kraków is during spring and early autumn when the weather is mild and the city is less crowded."
+    }
+  ]
+}

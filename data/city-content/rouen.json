@@ -1,0 +1,55 @@
+{
+  "overview": "Rouen, located in the Normandy region of France, is a historic city known for its rich cultural heritage and architectural beauty. As the capital of Seine-Maritime, it plays a significant role in France's maritime history and trade. Rouen is famous for its stunning Gothic cathedral, vibrant arts scene, and as the site of Joan of Arc's trial, making it a vital cultural hub in Europe.",
+  "history": "Founded by the Romans in the 1st century AD, Rouen became an important port and trade center during the Middle Ages. It is historically significant as the site of Joan of Arc's trial and execution in 1431.",
+  "economy": "Rouen's economy is diverse, with key industries including manufacturing, logistics, and tourism. The city's strategic location on the Seine River enhances its role as a vital trade and transport hub in northern France.",
+  "tourism": "Visitors to Rouen can explore a variety of attractions, including the stunning Rouen Cathedral, the historic Old Market Square, and the Joan of Arc Museum. The city’s charming medieval streets, vibrant markets, and rich culinary scene make it a delightful destination for travelers.",
+  "best_places": [
+    "Rouen Cathedral",
+    "Gros-Horloge",
+    "Joan of Arc Museum",
+    "Old Market Square",
+    "Saint-Ouen Abbey",
+    "Museum of Fine Arts"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Couronne",
+      "description": "One of the oldest restaurants in France, famous for its traditional Norman cuisine."
+    },
+    {
+      "name": "Le 6ème Sens",
+      "description": "A contemporary restaurant offering innovative dishes with local ingredients."
+    },
+    {
+      "name": "Restaurant La Boussole",
+      "description": "Known for its seafood specialties and stunning views of the Seine."
+    },
+    {
+      "name": "Le P'tit Normand",
+      "description": "A cozy bistro serving authentic regional dishes in a warm atmosphere."
+    }
+  ],
+  "weather_summary": "Rouen experiences mild, rainy winters and warm summers, with occasional heat waves during peak season.",
+  "faqs": [
+    {
+      "question": "What time zone is Rouen in?",
+      "answer": "Rouen is in the Europe/Paris time zone."
+    },
+    {
+      "question": "Does Rouen observe daylight saving time?",
+      "answer": "Yes, Rouen observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Rouen?",
+      "answer": "The population of Rouen is approximately 116,331 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Rouen?",
+      "answer": "Sunrise in Rouen varies throughout the year, generally occurring between 7:30 AM in winter and 5:30 AM in summer."
+    },
+    {
+      "question": "What is the best time to visit Rouen?",
+      "answer": "The best time to visit Rouen is during spring and early fall when the weather is mild and the city hosts various cultural events."
+    }
+  ]
+}

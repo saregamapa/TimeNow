@@ -1,0 +1,61 @@
+{
+  "overview": "Astana, the capital city of Kazakhstan, is a vibrant hub located in the heart of Central Asia. Renowned for its modern architecture and strategic importance, it serves as the political and administrative center of the country. With a population of approximately 345,604, Astana plays a crucial role in regional development and cultural exchange, making it a significant destination for both business and tourism.",
+  "history": "Founded in 1830 as a fortress, Astana became the capital of Kazakhstan in 1997, symbolizing the country's independence and growth. The city has since transformed into a modern metropolis, showcasing innovative urban planning.",
+  "economy": "Astana's economy is rapidly growing, driven by key industries such as construction, finance, and technology. The city serves as a major business hub, attracting investments and fostering economic development in Kazakhstan.",
+  "tourism": "Visitors to Astana can explore a range of attractions, including the iconic Bayterek Tower and the stunning Palace of Peace and Reconciliation. The city's rich cultural scene, vibrant nightlife, and various festivals make it an exciting destination for tourists seeking to experience Kazakhstan's unique heritage.",
+  "best_places": [
+    "Bayterek Tower",
+    "Palace of Peace and Reconciliation",
+    "Kazakhstan Central Concert Hall",
+    "Nazarbayev Center",
+    "Khan Shatyr",
+    "Astana Opera",
+    "Expo 2017",
+    "Presidential Palace"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Kishlak",
+      "description": "Offers traditional Kazakh cuisine in a cozy atmosphere."
+    },
+    {
+      "name": "Line Brew",
+      "description": "Famous for its grilled meats and extensive beer selection."
+    },
+    {
+      "name": "The Sultans",
+      "description": "Features a mix of local and international dishes with a modern twist."
+    },
+    {
+      "name": "Madlen",
+      "description": "A popular spot for French cuisine and elegant dining."
+    },
+    {
+      "name": "Zodiac",
+      "description": "Known for its diverse menu and vibrant ambiance."
+    }
+  ],
+  "weather_summary": "Astana experiences cold winters and warm summers, with significant temperature variations throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Astana in?",
+      "answer": "Astana is in the Asia/Almaty time zone."
+    },
+    {
+      "question": "Does Astana observe daylight saving time?",
+      "answer": "No, Astana does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Astana?",
+      "answer": "The population of Astana is approximately 345,604."
+    },
+    {
+      "question": "When does sunrise typically occur in Astana?",
+      "answer": "Sunrise in Astana typically occurs between 6:00 AM and 7:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Astana?",
+      "answer": "The best time to visit Astana is during the spring and autumn months, when the weather is mild and pleasant."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "timenow-global",
+  "version": "1.0.0",
+  "description": "Production-grade world clock and time tools — accurate time, city pages, meeting planner, countdown",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "generate-cities": "node scripts/generateCities.js",
+    "generate-city-content": "node scripts/generateCityContent.js",
+    "generate-city-content:major-first": "node scripts/generateCityContent.js --major-first",
+    "generate-places": "node scripts/generatePlaces.js",
+    "generate-places:major-first": "node scripts/generatePlaces.js --major-first"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  }
+}

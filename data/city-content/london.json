@@ -1,0 +1,36 @@
+{
+  "best_places": ["Buckingham Palace", "Tower of London", "British Museum", "Hyde Park", "London Eye", "Westminster Abbey", "Big Ben", "Tower Bridge"],
+  "best_restaurants": [
+    { "name": "Dishoom", "description": "Indian comfort food and breakfast in a Bombay café setting." },
+    { "name": "Sketch", "description": "Art-filled dining rooms and afternoon tea." },
+    { "name": "The Ledbury", "description": "Michelin-starred modern European cuisine." },
+    { "name": "Gordon Ramsay Restaurant", "description": "Fine dining by the celebrity chef." }
+  ],
+  "weather_summary": "Mild, often cloudy with moderate rain. Cool winters and warm but rarely hot summers.",
+  "overview": "London is the capital and largest city of the United Kingdom, and one of the world's leading financial, cultural, and political centres. Situated on the River Thames in south-east England, it has been a major settlement for two millennia. Today London is one of the most visited cities in the world, with a diverse population and a time zone that follows Greenwich Mean Time (GMT) in winter and British Summer Time (BST) in summer. The city is home to iconic landmarks, world-class museums, and a thriving arts and business scene.",
+  "history": "London was founded by the Romans around 47 AD as Londinium and served as the capital of Roman Britain. After a period of decline, it grew again under Anglo-Saxon and Norman rule. The city became a major port and trading hub in the medieval period and expanded greatly during the Tudor and Stuart eras. The Great Fire of 1666 destroyed much of the medieval city but led to rebuilding. The 19th and 20th centuries saw London become the heart of the British Empire and a global metropolis.",
+  "economy": "London is one of the world's leading financial centres, with the City of London and Canary Wharf hosting major banks, insurance firms, and stock exchanges. The city's economy is driven by finance, professional services, technology, tourism, and creative industries. It is a key hub for international business and investment.",
+  "tourism": "London attracts millions of visitors each year. Major attractions include the British Museum, the Tower of London, Buckingham Palace, the Houses of Parliament and Big Ben, the London Eye, and the West End theatre district. The city offers diverse neighbourhoods, markets, parks, and a rich calendar of events.",
+  "faqs": [
+    {
+      "question": "What time zone is London in?",
+      "answer": "London uses Greenwich Mean Time (GMT) in winter and British Summer Time (BST), which is GMT+1, in summer. The IANA time zone identifier is Europe/London."
+    },
+    {
+      "question": "Does London observe daylight saving time?",
+      "answer": "Yes. The United Kingdom observes British Summer Time from the last Sunday in March to the last Sunday in October, when clocks are one hour ahead of GMT."
+    },
+    {
+      "question": "What is the population of London?",
+      "answer": "Greater London has a population of around 9 million people, making it one of the largest cities in Europe."
+    },
+    {
+      "question": "When does sunrise typically occur in London?",
+      "answer": "Sunrise in London varies by season. In summer it can be around 4:45 AM, and in winter around 8:00 AM. Exact times depend on the date and are available on this page."
+    },
+    {
+      "question": "What is the best time to visit London?",
+      "answer": "Spring (April–May) and early autumn (September–October) often offer mild weather and fewer crowds. Summer is peak season with longer daylight hours and many events."
+    }
+  ]
+}

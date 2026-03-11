@@ -1,0 +1,59 @@
+{
+  "overview": "Nador is a vibrant city located in northeastern Morocco, serving as a significant commercial and cultural hub. Positioned near the Mediterranean Sea, it plays a crucial role in trade and transportation, particularly due to its proximity to the Spanish enclave of Melilla. With a population of approximately 176,600, Nador is known for its rich history, diverse culture, and growing economic opportunities, making it an essential part of Morocco's development.",
+  "history": "Nador has a rich history, originally established as a small fishing village. Over time, it evolved into a key trade center, particularly during the Spanish colonial period.",
+  "economy": "Nador's economy is primarily driven by trade, agriculture, and fishing, benefiting from its strategic location near the Mediterranean. The city also serves as a gateway for exports to Europe, fostering local businesses and attracting foreign investment.",
+  "tourism": "Nador offers visitors a unique blend of natural beauty and cultural experiences. Key attractions include the stunning beaches of Mar Chica, the historic sites in the surrounding Rif Mountains, and vibrant local markets where tourists can explore Moroccan crafts and cuisine.",
+  "best_places": [
+    "Mar Chica Beach",
+    "Rif Mountains",
+    "Nador Marina",
+    "Nador Souk",
+    "Beni Ansar",
+    "Lagune de Nador"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant La Paix",
+      "description": "Known for its delicious Moroccan dishes and warm atmosphere."
+    },
+    {
+      "name": "Les Jardins de la Mer",
+      "description": "Offers fresh seafood with stunning views of the Mediterranean."
+    },
+    {
+      "name": "Café Nador",
+      "description": "A popular spot for coffee and traditional pastries."
+    },
+    {
+      "name": "Restaurant Al Khaima",
+      "description": "Specializes in local cuisine with a cozy dining experience."
+    },
+    {
+      "name": "Café Rachid",
+      "description": "Famous for its friendly service and authentic Moroccan tea."
+    }
+  ],
+  "weather_summary": "Nador experiences a Mediterranean climate with mild, wet winters and hot, dry summers, ideal for outdoor activities.",
+  "faqs": [
+    {
+      "question": "What time zone is Nador in?",
+      "answer": "Nador is in the Africa/Casablanca time zone."
+    },
+    {
+      "question": "Does Nador observe daylight saving time?",
+      "answer": "Yes, Nador observes daylight saving time, typically from late March to late October."
+    },
+    {
+      "question": "What is the population of Nador?",
+      "answer": "Nador has a population of approximately 176,600 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Nador?",
+      "answer": "Sunrise in Nador typically occurs between 6:30 AM and 7:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Nador?",
+      "answer": "The best time to visit Nador is during spring and early autumn when the weather is pleasant and ideal for outdoor activities."
+    }
+  ]
+}

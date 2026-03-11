@@ -1,0 +1,59 @@
+{
+  "overview": "Frisco, located in the heart of North Texas, is a vibrant city within the Dallas-Fort Worth metropolitan area. With a population of over 154,000, it has rapidly evolved into a key player in the region's economic growth, attracting businesses and residents alike. Known for its family-friendly atmosphere, excellent schools, and diverse recreational opportunities, Frisco has become a sought-after destination for those looking to enjoy suburban living while being close to the bustling urban centers of Dallas and Fort Worth.",
+  "history": "Frisco was founded in the late 19th century as a railroad town and has since transformed into a thriving suburban community. The city officially incorporated in 1908 and has experienced significant growth, particularly in the 21st century.",
+  "economy": "Frisco's economy is robust, driven by industries such as technology, healthcare, and retail. The city is home to numerous corporate headquarters and has cultivated a business-friendly environment, making it an attractive location for startups and established companies alike.",
+  "tourism": "Visitors to Frisco can explore a variety of attractions, including the National Soccer Hall of Fame and the Frisco Heritage Museum. The city also offers outdoor activities at its many parks, shopping at the Stonebriar Centre, and entertainment at the Dr Pepper Ballpark, making it a destination for families and sports enthusiasts.",
+  "best_places": [
+    "Frisco Square",
+    "The Star in Frisco",
+    "National Soccer Hall of Fame",
+    "Frisco Heritage Museum",
+    "Stonebriar Centre",
+    "Dr Pepper Ballpark"
+  ],
+  "best_restaurants": [
+    {
+      "name": "The Capital Grille",
+      "description": "An upscale steakhouse known for its dry-aged steaks and extensive wine list."
+    },
+    {
+      "name": "Perry's Steakhouse & Grille",
+      "description": "A popular dining spot offering a classic steakhouse experience with a modern twist."
+    },
+    {
+      "name": "La Finca",
+      "description": "A vibrant restaurant serving authentic Mexican cuisine in a lively atmosphere."
+    },
+    {
+      "name": "Cotton Patch Cafe",
+      "description": "A casual eatery featuring Southern comfort food and a welcoming ambiance."
+    },
+    {
+      "name": "Fogo de Chão",
+      "description": "A Brazilian steakhouse offering a unique dining experience with endless skewers of grilled meats."
+    }
+  ],
+  "weather_summary": "Frisco experiences hot summers and mild winters, with occasional thunderstorms in the spring and summer months.",
+  "faqs": [
+    {
+      "question": "What time zone is Frisco in?",
+      "answer": "Frisco is in the America/Chicago time zone."
+    },
+    {
+      "question": "Does Frisco observe daylight saving time?",
+      "answer": "Yes, Frisco observes daylight saving time, typically beginning in March and ending in November."
+    },
+    {
+      "question": "What is the population of Frisco?",
+      "answer": "The population of Frisco is approximately 154,407 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Frisco?",
+      "answer": "Sunrise in Frisco typically occurs between 6:30 AM and 7:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Frisco?",
+      "answer": "The best time to visit Frisco is during the spring and fall when the weather is mild and outdoor activities are plentiful."
+    }
+  ]
+}

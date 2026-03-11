@@ -1,0 +1,60 @@
+{
+  "overview": "Phnom Penh, the capital city of Cambodia, is a vibrant hub located at the confluence of the Mekong, Tonle Sap, and Bassac rivers. With a population of over 1.5 million, it serves as the political, economic, and cultural heart of the nation. Known for its rich history and rapid modernization, Phnom Penh attracts both tourists and business travelers, making it a significant player in Southeast Asia's growth and development.",
+  "history": "Phnom Penh was founded in the 14th century and became the capital of Cambodia in the 1860s. It played a key role during the Khmer Rouge regime in the 1970s, which significantly impacted its development.",
+  "economy": "Phnom Penh's economy is diverse, with key industries including textiles, tourism, and agriculture. The city has seen rapid growth in recent years, attracting foreign investment and fostering a burgeoning startup scene.",
+  "tourism": "Tourism in Phnom Penh offers a blend of historical and cultural experiences. Visitors can explore the Royal Palace, the National Museum, and the haunting sites of the Killing Fields, as well as enjoy the vibrant street food scene and bustling markets.",
+  "best_places": [
+    "Royal Palace",
+    "National Museum",
+    "Silver Pagoda",
+    "Tuol Sleng Genocide Museum",
+    "Wat Phnom",
+    "Central Market",
+    "Sisowath Quay"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Romdeng",
+      "description": "A popular restaurant serving traditional Khmer dishes in a charming setting."
+    },
+    {
+      "name": "Khmer Surin",
+      "description": "Known for its authentic Cambodian cuisine and warm atmosphere."
+    },
+    {
+      "name": "The Sugar Palm",
+      "description": "Offers a taste of local flavors with a modern twist."
+    },
+    {
+      "name": "Friends Restaurant",
+      "description": "A social enterprise that trains disadvantaged youth while serving delicious food."
+    },
+    {
+      "name": "Malis",
+      "description": "An upscale dining experience featuring exquisite Cambodian dishes."
+    }
+  ],
+  "weather_summary": "Phnom Penh experiences a tropical climate with distinct wet and dry seasons, featuring hot, humid weather year-round.",
+  "faqs": [
+    {
+      "question": "What time zone is Phnom Penh in?",
+      "answer": "Phnom Penh is in the Asia/Phnom_Penh time zone."
+    },
+    {
+      "question": "Does Phnom Penh observe daylight saving time?",
+      "answer": "No, Phnom Penh does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Phnom Penh?",
+      "answer": "The population of Phnom Penh is approximately 1,573,544."
+    },
+    {
+      "question": "When does sunrise typically occur in Phnom Penh?",
+      "answer": "Sunrise in Phnom Penh typically occurs around 6:00 AM to 6:15 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Phnom Penh?",
+      "answer": "The best time to visit Phnom Penh is during the dry season, from November to February, when temperatures are cooler and humidity is lower."
+    }
+  ]
+}

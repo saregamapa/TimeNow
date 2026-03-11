@@ -1,0 +1,59 @@
+{
+  "overview": "Billings, located in the heart of Montana, is the largest city in the state and serves as a vital economic and cultural hub for the region. Nestled near the Yellowstone River, it is strategically positioned near several national parks, making it a gateway for outdoor enthusiasts. With a population of over 117,000, Billings plays a crucial role in commerce, healthcare, and education, attracting visitors and residents alike with its unique blend of urban amenities and natural beauty.",
+  "history": "Billings was founded in 1882 as a railroad town and quickly grew due to its strategic location. It became a significant trade center for the region and has since evolved into a thriving city.",
+  "economy": "Billings boasts a diverse economy, with key industries including healthcare, agriculture, and energy. The city serves as a regional trade center, supporting local businesses and attracting national companies, which contribute to its robust economic landscape.",
+  "tourism": "Tourism in Billings is vibrant, with visitors drawn to attractions like the Yellowstone Art Museum and the historic downtown district. Outdoor activities abound, including hiking in the nearby Rimrocks and exploring the scenic landscapes of Yellowstone National Park, making it a popular destination for nature lovers and adventure seekers.",
+  "best_places": [
+    "Yellowstone Art Museum",
+    "Pioneer Park",
+    "Billings Depot",
+    "Rimrock Mall",
+    "Lake Elmo State Park",
+    "Pompeys Pillar National Monument"
+  ],
+  "best_restaurants": [
+    {
+      "name": "The Fainting Goat",
+      "description": "A trendy spot known for its farm-to-table dishes and vibrant atmosphere."
+    },
+    {
+      "name": "Montana's Rib and Chop House",
+      "description": "Famous for its mouthwatering steaks and barbecue in a rustic setting."
+    },
+    {
+      "name": "Café Zydeco",
+      "description": "Offers a unique blend of Cajun and Creole cuisine with a local twist."
+    },
+    {
+      "name": "The Burger Dive",
+      "description": "Popular for its gourmet burgers and casual dining experience."
+    },
+    {
+      "name": "The Fieldhouse",
+      "description": "A sports bar featuring a diverse menu and a lively atmosphere."
+    }
+  ],
+  "weather_summary": "Billings experiences cold, snowy winters and warm, dry summers, with plenty of sunshine year-round.",
+  "faqs": [
+    {
+      "question": "What time zone is Billings in?",
+      "answer": "Billings is in the America/Denver time zone."
+    },
+    {
+      "question": "Does Billings observe daylight saving time?",
+      "answer": "Yes, Billings observes daylight saving time, moving clocks forward in spring and back in fall."
+    },
+    {
+      "question": "What is the population of Billings?",
+      "answer": "The population of Billings is approximately 117,116."
+    },
+    {
+      "question": "When does sunrise typically occur in Billings?",
+      "answer": "Sunrise in Billings varies throughout the year, generally occurring between 6:00 AM and 7:30 AM."
+    },
+    {
+      "question": "What is the best time to visit Billings?",
+      "answer": "The best time to visit Billings is during the summer months, from June to August, for pleasant weather and outdoor activities."
+    }
+  ]
+}

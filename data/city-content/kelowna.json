@@ -1,0 +1,60 @@
+{
+  "overview": "Kelowna, located in the heart of British Columbia's Okanagan Valley, is a vibrant city renowned for its stunning lakes, wineries, and outdoor recreation. As a key urban center, it plays a significant role in the regional economy and attracts visitors year-round. With a population of approximately 144,576, Kelowna combines urban amenities with natural beauty, making it a desirable destination for both residents and tourists alike.",
+  "history": "Kelowna was officially founded in 1905 and has grown from a small agricultural community to a bustling city. Its strategic location along Okanagan Lake has historically made it a vital trade and transport hub.",
+  "economy": "Kelowna's economy is diverse, with key industries including agriculture, technology, and tourism. The city's wineries and orchards contribute significantly to the local economy, while a growing tech sector attracts startups and innovation.",
+  "tourism": "Kelowna is a popular tourist destination, famous for its beautiful lakes, beaches, and wineries. Visitors often explore the scenic Okanagan Lake, enjoy outdoor activities like hiking and skiing, and indulge in wine tours that showcase the region's acclaimed vineyards.",
+  "best_places": [
+    "Okanagan Lake",
+    "Knox Mountain Park",
+    "Mission Hill Family Estate",
+    "Myra Canyon",
+    "Kelowna Art Gallery",
+    "Prospera Place",
+    "Gellatly Heritage Park"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Bouchons Bistro",
+      "description": "A charming French restaurant known for its authentic cuisine and cozy atmosphere."
+    },
+    {
+      "name": "The Okanagan Table",
+      "description": "Offers a farm-to-table dining experience with locally sourced ingredients."
+    },
+    {
+      "name": "The Keg Steakhouse + Bar",
+      "description": "A popular chain known for its high-quality steaks and vibrant dining experience."
+    },
+    {
+      "name": "Raudz Regional Table",
+      "description": "Famous for its creative dishes made from fresh, local ingredients."
+    },
+    {
+      "name": "Salt & Brick",
+      "description": "A unique eatery specializing in share plates and an extensive wine list."
+    }
+  ],
+  "weather_summary": "Kelowna experiences mild winters and warm summers, with plenty of sunshine and occasional rain.",
+  "faqs": [
+    {
+      "question": "What time zone is Kelowna in?",
+      "answer": "Kelowna is in the America/Vancouver time zone."
+    },
+    {
+      "question": "Does Kelowna observe daylight saving time?",
+      "answer": "Yes, Kelowna observes daylight saving time, typically starting in March and ending in November."
+    },
+    {
+      "question": "What is the population of Kelowna?",
+      "answer": "The population of Kelowna is approximately 144,576."
+    },
+    {
+      "question": "When does sunrise typically occur in Kelowna?",
+      "answer": "Sunrise in Kelowna typically occurs between 6:00 AM and 7:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Kelowna?",
+      "answer": "The best time to visit Kelowna is during the summer months, from June to September, when the weather is warm and outdoor activities are abundant."
+    }
+  ]
+}
