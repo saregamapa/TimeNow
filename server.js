@@ -495,9 +495,12 @@ const HEADER_RIGHT_HTML = '<a href="/continents">Continents</a><a href="/countri
 /** Full app header HTML for list pages (continents, countries) that build HTML in server. */
 const APP_HEADER_HTML = '<header class="app-header" role="banner"><div class="header-container"><div class="header-left"><a href="/" class="logo" aria-label="TimeNow home">TimeNow</a></div><div class="header-right">' + HEADER_RIGHT_HTML + '</div></div></header>';
 /** Head (fonts + CSS) same as frontpage so footer and typography match. */
-const LIST_PAGE_HEAD = '<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Libre+Baskerville:700&family=Oswald:wght@500&family=DM+Sans:wght@600&display=swap" rel="stylesheet"/><link rel="stylesheet" href="/css/main.css"/>';
+const LIST_PAGE_HEAD = GTM_HEAD + '<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Libre+Baskerville:700&family=Oswald:wght@500&family=DM+Sans:wght@600&display=swap" rel="stylesheet"/><link rel="stylesheet" href="/css/main.css"/>';
 /** Footer HTML (same as frontpage): brand + nav with emojis. */
 const APP_FOOTER_HTML = '<footer class="global-footer" role="contentinfo"><p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p><nav class="footer-nav" aria-label="Footer"><a href="/about">📄 About</a><a href="/privacy">🔒 Privacy</a><a href="/terms">📋 Terms</a><a href="/contact">✉️ Contact</a><a href="/sitemap.xml">🗺️ Sitemap</a></nav></footer>';
+/** Google Tag Manager (GTM-5764J5L6): inject in head and after body on every page. */
+const GTM_HEAD = '<!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({\'gtm.start\':new Date().getTime(),event:\'gtm.js\'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!=\'dataLayer\'?\'&l=\'+l:\'\';j.async=true;j.src=\'https://www.googletagmanager.com/gtm.js?id=\'+i+dl;f.parentNode.insertBefore(j,f);})(window,document,\'script\',\'dataLayer\',\'GTM-5764J5L6\');</script><!-- End Google Tag Manager -->';
+const GTM_NOSCRIPT = '<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5764J5L6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->';
 
 /** Render city page from template: replace all {{key}} with values. */
 function renderCityPage(data) {
@@ -825,7 +828,7 @@ function renderTimeDiffPage(cityA, cityB) {
 /** 404 page when city slug is not found. */
 function city404Html(slug) {
   const s = escapeHtml((slug || '').trim() || 'unknown');
-  return '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>City not found | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body><header class="top-bar"><a href="/" class="logo">TimeNow</a></header><main class="main"><section class="section"><h1 class="section-title">City not found</h1><p>We could not find a city with the slug &quot;' + s + '&quot;.</p><p><a href="/">View world clock</a> or search for a city above.</p></section></main>' + APP_FOOTER_HTML + '</body></html>';
+  return '<!DOCTYPE html><html lang="en"><head>' + GTM_HEAD + '<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>City not found | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body>' + GTM_NOSCRIPT + '<header class="top-bar"><a href="/" class="logo">TimeNow</a></header><main class="main"><section class="section"><h1 class="section-title">City not found</h1><p>We could not find a city with the slug &quot;' + s + '&quot;.</p><p><a href="/">View world clock</a> or search for a city above.</p></section></main>' + APP_FOOTER_HTML + '</body></html>';
 }
 
 function escapeHtml(s) {
@@ -856,12 +859,23 @@ function meetingPageHtml(q) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5764J5L6');</script>
+  <!-- End Google Tag Manager -->
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Meeting time: ${from} & ${to} | TimeNow</title>
   <link rel="stylesheet" href="/css/main.css"/>
 </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5764J5L6"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <header class="top-bar"><a href="/" style="color:var(--text);text-decoration:none;">TimeNow</a></header>
   <div class="container">
     <section class="hero">
@@ -892,12 +906,23 @@ function countdownPageHtml(q) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5764J5L6');</script>
+  <!-- End Google Tag Manager -->
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Countdown: ${event} | TimeNow</title>
   <link rel="stylesheet" href="/css/main.css"/>
 </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5764J5L6"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <header class="top-bar"><a href="/" style="color:var(--text);text-decoration:none;">TimeNow</a></header>
   <div class="container">
     <section class="hero">
@@ -1050,7 +1075,7 @@ const server = http.createServer((req, res) => {
       return;
     }
     res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
-    res.end('<!DOCTYPE html><html><head><title>Continent not found | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body><header class="top-bar"><a href="/" class="logo">TimeNow</a></header><main class="main"><section class="section"><h1>Continent not found</h1><p><a href="/">Home</a></p></section></main></body></html>');
+    res.end('<!DOCTYPE html><html lang="en"><head>' + GTM_HEAD + '<title>Continent not found | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body>' + GTM_NOSCRIPT + '<header class="top-bar"><a href="/" class="logo">TimeNow</a></header><main class="main"><section class="section"><h1>Continent not found</h1><p><a href="/">Home</a></p></section></main></body></html>');
     return;
   }
 
@@ -1064,7 +1089,7 @@ const server = http.createServer((req, res) => {
       return;
     }
     res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
-    res.end('<!DOCTYPE html><html><head><title>Country not found | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body><header class="top-bar"><a href="/" class="logo">TimeNow</a></header><main class="main"><section class="section"><h1>Country not found</h1><p><a href="/">Home</a></p></section></main></body></html>');
+    res.end('<!DOCTYPE html><html lang="en"><head>' + GTM_HEAD + '<title>Country not found | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body>' + GTM_NOSCRIPT + '<header class="top-bar"><a href="/" class="logo">TimeNow</a></header><main class="main"><section class="section"><h1>Country not found</h1><p><a href="/">Home</a></p></section></main></body></html>');
     return;
   }
 
@@ -1080,7 +1105,7 @@ const server = http.createServer((req, res) => {
       return '<article class="continent-card ' + escapeHtml(themeClass) + '"><a href="/continent/' + escapeHtml(slug) + '" class="continent-card__link"><h2 class="continent-card__title">' + escapeHtml(name) + '</h2><div class="continent-card__map-wrap"><iframe title="' + escapeHtml(name) + ' on map" class="continent-card__map" src="' + escapeHtml(mapUrl) + '" loading="lazy"></iframe></div><span class="continent-card__cta">View countries & cities</span></a></article>';
     });
     const gridHtml = '<div class="continents-grid" role="list">' + cards.join('') + '</div>';
-    const html = '<!DOCTYPE html><html lang="en"><head><title>Continents | TimeNow</title>' + LIST_PAGE_HEAD + '</head><body>' + APP_HEADER_HTML + '<main class="main list-page"><section class="section"><h1 class="section-title">Continents</h1>' + gridHtml + '</section></main>' + APP_FOOTER_HTML + '<script type="module" src="/js/app.js"></script><script src="/js/search.js" defer></script></body></html>';
+    const html = '<!DOCTYPE html><html lang="en"><head><title>Continents | TimeNow</title>' + LIST_PAGE_HEAD + '</head><body>' + GTM_NOSCRIPT + APP_HEADER_HTML + '<main class="main list-page"><section class="section"><h1 class="section-title">Continents</h1>' + gridHtml + '</section></main>' + APP_FOOTER_HTML + '<script type="module" src="/js/app.js"></script><script src="/js/search.js" defer></script></body></html>';
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
     res.end(html);
     return;
@@ -1096,7 +1121,7 @@ const server = http.createServer((req, res) => {
       return '<article class="country-card" role="listitem"><a href="/country/' + escapeHtml(slug) + '" class="country-card__link"><span class="country-card__flag" aria-hidden="true">' + (flag || '🌐') + '</span><h2 class="country-card__title">' + escapeHtml(name) + '</h2>' + mapPart + '<span class="country-card__cta">View cities</span></a></article>';
     });
     const gridHtml = '<div class="countries-grid" role="list">' + cards.join('') + '</div>';
-    const html = '<!DOCTYPE html><html lang="en"><head><title>Countries | TimeNow</title>' + LIST_PAGE_HEAD + '</head><body>' + APP_HEADER_HTML + '<main class="main list-page"><section class="section"><h1 class="section-title">Countries</h1>' + gridHtml + '</section></main>' + APP_FOOTER_HTML + '<script type="module" src="/js/app.js"></script><script src="/js/search.js" defer></script></body></html>';
+    const html = '<!DOCTYPE html><html lang="en"><head><title>Countries | TimeNow</title>' + LIST_PAGE_HEAD + '</head><body>' + GTM_NOSCRIPT + APP_HEADER_HTML + '<main class="main list-page"><section class="section"><h1 class="section-title">Countries</h1>' + gridHtml + '</section></main>' + APP_FOOTER_HTML + '<script type="module" src="/js/app.js"></script><script src="/js/search.js" defer></script></body></html>';
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
     res.end(html);
     return;
@@ -1113,7 +1138,7 @@ const server = http.createServer((req, res) => {
       return;
     }
     res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
-    res.end('<!DOCTYPE html><html><head><title>Not found | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body><header class="top-bar"><a href="/" class="logo">TimeNow</a></header><main class="main"><section class="section"><h1>Page not found</h1><p><a href="/">Home</a></p></section></main></body></html>');
+    res.end('<!DOCTYPE html><html lang="en"><head>' + GTM_HEAD + '<title>Not found | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body>' + GTM_NOSCRIPT + '<header class="top-bar"><a href="/" class="logo">TimeNow</a></header><main class="main"><section class="section"><h1>Page not found</h1><p><a href="/">Home</a></p></section></main></body></html>');
     return;
   }
 
