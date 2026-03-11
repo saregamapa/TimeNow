@@ -4,11 +4,11 @@
 
 The goal of **TimeNow** is simple: make global time coordination effortless for remote teams, travelers, developers, and global businesses.
 
-**
-🌐 Website: https://timenow.co.in/**
 
-**
-🚀 Features**
+🌐 Website: https://timenow.co.in/
+
+
+**🚀 Features**
 
 **1. Global City Time Search**
 
@@ -20,8 +20,7 @@ Supports hundreds of cities worldwide
 
 Optimized for quick meeting planning
 
-**
-2. Real-Time World Clocks**
+**2. Real-Time World Clocks**
 
 Pin multiple cities
 
@@ -60,8 +59,9 @@ Photographers
 Travelers
 
 Outdoor planners
-**
-5. Weather Information**
+
+
+**5. Weather Information**
 
 Each city page includes:
 
@@ -74,8 +74,9 @@ Conditions
 Future weather forecast
 
 Helps users plan travel or meetings around weather conditions.
-**
-6. City Information**
+
+
+**6. City Information**
 
 Every city page includes:
 
