@@ -3,10 +3,13 @@
 **TimeNow** is a modern web application designed to help users manage global time efficiently. It provides real-time world clocks, timezone comparisons, sun windows, weather information, and productivity tools for people working across multiple time zones.
 
 The goal of **TimeNow** is simple: make global time coordination effortless for remote teams, travelers, developers, and global businesses.
+
 **
 🌐 Website: https://timenow.co.in/**
+
 **
 🚀 Features**
+
 **1. Global City Time Search**
 
 Instantly search for any city in the world
@@ -16,6 +19,7 @@ Displays current local time
 Supports hundreds of cities worldwide
 
 Optimized for quick meeting planning
+
 **
 2. Real-Time World Clocks**
 
