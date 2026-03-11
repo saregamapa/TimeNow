@@ -10,7 +10,8 @@
     "generate-city-content": "node scripts/generateCityContent.js",
     "generate-city-content:major-first": "node scripts/generateCityContent.js --major-first",
     "generate-places": "node scripts/generatePlaces.js",
-    "generate-places:major-first": "node scripts/generatePlaces.js --major-first"
+    "generate-places:major-first": "node scripts/generatePlaces.js --major-first",
+    "generate-sitemap": "node scripts/generateSitemap.js"
   },
   "engines": {
     "node": ">=14"

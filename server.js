@@ -494,6 +494,10 @@ const SEARCH_BAR_HTML = '<div class="header-search-wrap"><label for="global-sear
 const HEADER_RIGHT_HTML = '<a href="/continents">Continents</a><a href="/countries">Countries</a><a href="/world-clock">World Clock</a><a href="/tools">Tools</a>' + SEARCH_BAR_HTML + '<button type="button" class="theme-btn" id="theme-btn" title="Toggle theme" aria-label="Toggle dark/light theme">🌙</button><button type="button" class="sound-btn theme-btn" id="sound-btn" title="Clock tick sound" aria-label="Toggle clock tick sound">🔇</button>';
 /** Full app header HTML for list pages (continents, countries) that build HTML in server. */
 const APP_HEADER_HTML = '<header class="app-header" role="banner"><div class="header-container"><div class="header-left"><a href="/" class="logo" aria-label="TimeNow home">TimeNow</a></div><div class="header-right">' + HEADER_RIGHT_HTML + '</div></div></header>';
+/** Head (fonts + CSS) same as frontpage so footer and typography match. */
+const LIST_PAGE_HEAD = '<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Libre+Baskerville:700&family=Oswald:wght@500&family=DM+Sans:wght@600&display=swap" rel="stylesheet"/><link rel="stylesheet" href="/css/main.css"/>';
+/** Footer HTML (same as frontpage): brand + nav with emojis. */
+const APP_FOOTER_HTML = '<footer class="global-footer" role="contentinfo"><p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p><nav class="footer-nav" aria-label="Footer"><a href="/about">📄 About</a><a href="/privacy">🔒 Privacy</a><a href="/terms">📋 Terms</a><a href="/contact">✉️ Contact</a><a href="/sitemap.xml">🗺️ Sitemap</a></nav></footer>';
 
 /** Render city page from template: replace all {{key}} with values. */
 function renderCityPage(data) {
@@ -821,7 +825,7 @@ function renderTimeDiffPage(cityA, cityB) {
 /** 404 page when city slug is not found. */
 function city404Html(slug) {
   const s = escapeHtml((slug || '').trim() || 'unknown');
-  return '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>City not found | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body><header class="top-bar"><a href="/" class="logo">TimeNow</a></header><main class="main"><section class="section"><h1 class="section-title">City not found</h1><p>We could not find a city with the slug &quot;' + s + '&quot;.</p><p><a href="/">View world clock</a> or search for a city above.</p></section></main><footer class="global-footer"><p class="footer-brand">TimeNow</p><nav class="footer-nav"><a href="/about">About</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/contact">Contact</a></nav></footer></body></html>';
+  return '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>City not found | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body><header class="top-bar"><a href="/" class="logo">TimeNow</a></header><main class="main"><section class="section"><h1 class="section-title">City not found</h1><p>We could not find a city with the slug &quot;' + s + '&quot;.</p><p><a href="/">View world clock</a> or search for a city above.</p></section></main>' + APP_FOOTER_HTML + '</body></html>';
 }
 
 function escapeHtml(s) {
@@ -1076,7 +1080,7 @@ const server = http.createServer((req, res) => {
       return '<article class="continent-card ' + escapeHtml(themeClass) + '"><a href="/continent/' + escapeHtml(slug) + '" class="continent-card__link"><h2 class="continent-card__title">' + escapeHtml(name) + '</h2><div class="continent-card__map-wrap"><iframe title="' + escapeHtml(name) + ' on map" class="continent-card__map" src="' + escapeHtml(mapUrl) + '" loading="lazy"></iframe></div><span class="continent-card__cta">View countries & cities</span></a></article>';
     });
     const gridHtml = '<div class="continents-grid" role="list">' + cards.join('') + '</div>';
-    const html = '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Continents | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body>' + APP_HEADER_HTML + '<main class="main list-page"><section class="section"><h1 class="section-title">Continents</h1>' + gridHtml + '</section></main><footer class="global-footer"><p class="footer-brand">TimeNow</p><nav class="footer-nav"><a href="/about">About</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/contact">Contact</a></nav></footer><script type="module" src="/js/app.js"></script><script src="/js/search.js" defer></script></body></html>';
+    const html = '<!DOCTYPE html><html lang="en"><head><title>Continents | TimeNow</title>' + LIST_PAGE_HEAD + '</head><body>' + APP_HEADER_HTML + '<main class="main list-page"><section class="section"><h1 class="section-title">Continents</h1>' + gridHtml + '</section></main>' + APP_FOOTER_HTML + '<script type="module" src="/js/app.js"></script><script src="/js/search.js" defer></script></body></html>';
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
     res.end(html);
     return;
@@ -1092,7 +1096,7 @@ const server = http.createServer((req, res) => {
       return '<article class="country-card" role="listitem"><a href="/country/' + escapeHtml(slug) + '" class="country-card__link"><span class="country-card__flag" aria-hidden="true">' + (flag || '🌐') + '</span><h2 class="country-card__title">' + escapeHtml(name) + '</h2>' + mapPart + '<span class="country-card__cta">View cities</span></a></article>';
     });
     const gridHtml = '<div class="countries-grid" role="list">' + cards.join('') + '</div>';
-    const html = '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Countries | TimeNow</title><link rel="stylesheet" href="/css/main.css"/></head><body>' + APP_HEADER_HTML + '<main class="main list-page"><section class="section"><h1 class="section-title">Countries</h1>' + gridHtml + '</section></main><footer class="global-footer"><p class="footer-brand">TimeNow</p><nav class="footer-nav"><a href="/about">About</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/contact">Contact</a></nav></footer><script type="module" src="/js/app.js"></script><script src="/js/search.js" defer></script></body></html>';
+    const html = '<!DOCTYPE html><html lang="en"><head><title>Countries | TimeNow</title>' + LIST_PAGE_HEAD + '</head><body>' + APP_HEADER_HTML + '<main class="main list-page"><section class="section"><h1 class="section-title">Countries</h1>' + gridHtml + '</section></main>' + APP_FOOTER_HTML + '<script type="module" src="/js/app.js"></script><script src="/js/search.js" defer></script></body></html>';
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
     res.end(html);
     return;
@@ -1175,6 +1179,12 @@ const server = http.createServer((req, res) => {
   }
 
   if (pathname === '/sitemap.xml') {
+    const staticSitemapPath = path.join(ROOT, 'sitemap.xml');
+    if (fs.existsSync(staticSitemapPath)) {
+      res.setHeader('Content-Type', 'application/xml');
+      res.end(fs.readFileSync(staticSitemapPath, 'utf8'));
+      return;
+    }
     res.setHeader('Content-Type', 'application/xml');
     res.end(getSitemapXml());
     return;
