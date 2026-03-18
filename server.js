@@ -291,10 +291,16 @@ function serveFile(filePath, res, contentType) {
     const ct = contentType || MIME[path.extname(filePath)] || 'application/octet-stream';
     res.setHeader('Content-Type', ct);
     if (ct.startsWith('text/html')) {
+      let html = text;
+      // Ensure agents-tools.css is linked
+      if (!/\/css\/agents-tools\.css/.test(html)) {
+        html = html.replace(/<\/head>/i, '<link rel="stylesheet" href="/css/agents-tools.css"/></head>');
+      }
       // Inject agents footer if not already present
-      const injected = text.includes('agents-footer') ? text : text.replace(/<\/footer>/i, '</footer>')
-        .replace(/<\/body>/i, (m) => (agentsFooterHtml() + m));
-      res.end(injected);
+      if (!html.includes('agents-footer')) {
+        html = html.replace(/<\/footer>/i, '</footer>').replace(/<\/body>/i, (m) => (agentsFooterHtml() + m));
+      }
+      res.end(html);
     } else {
       res.end(text);
     }
@@ -510,7 +516,7 @@ const GTAG_HEAD = '<!-- Google tag (gtag.js) --><script async src="https://www.g
 const ADSENSE_HEAD = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6109958393336514" crossorigin="anonymous"></script><meta name="google-adsense-account" content="ca-pub-6109958393336514">';
 const FAVICON_LINK = '<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>';
 /** Head (fonts + CSS) same as frontpage so footer and typography match. */
-const LIST_PAGE_HEAD = GTAG_HEAD + GTM_HEAD + ADSENSE_HEAD + FAVICON_LINK + '<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Libre+Baskerville:700&family=Oswald:wght@500&family=DM+Sans:wght@600&display=swap" rel="stylesheet"/><link rel="stylesheet" href="/css/main.css"/>';
+const LIST_PAGE_HEAD = GTAG_HEAD + GTM_HEAD + ADSENSE_HEAD + FAVICON_LINK + '<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Libre+Baskerville:700&family=Oswald:wght@500&family=DM+Sans:wght@600&display=swap" rel="stylesheet"/><link rel="stylesheet" href="/css/main.css"/><link rel="stylesheet" href="/css/agents-tools.css"/>';
 /** Footer HTML (same as frontpage): brand + nav with emojis. */
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY || '';
 const OPENAI_MODEL = process.env.OPENAI_MODEL || 'gpt-4o-mini';
