@@ -6,21 +6,47 @@
   <title>Work Hours Overlap | TimeNow</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/css/agents-tools.css" />
 </head>
 <body>
   <header class="app-header"><div class="header-container"><div class="header-left"><a class="logo" href="/"><img src="/favicon.svg" alt="" class="logo-icon"/>TimeNow</a></div><div class="header-right"><a href="/tools" aria-current="page">Tools</a></div></div></header>
-  <main class="main"><section class="section"><h1 class="section-title">👥 Work hours overlap</h1>
-    <div class="tool-form">
-      <label for="overlap-zones">Zones (one per line)</label>
-      <textarea id="overlap-zones" rows="3" placeholder="America/New_York
+  <main class="main">
+    <section class="page-section">
+      <header class="page-section__head">
+        <div class="page-section__icon">👥</div>
+        <div>
+          <h1 class="page-section__title">Work hours overlap</h1>
+          <div class="page-section__meta"><span class="badge badge--ok">Active</span><span class="badge">Planner</span></div>
+        </div>
+      </header>
+      <p class="page-section__desc">Find humane overlap windows for teams across multiple time zones.</p>
+      <div class="page-cards">
+        <article class="ui-card">
+          <h2>Run</h2>
+          <div class="tool-form">
+            <label for="overlap-zones">Zones (one per line)</label>
+            <textarea id="overlap-zones" rows="3" placeholder="America/New_York
 Europe/London"></textarea>
-      <label for="overlap-hours">Hours (e.g. 9-17)</label>
-      <input type="text" id="overlap-hours" value="9-17" />
-      <button type="button" id="btn-overlap">Find overlap</button>
-      <pre class="tool-output" id="out-overlap"></pre>
-      <div class="overlap-bars" id="overlap-bars"></div>
-    </div>
-  </section></main>
+            <label for="overlap-hours">Hours (e.g. 9-17)</label>
+            <input type="text" id="overlap-hours" value="9-17" />
+            <div class="run-actions">
+              <button type="button" id="btn-overlap" class="btn btn--primary">Find overlap</button>
+              <button type="button" class="btn" onclick="document.getElementById('overlap-zones').value='America/New_York\nEurope/London\nAsia/Tokyo';document.getElementById('overlap-hours').value='9-17';">Example</button>
+            </div>
+            <pre class="run-output" id="out-overlap"></pre>
+            <div class="overlap-bars" id="overlap-bars"></div>
+          </div>
+        </article>
+        <article class="ui-card">
+          <h2>Examples</h2>
+          <div class="example"><span class="example__label">Input</span><pre class="example__code">America/New_York
+Europe/London
+Asia/Tokyo</pre></div>
+          <div class="example"><span class="example__label">Output</span><pre class="example__code">NY: 09:00–17:00 • London: 14:00–22:00 • Tokyo: 22:00–06:00 …</pre></div>
+        </article>
+      </div>
+    </section>
+  </main>
   <footer class="global-footer"><p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p></footer>
   <script type="module" src="/js/app.js"></script>
 </body>
