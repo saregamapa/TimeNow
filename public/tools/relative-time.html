@@ -6,21 +6,45 @@
   <title>Relative Time | TimeNow</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/css/agents-tools.css" />
 </head>
 <body>
   <header class="app-header"><div class="header-container"><div class="header-left"><a class="logo" href="/"><img src="/favicon.svg" alt="" class="logo-icon"/>TimeNow</a></div><div class="header-right"><a href="/tools" aria-current="page">Tools</a></div></div></header>
-  <main class="main"><section class="section"><h1 class="section-title">💬 Relative time</h1>
-    <div class="tool-form">
-      <label for="relative-phrase">Phrase</label>
-      <input type="text" id="relative-phrase" placeholder="tomorrow morning" />
-      <label for="relative-tz">Timezone</label>
-      <input type="text" id="relative-tz" placeholder="America/Chicago" />
-      <label for="relative-others">Also in (comma IANA)</label>
-      <input type="text" id="relative-others" placeholder="Europe/London" />
-      <button type="button" id="btn-relative">Translate</button>
-      <pre class="tool-output" id="out-relative"></pre>
-    </div>
-  </section></main>
+  <main class="main">
+    <section class="page-section">
+      <header class="page-section__head">
+        <div class="page-section__icon">💬</div>
+        <div>
+          <h1 class="page-section__title">Relative time</h1>
+          <div class="page-section__meta"><span class="badge badge--ok">Active</span><span class="badge">Translator</span></div>
+        </div>
+      </header>
+      <p class="page-section__desc">Translate phrases like “tomorrow 9am” into exact local times across zones.</p>
+      <div class="page-cards">
+        <article class="ui-card">
+          <h2>Run</h2>
+          <div class="tool-form">
+            <label for="relative-phrase">Phrase</label>
+            <input type="text" id="relative-phrase" placeholder="tomorrow morning" />
+            <label for="relative-tz">Timezone</label>
+            <input type="text" id="relative-tz" placeholder="America/Chicago" />
+            <label for="relative-others">Also in (comma IANA)</label>
+            <input type="text" id="relative-others" placeholder="Europe/London" />
+            <div class="run-actions">
+              <button type="button" id="btn-relative" class="btn btn--primary">Translate</button>
+              <button type="button" class="btn" onclick="document.getElementById('relative-phrase').value='tomorrow 9am';document.getElementById('relative-tz').value='America/Chicago';document.getElementById('relative-others').value='Europe/London, Asia/Tokyo';">Example</button>
+            </div>
+            <pre class="run-output" id="out-relative"></pre>
+          </div>
+        </article>
+        <article class="ui-card">
+          <h2>Examples</h2>
+          <div class="example"><span class="example__label">Input</span><pre class="example__code">Phrase: “tomorrow 9am” • Zone: America/Chicago • Also in: Europe/London</pre></div>
+          <div class="example"><span class="example__label">Output</span><pre class="example__code">Chicago: Tue 09:00 • London: Tue 15:00</pre></div>
+        </article>
+      </div>
+    </section>
+  </main>
   <footer class="global-footer"><p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p></footer>
   <script type="module" src="/js/app.js"></script>
 </body>
