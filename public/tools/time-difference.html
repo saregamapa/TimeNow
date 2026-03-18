@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Time Difference | TimeNow</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body>
+  <header class="app-header"><div class="header-container"><div class="header-left"><a class="logo" href="/"><img src="/favicon.svg" alt="" class="logo-icon"/>TimeNow</a></div><div class="header-right"><a href="/tools" aria-current="page">Tools</a></div></div></header>
+  <main class="main"><section class="section"><h1 class="section-title">⏱️ Time difference</h1>
+    <div class="tool-form">
+      <label for="diff-city-a">City A (IANA)</label>
+      <input type="text" id="diff-city-a" placeholder="America/Chicago" />
+      <label for="diff-city-b">City B (IANA)</label>
+      <input type="text" id="diff-city-b" placeholder="Europe/London" />
+      <button type="button" id="btn-diff">Explain</button>
+      <pre class="tool-output" id="out-diff"></pre>
+    </div>
+  </section></main>
+  <footer class="global-footer"><p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p></footer>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

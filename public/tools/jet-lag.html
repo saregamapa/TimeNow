@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jet Lag Planner | TimeNow</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body>
+  <header class="app-header"><div class="header-container"><div class="header-left"><a class="logo" href="/"><img src="/favicon.svg" alt="" class="logo-icon"/>TimeNow</a></div><div class="header-right"><a href="/tools" aria-current="page">Tools</a></div></div></header>
+  <main class="main"><section class="section"><h1 class="section-title">✈️ Jet lag planner</h1>
+    <div class="tool-form">
+      <label for="jetlag-origin">Origin</label>
+      <input type="text" id="jetlag-origin" placeholder="America/Chicago" />
+      <label for="jetlag-dest">Destination</label>
+      <input type="text" id="jetlag-dest" placeholder="Europe/London" />
+      <label for="jetlag-date">Travel date</label>
+      <input type="date" id="jetlag-date" />
+      <button type="button" id="btn-jetlag">Get schedule</button>
+      <pre class="tool-output" id="out-jetlag"></pre>
+    </div>
+  </section></main>
+  <footer class="global-footer"><p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p></footer>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

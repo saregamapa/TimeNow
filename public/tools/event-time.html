@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Event Time in Other Zones | TimeNow</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body>
+  <header class="app-header"><div class="header-container"><div class="header-left"><a class="logo" href="/"><img src="/favicon.svg" alt="" class="logo-icon"/>TimeNow</a></div><div class="header-right"><a href="/tools" aria-current="page">Tools</a></div></div></header>
+  <main class="main"><section class="section"><h1 class="section-title">📅 Event time in other zones</h1>
+    <div class="tool-form">
+      <label for="event-time">Time</label>
+      <input type="text" id="event-time" placeholder="14:00" />
+      <label for="event-tz">Timezone (IANA)</label>
+      <input type="text" id="event-tz" placeholder="America/New_York" />
+      <label for="event-targets">Show in (comma IANA)</label>
+      <input type="text" id="event-targets" placeholder="Europe/London, Asia/Tokyo" />
+      <button type="button" id="btn-event">Get times</button>
+      <pre class="tool-output" id="out-event"></pre>
+    </div>
+  </section></main>
+  <footer class="global-footer"><p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p></footer>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

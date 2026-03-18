@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Work Hours Overlap | TimeNow</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body>
+  <header class="app-header"><div class="header-container"><div class="header-left"><a class="logo" href="/"><img src="/favicon.svg" alt="" class="logo-icon"/>TimeNow</a></div><div class="header-right"><a href="/tools" aria-current="page">Tools</a></div></div></header>
+  <main class="main"><section class="section"><h1 class="section-title">👥 Work hours overlap</h1>
+    <div class="tool-form">
+      <label for="overlap-zones">Zones (one per line)</label>
+      <textarea id="overlap-zones" rows="3" placeholder="America/New_York
+Europe/London"></textarea>
+      <label for="overlap-hours">Hours (e.g. 9-17)</label>
+      <input type="text" id="overlap-hours" value="9-17" />
+      <button type="button" id="btn-overlap">Find overlap</button>
+      <pre class="tool-output" id="out-overlap"></pre>
+      <div class="overlap-bars" id="overlap-bars"></div>
+    </div>
+  </section></main>
+  <footer class="global-footer"><p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p></footer>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
