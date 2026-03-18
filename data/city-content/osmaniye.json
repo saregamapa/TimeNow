@@ -1,0 +1,59 @@
+{
+  "overview": "Osmaniye is a vibrant city located in southern Turkey, serving as a significant cultural and economic hub in the region. Nestled in the Mediterranean region, it is strategically positioned near major trade routes, making it an important center for commerce and agriculture. With a population of approximately 202,837, Osmaniye boasts a rich history and diverse cultural heritage, attracting visitors and businesses alike.",
+  "history": "Founded in the early 20th century, Osmaniye has played a crucial role in the development of the region. Its historical significance is marked by its strategic location and contributions to trade and agriculture.",
+  "economy": "Osmaniye's economy is primarily driven by agriculture, with key industries including cotton production, olive oil, and various crops. The city's strategic location facilitates trade, making it a vital business center for local and regional commerce.",
+  "tourism": "Tourism in Osmaniye offers a unique blend of natural beauty and historical sites. Visitors can explore the ancient ruins of Karatepe, enjoy the scenic landscapes of the Amanos Mountains, and experience the vibrant local culture through traditional markets and festivals.",
+  "best_places": [
+    "Karatepe",
+    "Amanos Mountains",
+    "Osmaniye Castle",
+    "Toprakkale",
+    "Cevdetiye Village",
+    "Kozan Castle"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Saray Kebap",
+      "description": "Known for its delicious kebabs and traditional Turkish dishes."
+    },
+    {
+      "name": "Çınar Restaurant",
+      "description": "Offers a diverse menu with a focus on local cuisine."
+    },
+    {
+      "name": "Mavi Deniz Fish Restaurant",
+      "description": "Specializes in fresh seafood and traditional mezes."
+    },
+    {
+      "name": "Osmaniye Pide",
+      "description": "Famous for its authentic Turkish pide and friendly atmosphere."
+    },
+    {
+      "name": "Kahvaltı Sofrası",
+      "description": "Popular for its hearty Turkish breakfast options."
+    }
+  ],
+  "weather_summary": "Osmaniye experiences hot summers and mild, rainy winters, typical of a Mediterranean climate.",
+  "faqs": [
+    {
+      "question": "What time zone is Osmaniye in?",
+      "answer": "Osmaniye is in the Europe/Istanbul time zone."
+    },
+    {
+      "question": "Does Osmaniye observe daylight saving time?",
+      "answer": "Yes, Osmaniye observes daylight saving time, adjusting clocks forward in spring and back in autumn."
+    },
+    {
+      "question": "What is the population of Osmaniye?",
+      "answer": "The population of Osmaniye is approximately 202,837."
+    },
+    {
+      "question": "When does sunrise typically occur in Osmaniye?",
+      "answer": "Sunrise in Osmaniye typically occurs around 6:00 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Osmaniye?",
+      "answer": "The best time to visit Osmaniye is during the spring and autumn months when the weather is mild and pleasant."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "overview": "Durban, located on the eastern coast of South Africa, is a vibrant city known for its rich cultural diversity and significant role as a major port. As the largest city in KwaZulu-Natal, it serves as a crucial economic hub and a gateway to the Indian Ocean. With a population of over 3.3 million, Durban is celebrated for its stunning beaches, warm climate, and unique blend of African, Indian, and colonial influences, making it a vital center for trade, tourism, and cultural exchange in Africa.",
+  "history": "Durban was founded in 1835 by British settlers and named after Sir Benjamin D'Urban, the Governor of the Cape Colony. The city played a key role in the development of South Africa's coastal trade and agriculture.",
+  "economy": "Durban's economy is primarily driven by its bustling port, which is one of the busiest in Africa, facilitating trade for various industries. Key sectors include manufacturing, tourism, and agriculture, making it a vital economic player in the region.",
+  "tourism": "Durban attracts millions of visitors each year with its stunning beaches, warm climate, and rich cultural heritage. Popular attractions include the uShaka Marine World, the Golden Mile promenade, and the vibrant Victoria Street Market, where visitors can experience the city's diverse culinary offerings and local crafts.",
+  "best_places": [
+    "uShaka Marine World",
+    "Golden Mile",
+    "Durban Botanic Gardens",
+    "Victoria Street Market",
+    "Moses Mabhida Stadium",
+    "KwaZulu-Natal Sharks Board",
+    "Durban ICC",
+    "Umhlanga Rocks"
+  ],
+  "best_restaurants": [
+    {
+      "name": "The Oyster Box",
+      "description": "A luxurious hotel restaurant offering exquisite seafood and stunning ocean views."
+    },
+    {
+      "name": "Little Gujarat",
+      "description": "Known for its authentic Indian cuisine and vibrant atmosphere."
+    },
+    {
+      "name": "The Grill Room",
+      "description": "Famous for its fine dining experience and premium steaks."
+    },
+    {
+      "name": "Moyo",
+      "description": "A restaurant that celebrates African culture with traditional dishes and live entertainment."
+    },
+    {
+      "name": "The Republic of Food",
+      "description": "A popular spot for local and international dishes in a casual setting."
+    }
+  ],
+  "weather_summary": "Durban enjoys a subtropical climate with warm, humid summers and mild, dry winters.",
+  "faqs": [
+    {
+      "question": "What time zone is Durban in?",
+      "answer": "Durban is in the Africa/Johannesburg time zone."
+    },
+    {
+      "question": "Does Durban observe daylight saving time?",
+      "answer": "No, Durban does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Durban?",
+      "answer": "The population of Durban is approximately 3,338,026."
+    },
+    {
+      "question": "When does sunrise typically occur in Durban?",
+      "answer": "Sunrise in Durban typically occurs between 5:30 AM and 6:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Durban?",
+      "answer": "The best time to visit Durban is during the dry winter months from May to September, when the weather is mild and pleasant."
+    }
+  ]
+}

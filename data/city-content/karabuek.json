@@ -1,0 +1,59 @@
+{
+  "overview": "Karabük is a vibrant city located in north-central Turkey, serving as the administrative center of Karabük Province. Nestled in the Black Sea region, it plays a crucial role in the country's steel production and industrial activities. With a population of approximately 125,403, Karabük is an important hub for both economic and cultural exchanges, showcasing a blend of modernity and rich history.",
+  "history": "Karabük was founded in the early 20th century, primarily due to the establishment of the iron and steel industry. The city's rapid development was significantly influenced by its strategic location and industrial growth.",
+  "economy": "Karabük's economy is predominantly driven by its steel and iron industries, making it a vital player in Turkey's industrial sector. The city also supports various small and medium-sized enterprises, contributing to local employment and economic diversity.",
+  "tourism": "Tourism in Karabük offers a unique blend of natural beauty and historical significance. Visitors can explore the stunning natural landscapes of the nearby Safranbolu, a UNESCO World Heritage site, and enjoy local cultural experiences, including traditional Turkish cuisine and festivals.",
+  "best_places": [
+    "Safranbolu",
+    "Incekaya Aqueduct",
+    "Karabük University",
+    "Kastamonu Castle",
+    "Bulak Cave",
+    "Eflani Waterfall"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Çiğ Köfteci",
+      "description": "Famous for its authentic Turkish raw meatballs and fresh ingredients."
+    },
+    {
+      "name": "Hünkar Sofrası",
+      "description": "Offers traditional Turkish dishes in a cozy atmosphere."
+    },
+    {
+      "name": "Kebapçı İsmail",
+      "description": "Known for its delicious kebabs and grilled meats."
+    },
+    {
+      "name": "Saray Lokantası",
+      "description": "A popular spot for homemade Turkish meals and desserts."
+    },
+    {
+      "name": "Pideci Ali",
+      "description": "Specializes in Turkish pide, a type of flatbread topped with various ingredients."
+    }
+  ],
+  "weather_summary": "Karabük experiences mild, rainy winters and warm summers, often accompanied by sunny days.",
+  "faqs": [
+    {
+      "question": "What time zone is Karabük in?",
+      "answer": "Karabük is in the Europe/Istanbul time zone."
+    },
+    {
+      "question": "Does Karabük observe daylight saving time?",
+      "answer": "Yes, Karabük observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Karabük?",
+      "answer": "The population of Karabük is approximately 125,403."
+    },
+    {
+      "question": "When does sunrise typically occur in Karabük?",
+      "answer": "Sunrise in Karabük typically occurs around 6:30 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Karabük?",
+      "answer": "The best time to visit Karabük is during the spring and fall when the weather is mild and pleasant."
+    }
+  ]
+}

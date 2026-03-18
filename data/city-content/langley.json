@@ -1,0 +1,59 @@
+{
+  "overview": "Langley, Canada, is a vibrant city located in the Fraser Valley of British Columbia. It serves as a vital hub for commerce and agriculture, blending urban amenities with a picturesque rural backdrop. With a population of over 132,000, Langley is known for its diverse community, rich cultural heritage, and proximity to Vancouver, making it an attractive destination for both residents and visitors alike.",
+  "history": "Langley was founded in the late 19th century and has since evolved from a primarily agricultural community to a bustling urban center. Its rich history includes significant contributions to the development of the Fraser Valley.",
+  "economy": "The economy of Langley is diverse, with key industries including agriculture, manufacturing, and retail. The city is home to numerous businesses and services that support both local residents and the surrounding communities, making it a crucial economic player in the region.",
+  "tourism": "Visitors to Langley can explore a variety of attractions, including the Greater Vancouver Zoo and Fort Langley National Historic Site, which showcases the area's rich history. The city's parks and recreational facilities offer outdoor activities, while local wineries and farms provide unique tasting experiences.",
+  "best_places": [
+    "Fort Langley National Historic Site",
+    "Greater Vancouver Zoo",
+    "Langley Events Centre",
+    "Domaine de Chaberton Estate Winery",
+    "Willowbrook Shopping Centre",
+    "Kwantlen Polytechnic University"
+  ],
+  "best_restaurants": [
+    {
+      "name": "The Henry",
+      "description": "A popular spot known for its contemporary cuisine and vibrant atmosphere."
+    },
+    {
+      "name": "Wheat & Water",
+      "description": "Specializes in artisanal pizzas and locally sourced ingredients."
+    },
+    {
+      "name": "Sushi Katsu",
+      "description": "A well-loved restaurant offering a wide variety of sushi and Japanese dishes."
+    },
+    {
+      "name": "Cloverdale Bakery",
+      "description": "Famous for its fresh baked goods and delicious pastries."
+    },
+    {
+      "name": "The Rustic Rooster",
+      "description": "Offers a cozy setting with a menu featuring farm-to-table options."
+    }
+  ],
+  "weather_summary": "Langley experiences mild, rainy winters and warm, dry summers, ideal for outdoor activities.",
+  "faqs": [
+    {
+      "question": "What time zone is Langley in?",
+      "answer": "Langley is in the America/Vancouver time zone."
+    },
+    {
+      "question": "Does Langley observe daylight saving time?",
+      "answer": "Yes, Langley observes daylight saving time, typically from spring to fall."
+    },
+    {
+      "question": "What is the population of Langley?",
+      "answer": "The population of Langley is approximately 132,603."
+    },
+    {
+      "question": "When does sunrise typically occur in Langley?",
+      "answer": "Sunrise in Langley varies throughout the year, generally occurring between 6:00 AM and 8:00 AM."
+    },
+    {
+      "question": "What is the best time to visit Langley?",
+      "answer": "The best time to visit Langley is during the summer months when the weather is warm and outdoor activities are abundant."
+    }
+  ]
+}

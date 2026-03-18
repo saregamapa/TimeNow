@@ -1,0 +1,59 @@
+{
+  "overview": "A Coruña, located in the northwest of Spain, is a vibrant coastal city known for its rich maritime history and cultural significance. As the capital of the province of A Coruña, it plays a crucial role in the region's economy and tourism, attracting visitors with its stunning beaches and historic landmarks. With a population of approximately 250,438, A Coruña is a dynamic hub that blends modernity with tradition, making it a key destination in Europe.",
+  "history": "A Coruña has a storied history dating back to Roman times, when it was known as 'Crunia.' It has served as an important naval base and trade center throughout the centuries, influencing the region's development.",
+  "economy": "The economy of A Coruña is diverse, with significant contributions from sectors such as fishing, shipbuilding, and technology. The city is home to several major companies and industries, making it a vital economic center in Galicia.",
+  "tourism": "Tourism in A Coruña thrives on its picturesque coastline, historical sites, and vibrant culture. Visitors can explore attractions like the iconic Tower of Hercules, stroll along the beautiful beaches of Orzán and Riazor, and enjoy the city's rich culinary scene, particularly its renowned seafood.",
+  "best_places": [
+    "Tower of Hercules",
+    "La Coruna Aquarium",
+    "Museo de Bellas Artes",
+    "Plaza de María Pita",
+    "Riazor Beach",
+    "Castillo de San Antón"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Casa de Pías",
+      "description": "Known for its traditional Galician cuisine and seafood dishes."
+    },
+    {
+      "name": "Ouh Babbo",
+      "description": "A popular spot for Italian cuisine with a local twist."
+    },
+    {
+      "name": "A Taberna de Cunqueiro",
+      "description": "Offers a cozy atmosphere with a focus on local ingredients."
+    },
+    {
+      "name": "Restaurante El Mercado",
+      "description": "Features a menu inspired by fresh market produce and local flavors."
+    },
+    {
+      "name": "La Bombilla",
+      "description": "Famous for its tapas and vibrant ambiance."
+    }
+  ],
+  "weather_summary": "A Coruña experiences a mild, oceanic climate with cool summers and wet winters, making it a pleasant year-round destination.",
+  "faqs": [
+    {
+      "question": "What time zone is A Coruña in?",
+      "answer": "A Coruña is in the Europe/Madrid time zone."
+    },
+    {
+      "question": "Does A Coruña observe daylight saving time?",
+      "answer": "Yes, A Coruña observes daylight saving time, typically moving the clock forward in March and back in October."
+    },
+    {
+      "question": "What is the population of A Coruña?",
+      "answer": "The population of A Coruña is approximately 250,438."
+    },
+    {
+      "question": "When does sunrise typically occur in A Coruña?",
+      "answer": "Sunrise in A Coruña typically occurs around 8:30 AM during the summer and around 8:00 AM in winter."
+    },
+    {
+      "question": "What is the best time to visit A Coruña?",
+      "answer": "The best time to visit A Coruña is from late spring to early autumn when the weather is warm and ideal for outdoor activities."
+    }
+  ]
+}

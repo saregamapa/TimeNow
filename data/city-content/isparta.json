@@ -1,0 +1,59 @@
+{
+  "overview": "Isparta, located in southwestern Turkey, is a vibrant city known for its stunning natural beauty and rich cultural heritage. Nestled in the heart of the Lakes Region, it serves as a vital agricultural hub, particularly famous for its rose oil production. With a population of approximately 172,334, Isparta plays a significant role in the local economy and attracts visitors seeking to explore its historical sites and picturesque landscapes.",
+  "history": "Isparta has a storied history dating back to ancient times, originally founded as a settlement by the Phrygians. It has served as a strategic center throughout various empires, including the Byzantine and Ottoman.",
+  "economy": "The economy of Isparta is primarily driven by agriculture, with rose cultivation being a key industry that significantly contributes to its economy. Additionally, the city has a growing tourism sector, leveraging its natural beauty and historical significance to attract visitors.",
+  "tourism": "Isparta is renowned for its breathtaking landscapes, including the stunning Lake Eğirdir and the picturesque mountains surrounding the city. Visitors can explore historical sites such as the Isparta Castle and the ancient city of Pisidia Antioch, along with enjoying local festivals celebrating the rose harvest.",
+  "best_places": [
+    "Lake Eğirdir",
+    "Isparta Castle",
+    "Pisidia Antioch",
+    "Göller Region",
+    "Süleyman Demirel University",
+    "Rose Gardens"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Saray Restaurant",
+      "description": "Known for its traditional Turkish cuisine and cozy atmosphere."
+    },
+    {
+      "name": "Kahvaltı Evi",
+      "description": "Popular for its delicious breakfast options and local delicacies."
+    },
+    {
+      "name": "Café Kafe",
+      "description": "Offers a variety of snacks and beverages in a relaxed setting."
+    },
+    {
+      "name": "Mavi Köşk",
+      "description": "Famous for its grilled meats and friendly service."
+    },
+    {
+      "name": "Tarihi Isparta Kebapçısı",
+      "description": "A must-visit for authentic kebabs and traditional dishes."
+    }
+  ],
+  "weather_summary": "Isparta experiences a continental climate with hot summers and cold, snowy winters.",
+  "faqs": [
+    {
+      "question": "What time zone is Isparta in?",
+      "answer": "Isparta is in the Europe/Istanbul time zone."
+    },
+    {
+      "question": "Does Isparta observe daylight saving time?",
+      "answer": "Yes, Isparta observes daylight saving time, typically from late March to late October."
+    },
+    {
+      "question": "What is the population of Isparta?",
+      "answer": "The population of Isparta is approximately 172,334."
+    },
+    {
+      "question": "When does sunrise typically occur in Isparta?",
+      "answer": "Sunrise in Isparta typically occurs around 6:30 AM in summer and 7:30 AM in winter."
+    },
+    {
+      "question": "What is the best time to visit Isparta?",
+      "answer": "The best time to visit Isparta is during spring and autumn when the weather is mild and pleasant."
+    }
+  ]
+}

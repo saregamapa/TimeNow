@@ -1,0 +1,59 @@
+{
+  "overview": "Gdynia is a vibrant port city located on the Baltic Sea in northern Poland, part of the Tricity metropolitan area alongside Gdańsk and Sopot. Known for its modernist architecture and bustling maritime activities, Gdynia plays a crucial role in Poland's economy and cultural landscape. With a population of approximately 257,000, it serves as a significant hub for trade, tourism, and education, attracting visitors with its beautiful waterfront and dynamic urban environment.",
+  "history": "Gdynia's rapid development began in the early 20th century when it transformed from a small fishing village into a major seaport. Its strategic location led to significant growth, especially after Poland regained independence in 1918.",
+  "economy": "Gdynia's economy is primarily driven by its port, which is one of the largest in Poland, facilitating international trade. Key industries include shipping, shipbuilding, and tourism, contributing to the city's economic vitality and job creation.",
+  "tourism": "Tourism in Gdynia thrives thanks to its picturesque beaches, vibrant cultural scene, and attractions like the Gdynia Aquarium and the historic naval museum. Visitors enjoy seaside promenades, outdoor activities, and various festivals throughout the year, making it a popular destination for both relaxation and exploration.",
+  "best_places": [
+    "Gdynia Waterfront",
+    "Gdynia Aquarium",
+    "Dar Pomorza Museum Ship",
+    "Kosciuszko Square",
+    "Orłowo Pier",
+    "Gdynia Marina"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restauracja Dwie Zmiany",
+      "description": "A trendy spot offering a fusion of Polish and international cuisine."
+    },
+    {
+      "name": "Sphinx",
+      "description": "A popular chain known for its diverse menu and vibrant atmosphere."
+    },
+    {
+      "name": "Krew i Woda",
+      "description": "Specializes in seafood dishes, providing a taste of the Baltic Sea."
+    },
+    {
+      "name": "Restauracja U Szwejka",
+      "description": "Offers traditional Polish dishes in a cozy, rustic setting."
+    },
+    {
+      "name": "Bistro 33",
+      "description": "Features a modern take on classic Polish recipes with local ingredients."
+    }
+  ],
+  "weather_summary": "Gdynia experiences mild, rainy winters and warm summers with occasional heat waves, typical of a maritime climate.",
+  "faqs": [
+    {
+      "question": "What time zone is Gdynia in?",
+      "answer": "Gdynia is in the Europe/Warsaw time zone."
+    },
+    {
+      "question": "Does Gdynia observe daylight saving time?",
+      "answer": "Yes, Gdynia observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Gdynia?",
+      "answer": "The population of Gdynia is approximately 257,000."
+    },
+    {
+      "question": "When does sunrise typically occur in Gdynia?",
+      "answer": "Sunrise in Gdynia varies throughout the year, generally occurring between 5:00 AM and 7:00 AM."
+    },
+    {
+      "question": "What is the best time to visit Gdynia?",
+      "answer": "The best time to visit Gdynia is during the summer months, from June to August, when the weather is warm and ideal for outdoor activities."
+    }
+  ]
+}

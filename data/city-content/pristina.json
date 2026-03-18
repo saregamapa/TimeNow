@@ -1,0 +1,55 @@
+{
+  "overview": "Pristina, the capital of Kosovo, is a vibrant city located in the heart of the Balkan Peninsula. With a population of around 550,000, it serves as the political, cultural, and economic center of the country. Pristina is significant not only for its historical context but also for its rapidly developing infrastructure and youthful demographic, making it an emerging destination in Europe.",
+  "history": "Pristina has a rich history dating back to ancient times, with influences from the Roman, Byzantine, and Ottoman empires. It became the capital of Kosovo in 1945 and has since played a crucial role in the region's political landscape.",
+  "economy": "Pristina's economy is primarily driven by the services sector, including trade, banking, and telecommunications. Additionally, agriculture and construction are key industries, contributing to the city's growth and providing employment opportunities for its residents.",
+  "tourism": "Visitors to Pristina can explore a mix of modern and historical attractions, including the iconic Newborn Monument and the National Library of Kosovo. The city also offers vibrant cafes, cultural events, and nearby natural landscapes, making it an appealing destination for tourists seeking both relaxation and adventure.",
+  "best_places": [
+    "Newborn Monument",
+    "National Library of Kosovo",
+    "Mother Teresa Square",
+    "Imperial Mosque",
+    "Germia Park",
+    "Kosovo Museum"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant Liburnia",
+      "description": "A popular spot serving traditional Balkan cuisine in a cozy setting."
+    },
+    {
+      "name": "Taverna Shtjefen Gjecovi",
+      "description": "Known for its authentic local dishes and warm atmosphere."
+    },
+    {
+      "name": "Tiffany",
+      "description": "Offers a diverse menu with a blend of international and local flavors."
+    },
+    {
+      "name": "Pishat",
+      "description": "A charming restaurant famous for its grilled meats and friendly service."
+    }
+  ],
+  "weather_summary": "Pristina experiences a continental climate with cold winters and hot summers, featuring occasional rain throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Pristina in?",
+      "answer": "Pristina is in the Europe/Belgrade time zone."
+    },
+    {
+      "question": "Does Pristina observe daylight saving time?",
+      "answer": "Yes, Pristina observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Pristina?",
+      "answer": "Pristina has a population of approximately 550,000 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Pristina?",
+      "answer": "Sunrise in Pristina varies throughout the year, generally occurring between 6:00 AM and 7:30 AM."
+    },
+    {
+      "question": "What is the best time to visit Pristina?",
+      "answer": "The best time to visit Pristina is during spring and early autumn when the weather is mild and pleasant."
+    }
+  ]
+}

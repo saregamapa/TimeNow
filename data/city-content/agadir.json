@@ -1,0 +1,59 @@
+{
+  "overview": "Agadir is a vibrant coastal city located in southwestern Morocco, known for its stunning beaches and modern infrastructure. As a key economic hub and a popular tourist destination, Agadir plays a significant role in the country’s tourism industry, attracting visitors with its warm climate and rich culture. The city’s strategic location along the Atlantic Ocean enhances its importance as a gateway to both local and international markets, making it a vital center for commerce and trade in the region.",
+  "history": "Agadir was originally founded in the 16th century as a fortified town. It gained prominence in the 20th century after being rebuilt following a devastating earthquake in 1960.",
+  "economy": "Agadir's economy is primarily driven by tourism, agriculture, and fishing. The city is renowned for its production of citrus fruits and argan oil, which are key exports. Additionally, the thriving hospitality sector supports numerous businesses and employment opportunities.",
+  "tourism": "Agadir is famous for its beautiful beaches, such as Agadir Beach and Taghazout, which attract sun-seekers and surfers alike. Visitors can explore the Agadir Marina, enjoy local cuisine at vibrant markets, or visit the historical Agadir Oufella ruins for panoramic views of the city.",
+  "best_places": [
+    "Agadir Beach",
+    "Agadir Marina",
+    "Agadir Oufella",
+    "Souk El Had",
+    "Valley of the Birds",
+    "Taghazout"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Villa Blanche",
+      "description": "A charming restaurant offering Mediterranean cuisine with a Moroccan twist."
+    },
+    {
+      "name": "Le Flouka",
+      "description": "Known for its fresh seafood and stunning ocean views."
+    },
+    {
+      "name": "Restaurant Daffy",
+      "description": "A cozy spot serving traditional Moroccan dishes in a warm atmosphere."
+    },
+    {
+      "name": "Les Jardins d'Agadir",
+      "description": "Features a diverse menu with local and international flavors amid lush gardens."
+    },
+    {
+      "name": "Le Petit Pecheur",
+      "description": "Offers a casual dining experience with delicious grilled fish and local specialties."
+    }
+  ],
+  "weather_summary": "Agadir enjoys a mild climate with warm summers and cool, rainy winters, making it a year-round destination.",
+  "faqs": [
+    {
+      "question": "What time zone is Agadir in?",
+      "answer": "Agadir is in the Africa/Casablanca time zone."
+    },
+    {
+      "question": "Does Agadir observe daylight saving time?",
+      "answer": "No, Agadir does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Agadir?",
+      "answer": "The population of Agadir is approximately 698,310 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Agadir?",
+      "answer": "Sunrise in Agadir typically occurs between 6:30 AM and 7:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Agadir?",
+      "answer": "The best time to visit Agadir is during the spring and fall when temperatures are mild and pleasant for outdoor activities."
+    }
+  ]
+}

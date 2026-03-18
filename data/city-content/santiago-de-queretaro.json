@@ -1,0 +1,55 @@
+{
+  "overview": "Santiago de Querétaro, located in central Mexico, serves as the capital of the state of Querétaro. With a population of over 1.5 million, it plays a vital role in the country's economic and cultural landscape. Known for its rich history and well-preserved colonial architecture, the city is a UNESCO World Heritage Site, attracting both tourists and business investments, making it a significant hub in North America.",
+  "history": "Founded in 1531, Santiago de Querétaro became an important center for trade and cultural exchange. Its historical significance is highlighted by its role in the Mexican War of Independence.",
+  "economy": "Santiago de Querétaro boasts a diverse economy, with key industries including manufacturing, information technology, and agriculture. The city's strategic location and growing infrastructure have made it an appealing destination for both national and international businesses.",
+  "tourism": "Visitors to Santiago de Querétaro can explore its stunning historic center, featuring beautiful plazas, churches, and the famous aqueduct. The city also offers cultural experiences, vibrant markets, and a rich culinary scene, making it a delightful destination for travelers.",
+  "best_places": [
+    "Aqueduct of Querétaro",
+    "Historic Center",
+    "Museo de Arte de Querétaro",
+    "Templo de Santa Rosa de Viterbo",
+    "Plaza de Armas",
+    "Cerro de las Campanas"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Casa de la Marquesa",
+      "description": "A charming restaurant offering traditional Mexican cuisine in a historic setting."
+    },
+    {
+      "name": "Mariscos El Pescador",
+      "description": "Known for its fresh seafood dishes and vibrant atmosphere."
+    },
+    {
+      "name": "Café La Flor de Santiago",
+      "description": "A popular café famous for its delicious coffee and local pastries."
+    },
+    {
+      "name": "El Mesón de Chucho El Roto",
+      "description": "Offers a unique blend of regional dishes and a cozy ambiance."
+    }
+  ],
+  "weather_summary": "Santiago de Querétaro experiences mild winters and warm summers, with a rainy season typically from June to September.",
+  "faqs": [
+    {
+      "question": "What time zone is Santiago de Querétaro in?",
+      "answer": "Santiago de Querétaro is in the America/Mexico_City time zone."
+    },
+    {
+      "question": "Does Santiago de Querétaro observe daylight saving time?",
+      "answer": "Yes, Santiago de Querétaro observes daylight saving time, typically starting in April and ending in October."
+    },
+    {
+      "question": "What is the population of Santiago de Querétaro?",
+      "answer": "The population of Santiago de Querétaro is approximately 1,594,212."
+    },
+    {
+      "question": "When does sunrise typically occur in Santiago de Querétaro?",
+      "answer": "Sunrise in Santiago de Querétaro typically occurs between 6:00 AM and 6:30 AM, depending on the time of year."
+    },
+    {
+      "question": "What is the best time to visit Santiago de Querétaro?",
+      "answer": "The best time to visit Santiago de Querétaro is during the dry season from November to April, when temperatures are mild and pleasant."
+    }
+  ]
+}

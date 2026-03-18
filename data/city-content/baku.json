@@ -1,0 +1,60 @@
+{
+  "overview": "Baku, the capital of Azerbaijan, is a vibrant city located on the western coast of the Caspian Sea. Known for its rich cultural heritage and blend of modern architecture with ancient sites, Baku plays a crucial role in the region as a hub for energy, trade, and tourism. Its strategic location at the crossroads of Europe and Asia enhances its significance, making it a focal point for international business and cultural exchange.",
+  "history": "Founded in the 1st century AD, Baku has served as a vital trading post throughout history. The city has witnessed various empires and influences, shaping its unique cultural landscape.",
+  "economy": "Baku's economy is predominantly driven by the oil and gas industry, which has positioned the city as a key player in the global energy market. Additionally, sectors such as tourism, trade, and technology are increasingly contributing to its economic growth.",
+  "tourism": "Baku attracts visitors with its stunning blend of the old and new, featuring attractions like the UNESCO-listed Old City, the futuristic Flame Towers, and the iconic Heydar Aliyev Center. Tourists can explore its rich history, enjoy vibrant nightlife, and savor traditional Azerbaijani cuisine.",
+  "best_places": [
+    "Old City (Icherisheher)",
+    "Flame Towers",
+    "Heydar Aliyev Center",
+    "Baku Boulevard",
+    "Maiden Tower",
+    "Fountain Square",
+    "Gobustan National Park"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Nargiz",
+      "description": "A popular spot known for its authentic Azerbaijani dishes and cozy atmosphere."
+    },
+    {
+      "name": "Shirvanshah Museum Restaurant",
+      "description": "Offers a unique dining experience with traditional cuisine and a cultural ambiance."
+    },
+    {
+      "name": "Mugham Club",
+      "description": "Combines live music with delicious local food, providing a true taste of Azerbaijani culture."
+    },
+    {
+      "name": "Chinar",
+      "description": "A modern restaurant offering Asian and Azerbaijani fusion dishes in a stylish setting."
+    },
+    {
+      "name": "Sahil Bar & Restaurant",
+      "description": "Known for its seaside views and a diverse menu featuring international and local favorites."
+    }
+  ],
+  "weather_summary": "Baku experiences mild, wet winters and hot, dry summers, with occasional winds from the Caspian Sea.",
+  "faqs": [
+    {
+      "question": "What time zone is Baku in?",
+      "answer": "Baku is in the Asia/Baku time zone."
+    },
+    {
+      "question": "Does Baku observe daylight saving time?",
+      "answer": "Yes, Baku observes daylight saving time, typically moving the clock forward in spring and back in autumn."
+    },
+    {
+      "question": "What is the population of Baku?",
+      "answer": "The population of Baku is approximately 1,116,513 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Baku?",
+      "answer": "Sunrise in Baku generally occurs between 6:00 AM and 7:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Baku?",
+      "answer": "The best time to visit Baku is during spring (April to June) and fall (September to October) when the weather is pleasant."
+    }
+  ]
+}

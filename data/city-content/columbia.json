@@ -1,0 +1,59 @@
+{
+  "overview": "Columbia, located in the heart of Missouri, is the state's fourth-largest city and a vibrant hub for education, culture, and business. Home to the University of Missouri, Columbia plays a crucial role in the region's economy and attracts a diverse population of over 129,000 residents. Its blend of historical charm, modern amenities, and a strong community spirit makes it a significant center for innovation and growth in North America.",
+  "history": "Founded in 1821, Columbia was named as a tribute to Christopher Columbus. It has played a pivotal role in Missouri's development, particularly in education and agriculture.",
+  "economy": "Columbia's economy is anchored by education, healthcare, and technology, with the University of Missouri serving as a major employer and economic driver. The city is also home to a growing number of startups and small businesses, contributing to its vibrant economic landscape.",
+  "tourism": "Tourists flock to Columbia for its rich cultural scene and outdoor activities. Notable attractions include the Mizzou Botanical Garden, the Museum of Art and Archaeology, and the vibrant downtown area filled with shops, restaurants, and local events. Outdoor enthusiasts can enjoy parks and trails, making it a well-rounded destination.",
+  "best_places": [
+    "University of Missouri",
+    "Mizzou Botanical Garden",
+    "Museum of Art and Archaeology",
+    "Columbia Mall",
+    "Stephens Lake Park",
+    "Downtown Columbia"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Cafe Berlin",
+      "description": "A cozy spot known for its delicious brunch and locally sourced ingredients."
+    },
+    {
+      "name": "The Crossing",
+      "description": "An upscale restaurant offering a blend of American and international cuisine."
+    },
+    {
+      "name": "Shakespeare's Pizza",
+      "description": "Famous for its hand-tossed pizzas and a local favorite for decades."
+    },
+    {
+      "name": "Sycamore",
+      "description": "A farm-to-table restaurant focusing on seasonal and sustainable dishes."
+    },
+    {
+      "name": "Flat Branch Pub & Brewing",
+      "description": "A microbrewery offering craft beers and a diverse menu in a lively atmosphere."
+    }
+  ],
+  "weather_summary": "Columbia experiences hot summers and cold winters, with mild spring and fall seasons ideal for outdoor activities.",
+  "faqs": [
+    {
+      "question": "What time zone is Columbia in?",
+      "answer": "Columbia is in the America/Chicago time zone."
+    },
+    {
+      "question": "Does Columbia observe daylight saving time?",
+      "answer": "Yes, Columbia observes daylight saving time, shifting the clocks forward in spring and back in fall."
+    },
+    {
+      "question": "What is the population of Columbia?",
+      "answer": "Columbia has a population of approximately 129,330 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Columbia?",
+      "answer": "Sunrise in Columbia typically occurs around 6:30 AM in summer and 7:30 AM in winter."
+    },
+    {
+      "question": "What is the best time to visit Columbia?",
+      "answer": "The best time to visit Columbia is during the spring and fall when the weather is mild and outdoor events are plentiful."
+    }
+  ]
+}

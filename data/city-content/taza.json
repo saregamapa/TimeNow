@@ -1,0 +1,55 @@
+{
+  "overview": "Taza is a vibrant city located in northeastern Morocco, nestled between the Rif and Atlas mountains. With a population of approximately 162,110, it serves as a vital cultural and economic hub in the region. Taza is known for its rich history, stunning landscapes, and strategic location, making it an important crossroads for trade and travel in Morocco. Its blend of traditional and modern influences attracts visitors and supports a diverse community.",
+  "history": "Taza was founded in the 8th century and has played a significant role in Moroccan history as a military and administrative center. Its strategic position made it a key location during various historical conflicts.",
+  "economy": "The economy of Taza is primarily driven by agriculture, with the surrounding fertile lands producing olives, cereals, and fruits. Additionally, the city has a growing service sector, with tourism contributing to local businesses and employment opportunities.",
+  "tourism": "Taza offers a range of attractions for visitors, including the historic Taza Fortress, the stunning Friouato Caves, and the picturesque landscapes of the nearby national parks. Tourists can explore the rich cultural heritage, enjoy local cuisine, and participate in outdoor activities such as hiking and bird watching.",
+  "best_places": [
+    "Taza Fortress",
+    "Friouato Caves",
+    "Bouhachem Nature Reserve",
+    "Great Mosque of Taza",
+    "Medina of Taza",
+    "Jbel Tazekka National Park"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant Al Mounia",
+      "description": "A popular spot for traditional Moroccan dishes and local specialties."
+    },
+    {
+      "name": "Le Relais de Taza",
+      "description": "Known for its cozy atmosphere and a diverse menu featuring Moroccan and Mediterranean cuisine."
+    },
+    {
+      "name": "Café de la Paix",
+      "description": "A charming café offering a variety of pastries and coffee, perfect for a relaxing break."
+    },
+    {
+      "name": "Restaurant La Kasbah",
+      "description": "Offers a delightful selection of Moroccan tagines and grilled meats in a historic setting."
+    }
+  ],
+  "weather_summary": "Taza experiences a Mediterranean climate with mild, wet winters and hot, dry summers, ideal for year-round visits.",
+  "faqs": [
+    {
+      "question": "What time zone is Taza in?",
+      "answer": "Taza is in the Africa/Casablanca time zone."
+    },
+    {
+      "question": "Does Taza observe daylight saving time?",
+      "answer": "Yes, Taza observes daylight saving time, typically from late March to late October."
+    },
+    {
+      "question": "What is the population of Taza?",
+      "answer": "The population of Taza is approximately 162,110."
+    },
+    {
+      "question": "When does sunrise typically occur in Taza?",
+      "answer": "Sunrise in Taza typically occurs around 6:30 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Taza?",
+      "answer": "The best time to visit Taza is during the spring and fall when the weather is mild and pleasant."
+    }
+  ]
+}

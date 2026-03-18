@@ -1,0 +1,59 @@
+{
+  "overview": "Braşov is a picturesque city located in central Romania, nestled at the foot of the Carpathian Mountains. Known for its medieval architecture and vibrant cultural scene, it serves as a key economic and tourism hub in the region. With a population of approximately 253,200, Braşov is not only a gateway to the stunning Transylvania region but also a center for outdoor activities, making it a significant destination in Europe.",
+  "history": "Founded in the 13th century, Braşov played a crucial role in trade and defense during the Middle Ages. Its strategic location contributed to its development as a cultural and economic center in Transylvania.",
+  "economy": "Braşov's economy is diverse, with key industries including manufacturing, tourism, and information technology. The city is home to various businesses and startups, bolstering its role as an economic driver in the region.",
+  "tourism": "Tourism in Braşov thrives on its stunning natural landscapes and rich history. Visitors flock to explore the iconic Black Church, the medieval fortress of Tampa Mountain, and the charming streets of the Old Town, making it a popular destination for both cultural enthusiasts and outdoor adventurers.",
+  "best_places": [
+    "Black Church",
+    "Tampa Mountain",
+    "Council Square",
+    "Rope Street",
+    "Poiana Brașov",
+    "Bran Castle"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Ceaun",
+      "description": "A cozy restaurant offering traditional Romanian dishes in a rustic setting."
+    },
+    {
+      "name": "Bistro de l'Arte",
+      "description": "Known for its artistic ambiance and a menu that blends local flavors with international cuisine."
+    },
+    {
+      "name": "Prato",
+      "description": "A popular spot for Italian cuisine, especially known for its pizza and pasta."
+    },
+    {
+      "name": "Keller Steak House",
+      "description": "Specializing in high-quality steaks and a selection of fine wines."
+    },
+    {
+      "name": "Casa Hirscher",
+      "description": "Offers a delightful mix of Romanian and European dishes in a charming atmosphere."
+    }
+  ],
+  "weather_summary": "Braşov experiences cold winters and warm summers, with occasional snowfall in winter and pleasant temperatures in summer.",
+  "faqs": [
+    {
+      "question": "What time zone is Braşov in?",
+      "answer": "Braşov is in the Europe/Bucharest time zone."
+    },
+    {
+      "question": "Does Braşov observe daylight saving time?",
+      "answer": "Yes, Braşov observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Braşov?",
+      "answer": "The population of Braşov is approximately 253,200."
+    },
+    {
+      "question": "When does sunrise typically occur in Braşov?",
+      "answer": "Sunrise in Braşov typically occurs around 6:30 AM in summer and around 7:30 AM in winter."
+    },
+    {
+      "question": "What is the best time to visit Braşov?",
+      "answer": "The best time to visit Braşov is during spring and early autumn when the weather is mild and ideal for outdoor activities."
+    }
+  ]
+}

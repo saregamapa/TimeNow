@@ -1,0 +1,59 @@
+{
+  "overview": "Whitby, located in Ontario, Canada, is a vibrant town within the Greater Toronto Area, known for its rich history and community spirit. With a population of approximately 138,501, it serves as a key residential and commercial hub, offering a blend of urban amenities and natural beauty. Its strategic location near Lake Ontario enhances its appeal, making it a significant player in regional development and a desirable place for families and businesses alike.",
+  "history": "Whitby was established in the early 19th century, originally named after Whitby, England. It played a crucial role in the development of the Durham region as a center for agriculture and trade.",
+  "economy": "Whitby's economy is diverse, with key industries including manufacturing, retail, and technology. The town's proximity to Toronto allows for a thriving business environment, attracting both small enterprises and larger corporations, contributing to its economic growth.",
+  "tourism": "Whitby offers a variety of attractions for visitors, including the scenic waterfront, historic downtown, and numerous parks. The Lynde Shores Conservation Area is popular for outdoor activities, while the local arts scene, festivals, and events draw tourists year-round, making it a charming destination.",
+  "best_places": [
+    "Lynde Shores Conservation Area",
+    "Whitby Waterfront",
+    "Historic Downtown Whitby",
+    "Heber Down Conservation Area",
+    "Brooklin Village",
+    "Whitby Sports Centre"
+  ],
+  "best_restaurants": [
+    {
+      "name": "The Lake Grill",
+      "description": "A cozy spot offering delicious seafood and stunning waterfront views."
+    },
+    {
+      "name": "Mamma Mia",
+      "description": "A family-friendly Italian restaurant known for its hearty pasta dishes."
+    },
+    {
+      "name": "The Royal Oak",
+      "description": "A popular pub serving classic pub fare and a wide selection of beers."
+    },
+    {
+      "name": "Kelsey’s",
+      "description": "A casual dining chain featuring a diverse menu and friendly atmosphere."
+    },
+    {
+      "name": "Bistro 67",
+      "description": "An upscale bistro that emphasizes local ingredients and seasonal dishes."
+    }
+  ],
+  "weather_summary": "Whitby experiences cold winters with snowfall and warm, humid summers, ideal for outdoor activities.",
+  "faqs": [
+    {
+      "question": "What time zone is Whitby in?",
+      "answer": "Whitby is in the America/Toronto time zone."
+    },
+    {
+      "question": "Does Whitby observe daylight saving time?",
+      "answer": "Yes, Whitby observes daylight saving time, adjusting clocks forward in spring and back in fall."
+    },
+    {
+      "question": "What is the population of Whitby?",
+      "answer": "The population of Whitby is approximately 138,501."
+    },
+    {
+      "question": "When does sunrise typically occur in Whitby?",
+      "answer": "Sunrise times in Whitby vary by season, generally occurring between 6:00 AM and 7:30 AM."
+    },
+    {
+      "question": "What is the best time to visit Whitby?",
+      "answer": "The best time to visit Whitby is during the summer months, from June to August, when the weather is warm and outdoor activities abound."
+    }
+  ]
+}

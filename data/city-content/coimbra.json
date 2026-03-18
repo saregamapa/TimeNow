@@ -1,0 +1,60 @@
+{
+  "overview": "Coimbra, located in central Portugal, is a historic city renowned for its prestigious university, one of the oldest in Europe. With a population of approximately 140,796, it plays a vital role in Portuguese culture and education. Coimbra's rich heritage, charming streets, and vibrant student life attract visitors, making it an essential destination for those exploring Portugal's historical landscape.",
+  "history": "Coimbra was founded by the Romans and became an important cultural center during the Middle Ages. It served as the capital of Portugal in the 12th century, cementing its significance in the nation's history.",
+  "economy": "Coimbra's economy is primarily driven by education, healthcare, and technology sectors, with the University of Coimbra being a major employer and innovation hub. The city also benefits from tourism, which contributes to local businesses and services.",
+  "tourism": "Visitors to Coimbra can explore the stunning Joanina Library, the historic University of Coimbra, and the beautiful Botanical Garden. The city's rich architectural heritage, including the ancient Cathedral of Santa Cruz, offers a glimpse into its illustrious past, making it a captivating destination for travelers.",
+  "best_places": [
+    "University of Coimbra",
+    "Joanina Library",
+    "Botanical Garden",
+    "Santa Clara-a-Velha",
+    "Old Cathedral of Coimbra",
+    "Monastery of Santa Cruz",
+    "Portugal dos Pequenitos"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurante O Pátio",
+      "description": "Known for its traditional Portuguese dishes and cozy atmosphere."
+    },
+    {
+      "name": "Cervejaria Ramiro",
+      "description": "A popular spot for seafood lovers, offering fresh and delicious options."
+    },
+    {
+      "name": "A Taberna",
+      "description": "Offers authentic local cuisine in a charming, rustic setting."
+    },
+    {
+      "name": "Restaurante Loggia",
+      "description": "Features stunning views and a modern take on Portuguese gastronomy."
+    },
+    {
+      "name": "Café Santa Cruz",
+      "description": "A historic café famous for its pastries and coffee."
+    }
+  ],
+  "weather_summary": "Coimbra experiences mild, rainy winters and warm summers with plenty of sunshine.",
+  "faqs": [
+    {
+      "question": "What time zone is Coimbra in?",
+      "answer": "Coimbra is in the Europe/Lisbon time zone."
+    },
+    {
+      "question": "Does Coimbra observe daylight saving time?",
+      "answer": "Yes, Coimbra observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Coimbra?",
+      "answer": "Coimbra has a population of approximately 140,796 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Coimbra?",
+      "answer": "Sunrise in Coimbra typically occurs around 7:00 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Coimbra?",
+      "answer": "The best time to visit Coimbra is during spring (April to June) and early autumn (September to October) when the weather is mild and pleasant."
+    }
+  ]
+}

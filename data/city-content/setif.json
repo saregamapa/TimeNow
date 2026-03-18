@@ -1,0 +1,55 @@
+{
+  "overview": "Sétif is a vibrant city located in northeastern Algeria, known for its rich cultural heritage and historical significance. It serves as a key administrative and economic hub within the region, boasting a population of approximately 252,127 residents. Sétif's strategic location at the crossroads of various trade routes enhances its importance, making it a vital center for commerce and tourism in Algeria. The city is renowned for its archaeological sites, stunning landscapes, and a blend of modern and traditional influences, attracting visitors and businesses alike.",
+  "history": "Founded in Roman times, Sétif was known as Sitifis and played a significant role during the Roman Empire. The city has witnessed various historical events, contributing to its diverse cultural landscape.",
+  "economy": "Sétif's economy is diverse, with key industries including agriculture, manufacturing, and services. The city is known for its production of textiles and food products, making it an essential player in Algeria's economic landscape.",
+  "tourism": "Tourism in Sétif is highlighted by its rich historical sites, such as the ancient Roman ruins of Djemila and the beautiful landscapes of the Tassili n'Ajjer National Park. Visitors can explore local markets, enjoy traditional Algerian cuisine, and experience the vibrant culture through various festivals and events.",
+  "best_places": [
+    "Djemila",
+    "Sétif Museum",
+    "Ksar of Ait-Ben-Haddou",
+    "Tassili n'Ajjer National Park",
+    "Place des Martyrs",
+    "Barrage de Beni Haroun"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant El-Mouradia",
+      "description": "A popular spot for traditional Algerian dishes."
+    },
+    {
+      "name": "Le Jardin de Sétif",
+      "description": "Known for its beautiful outdoor seating and local cuisine."
+    },
+    {
+      "name": "Café de la Paix",
+      "description": "A charming café famous for its coffee and pastries."
+    },
+    {
+      "name": "Restaurant Le Relais",
+      "description": "Offers a variety of Mediterranean and Algerian specialties."
+    }
+  ],
+  "weather_summary": "Sétif experiences mild, rainy winters and hot, dry summers, making it ideal for year-round visits.",
+  "faqs": [
+    {
+      "question": "What time zone is Sétif in?",
+      "answer": "Sétif is in the Africa/Algiers time zone."
+    },
+    {
+      "question": "Does Sétif observe daylight saving time?",
+      "answer": "No, Sétif does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Sétif?",
+      "answer": "The population of Sétif is approximately 252,127."
+    },
+    {
+      "question": "When does sunrise typically occur in Sétif?",
+      "answer": "Sunrise in Sétif typically occurs between 6:00 AM and 7:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Sétif?",
+      "answer": "The best time to visit Sétif is during the spring and fall when the weather is mild and pleasant."
+    }
+  ]
+}

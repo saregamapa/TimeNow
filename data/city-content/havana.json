@@ -1,0 +1,61 @@
+{
+  "overview": "Havana, the capital city of Cuba, is a vibrant cultural hub located on the northern coast of the island. Known for its rich history, stunning architecture, and lively arts scene, Havana plays a crucial role in the country's identity and tourism. With a population of approximately 2.16 million, it is the largest city in Cuba and serves as the political, economic, and cultural heart of the nation, attracting visitors from around the world to experience its unique blend of tradition and modernity.",
+  "history": "Founded in 1519 by Spanish explorer Diego Velázquez, Havana quickly became a key port for Spanish trade in the Americas. Its strategic location made it a target for pirates and foreign invasions, leading to the construction of formidable fortifications.",
+  "economy": "Havana's economy is primarily driven by tourism, with visitors drawn to its historical sites and vibrant culture. Key industries also include biotechnology, pharmaceuticals, and rum production, which significantly contribute to the local and national economy.",
+  "tourism": "Tourism in Havana is thriving, with visitors flocking to iconic attractions like Old Havana, the Malecón, and the Capitolio. Tourists often explore the city's historic architecture, enjoy live music, and savor traditional Cuban cuisine, making it a rich destination for cultural experiences.",
+  "best_places": [
+    "Old Havana",
+    "Malecón",
+    "Capitolio",
+    "Plaza de la Revolución",
+    "Fortress of Castillo del Morro",
+    "Museo Nacional de Bellas Artes",
+    "El Vedado",
+    "Fábrica de Arte Cubano"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Guarida",
+      "description": "A famous paladar known for its exquisite Cuban cuisine and stunning ambiance."
+    },
+    {
+      "name": "Paladar Los Mercaderes",
+      "description": "Offers a cozy atmosphere with a menu featuring traditional Cuban dishes."
+    },
+    {
+      "name": "El Cocinero",
+      "description": "A trendy restaurant set in a former cooking oil factory, known for its creative dishes."
+    },
+    {
+      "name": "La Bodeguita del Medio",
+      "description": "Iconic for its mojitos and vibrant atmosphere, frequented by locals and tourists alike."
+    },
+    {
+      "name": "El Aljibe",
+      "description": "Famous for its roast chicken and traditional Cuban sides, a must-visit for food lovers."
+    }
+  ],
+  "weather_summary": "Havana enjoys a tropical climate with warm temperatures year-round and a distinct wet season from May to October.",
+  "faqs": [
+    {
+      "question": "What time zone is Havana in?",
+      "answer": "Havana is in the America/Havana time zone."
+    },
+    {
+      "question": "Does Havana observe daylight saving time?",
+      "answer": "No, Havana does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Havana?",
+      "answer": "Havana has a population of approximately 2,163,824 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Havana?",
+      "answer": "Sunrise in Havana typically occurs around 6:30 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Havana?",
+      "answer": "The best time to visit Havana is from November to April when the weather is cooler and drier."
+    }
+  ]
+}

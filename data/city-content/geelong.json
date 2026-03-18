@@ -1,0 +1,59 @@
+{
+  "overview": "Geelong, located in Victoria, Australia, is a vibrant city that serves as a key regional center for the Geelong and Bellarine Peninsula area. With a population of approximately 282,809, it plays a vital role in the economy, culture, and education of the region. Geelong is known for its beautiful waterfront, rich history, and diverse community, making it a significant player in the growth of Australia’s southeastern coast.",
+  "history": "Geelong was founded in 1838 and quickly became an important port and agricultural hub. Its strategic location contributed to its growth during the gold rush era, establishing it as a key city in Victoria.",
+  "economy": "Geelong's economy is diverse, with key industries including manufacturing, health care, and education. The city is home to several major businesses and institutions, contributing significantly to the regional economy and providing numerous job opportunities.",
+  "tourism": "Tourism in Geelong is thriving, with attractions such as the Geelong Waterfront, Eastern Beach, and the Geelong Gallery drawing visitors year-round. Visitors can enjoy scenic parks, local markets, and cultural events, making it an ideal destination for both relaxation and exploration.",
+  "best_places": [
+    "Geelong Waterfront",
+    "Eastern Beach",
+    "Geelong Gallery",
+    "National Wool Museum",
+    "Botanic Gardens",
+    "Little Creatures Brewery"
+  ],
+  "best_restaurants": [
+    {
+      "name": "The Geelong Hotel",
+      "description": "A popular spot offering a modern Australian menu with a vibrant atmosphere."
+    },
+    {
+      "name": "Clyde Park Vineyard",
+      "description": "Known for its exquisite local wines and seasonal dishes in a picturesque setting."
+    },
+    {
+      "name": "Rasa Rasa",
+      "description": "A celebrated restaurant offering authentic Malaysian cuisine with a local twist."
+    },
+    {
+      "name": "Naked Espresso",
+      "description": "A favorite café known for its specialty coffee and delicious brunch options."
+    },
+    {
+      "name": "The Pickers Union",
+      "description": "Offers a farm-to-table dining experience with a focus on local produce."
+    }
+  ],
+  "weather_summary": "Geelong typically experiences mild, rainy winters and warm summers with occasional heat waves.",
+  "faqs": [
+    {
+      "question": "What time zone is Geelong in?",
+      "answer": "Geelong is in the Australia/Melbourne time zone."
+    },
+    {
+      "question": "Does Geelong observe daylight saving time?",
+      "answer": "Yes, Geelong observes daylight saving time, typically from the first Sunday in October to the first Sunday in April."
+    },
+    {
+      "question": "What is the population of Geelong?",
+      "answer": "The population of Geelong is approximately 282,809."
+    },
+    {
+      "question": "When does sunrise typically occur in Geelong?",
+      "answer": "Sunrise in Geelong typically occurs between 6:30 AM and 7:00 AM, varying throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Geelong?",
+      "answer": "The best time to visit Geelong is during spring (September to November) and autumn (March to May) for mild weather and fewer crowds."
+    }
+  ]
+}

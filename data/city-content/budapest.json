@@ -1,0 +1,60 @@
+{
+  "overview": "Budapest, the capital of Hungary, is a vibrant city located in Central Europe, straddling the Danube River. Known for its stunning architecture, rich history, and cultural significance, it serves as a political, economic, and cultural hub for the region. With a population of over 1.7 million, Budapest attracts visitors from around the globe, offering a unique blend of old-world charm and modern amenities, making it a must-visit destination in Europe.",
+  "history": "Budapest was officially formed in 1873 through the unification of Buda, Pest, and Óbuda. Its strategic location along the Danube has made it a significant center of trade and culture throughout history.",
+  "economy": "Budapest plays a crucial role in Hungary's economy, with key industries including tourism, finance, and information technology. The city is home to numerous multinational corporations and startups, contributing to its status as a major business hub in Central Europe.",
+  "tourism": "Tourism in Budapest thrives on its historical landmarks and vibrant culture. Visitors flock to attractions such as the Buda Castle, the Parliament Building, and the famous thermal baths, while enjoying the city's lively nightlife and culinary scene.",
+  "best_places": [
+    "Buda Castle",
+    "Hungarian Parliament Building",
+    "Fisherman's Bastion",
+    "St. Stephen's Basilica",
+    "Széchenyi Thermal Bath",
+    "Heroes' Square",
+    "Chain Bridge"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Gundel",
+      "description": "A historic restaurant known for its classic Hungarian dishes and elegant atmosphere."
+    },
+    {
+      "name": "New York Café",
+      "description": "Famous for its stunning interior, this café offers a luxurious dining experience."
+    },
+    {
+      "name": "Costes",
+      "description": "Budapest's first Michelin-starred restaurant, featuring innovative gourmet cuisine."
+    },
+    {
+      "name": "Cafe Gerbeaud",
+      "description": "A renowned pastry shop offering traditional Hungarian desserts and coffee."
+    },
+    {
+      "name": "Paprika",
+      "description": "A cozy eatery known for its authentic Hungarian goulash and hearty meals."
+    }
+  ],
+  "weather_summary": "Budapest experiences a continental climate with cold winters and warm summers, often accompanied by occasional rain.",
+  "faqs": [
+    {
+      "question": "What time zone is Budapest in?",
+      "answer": "Budapest is in the Europe/Budapest time zone."
+    },
+    {
+      "question": "Does Budapest observe daylight saving time?",
+      "answer": "Yes, Budapest observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Budapest?",
+      "answer": "The population of Budapest is approximately 1,741,041."
+    },
+    {
+      "question": "When does sunrise typically occur in Budapest?",
+      "answer": "Sunrise in Budapest typically occurs between 5:00 AM and 7:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Budapest?",
+      "answer": "The best time to visit Budapest is during spring and fall when the weather is mild and crowds are smaller."
+    }
+  ]
+}

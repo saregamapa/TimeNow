@@ -1,0 +1,60 @@
+{
+  "overview": "Srinagar, located in the picturesque Kashmir Valley of India, is the summer capital of Jammu and Kashmir. Renowned for its stunning landscapes, rich cultural heritage, and vibrant traditions, the city plays a crucial role in tourism and trade in the region. Its unique blend of natural beauty and historical significance makes Srinagar a vital hub for both local and international visitors seeking to experience the essence of Kashmir.",
+  "history": "Srinagar was founded over 2,000 years ago and has been a significant cultural and political center throughout its history. It has been influenced by various dynasties, including the Mauryas and Mughals, who left an indelible mark on its architecture and culture.",
+  "economy": "The economy of Srinagar is primarily driven by tourism, handicrafts, and agriculture. The city is famous for its exquisite handwoven carpets, Pashmina shawls, and saffron production, making it a key player in the regional economy.",
+  "tourism": "Srinagar attracts tourists with its breathtaking landscapes, serene Dal Lake, and vibrant Mughal gardens. Visitors often enjoy houseboat stays, shikara rides, and exploring the local markets filled with handicrafts. The city's rich cultural heritage and stunning natural beauty make it a must-visit destination.",
+  "best_places": [
+    "Dal Lake",
+    "Mughal Gardens",
+    "Shankaracharya Temple",
+    "Hazratbal Shrine",
+    "Nigeen Lake",
+    "Jama Masjid",
+    "Pari Mahal"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Ahdoos",
+      "description": "A historic restaurant known for its authentic Kashmiri cuisine."
+    },
+    {
+      "name": "Nedous",
+      "description": "Famous for its delicious multi-cuisine offerings and stunning views."
+    },
+    {
+      "name": "Shamyana",
+      "description": "Offers a cozy ambiance with a focus on local delicacies."
+    },
+    {
+      "name": "Kashmiri Dhaba",
+      "description": "Popular for its traditional dishes and warm hospitality."
+    },
+    {
+      "name": "The Chinar",
+      "description": "Known for its elegant setting and diverse menu featuring local flavors."
+    }
+  ],
+  "weather_summary": "Srinagar experiences mild summers and cold, snowy winters, making it a year-round destination for visitors.",
+  "faqs": [
+    {
+      "question": "What time zone is Srinagar in?",
+      "answer": "Srinagar is in the Asia/Kolkata time zone."
+    },
+    {
+      "question": "Does Srinagar observe daylight saving time?",
+      "answer": "No, Srinagar does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Srinagar?",
+      "answer": "The population of Srinagar is approximately 1,206,419."
+    },
+    {
+      "question": "When does sunrise typically occur in Srinagar?",
+      "answer": "Sunrise in Srinagar typically occurs between 6:00 AM and 7:00 AM, varying by season."
+    },
+    {
+      "question": "What is the best time to visit Srinagar?",
+      "answer": "The best time to visit Srinagar is from March to October, when the weather is pleasant and ideal for sightseeing."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "overview": "Calgary, located in Alberta, Canada, is a vibrant city known for its stunning natural beauty and thriving economy. As the largest city in Alberta, it serves as a hub for commerce, culture, and outdoor activities, making it a significant player in North America's landscape. With a population of over 1.3 million, Calgary is renowned for its annual Calgary Stampede, diverse neighborhoods, and proximity to the majestic Rocky Mountains, attracting both residents and tourists alike.",
+  "history": "Calgary was founded in 1875 as a fort for the North West Mounted Police. It quickly evolved into a vital center for trade and agriculture in the region.",
+  "economy": "Calgary boasts a robust economy driven primarily by the energy sector, including oil and gas. Additionally, technology, finance, and tourism contribute significantly, making it a key business hub in Canada.",
+  "tourism": "Visitors to Calgary can explore a variety of attractions, including the iconic Calgary Tower, the Calgary Zoo, and the Heritage Park Historical Village. The city's vibrant arts scene and numerous festivals, especially the famous Calgary Stampede, offer unique experiences that celebrate local culture and history.",
+  "best_places": [
+    "Calgary Tower",
+    "Calgary Zoo",
+    "Heritage Park Historical Village",
+    "Prince's Island Park",
+    "Glenbow Museum",
+    "Telus Spark Science Centre"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Charcut Roast House",
+      "description": "A modern eatery known for its locally sourced meats and innovative charcuterie."
+    },
+    {
+      "name": "Namskar",
+      "description": "Offers a delightful fusion of traditional Indian cuisine with a contemporary twist."
+    },
+    {
+      "name": "River Café",
+      "description": "Set on Prince's Island Park, it features seasonal dishes made with fresh, local ingredients."
+    },
+    {
+      "name": "Ten Foot Henry",
+      "description": "A vibrant spot focusing on vegetable-forward dishes and a diverse menu."
+    },
+    {
+      "name": "The Nash",
+      "description": "Famed for its upscale comfort food and extensive wine selection in a cozy atmosphere."
+    }
+  ],
+  "weather_summary": "Calgary experiences cold, snowy winters and warm, sunny summers, with rapid weather changes common throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Calgary in?",
+      "answer": "Calgary is in the America/Edmonton time zone."
+    },
+    {
+      "question": "Does Calgary observe daylight saving time?",
+      "answer": "Yes, Calgary observes daylight saving time, typically from March to November."
+    },
+    {
+      "question": "What is the population of Calgary?",
+      "answer": "Calgary has a population of approximately 1,306,784 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Calgary?",
+      "answer": "Sunrise in Calgary varies throughout the year, generally occurring between 6:00 AM and 8:00 AM."
+    },
+    {
+      "question": "What is the best time to visit Calgary?",
+      "answer": "The best time to visit Calgary is during the summer months, from June to August, when the weather is warm and festivals abound."
+    }
+  ]
+}

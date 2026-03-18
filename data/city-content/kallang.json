@@ -1,0 +1,60 @@
+{
+  "overview": "Kallang is a vibrant planning area located in the Central Region of Singapore, known for its rich cultural heritage and significant role in the nation's development. It is strategically positioned near the Kallang Basin, providing access to various recreational activities and facilities. With a population of approximately 101,290, Kallang is a hub for sports, entertainment, and residential living, making it an essential part of Singapore's urban landscape.",
+  "history": "Kallang's history dates back to the early 19th century when it was primarily a fishing village. Over the years, it transformed into a bustling urban area, playing a key role in Singapore's development.",
+  "economy": "Kallang's economy is diverse, with key industries including retail, hospitality, and sports. The presence of major facilities like the Singapore Sports Hub boosts local businesses and attracts visitors, contributing significantly to the area's economic landscape.",
+  "tourism": "Kallang is home to several attractions that draw both locals and tourists, including the iconic Kallang Wave Mall and the Singapore Sports Hub. Visitors can enjoy water sports at Kallang Basin, explore the vibrant food scene, or attend various events and concerts held throughout the year.",
+  "best_places": [
+    "Kallang Wave Mall",
+    "Singapore Sports Hub",
+    "Kallang Basin",
+    "Geylang Serai Market",
+    "Kallang Riverside Park",
+    "National Stadium",
+    "Singapore Indoor Stadium"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Old Airport Road Food Centre",
+      "description": "A bustling hawker centre offering a variety of local Singaporean dishes."
+    },
+    {
+      "name": "The Coffee Bean & Tea Leaf",
+      "description": "A popular café chain known for its coffee and relaxed atmosphere."
+    },
+    {
+      "name": "Sushi Tei",
+      "description": "A well-known Japanese restaurant offering fresh sushi and sashimi."
+    },
+    {
+      "name": "Kallang Seafood",
+      "description": "Famous for its delicious seafood dishes and waterfront dining experience."
+    },
+    {
+      "name": "Chatterbox",
+      "description": "An award-winning restaurant known for its Mandarin-style roasted duck."
+    }
+  ],
+  "weather_summary": "Kallang experiences a tropical rainforest climate, characterized by high humidity and consistent rainfall throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Kallang in?",
+      "answer": "Kallang is in the Asia/Singapore time zone."
+    },
+    {
+      "question": "Does Kallang observe daylight saving time?",
+      "answer": "No, Kallang does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Kallang?",
+      "answer": "The population of Kallang is approximately 101,290."
+    },
+    {
+      "question": "When does sunrise typically occur in Kallang?",
+      "answer": "Sunrise in Kallang typically occurs around 6:45 AM throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Kallang?",
+      "answer": "The best time to visit Kallang is during the dry months from February to April, when the weather is more pleasant."
+    }
+  ]
+}

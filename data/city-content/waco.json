@@ -1,0 +1,60 @@
+{
+  "overview": "Waco, located in central Texas, is a vibrant city known for its rich cultural heritage and pivotal role in the state's history. As the county seat of McLennan County, Waco serves as a significant economic and educational hub, home to Baylor University and diverse industries. With a population of 132,356, it combines small-town charm with urban amenities, making it a noteworthy destination in North America.",
+  "history": "Waco was founded in the 1840s and quickly became a vital trading center due to its strategic location along the Brazos River. The city played a key role during the Texas cattle drives and the establishment of the cotton industry.",
+  "economy": "Waco's economy is diverse, with key industries including education, healthcare, manufacturing, and retail. Baylor University significantly contributes to the local economy, attracting students and faculty, while the city also supports a growing number of small businesses and startups.",
+  "tourism": "Waco offers a variety of attractions for visitors, including the iconic Magnolia Market at the Silos, the Texas Ranger Hall of Fame, and the Dr Pepper Museum. Outdoor enthusiasts can explore Cameron Park, while art lovers appreciate the Waco Museum and cultural festivals that showcase the city’s rich heritage.",
+  "best_places": [
+    "Magnolia Market at the Silos",
+    "Texas Ranger Hall of Fame",
+    "Dr Pepper Museum",
+    "Cameron Park",
+    "Waco Mammoth National Monument",
+    "Baylor University",
+    "Waco Suspension Bridge"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Franklin's Barbecue",
+      "description": "Famous for its mouthwatering brisket and long lines."
+    },
+    {
+      "name": "Magnolia Table",
+      "description": "A charming eatery offering delicious brunch options."
+    },
+    {
+      "name": "The Olive Branch",
+      "description": "Known for its fresh, locally sourced Mediterranean cuisine."
+    },
+    {
+      "name": "Vitek's BBQ",
+      "description": "A local favorite for its unique BBQ dishes and casual atmosphere."
+    },
+    {
+      "name": "Pinewood Coffee Bar",
+      "description": "A cozy spot perfect for coffee lovers and light bites."
+    }
+  ],
+  "weather_summary": "Waco experiences hot summers and mild winters, with occasional rain throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Waco in?",
+      "answer": "Waco is in the America/Chicago time zone."
+    },
+    {
+      "question": "Does Waco observe daylight saving time?",
+      "answer": "Yes, Waco observes daylight saving time, moving the clock forward in spring and back in fall."
+    },
+    {
+      "question": "What is the population of Waco?",
+      "answer": "The population of Waco is approximately 132,356."
+    },
+    {
+      "question": "When does sunrise typically occur in Waco?",
+      "answer": "Sunrise in Waco typically occurs between 6:30 AM and 7:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Waco?",
+      "answer": "The best time to visit Waco is in the spring and fall when the weather is mild and pleasant."
+    }
+  ]
+}

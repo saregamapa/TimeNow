@@ -1,0 +1,60 @@
+{
+  "overview": "Zagreb, the capital of Croatia, is a vibrant city located in the northwestern part of the country. As the largest city with a population of approximately 663,592, it serves as the political, economic, and cultural hub of Croatia. Nestled between the Medvednica mountain and the Sava River, Zagreb boasts a rich history and diverse architecture, making it a significant destination for both tourists and locals. Its blend of historic charm and modern amenities positions it as a key player in the heart of Europe.",
+  "history": "Zagreb's origins date back to the Roman era, evolving from two medieval settlements. It became the capital of Croatia in the 19th century, playing a crucial role in the country's development.",
+  "economy": "Zagreb is the economic powerhouse of Croatia, with key industries including finance, technology, and tourism. The city hosts numerous businesses and startups, contributing significantly to the national economy and providing a diverse job market.",
+  "tourism": "Tourism in Zagreb is thriving, with visitors drawn to its historic sites, vibrant street life, and cultural events. Key attractions include the medieval Upper Town, the bustling main square of Ban Jelačić, and the picturesque Maksimir Park. Visitors often enjoy exploring local museums, galleries, and enjoying traditional Croatian cuisine.",
+  "best_places": [
+    "Ban Jelačić Square",
+    "Zagreb Cathedral",
+    "Upper Town (Gornji Grad)",
+    "Maksimir Park",
+    "Museum of Broken Relationships",
+    "Dolac Market",
+    "St. Mark's Church"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Bistro Apetit",
+      "description": "A fine dining establishment known for its creative Croatian cuisine and elegant atmosphere."
+    },
+    {
+      "name": "La Štruk",
+      "description": "Famous for its traditional strukli, a local dish made with dough and cheese."
+    },
+    {
+      "name": "Vinodol",
+      "description": "A popular restaurant offering a mix of Croatian and Mediterranean dishes in a cozy setting."
+    },
+    {
+      "name": "Stari Fijaker",
+      "description": "Offers authentic Croatian dishes in a rustic environment, reflecting the city's culinary heritage."
+    },
+    {
+      "name": "Mali Bar",
+      "description": "A trendy spot known for its innovative cocktails and small plates, perfect for a casual night out."
+    }
+  ],
+  "weather_summary": "Zagreb experiences mild winters and warm summers, with occasional rain and heat waves during the summer months.",
+  "faqs": [
+    {
+      "question": "What time zone is Zagreb in?",
+      "answer": "Zagreb is in the Europe/Zagreb time zone."
+    },
+    {
+      "question": "Does Zagreb observe daylight saving time?",
+      "answer": "Yes, Zagreb observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Zagreb?",
+      "answer": "The population of Zagreb is approximately 663,592 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Zagreb?",
+      "answer": "Sunrise in Zagreb varies throughout the year, generally occurring between 6:00 AM and 7:30 AM."
+    },
+    {
+      "question": "What is the best time to visit Zagreb?",
+      "answer": "The best time to visit Zagreb is during spring (April to June) and early autumn (September to October) for pleasant weather and fewer crowds."
+    }
+  ]
+}

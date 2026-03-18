@@ -1,0 +1,59 @@
+{
+  "overview": "Chandigarh, India, serves as a union territory and the capital of both Punjab and Haryana. Strategically located at the foothills of the Shivalik range, it is renowned for its modernist architecture and urban planning, designed by the famous architect Le Corbusier. As one of the first planned cities in post-independence India, Chandigarh plays a vital role in governance and serves as a cultural hub, attracting visitors for its unique blend of tradition and modernity.",
+  "history": "Chandigarh was founded in the 1950s as a symbol of modernity and hope for a new India after independence. Its design was led by the Swiss-French architect Le Corbusier, making it a significant example of modernist urban planning.",
+  "economy": "Chandigarh's economy is diverse, with key industries including information technology, manufacturing, and education. The city also serves as a commercial hub, fostering entrepreneurship and attracting businesses due to its strategic location and infrastructure.",
+  "tourism": "Chandigarh is famous for its beautiful gardens, including the Rock Garden and Rose Garden, which attract nature lovers and families. Visitors can also explore the Capitol Complex, a UNESCO World Heritage Site, and enjoy the vibrant local culture through shopping and dining experiences.",
+  "best_places": [
+    "Rock Garden",
+    "Sukhna Lake",
+    "Rose Garden",
+    "Capitol Complex",
+    "Elante Mall",
+    "Sector 17 Plaza"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Indian Coffee House",
+      "description": "A classic eatery known for its nostalgic ambiance and traditional South Indian cuisine."
+    },
+    {
+      "name": "Pal Dhaba",
+      "description": "Famous for its authentic Punjabi dishes and vibrant atmosphere."
+    },
+    {
+      "name": "Nukkar Dhaba",
+      "description": "A popular spot for delicious North Indian street food and casual dining."
+    },
+    {
+      "name": "The Café @ RBG",
+      "description": "Offers a modern dining experience with a diverse menu and chic decor."
+    },
+    {
+      "name": "Barbeque Nation",
+      "description": "A well-known chain offering a unique buffet experience with live grill options."
+    }
+  ],
+  "weather_summary": "Chandigarh experiences hot summers, mild winters, and a monsoon season with moderate rainfall.",
+  "faqs": [
+    {
+      "question": "What time zone is Chandigarh in?",
+      "answer": "Chandigarh is in the Asia/Kolkata time zone."
+    },
+    {
+      "question": "Does Chandigarh observe daylight saving time?",
+      "answer": "No, Chandigarh does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Chandigarh?",
+      "answer": "Chandigarh has a population of approximately 970,602 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Chandigarh?",
+      "answer": "Sunrise in Chandigarh typically occurs between 5:30 AM and 6:15 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Chandigarh?",
+      "answer": "The best time to visit Chandigarh is from October to March when the weather is pleasant and comfortable."
+    }
+  ]
+}

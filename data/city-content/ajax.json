@@ -1,0 +1,60 @@
+{
+  "overview": "Ajax, located in Ontario, Canada, is a vibrant town that plays a crucial role in the Greater Toronto Area. With a population of approximately 119,677, it serves as a growing suburban community that combines residential living with access to urban amenities. Ajax is known for its rich cultural diversity, beautiful waterfront along Lake Ontario, and a variety of recreational opportunities, making it an attractive destination for both residents and visitors alike.",
+  "history": "Ajax was founded in the early 1960s, named after the HMS Ajax, a British Royal Navy ship. The town rapidly developed as a suburban community, drawing families and businesses to the area.",
+  "economy": "Ajax's economy is diverse, with key industries including manufacturing, retail, and services. The town is home to various businesses that contribute to its economic growth, providing employment opportunities and supporting the local community.",
+  "tourism": "Visitors to Ajax can explore a variety of attractions, including the scenic Ajax Waterfront and the Ajax Downs racetrack. The town also offers numerous parks, trails, and recreational facilities, making it ideal for outdoor activities. Cultural events and festivals throughout the year further enhance its appeal to tourists.",
+  "best_places": [
+    "Ajax Waterfront",
+    "Ajax Downs",
+    "Pat Bayly Square",
+    "Rotary Park",
+    "Audley Recreation Centre",
+    "Town Hall",
+    "Lake Ontario"
+  ],
+  "best_restaurants": [
+    {
+      "name": "The Keg Steakhouse + Bar",
+      "description": "A popular chain known for its delicious steaks and upscale dining atmosphere."
+    },
+    {
+      "name": "La Rosh",
+      "description": "A local favorite offering authentic Middle Eastern cuisine in a cozy setting."
+    },
+    {
+      "name": "The Portly Piper",
+      "description": "A welcoming pub with a great selection of beers and hearty comfort food."
+    },
+    {
+      "name": "Café D’Lite",
+      "description": "A charming café known for its fresh pastries and coffee in a relaxed environment."
+    },
+    {
+      "name": "Mandarin Restaurant",
+      "description": "A buffet restaurant offering a wide variety of Chinese and Canadian dishes."
+    }
+  ],
+  "weather_summary": "Ajax experiences cold winters and warm summers, with a mix of seasonal precipitation throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Ajax in?",
+      "answer": "Ajax is in the America/Toronto time zone."
+    },
+    {
+      "question": "Does Ajax observe daylight saving time?",
+      "answer": "Yes, Ajax observes daylight saving time, adjusting clocks forward in spring and back in fall."
+    },
+    {
+      "question": "What is the population of Ajax?",
+      "answer": "The population of Ajax is approximately 119,677 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Ajax?",
+      "answer": "Sunrise in Ajax varies by season, generally occurring between 6:00 AM and 7:30 AM."
+    },
+    {
+      "question": "What is the best time to visit Ajax?",
+      "answer": "The best time to visit Ajax is during the summer months, when the weather is warm and outdoor activities are plentiful."
+    }
+  ]
+}

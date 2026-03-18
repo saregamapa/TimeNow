@@ -1,0 +1,59 @@
+{
+  "overview": "Podgorica, the capital city of Montenegro, is located in the central part of the country, along the confluence of the Ribnica and Moraca rivers. With a population of approximately 236,852, it serves as the political, economic, and cultural heart of Montenegro. Its strategic location and vibrant atmosphere make it a pivotal hub for both local and international visitors, showcasing a blend of modern development and rich historical heritage.",
+  "history": "Podgorica has a history that dates back to Roman times when it was known as Doclea. Over the centuries, it has been influenced by various cultures, playing a significant role in the region's political landscape.",
+  "economy": "The economy of Podgorica is diverse, with key industries including manufacturing, services, and tourism. As the economic center of Montenegro, it hosts numerous businesses and institutions that contribute significantly to the national economy.",
+  "tourism": "Podgorica offers a range of attractions for visitors, including the iconic Millennium Bridge and the historic St. George's Church. Tourists can explore the vibrant local markets, enjoy the scenic parks, and immerse themselves in the city's rich cultural scene, making it a delightful destination for both history enthusiasts and leisure travelers.",
+  "best_places": [
+    "Millennium Bridge",
+    "St. George's Church",
+    "King's Park",
+    "Ribnica Fortress",
+    "Natural History Museum",
+    "Cathedral of Christ's Resurrection"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Pod Volat",
+      "description": "A popular restaurant known for its traditional Montenegrin cuisine and warm atmosphere."
+    },
+    {
+      "name": "Restoran 32",
+      "description": "Offers a modern dining experience with a focus on Mediterranean flavors."
+    },
+    {
+      "name": "Caffe Bar Kic",
+      "description": "A cozy spot famous for its coffee and light snacks, perfect for casual meetings."
+    },
+    {
+      "name": "Restaurant Stari Ribar",
+      "description": "Renowned for its seafood dishes and picturesque riverside location."
+    },
+    {
+      "name": "Caffe Restaurant Dvor",
+      "description": "Features a varied menu with local and international dishes in a charming setting."
+    }
+  ],
+  "weather_summary": "Podgorica experiences mild, rainy winters and hot, dry summers, making it ideal for year-round visits.",
+  "faqs": [
+    {
+      "question": "What time zone is Podgorica in?",
+      "answer": "Podgorica is in the Europe/Podgorica time zone."
+    },
+    {
+      "question": "Does Podgorica observe daylight saving time?",
+      "answer": "Yes, Podgorica observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Podgorica?",
+      "answer": "The population of Podgorica is approximately 236,852."
+    },
+    {
+      "question": "When does sunrise typically occur in Podgorica?",
+      "answer": "Sunrise in Podgorica typically occurs around 6:30 AM in the summer and around 7:30 AM in the winter."
+    },
+    {
+      "question": "What is the best time to visit Podgorica?",
+      "answer": "The best time to visit Podgorica is during spring and early autumn when the weather is pleasant and ideal for outdoor activities."
+    }
+  ]
+}

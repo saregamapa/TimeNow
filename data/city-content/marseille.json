@@ -1,0 +1,59 @@
+{
+  "overview": "Marseille, France's second-largest city, is a vibrant Mediterranean port located in the south of the country. Known for its rich cultural heritage and diverse population of approximately 877,215, Marseille serves as a major commercial center and a gateway to the French Riviera. Its strategic coastal position has historically made it a melting pot of cultures, contributing to its unique identity and importance in both trade and tourism.",
+  "history": "Founded by Greek traders around 600 BC, Marseille is one of the oldest cities in France. Its historical significance as a port city has shaped its development and cultural landscape over the centuries.",
+  "economy": "Marseille's economy is driven by its bustling port, which is the largest in France and a key hub for international trade. The city also thrives in sectors such as tourism, shipbuilding, and technology, contributing to its dynamic business environment.",
+  "tourism": "Marseille attracts millions of visitors each year with its stunning coastline, historic landmarks, and vibrant neighborhoods. Popular attractions include the Old Port, the stunning Basilique Notre-Dame de la Garde, and the picturesque Calanques National Park, where tourists can explore beautiful hiking trails and crystal-clear waters.",
+  "best_places": [
+    "Basilique Notre-Dame de la Garde",
+    "Old Port (Vieux-Port)",
+    "Calanques National Park",
+    "Palais des Congrès",
+    "Le Panier",
+    "Château d'If"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Le Petit Nice",
+      "description": "A Michelin-starred restaurant known for its exquisite seafood and stunning sea views."
+    },
+    {
+      "name": "Chez Fonfon",
+      "description": "Famous for its traditional bouillabaisse, this restaurant offers a true taste of Marseille."
+    },
+    {
+      "name": "La Table de l'Ours",
+      "description": "A cozy spot offering a blend of Mediterranean and Provençal cuisine with a local twist."
+    },
+    {
+      "name": "L'Épicerie",
+      "description": "A charming eatery known for its fresh, locally sourced ingredients and creative dishes."
+    },
+    {
+      "name": "Pizzeria Chez Etienne",
+      "description": "Renowned for its authentic pizzas and lively atmosphere, a favorite among locals."
+    }
+  ],
+  "weather_summary": "Marseille experiences mild, rainy winters and hot, dry summers, ideal for outdoor activities.",
+  "faqs": [
+    {
+      "question": "What time zone is Marseille in?",
+      "answer": "Marseille is in the Europe/Paris time zone."
+    },
+    {
+      "question": "Does Marseille observe daylight saving time?",
+      "answer": "Yes, Marseille observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Marseille?",
+      "answer": "Marseille has a population of approximately 877,215 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Marseille?",
+      "answer": "Sunrise in Marseille typically occurs between 6:30 AM and 7:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Marseille?",
+      "answer": "The best time to visit Marseille is during the spring and early fall when the weather is pleasant and crowds are smaller."
+    }
+  ]
+}

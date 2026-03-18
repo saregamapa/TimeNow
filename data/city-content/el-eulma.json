@@ -1,0 +1,53 @@
+{
+  "overview": "El Eulma is a vibrant city located in northeastern Algeria, serving as a key urban center within the Setif Province. With a population of approximately 145,380, it plays a significant role in the region's economy and culture. Known for its rich history and strategic location, El Eulma is a hub for trade and commerce, making it an important destination for both locals and visitors alike.",
+  "history": "El Eulma was founded in the 19th century and has since evolved into a significant urban center. Its historical role includes being a vital location during Algeria's struggle for independence.",
+  "economy": "The economy of El Eulma is diverse, with key industries including agriculture, manufacturing, and trade. The city is known for its production of textiles and food products, contributing to the overall economic landscape of Algeria.",
+  "tourism": "Tourism in El Eulma offers visitors a glimpse into its rich cultural heritage and natural beauty. Popular attractions include historical sites, local markets, and scenic parks where tourists can enjoy the vibrant atmosphere and engage with local traditions.",
+  "best_places": [
+    "El Eulma City Park",
+    "Great Mosque of El Eulma",
+    "Setif Archaeological Museum",
+    "Local Market of El Eulma"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant El Eulma",
+      "description": "A popular spot known for its traditional Algerian dishes."
+    },
+    {
+      "name": "Café de la Paix",
+      "description": "A cozy café offering a variety of local pastries and coffee."
+    },
+    {
+      "name": "Le Jardin des Saveurs",
+      "description": "Offers a delightful menu featuring fresh, local ingredients."
+    },
+    {
+      "name": "Pizzeria La Bella",
+      "description": "Famous for its delicious pizzas and casual dining atmosphere."
+    }
+  ],
+  "weather_summary": "El Eulma experiences a Mediterranean climate with hot summers and mild, wet winters.",
+  "faqs": [
+    {
+      "question": "What time zone is El Eulma in?",
+      "answer": "El Eulma is in the Africa/Algiers time zone."
+    },
+    {
+      "question": "Does El Eulma observe daylight saving time?",
+      "answer": "No, El Eulma does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of El Eulma?",
+      "answer": "The population of El Eulma is approximately 145,380."
+    },
+    {
+      "question": "When does sunrise typically occur in El Eulma?",
+      "answer": "Sunrise in El Eulma typically occurs around 6:30 AM, varying slightly by season."
+    },
+    {
+      "question": "What is the best time to visit El Eulma?",
+      "answer": "The best time to visit El Eulma is during the spring and fall when the weather is mild and pleasant."
+    }
+  ]
+}

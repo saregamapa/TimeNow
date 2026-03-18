@@ -1,0 +1,59 @@
+{
+  "overview": "Costa Mesa, located in Orange County, California, is a vibrant city known for its arts scene, shopping, and diverse dining options. With a population of approximately 113,204, it serves as a hub for culture and commerce in the region. Its proximity to beautiful beaches and major attractions like Disneyland makes it a significant destination for both residents and tourists alike.",
+  "history": "Costa Mesa was incorporated in 1953 and has roots as an agricultural community. The city has evolved into a bustling urban center, reflecting the growth of Southern California.",
+  "economy": "Costa Mesa boasts a diverse economy, with key industries including retail, healthcare, and education. The South Coast Plaza, one of the largest shopping centers in the U.S., plays a crucial role in driving business and tourism in the area.",
+  "tourism": "Tourists flock to Costa Mesa for its cultural attractions, including the renowned Segerstrom Center for the Arts and the vibrant South Coast Plaza. Beautiful parks, art galleries, and nearby beaches offer a variety of activities for visitors looking to explore the local scene.",
+  "best_places": [
+    "South Coast Plaza",
+    "Segerstrom Center for the Arts",
+    "The Camp",
+    "The OC Fair and Event Center",
+    "Costa Mesa City Hall",
+    "Tewinkle Park"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Habana",
+      "description": "A lively spot offering Cuban cuisine and a vibrant atmosphere."
+    },
+    {
+      "name": "Mastro's Steakhouse",
+      "description": "A high-end steakhouse known for its prime cuts and upscale dining experience."
+    },
+    {
+      "name": "Old Vine Kitchen & Bar",
+      "description": "A cozy eatery serving seasonal dishes with a focus on local ingredients."
+    },
+    {
+      "name": "The Crack Shack",
+      "description": "A casual restaurant specializing in fried chicken and egg dishes."
+    },
+    {
+      "name": "Taco Maria",
+      "description": "A Michelin-starred restaurant offering modern Mexican cuisine."
+    }
+  ],
+  "weather_summary": "Costa Mesa enjoys a Mediterranean climate with mild, wet winters and warm, dry summers.",
+  "faqs": [
+    {
+      "question": "What time zone is Costa Mesa in?",
+      "answer": "Costa Mesa is in the America/Los_Angeles time zone."
+    },
+    {
+      "question": "Does Costa Mesa observe daylight saving time?",
+      "answer": "Yes, Costa Mesa observes daylight saving time, adjusting clocks forward in spring and back in fall."
+    },
+    {
+      "question": "What is the population of Costa Mesa?",
+      "answer": "The population of Costa Mesa is approximately 113,204."
+    },
+    {
+      "question": "When does sunrise typically occur in Costa Mesa?",
+      "answer": "Sunrise in Costa Mesa typically occurs between 6:00 AM and 7:00 AM, varying by season."
+    },
+    {
+      "question": "What is the best time to visit Costa Mesa?",
+      "answer": "The best time to visit Costa Mesa is during the spring and fall when the weather is mild and pleasant."
+    }
+  ]
+}

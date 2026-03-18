@@ -1,0 +1,59 @@
+{
+  "overview": "Ñuñoa is a vibrant district located in the heart of Santiago, Chile, known for its rich cultural scene and residential charm. With a population of approximately 255,823, it serves as a crucial hub for both locals and visitors, offering a blend of urban living and green spaces. The district is notable for its parks, educational institutions, and a variety of restaurants, making it an essential part of Santiago's metropolitan landscape.",
+  "history": "Ñuñoa was officially founded in the late 19th century and has since evolved from a rural area into a bustling urban district. Its historical significance is marked by various cultural and architectural developments over the years.",
+  "economy": "The economy of Ñuñoa is diverse, with key industries including education, retail, and hospitality. The presence of numerous universities and schools contributes to a vibrant local economy, attracting both businesses and students to the area.",
+  "tourism": "Visitors to Ñuñoa can enjoy a range of attractions, including beautiful parks like Parque Ñuñoa and cultural venues such as the Teatro Municipal. The district's lively atmosphere, combined with its cafes and local markets, makes it a popular destination for both tourists and locals seeking leisure and entertainment.",
+  "best_places": [
+    "Parque Ñuñoa",
+    "Teatro Municipal",
+    "Plaza Ñuñoa",
+    "Museo de la Memoria y los Derechos Humanos",
+    "Centro Cultural La Moneda",
+    "Estadio Nacional"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Fama",
+      "description": "A popular spot known for its delicious Chilean dishes and vibrant ambiance."
+    },
+    {
+      "name": "El Huerto",
+      "description": "A vegetarian restaurant offering a unique take on traditional Chilean cuisine."
+    },
+    {
+      "name": "Cafe Literario",
+      "description": "A cozy cafe that combines literature and coffee, perfect for book lovers."
+    },
+    {
+      "name": "Sushi House",
+      "description": "Renowned for its fresh sushi and Japanese-inspired dishes."
+    },
+    {
+      "name": "Pizzeria Mamma Mia",
+      "description": "Famous for its authentic Italian pizzas and welcoming atmosphere."
+    }
+  ],
+  "weather_summary": "Ñuñoa experiences mild, rainy winters and warm summers, with occasional heat waves.",
+  "faqs": [
+    {
+      "question": "What time zone is Ñuñoa in?",
+      "answer": "Ñuñoa is in the America/Santiago time zone."
+    },
+    {
+      "question": "Does Ñuñoa observe daylight saving time?",
+      "answer": "Yes, Ñuñoa observes daylight saving time, typically from September to April."
+    },
+    {
+      "question": "What is the population of Ñuñoa?",
+      "answer": "The population of Ñuñoa is approximately 255,823."
+    },
+    {
+      "question": "When does sunrise typically occur in Ñuñoa?",
+      "answer": "Sunrise in Ñuñoa typically occurs around 7:30 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Ñuñoa?",
+      "answer": "The best time to visit Ñuñoa is during the spring and fall when the weather is mild and pleasant."
+    }
+  ]
+}

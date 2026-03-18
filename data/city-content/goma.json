@@ -1,0 +1,55 @@
+{
+  "overview": "Goma is a vibrant city located in the eastern region of the Democratic Republic of the Congo, nestled on the shores of Lake Kivu. As a key urban center, it serves as a gateway for trade and tourism, particularly due to its proximity to the Virunga National Park and the active Nyiragongo volcano. With a population of approximately 432,587, Goma plays a crucial role in the socio-economic landscape of the region, attracting visitors and businesses alike for its unique natural beauty and cultural significance.",
+  "history": "Goma was founded in the late 19th century and has since evolved into a significant urban center. It has played a pivotal role in regional trade and has been influenced by various historical conflicts.",
+  "economy": "The economy of Goma is primarily driven by agriculture, trade, and tourism. Key industries include coffee and mineral exports, while the city's strategic location near the Rwandan border facilitates cross-border commerce, making it an essential hub for local and international businesses.",
+  "tourism": "Goma attracts tourists with its stunning natural landscapes and adventure opportunities. Visitors often explore the nearby Virunga National Park, home to mountain gorillas, and enjoy the scenic views of Lake Kivu, while also experiencing local culture and cuisine in the bustling markets.",
+  "best_places": [
+    "Virunga National Park",
+    "Lake Kivu",
+    "Nyiragongo Volcano",
+    "Goma Market",
+    "Mikeno Lodge",
+    "Kivu Golf Club"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant La Brise",
+      "description": "A popular spot offering a mix of local and international cuisine."
+    },
+    {
+      "name": "Café de la Paix",
+      "description": "Known for its coffee and light meals in a cozy atmosphere."
+    },
+    {
+      "name": "La Pirogue",
+      "description": "Offers fresh seafood dishes with stunning lake views."
+    },
+    {
+      "name": "Le Mistral",
+      "description": "A restaurant famous for its grilled meats and traditional Congolese dishes."
+    }
+  ],
+  "weather_summary": "Goma experiences a tropical climate with warm temperatures year-round and a rainy season from October to May.",
+  "faqs": [
+    {
+      "question": "What time zone is Goma in?",
+      "answer": "Goma is in the Africa/Lubumbashi time zone."
+    },
+    {
+      "question": "Does Goma observe daylight saving time?",
+      "answer": "No, Goma does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Goma?",
+      "answer": "The population of Goma is approximately 432,587."
+    },
+    {
+      "question": "When does sunrise typically occur in Goma?",
+      "answer": "Sunrise in Goma typically occurs around 6:00 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Goma?",
+      "answer": "The best time to visit Goma is during the dry season from June to September for pleasant weather and outdoor activities."
+    }
+  ]
+}

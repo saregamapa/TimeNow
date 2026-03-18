@@ -1,0 +1,60 @@
+{
+  "overview": "Lahti, located in southern Finland, is a vibrant city known for its rich cultural heritage and stunning natural landscapes. As a key hub in the region, it plays a significant role in Finland's economy and education, hosting several universities and research institutions. With a population of approximately 121,622, Lahti is recognized for its commitment to sustainability and innovation, making it an attractive destination for both residents and visitors alike.",
+  "history": "Lahti was founded in the late 19th century as a railway town, rapidly growing due to its strategic location. It gained city status in 1905 and has since evolved into a significant cultural and industrial center.",
+  "economy": "Lahti's economy is diverse, with key industries including manufacturing, technology, and environmental services. The city is also known for its commitment to sustainable development, attracting businesses focused on green technologies and innovations.",
+  "tourism": "Tourism in Lahti thrives on its beautiful lakes, parks, and cultural sites. Visitors can explore attractions such as the Lahti Ski Museum, the Sibelius Hall, and the stunning Lake Vesijärvi, which offers various recreational activities like boating and fishing during the summer months.",
+  "best_places": [
+    "Lahti Ski Museum",
+    "Sibelius Hall",
+    "Lake Vesijärvi",
+    "Lahti Historical Museum",
+    "Salpausselkä Geopark",
+    "Ristinkirkko",
+    "Lahti City Theatre"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant Taivaanranta",
+      "description": "A cozy spot known for its local Finnish cuisine and beautiful lake views."
+    },
+    {
+      "name": "Mamma Maria",
+      "description": "Offers a delightful selection of Italian dishes in a charming atmosphere."
+    },
+    {
+      "name": "Kauppahalli",
+      "description": "A vibrant market hall featuring various local food vendors and delicacies."
+    },
+    {
+      "name": "Ravintola Kuu",
+      "description": "Specializes in modern Finnish cuisine with a focus on fresh, seasonal ingredients."
+    },
+    {
+      "name": "Pizzeria Lahti",
+      "description": "Popular for its delicious wood-fired pizzas and casual dining experience."
+    }
+  ],
+  "weather_summary": "Lahti experiences cold winters with snow and mild summers, making it ideal for seasonal activities.",
+  "faqs": [
+    {
+      "question": "What time zone is Lahti in?",
+      "answer": "Lahti is in the Europe/Helsinki time zone."
+    },
+    {
+      "question": "Does Lahti observe daylight saving time?",
+      "answer": "Yes, Lahti observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Lahti?",
+      "answer": "Lahti has a population of approximately 121,622 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Lahti?",
+      "answer": "Sunrise in Lahti varies throughout the year, generally occurring between 5:00 AM and 9:00 AM."
+    },
+    {
+      "question": "What is the best time to visit Lahti?",
+      "answer": "The best time to visit Lahti is during the summer months, from June to August, when the weather is warm and outdoor activities abound."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "overview": "Agra, India, is a city of immense historical significance, located in the northern state of Uttar Pradesh. Renowned for its rich cultural heritage, Agra is home to the iconic Taj Mahal, a UNESCO World Heritage Site and one of the Seven Wonders of the World. With a population of over 1.4 million, it plays a crucial role in India's tourism sector, attracting millions of visitors each year who come to experience its architectural marvels and vibrant history.",
+  "history": "Agra was founded in the 16th century and rose to prominence during the Mughal Empire. It served as the capital of India under several Mughal emperors, making it a center of art and culture.",
+  "economy": "Agra's economy is primarily driven by tourism, handicrafts, and the production of marble and leather goods. The city's rich history and attractions support a thriving hospitality sector, while local artisans contribute to its reputation for exquisite craftsmanship.",
+  "tourism": "Tourism is a major draw for Agra, with the Taj Mahal being the centerpiece of its attractions. Visitors also explore the Agra Fort, Mehtab Bagh, and various local markets that showcase traditional crafts, making the city a vibrant hub for cultural experiences.",
+  "best_places": [
+    "Taj Mahal",
+    "Agra Fort",
+    "Mehtab Bagh",
+    "Itimad-ud-Daulah's Tomb",
+    "Sikandra",
+    "Jama Masjid"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Peshawri",
+      "description": "A renowned restaurant offering authentic North Indian cuisine in a luxurious setting."
+    },
+    {
+      "name": "Dasaprakash",
+      "description": "Famous for its South Indian delicacies, this restaurant provides a unique culinary experience."
+    },
+    {
+      "name": "Esphahan",
+      "description": "Located in the Oberoi, this fine dining restaurant serves exquisite Mughlai dishes."
+    },
+    {
+      "name": "Cafe Sheroes Hangout",
+      "description": "A unique café run by acid attack survivors, offering a variety of delicious snacks and drinks."
+    },
+    {
+      "name": "The Salt Cafe Kitchen & Bar",
+      "description": "A trendy spot that serves a mix of Indian and international cuisine in a casual atmosphere."
+    }
+  ],
+  "weather_summary": "Agra experiences hot summers, mild winters, and a monsoon season, making it a diverse climate region.",
+  "faqs": [
+    {
+      "question": "What time zone is Agra in?",
+      "answer": "Agra is in the Asia/Kolkata time zone."
+    },
+    {
+      "question": "Does Agra observe daylight saving time?",
+      "answer": "No, Agra does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Agra?",
+      "answer": "Agra has a population of approximately 1,430,055."
+    },
+    {
+      "question": "When does sunrise typically occur in Agra?",
+      "answer": "Sunrise in Agra typically occurs between 5:30 AM and 6:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Agra?",
+      "answer": "The best time to visit Agra is from October to March, when the weather is cooler and more pleasant."
+    }
+  ]
+}

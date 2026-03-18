@@ -1,0 +1,55 @@
+{
+  "overview": "Béjaïa, located on the Mediterranean coast of Algeria, serves as a vital port city and cultural hub. With a population of approximately 176,139, it plays a significant role in trade and tourism in the region. Known for its stunning landscapes, rich history, and vibrant local culture, Béjaïa attracts visitors and businesses alike, making it an essential part of Algeria's economic and social fabric.",
+  "history": "Béjaïa was founded in the 5th century and has served as a crucial Mediterranean trading post. Its strategic location has made it a focal point for various civilizations throughout history.",
+  "economy": "The economy of Béjaïa is primarily driven by its port, which facilitates trade and shipping. Key industries include fishing, agriculture, and tourism, contributing to the city's economic development and job creation.",
+  "tourism": "Tourism in Béjaïa is enriched by its natural beauty and historical sites. Visitors can explore the ancient ruins of the fortress of Béjaïa, relax on its beautiful beaches, and enjoy the stunning views from the Kabylie mountains, making it a perfect destination for both relaxation and adventure.",
+  "best_places": [
+    "Cap Carbon",
+    "Yemma Gouraya National Park",
+    "Béjaïa Fortress",
+    "Kissaria Market",
+    "La Corniche",
+    "Sidi Bouzid Beach"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant Le Pirate",
+      "description": "A popular seafood restaurant known for its fresh catch and stunning views."
+    },
+    {
+      "name": "Café des Arts",
+      "description": "A charming café offering local delicacies and a cozy atmosphere."
+    },
+    {
+      "name": "El-Madania",
+      "description": "Famous for its traditional Algerian dishes and warm hospitality."
+    },
+    {
+      "name": "Le Jardin d'El-Hadj",
+      "description": "A beautiful garden restaurant serving Mediterranean cuisine."
+    }
+  ],
+  "weather_summary": "Béjaïa experiences a Mediterranean climate with mild, rainy winters and hot, dry summers.",
+  "faqs": [
+    {
+      "question": "What time zone is Béjaïa in?",
+      "answer": "Béjaïa is in the Africa/Algiers time zone."
+    },
+    {
+      "question": "Does Béjaïa observe daylight saving time?",
+      "answer": "No, Béjaïa does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Béjaïa?",
+      "answer": "The population of Béjaïa is approximately 176,139."
+    },
+    {
+      "question": "When does sunrise typically occur in Béjaïa?",
+      "answer": "Sunrise in Béjaïa typically occurs around 6:30 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Béjaïa?",
+      "answer": "The best time to visit Béjaïa is from April to June and September to October for pleasant weather."
+    }
+  ]
+}

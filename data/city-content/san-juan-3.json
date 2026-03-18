@@ -1,0 +1,60 @@
+{
+  "overview": "San Juan, Puerto Rico, is a vibrant coastal city that serves as the capital and largest municipality of the island. Located in the Caribbean, it plays a crucial role as a cultural and economic hub, blending rich history with modern development. With a population of approximately 418,140, San Juan is known for its historic architecture, lively arts scene, and beautiful beaches, making it a significant destination for both tourism and commerce in North America.",
+  "history": "Founded in 1521, San Juan is one of the oldest cities in the Americas. It has historically served as a strategic military outpost and a center for trade and cultural exchange.",
+  "economy": "San Juan's economy is diverse, with key industries including tourism, manufacturing, and pharmaceuticals. The city is a vital business center, attracting both local and international companies, which contribute to its economic growth and development.",
+  "tourism": "Tourism in San Juan thrives on its stunning attractions, including historic sites like El Morro and vibrant neighborhoods like Old San Juan. Visitors enjoy exploring beautiful beaches, sampling local cuisine, and experiencing the city's rich cultural heritage through festivals and events.",
+  "best_places": [
+    "El Morro",
+    "Old San Juan",
+    "San Juan Cathedral",
+    "La Perla",
+    "Condado Beach",
+    "Fort San Cristóbal",
+    "Paseo de la Princesa"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Mallorquina",
+      "description": "Famous for its delicious pastries and traditional Puerto Rican breakfast."
+    },
+    {
+      "name": "Café Puerto Rico",
+      "description": "Offers authentic Puerto Rican dishes in a cozy, welcoming atmosphere."
+    },
+    {
+      "name": "Marmalade",
+      "description": "Known for its innovative cuisine and a blend of local flavors."
+    },
+    {
+      "name": "El Jibarito",
+      "description": "A local favorite for traditional Puerto Rican comfort food."
+    },
+    {
+      "name": "Pikayo",
+      "description": "Features a creative fusion of Caribbean and international flavors."
+    }
+  ],
+  "weather_summary": "San Juan experiences a tropical climate with warm temperatures year-round and a rainy season from May to November.",
+  "faqs": [
+    {
+      "question": "What time zone is San Juan in?",
+      "answer": "San Juan is in the America/Puerto_Rico time zone."
+    },
+    {
+      "question": "Does San Juan observe daylight saving time?",
+      "answer": "No, San Juan does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of San Juan?",
+      "answer": "The population of San Juan is approximately 418,140."
+    },
+    {
+      "question": "When does sunrise typically occur in San Juan?",
+      "answer": "Sunrise in San Juan typically occurs around 6:00 AM to 6:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit San Juan?",
+      "answer": "The best time to visit San Juan is from mid-December to April when the weather is cooler and drier."
+    }
+  ]
+}

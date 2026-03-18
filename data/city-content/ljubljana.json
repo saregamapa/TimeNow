@@ -1,0 +1,60 @@
+{
+  "overview": "Ljubljana, the charming capital of Slovenia, is a vibrant city located in the heart of Europe. With a population of approximately 272,220, it serves as the cultural, political, and economic center of the country. Known for its picturesque architecture, green spaces, and rich history, Ljubljana attracts visitors with its unique blend of tradition and modernity. The city's strategic location makes it a key hub for trade and tourism, enhancing its significance on the European landscape.",
+  "history": "Founded over 2,000 years ago, Ljubljana has been influenced by various cultures, including the Romans and Habsburgs. It became the capital of Slovenia in 1991, marking its importance in the region's modern history.",
+  "economy": "Ljubljana's economy is diverse, with key industries including services, manufacturing, and technology. The city is a hub for business and innovation, hosting numerous startups and international companies, which contribute significantly to its economic growth.",
+  "tourism": "Ljubljana is a popular tourist destination, known for its stunning architecture, vibrant culture, and beautiful parks. Visitors can explore the iconic Ljubljana Castle, stroll along the charming Ljubljanica River, and enjoy the lively atmosphere at the Central Market. The city's rich history and artistic vibe make it a must-visit for travelers.",
+  "best_places": [
+    "Ljubljana Castle",
+    "Tivoli Park",
+    "Triple Bridge",
+    "Central Market",
+    "Dragon Bridge",
+    "National Gallery",
+    "Metelkova Mesto"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant JB",
+      "description": "A fine dining experience featuring innovative Slovenian cuisine."
+    },
+    {
+      "name": "Gostilna Na Gradu",
+      "description": "Traditional Slovene dishes served in a historic castle setting."
+    },
+    {
+      "name": "Špajza",
+      "description": "Known for its cozy atmosphere and seasonal, locally sourced ingredients."
+    },
+    {
+      "name": "Café Cacao",
+      "description": "Famous for its desserts and a great place for coffee lovers."
+    },
+    {
+      "name": "Zlata Ribica",
+      "description": "Offers a unique blend of Mediterranean and Slovene flavors."
+    }
+  ],
+  "weather_summary": "Ljubljana experiences mild winters and warm summers, with occasional rain throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Ljubljana in?",
+      "answer": "Ljubljana is in the Europe/Ljubljana time zone."
+    },
+    {
+      "question": "Does Ljubljana observe daylight saving time?",
+      "answer": "Yes, Ljubljana observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Ljubljana?",
+      "answer": "The population of Ljubljana is approximately 272,220."
+    },
+    {
+      "question": "When does sunrise typically occur in Ljubljana?",
+      "answer": "Sunrise in Ljubljana typically occurs around 6:30 AM in summer and 7:30 AM in winter."
+    },
+    {
+      "question": "What is the best time to visit Ljubljana?",
+      "answer": "The best time to visit Ljubljana is during spring (April to June) and early autumn (September to October) when the weather is pleasant."
+    }
+  ]
+}

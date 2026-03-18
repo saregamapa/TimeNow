@@ -1,0 +1,59 @@
+{
+  "overview": "Lusaka, the capital city of Zambia, is a vibrant urban center located in the southern part of the country. As the largest city in Zambia, it serves as the political, economic, and cultural hub, playing a crucial role in the nation’s development. With a population of over 2.2 million, Lusaka is a melting pot of diverse cultures and traditions, making it an essential destination for those looking to explore the heart of Africa.",
+  "history": "Lusaka was founded in 1905 as a railway town and became the capital of Northern Rhodesia in 1935. It has since evolved into a key political and economic center in Zambia.",
+  "economy": "Lusaka's economy is diverse, with key industries including agriculture, manufacturing, and trade. The city is a vital business hub, attracting both local and international investments, which contribute to its rapid growth and development.",
+  "tourism": "Tourism in Lusaka offers visitors a mix of cultural and natural attractions. Key sites include the Lusaka National Museum, the bustling Kabwata Cultural Village, and the serene Munda Wanga Environmental Park, where travelers can experience local wildlife and conservation efforts.",
+  "best_places": [
+    "Lusaka National Museum",
+    "Kabwata Cultural Village",
+    "Munda Wanga Environmental Park",
+    "Chilenje House",
+    "Lilayi Lodge",
+    "Freedom Statue"
+  ],
+  "best_restaurants": [
+    {
+      "name": "The Royal Dil",
+      "description": "A popular spot known for its authentic Indian cuisine."
+    },
+    {
+      "name": "The Mugg & Bean",
+      "description": "Offers a cozy atmosphere with a diverse menu of international dishes."
+    },
+    {
+      "name": "Rhapsody's",
+      "description": "A vibrant restaurant serving a mix of local and international favorites."
+    },
+    {
+      "name": "Marble",
+      "description": "Known for its upscale dining experience and stunning city views."
+    },
+    {
+      "name": "The Corner Cafe",
+      "description": "A casual eatery famous for its delicious breakfast and coffee."
+    }
+  ],
+  "weather_summary": "Lusaka experiences mild, rainy winters and warm summers, with occasional heat waves during the hottest months.",
+  "faqs": [
+    {
+      "question": "What time zone is Lusaka in?",
+      "answer": "Lusaka is in the Africa/Lusaka time zone."
+    },
+    {
+      "question": "Does Lusaka observe daylight saving time?",
+      "answer": "No, Lusaka does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Lusaka?",
+      "answer": "Lusaka has a population of approximately 2,212,301 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Lusaka?",
+      "answer": "Sunrise in Lusaka typically occurs between 05:30 and 06:00, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Lusaka?",
+      "answer": "The best time to visit Lusaka is during the dry season, from May to October, when the weather is cooler and more pleasant."
+    }
+  ]
+}

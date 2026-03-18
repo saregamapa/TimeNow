@@ -1,0 +1,59 @@
+{
+  "overview": "Rosario, Argentina, is a vibrant city located in the province of Santa Fe, along the banks of the Paraná River. As the third-largest city in the country, it plays a crucial role in Argentina's economy and culture, serving as a major agricultural and industrial hub. Known for its rich history, stunning architecture, and lively arts scene, Rosario attracts visitors and residents alike, making it a significant urban center in South America.",
+  "history": "Founded in 1725, Rosario has played a pivotal role in Argentina's history, particularly during the country's fight for independence. It was also a key site for the development of the national economy in the 19th century.",
+  "economy": "Rosario's economy is diverse, with key industries including agriculture, manufacturing, and logistics. The city is a major grain export hub, benefiting from its strategic location and extensive port facilities, which facilitate trade and commerce.",
+  "tourism": "Tourism in Rosario offers a blend of cultural and natural attractions. Visitors can explore the iconic National Flag Memorial, stroll along the picturesque waterfront, and enjoy the city's vibrant nightlife, along with numerous parks and museums that highlight its rich heritage.",
+  "best_places": [
+    "National Flag Memorial",
+    "Parque de la Independencia",
+    "La Isla de los Inventos",
+    "Museo Macro",
+    "Teatro El Círculo",
+    "Rosario Central Stadium"
+  ],
+  "best_restaurants": [
+    {
+      "name": "El Cuento",
+      "description": "A charming eatery known for its delicious Argentine steaks and warm ambiance."
+    },
+    {
+      "name": "La Casona",
+      "description": "Offers a unique dining experience with a focus on traditional Argentine cuisine."
+    },
+    {
+      "name": "Portezuelo",
+      "description": "Famous for its exquisite parrilla and local wines."
+    },
+    {
+      "name": "Dulce de Leche",
+      "description": "A popular spot for dessert lovers, specializing in Argentine sweets."
+    },
+    {
+      "name": "Café de la Plaza",
+      "description": "A historic café perfect for enjoying coffee and pastries."
+    }
+  ],
+  "weather_summary": "Rosario typically experiences mild winters and hot, humid summers, with occasional rainfall throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Rosario in?",
+      "answer": "Rosario is in the America/Argentina/Cordoba time zone."
+    },
+    {
+      "question": "Does Rosario observe daylight saving time?",
+      "answer": "No, Rosario does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Rosario?",
+      "answer": "The population of Rosario is approximately 948,312."
+    },
+    {
+      "question": "When does sunrise typically occur in Rosario?",
+      "answer": "Sunrise in Rosario varies throughout the year, generally occurring between 6:00 AM and 7:30 AM."
+    },
+    {
+      "question": "What is the best time to visit Rosario?",
+      "answer": "The best time to visit Rosario is during the spring and fall, when the weather is mild and pleasant."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "overview": "Copenhagen, the capital of Denmark, is a vibrant city situated on the eastern coast of the island of Zealand. Known for its rich history, stunning architecture, and innovative design, it serves as a cultural and economic hub in Northern Europe. With a population of over 1.1 million, Copenhagen is a key player in the region, renowned for its commitment to sustainability and quality of life, making it a significant destination for both residents and tourists alike.",
+  "history": "Copenhagen was founded in the 10th century as a fishing village and grew into a significant trading center. It became the capital of Denmark in the early 15th century, shaping its historical and cultural identity.",
+  "economy": "Copenhagen boasts a robust economy driven by key industries such as shipping, biotechnology, and information technology. As a major business center in Scandinavia, it attracts international companies and fosters innovation, contributing significantly to Denmark's GDP.",
+  "tourism": "Copenhagen attracts millions of visitors each year with its charming canals, historic palaces, and modern attractions. Highlights include the iconic Nyhavn waterfront, the Little Mermaid statue, and the Tivoli Gardens amusement park, offering a blend of cultural experiences and leisure activities.",
+  "best_places": [
+    "Tivoli Gardens",
+    "Nyhavn",
+    "The Little Mermaid",
+    "Rosenborg Castle",
+    "Christiansborg Palace",
+    "The National Museum of Denmark",
+    "Strøget"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Noma",
+      "description": "A world-renowned restaurant known for its innovative Nordic cuisine."
+    },
+    {
+      "name": "Geranium",
+      "description": "A Michelin-starred restaurant offering a unique fine dining experience."
+    },
+    {
+      "name": "Restaurant Krebsegaarden",
+      "description": "Known for its fresh seafood and cozy atmosphere."
+    },
+    {
+      "name": "Cofoco",
+      "description": "Offers a modern take on traditional Danish dishes in a casual setting."
+    },
+    {
+      "name": "Palaegade",
+      "description": "A popular spot for traditional Danish smørrebrød and local delicacies."
+    }
+  ],
+  "weather_summary": "Copenhagen experiences mild, rainy winters and warm summers, with occasional heat waves and cool breezes from the sea.",
+  "faqs": [
+    {
+      "question": "What time zone is Copenhagen in?",
+      "answer": "Copenhagen is in the Europe/Copenhagen time zone."
+    },
+    {
+      "question": "Does Copenhagen observe daylight saving time?",
+      "answer": "Yes, Copenhagen observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Copenhagen?",
+      "answer": "Copenhagen has a population of approximately 1,153,615."
+    },
+    {
+      "question": "When does sunrise typically occur in Copenhagen?",
+      "answer": "Sunrise in Copenhagen varies throughout the year, generally occurring between 6:00 AM and 8:30 AM."
+    },
+    {
+      "question": "What is the best time to visit Copenhagen?",
+      "answer": "The best time to visit Copenhagen is during the summer months of June to August when the weather is warm and events are plentiful."
+    }
+  ]
+}

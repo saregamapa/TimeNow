@@ -1,0 +1,60 @@
+{
+  "overview": "Québec, Canada, is a vibrant city located in North America, known for its rich history and distinct French heritage. As the capital of the province of Québec, it plays a crucial role in the cultural and political landscape of Canada. With a population of approximately 531,902, Québec is celebrated for its stunning architecture, including the iconic Château Frontenac, and its lively arts scene, making it a significant destination for both tourists and residents alike.",
+  "history": "Founded in 1608 by Samuel de Champlain, Québec is one of the oldest cities in North America. It served as a pivotal center for French colonial expansion and has since evolved into a symbol of French culture in Canada.",
+  "economy": "Québec's economy is diverse, with key industries including technology, tourism, and manufacturing. The city is also a hub for the creative sector, housing numerous startups and established companies that contribute significantly to its economic growth.",
+  "tourism": "Visitors to Québec can explore its charming old town, a UNESCO World Heritage site, filled with cobblestone streets and historical buildings. Popular attractions include the majestic Montmorency Falls, the Plains of Abraham, and the vibrant Winter Carnival, offering a unique blend of cultural experiences throughout the year.",
+  "best_places": [
+    "Old Québec",
+    "Château Frontenac",
+    "Montmorency Falls",
+    "Plains of Abraham",
+    "Citadel of Québec",
+    "Parc de la Chute-Montmorency",
+    "Musée de l'Amérique francophone"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Le Saint-Amour",
+      "description": "A renowned fine dining restaurant known for its exquisite French cuisine."
+    },
+    {
+      "name": "Restaurant Initiale",
+      "description": "Offers a sophisticated menu featuring local ingredients and a stunning view of the Old Port."
+    },
+    {
+      "name": "La Bûche",
+      "description": "A cozy eatery serving traditional Quebecois dishes in a rustic setting."
+    },
+    {
+      "name": "Chez Muffy",
+      "description": "Set in a historic warehouse, this restaurant specializes in farm-to-table cuisine."
+    },
+    {
+      "name": "L'Affaire est Ketchup",
+      "description": "A popular bistro known for its creative take on classic comfort food."
+    }
+  ],
+  "weather_summary": "Québec experiences cold, snowy winters and warm, humid summers, with vibrant fall foliage.",
+  "faqs": [
+    {
+      "question": "What time zone is Québec in?",
+      "answer": "Québec is in the America/Toronto time zone."
+    },
+    {
+      "question": "Does Québec observe daylight saving time?",
+      "answer": "Yes, Québec observes daylight saving time, typically starting in March and ending in November."
+    },
+    {
+      "question": "What is the population of Québec?",
+      "answer": "The population of Québec is approximately 531,902."
+    },
+    {
+      "question": "When does sunrise typically occur in Québec?",
+      "answer": "Sunrise in Québec varies by season, generally occurring between 6:00 AM and 7:30 AM."
+    },
+    {
+      "question": "What is the best time to visit Québec?",
+      "answer": "The best time to visit Québec is during the fall for its stunning foliage or in winter for the famous Winter Carnival."
+    }
+  ]
+}

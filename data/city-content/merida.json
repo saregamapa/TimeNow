@@ -1,0 +1,60 @@
+{
+  "overview": "Mérida, the capital of Yucatán, Mexico, is a vibrant city known for its rich cultural heritage and historical significance. Located in the northwestern part of the Yucatán Peninsula, it serves as a major economic and cultural hub in the region, attracting both tourists and business investments. With a population of approximately 1,201,000, Mérida is celebrated for its colonial architecture, lively markets, and proximity to ancient Mayan ruins, making it a key destination for those seeking to explore Mexico's diverse history.",
+  "history": "Founded in 1542 by Spanish conquistadors, Mérida was built over the ruins of the ancient Mayan city of T'Hó. It played a vital role in the colonial period and has since evolved into a cultural center.",
+  "economy": "Mérida's economy is diverse, with key industries including tourism, trade, and agriculture. The city is known for its vibrant markets and local crafts, which attract visitors and support small businesses, contributing significantly to the regional economy.",
+  "tourism": "Tourism in Mérida flourishes thanks to its rich Mayan history and colonial architecture. Visitors flock to attractions such as the Plaza Grande, the Cathedral of Mérida, and the nearby Mayan ruins of Uxmal and Chichén Itzá, while enjoying local cuisine and cultural festivals that showcase the city's vibrant traditions.",
+  "best_places": [
+    "Plaza Grande",
+    "Cathedral of Mérida",
+    "Paseo de Montejo",
+    "Museo Casa de Montejo",
+    "Uxmal",
+    "Chichén Itzá",
+    "Cenote Ik Kil"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Apoala Mexican Cuisine",
+      "description": "Apoala offers a modern twist on traditional Mexican dishes in a chic setting."
+    },
+    {
+      "name": "La Chaya Maya",
+      "description": "Known for its authentic Yucatecan flavors, La Chaya Maya is a local favorite."
+    },
+    {
+      "name": "Pizzeria El Hoyo",
+      "description": "This popular pizzeria serves delicious wood-fired pizzas with fresh ingredients."
+    },
+    {
+      "name": "Manjar Blanco",
+      "description": "A cozy spot specializing in traditional Yucatecan dishes and local delicacies."
+    },
+    {
+      "name": "K'u'uk",
+      "description": "K'u'uk offers a fine dining experience with innovative dishes inspired by local culture."
+    }
+  ],
+  "weather_summary": "Mérida experiences a tropical climate with hot summers and mild winters, alongside a rainy season from June to October.",
+  "faqs": [
+    {
+      "question": "What time zone is Mérida in?",
+      "answer": "Mérida is in the America/Merida time zone."
+    },
+    {
+      "question": "Does Mérida observe daylight saving time?",
+      "answer": "No, Mérida does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Mérida?",
+      "answer": "The population of Mérida is approximately 1,201,000."
+    },
+    {
+      "question": "When does sunrise typically occur in Mérida?",
+      "answer": "Sunrise in Mérida typically occurs around 6:00 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Mérida?",
+      "answer": "The best time to visit Mérida is from November to March when the weather is cooler and drier."
+    }
+  ]
+}

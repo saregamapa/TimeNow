@@ -1,0 +1,60 @@
+{
+  "overview": "Salamanca, located in western Spain, is a historic city renowned for its prestigious university, one of the oldest in the world. As a UNESCO World Heritage site, it boasts stunning architecture and a vibrant cultural scene, making it a significant educational and tourist hub. With a population of approximately 147,707, Salamanca plays a crucial role in Spain's cultural and academic landscape, attracting students and visitors alike with its rich history and lively atmosphere.",
+  "history": "Founded in ancient times, Salamanca became a key center of learning in the 13th century. Its university has been pivotal in shaping Spanish education and culture over the centuries.",
+  "economy": "Salamanca's economy is primarily driven by education, tourism, and agriculture. The presence of the university fosters a vibrant business environment, while local industries focus on traditional products such as cured meats and wines, contributing to the city's economic stability.",
+  "tourism": "Salamanca attracts visitors with its stunning Plaza Mayor, the historic university buildings, and the impressive cathedrals. Tourists often explore the vibrant streets, enjoy local cuisine, and participate in cultural events, making it a popular destination for both education and leisure.",
+  "best_places": [
+    "Plaza Mayor",
+    "University of Salamanca",
+    "New Cathedral",
+    "Old Cathedral",
+    "Casa de las Conchas",
+    "Roman Bridge",
+    "Convento de San Esteban"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Casa Paca",
+      "description": "A charming eatery known for its traditional Spanish dishes and cozy atmosphere."
+    },
+    {
+      "name": "La Tahona",
+      "description": "Offers a delightful selection of local pastries and coffee in a quaint setting."
+    },
+    {
+      "name": "El Alquimista",
+      "description": "A popular spot for innovative cuisine, blending traditional flavors with modern techniques."
+    },
+    {
+      "name": "Taberna La Sureña",
+      "description": "Famous for its tapas and vibrant local ambiance, perfect for social dining."
+    },
+    {
+      "name": "Restaurante El Mesón",
+      "description": "Known for its hearty meals and excellent wine selection, ideal for a full dining experience."
+    }
+  ],
+  "weather_summary": "Salamanca experiences a Mediterranean climate, with hot summers and mild winters, accompanied by occasional rainfall.",
+  "faqs": [
+    {
+      "question": "What time zone is Salamanca in?",
+      "answer": "Salamanca is in the Europe/Madrid time zone."
+    },
+    {
+      "question": "Does Salamanca observe daylight saving time?",
+      "answer": "Yes, Salamanca observes daylight saving time, typically shifting one hour forward in late March and back in late October."
+    },
+    {
+      "question": "What is the population of Salamanca?",
+      "answer": "The population of Salamanca is approximately 147,707."
+    },
+    {
+      "question": "When does sunrise typically occur in Salamanca?",
+      "answer": "Sunrise in Salamanca typically occurs around 7:30 AM in the summer and around 8:30 AM in the winter."
+    },
+    {
+      "question": "What is the best time to visit Salamanca?",
+      "answer": "The best time to visit Salamanca is during spring and fall when the weather is mild and the city is less crowded."
+    }
+  ]
+}

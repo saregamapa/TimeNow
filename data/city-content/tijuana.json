@@ -1,0 +1,59 @@
+{
+  "overview": "Tijuana, located in the northwestern part of Mexico, is a vibrant city that serves as a cultural and economic bridge between Mexico and the United States. As the largest city in Baja California, Tijuana plays a crucial role in cross-border trade and tourism, attracting millions of visitors each year. Known for its rich culture, diverse population of over 1.9 million, and dynamic nightlife, Tijuana has become a significant urban center in North America, making it a focal point for economic growth and cultural exchange.",
+  "history": "Tijuana was founded in 1889 and quickly grew as a border town, becoming a popular destination for American tourists during Prohibition. The city has evolved significantly over the years, reflecting the cultural influences of both Mexico and the United States.",
+  "economy": "Tijuana's economy is driven by manufacturing, especially in the electronics and automotive sectors, along with a booming tourism industry. The city's proximity to the U.S. border enhances its role as a hub for trade and commerce, attracting businesses and foreign investment.",
+  "tourism": "Tourism in Tijuana thrives on its rich cultural experiences, vibrant nightlife, and culinary delights. Visitors flock to attractions like the Tijuana Cultural Center, Avenida Revolución, and local markets, while enjoying authentic Mexican cuisine and lively entertainment options.",
+  "best_places": [
+    "Tijuana Cultural Center",
+    "Avenida Revolución",
+    "Playas de Tijuana",
+    "El Popo Market",
+    "Parque Morelos",
+    "Museo de las Californias"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Caesar's",
+      "description": "Famous for its original Caesar salad and upscale dining experience."
+    },
+    {
+      "name": "La Justina",
+      "description": "A trendy spot known for its craft cocktails and local cuisine."
+    },
+    {
+      "name": "Tacos El Franc",
+      "description": "Popular for its delicious street tacos and casual atmosphere."
+    },
+    {
+      "name": "Misión 19",
+      "description": "An innovative restaurant offering a modern take on traditional Mexican dishes."
+    },
+    {
+      "name": "El Taller",
+      "description": "A unique dining experience featuring a menu inspired by local ingredients."
+    }
+  ],
+  "weather_summary": "Tijuana experiences a Mediterranean climate with mild, wet winters and warm, dry summers.",
+  "faqs": [
+    {
+      "question": "What time zone is Tijuana in?",
+      "answer": "Tijuana is in the America/Tijuana time zone."
+    },
+    {
+      "question": "Does Tijuana observe daylight saving time?",
+      "answer": "Yes, Tijuana observes daylight saving time, typically from the first Sunday in April to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Tijuana?",
+      "answer": "The population of Tijuana is approximately 1,922,523."
+    },
+    {
+      "question": "When does sunrise typically occur in Tijuana?",
+      "answer": "Sunrise in Tijuana typically occurs between 6:30 AM and 7:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Tijuana?",
+      "answer": "The best time to visit Tijuana is during the spring and fall when the weather is mild and pleasant."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "overview": "Lisbon, the capital of Portugal, is a vibrant city located on the western coast of the Iberian Peninsula. As a cultural and economic hub, it plays a crucial role in Southern Europe's trade and tourism. Known for its stunning architecture, rich history, and lively neighborhoods, Lisbon attracts millions of visitors each year, making it a significant destination for those seeking to experience Portuguese culture and hospitality.",
+  "history": "Lisbon is one of the oldest cities in Western Europe, founded by the Phoenicians around 1200 BC. It has served as a key maritime center during the Age of Discoveries in the 15th and 16th centuries.",
+  "economy": "Lisbon's economy is diverse, with key industries including tourism, finance, technology, and telecommunications. The city serves as a major business center, attracting both local and international companies, which contribute to its growing economic landscape.",
+  "tourism": "Tourism in Lisbon thrives on its rich cultural heritage and stunning landscapes. Visitors flock to iconic sites such as the historic Belém Tower, the vibrant Alfama district, and the picturesque views from São Jorge Castle. The city's lively atmosphere, delicious cuisine, and numerous festivals further enhance its appeal.",
+  "best_places": [
+    "Belém Tower",
+    "São Jorge Castle",
+    "Alfama District",
+    "Lisbon Oceanarium",
+    "Jerónimos Monastery",
+    "Praça do Comércio"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Time Out Market",
+      "description": "A culinary hub featuring a variety of food stalls from renowned chefs."
+    },
+    {
+      "name": "Cervejaria Ramiro",
+      "description": "Famous for its fresh seafood and vibrant atmosphere."
+    },
+    {
+      "name": "A Cevicheria",
+      "description": "Specializes in Peruvian ceviche with a Portuguese twist."
+    },
+    {
+      "name": "Bairro do Avillez",
+      "description": "A unique dining experience showcasing traditional Portuguese cuisine."
+    },
+    {
+      "name": "Taberna da Rua das Flores",
+      "description": "Offers a contemporary take on classic Portuguese dishes."
+    }
+  ],
+  "weather_summary": "Lisbon enjoys a Mediterranean climate with mild, rainy winters and hot, dry summers.",
+  "faqs": [
+    {
+      "question": "What time zone is Lisbon in?",
+      "answer": "Lisbon is in the Europe/Lisbon time zone."
+    },
+    {
+      "question": "Does Lisbon observe daylight saving time?",
+      "answer": "Yes, Lisbon observes daylight saving time, typically moving the clock forward in March and back in October."
+    },
+    {
+      "question": "What is the population of Lisbon?",
+      "answer": "Lisbon has a population of approximately 517,802 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Lisbon?",
+      "answer": "Sunrise in Lisbon typically occurs between 6:30 AM and 7:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Lisbon?",
+      "answer": "The best time to visit Lisbon is during the spring (March to May) and fall (September to October) when the weather is pleasant."
+    }
+  ]
+}

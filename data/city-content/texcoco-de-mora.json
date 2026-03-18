@@ -1,0 +1,54 @@
+{
+  "overview": "Texcoco de Mora, located in the State of Mexico, is a vibrant city known for its rich cultural heritage and historical significance. As a key player in the region, it serves as a hub for agriculture and commerce, contributing to the economy of the greater Mexico City metropolitan area. With a population of approximately 105,165, Texcoco combines modern development with ancient traditions, making it an intriguing destination for both residents and visitors alike.",
+  "history": "Texcoco was founded in the 12th century and became a prominent city in the Aztec Empire. It played a crucial role in the political and cultural landscape of Mesoamerica.",
+  "economy": "The economy of Texcoco de Mora is primarily driven by agriculture, trade, and manufacturing. The city is known for its production of crops such as corn and barley, while also hosting various businesses that support the local and regional economy.",
+  "tourism": "Texcoco de Mora attracts visitors with its historical sites, including the ruins of the ancient city of Texcoco and the beautiful Chapingo Autonomous University campus. Tourists can explore local markets, enjoy traditional cuisine, and participate in cultural festivals that celebrate the city's rich heritage.",
+  "best_places": [
+    "Ruins of Texcoco",
+    "Chapingo Autonomous University",
+    "Texcoco Cathedral",
+    "Lake Texcoco",
+    "Museo de la Ciudad de Texcoco"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Casa de la Abuela",
+      "description": "A cozy spot known for its traditional Mexican dishes and warm ambiance."
+    },
+    {
+      "name": "El Fogón de los Abuelos",
+      "description": "Famous for its grilled meats and authentic regional flavors."
+    },
+    {
+      "name": "Café de la Plaza",
+      "description": "A popular café offering a variety of coffee and light meals in a charming setting."
+    },
+    {
+      "name": "Tacos El Gallo",
+      "description": "Renowned for its delicious tacos and vibrant street food atmosphere."
+    }
+  ],
+  "weather_summary": "Texcoco experiences mild, rainy winters and warm summers, with a temperate climate year-round.",
+  "faqs": [
+    {
+      "question": "What time zone is Texcoco de Mora in?",
+      "answer": "Texcoco de Mora is in the America/Mexico_City time zone."
+    },
+    {
+      "question": "Does Texcoco de Mora observe daylight saving time?",
+      "answer": "Yes, Texcoco de Mora observes daylight saving time, typically starting in early April and ending in late October."
+    },
+    {
+      "question": "What is the population of Texcoco de Mora?",
+      "answer": "The population of Texcoco de Mora is approximately 105,165."
+    },
+    {
+      "question": "When does sunrise typically occur in Texcoco de Mora?",
+      "answer": "Sunrise in Texcoco de Mora typically occurs around 6:30 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Texcoco de Mora?",
+      "answer": "The best time to visit Texcoco de Mora is during the dry season, from November to April, when the weather is pleasant."
+    }
+  ]
+}

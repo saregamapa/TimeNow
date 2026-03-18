@@ -1,0 +1,53 @@
+{
+  "overview": "Praia, the capital city of Cabo Verde, is located on the southern coast of Santiago Island. As a vibrant cultural and economic center, it plays a crucial role in the nation's governance and commerce. With a population of approximately 137,868, Praia is not only the largest city in Cabo Verde but also a gateway for international trade and tourism, showcasing a rich blend of African and Portuguese influences.",
+  "history": "Founded in the 15th century, Praia became an important port during the transatlantic slave trade. Its strategic location contributed to its growth as a commercial hub in the region.",
+  "economy": "Praia's economy is primarily driven by services, trade, and tourism. Key industries include fishing, agriculture, and retail, making it a vital economic center for Cabo Verde and a focal point for regional commerce.",
+  "tourism": "Tourism in Praia attracts visitors with its beautiful beaches, historical sites, and vibrant markets. Popular attractions include the Plateau district, the historic city center, and the nearby natural parks, offering a mix of cultural experiences and outdoor activities.",
+  "best_places": [
+    "Plateau",
+    "Praia de Prainha",
+    "Mercado Municipal",
+    "Fortaleza Real de San Felipe"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurante Terra Branca",
+      "description": "Known for its fresh seafood and traditional Cabo Verdean dishes."
+    },
+    {
+      "name": "Café del Mar",
+      "description": "A popular spot for coffee and light meals with stunning ocean views."
+    },
+    {
+      "name": "Restaurante O Pescador",
+      "description": "Offers a variety of local fish dishes in a cozy atmosphere."
+    },
+    {
+      "name": "A Taberna",
+      "description": "Famous for its authentic Cape Verdean cuisine and friendly service."
+    }
+  ],
+  "weather_summary": "Praia enjoys a mild climate with warm temperatures year-round and minimal rainfall.",
+  "faqs": [
+    {
+      "question": "What time zone is Praia in?",
+      "answer": "Praia is in the Atlantic/Cape_Verde time zone."
+    },
+    {
+      "question": "Does Praia observe daylight saving time?",
+      "answer": "No, Praia does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Praia?",
+      "answer": "The population of Praia is approximately 137,868."
+    },
+    {
+      "question": "When does sunrise typically occur in Praia?",
+      "answer": "Sunrise in Praia typically occurs between 6:00 AM and 6:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Praia?",
+      "answer": "The best time to visit Praia is from November to June when the weather is warm and dry."
+    }
+  ]
+}

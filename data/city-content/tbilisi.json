@@ -1,0 +1,60 @@
+{
+  "overview": "Tbilisi, the capital of Georgia, is a vibrant city located at the crossroads of Europe and Asia. Known for its diverse architecture and rich cultural heritage, Tbilisi serves as a significant political, economic, and cultural center in the region. With a population of approximately 1,049,498, it plays a crucial role in connecting various cultures and traditions, making it a key destination for travelers and business alike.",
+  "history": "Tbilisi was founded in the 5th century and has served as the capital of various kingdoms throughout its history. Its strategic location has made it a melting pot of cultures and a vital trade hub.",
+  "economy": "Tbilisi's economy is diverse, with key industries including tourism, manufacturing, and services. The city acts as a business hub for the region, attracting investments and fostering entrepreneurship, which contributes significantly to Georgia's overall economic development.",
+  "tourism": "Tourism in Tbilisi flourishes thanks to its rich history and stunning landscapes. Visitors can explore attractions like the Old Town, Narikala Fortress, and the sulfur baths, while enjoying the city's vibrant nightlife and renowned culinary scene.",
+  "best_places": [
+    "Old Tbilisi",
+    "Narikala Fortress",
+    "Tbilisi Sulfur Baths",
+    "Rustaveli Avenue",
+    "Freedom Square",
+    "Holy Trinity Cathedral",
+    "Tbilisi Opera and Ballet Theatre"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Cafe Littera",
+      "description": "A charming cafe known for its modern take on traditional Georgian cuisine."
+    },
+    {
+      "name": "Shavi Lomi",
+      "description": "Offers a unique blend of local flavors and innovative dishes in a cozy atmosphere."
+    },
+    {
+      "name": "Barbarestan",
+      "description": "Famous for its authentic Georgian recipes and warm hospitality."
+    },
+    {
+      "name": "Keto and Kote",
+      "description": "A beloved spot for traditional Georgian meals with a contemporary twist."
+    },
+    {
+      "name": "Funicular Restaurant",
+      "description": "Located atop a hill, it provides stunning views along with delectable Georgian dishes."
+    }
+  ],
+  "weather_summary": "Tbilisi experiences mild winters and hot summers, with occasional rainfall throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Tbilisi in?",
+      "answer": "Tbilisi is in the Asia/Tbilisi time zone."
+    },
+    {
+      "question": "Does Tbilisi observe daylight saving time?",
+      "answer": "Yes, Tbilisi observes daylight saving time, typically shifting forward in spring and back in autumn."
+    },
+    {
+      "question": "What is the population of Tbilisi?",
+      "answer": "The population of Tbilisi is approximately 1,049,498."
+    },
+    {
+      "question": "When does sunrise typically occur in Tbilisi?",
+      "answer": "Sunrise in Tbilisi typically occurs between 6:00 AM and 7:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Tbilisi?",
+      "answer": "The best time to visit Tbilisi is during spring (April to June) and fall (September to October) when the weather is mild and pleasant."
+    }
+  ]
+}

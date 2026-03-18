@@ -1,0 +1,60 @@
+{
+  "overview": "Montpellier, located in the south of France, is a vibrant city known for its rich history, dynamic culture, and educational significance. As the capital of the Hérault department, it serves as a key economic and cultural hub in the Occitanie region. With a population of approximately 248,252, Montpellier is recognized for its beautiful architecture, lively student population, and proximity to the Mediterranean coast, making it a significant destination for both residents and tourists alike.",
+  "history": "Founded in the 10th century, Montpellier has a rich historical legacy as a center for trade and education. It became renowned for its university, established in the 12th century, which is one of the oldest in the world.",
+  "economy": "Montpellier's economy is diverse, with key industries including technology, healthcare, and education. The city has become a hub for startups and innovation, attracting businesses and professionals, particularly in the fields of biotechnology and information technology.",
+  "tourism": "Tourism in Montpellier thrives on its historical charm and Mediterranean climate. Visitors flock to explore attractions such as the Place de la Comédie, the historic Saint-Pierre Cathedral, and the beautiful Jardin des Plantes. The city's vibrant festivals and cultural events further enhance its appeal as a travel destination.",
+  "best_places": [
+    "Place de la Comédie",
+    "Saint-Pierre Cathedral",
+    "Jardin des Plantes",
+    "Montpellier Zoo",
+    "Musée Fabre",
+    "Antigone District",
+    "Le Corum"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Le Petit Jardin",
+      "description": "A charming bistro offering traditional French cuisine in a lovely garden setting."
+    },
+    {
+      "name": "La Diligence",
+      "description": "Known for its creative dishes and local ingredients, this restaurant is a favorite among locals."
+    },
+    {
+      "name": "Chez Boris",
+      "description": "A cozy eatery specializing in Mediterranean dishes with a modern twist."
+    },
+    {
+      "name": "L'Entrecôte",
+      "description": "Famous for its steak-frites and secret sauce, this restaurant is a must-visit for meat lovers."
+    },
+    {
+      "name": "Le Grillardin",
+      "description": "Offers a refined dining experience with a focus on seasonal and regional flavors."
+    }
+  ],
+  "weather_summary": "Montpellier experiences mild, rainy winters and warm, sunny summers, ideal for outdoor activities.",
+  "faqs": [
+    {
+      "question": "What time zone is Montpellier in?",
+      "answer": "Montpellier is in the Europe/Paris time zone."
+    },
+    {
+      "question": "Does Montpellier observe daylight saving time?",
+      "answer": "Yes, Montpellier observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Montpellier?",
+      "answer": "The population of Montpellier is approximately 248,252."
+    },
+    {
+      "question": "When does sunrise typically occur in Montpellier?",
+      "answer": "Sunrise in Montpellier typically occurs around 7 AM in summer and around 8 AM in winter."
+    },
+    {
+      "question": "What is the best time to visit Montpellier?",
+      "answer": "The best time to visit Montpellier is during spring and early fall when the weather is pleasant and festivals are abundant."
+    }
+  ]
+}

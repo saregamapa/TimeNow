@@ -1,0 +1,59 @@
+{
+  "overview": "Zemun, a vibrant district of Belgrade, Serbia, is located along the banks of the Danube River. Known for its rich history and cultural significance, Zemun offers a unique blend of traditional architecture and modern urban life. With a population of approximately 155,591, it serves as an important residential and commercial hub, attracting visitors with its picturesque waterfront, historical sites, and lively atmosphere.",
+  "history": "Zemun's history dates back to Roman times when it was known as a strategic military outpost. Over the centuries, it has been influenced by various cultures, contributing to its diverse architectural landscape.",
+  "economy": "Zemun plays a crucial role in the local economy, with key industries including manufacturing, trade, and services. Its strategic location along the Danube River facilitates commerce and transportation, making it a vital area for businesses and trade activities.",
+  "tourism": "Tourists flock to Zemun for its charming streets, historical landmarks, and scenic river views. Key attractions include the Gardoš Tower, the Zemun Quay, and the local market, where visitors can enjoy authentic Serbian cuisine and culture.",
+  "best_places": [
+    "Gardoš Tower",
+    "Zemun Quay",
+    "The Belgrade Waterfront",
+    "The Church of St. Nicholas",
+    "The Zemun Market",
+    "The Great War Island"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Lorenzo & Kakalamba",
+      "description": "A popular restaurant known for its unique decor and traditional Serbian dishes."
+    },
+    {
+      "name": "Bistro Grad",
+      "description": "Offers a cozy atmosphere with a menu featuring local and international cuisine."
+    },
+    {
+      "name": "Restoran Šaran",
+      "description": "Famous for its fresh fish dishes and beautiful views of the Danube."
+    },
+    {
+      "name": "Café de Flore",
+      "description": "A charming café perfect for enjoying coffee and pastries by the river."
+    },
+    {
+      "name": "Bistro B",
+      "description": "Known for its modern twist on Serbian classics and a vibrant ambiance."
+    }
+  ],
+  "weather_summary": "Zemun experiences mild, rainy winters and warm summers, with occasional heat waves.",
+  "faqs": [
+    {
+      "question": "What time zone is Zemun in?",
+      "answer": "Zemun is in the Europe/Belgrade time zone."
+    },
+    {
+      "question": "Does Zemun observe daylight saving time?",
+      "answer": "Yes, Zemun observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Zemun?",
+      "answer": "Zemun has a population of approximately 155,591 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Zemun?",
+      "answer": "Sunrise in Zemun typically occurs around 6:00 AM in summer and around 7:30 AM in winter."
+    },
+    {
+      "question": "What is the best time to visit Zemun?",
+      "answer": "The best time to visit Zemun is during spring and early autumn when the weather is pleasant and outdoor activities are abundant."
+    }
+  ]
+}

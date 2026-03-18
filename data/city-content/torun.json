@@ -1,0 +1,59 @@
+{
+  "overview": "Toruń, a historic city in Poland, is located in the northern part of the country along the Vistula River. Known for its well-preserved medieval architecture, Toruń is a UNESCO World Heritage Site and serves as a vital cultural and educational hub. With a population of approximately 196,935, it plays a significant role in Poland's history, particularly as the birthplace of the astronomer Nicolaus Copernicus, making it an essential destination for visitors interested in science and history.",
+  "history": "Toruń was founded in the 13th century and quickly became an important trade center in the Hanseatic League. Its rich history includes a blend of Gothic architecture and Renaissance influences, reflecting its significance in various historical periods.",
+  "economy": "The economy of Toruń is diverse, with key industries including manufacturing, education, and tourism. The city is home to numerous businesses, educational institutions, and cultural organizations that contribute to its economic vitality and attract investment.",
+  "tourism": "Tourism in Toruń is driven by its stunning architecture and cultural heritage. Visitors flock to explore the Old Town, visit the Copernicus Museum, and enjoy local delicacies like gingerbread. The city's vibrant festivals and events also draw tourists year-round, enhancing its appeal as a travel destination.",
+  "best_places": [
+    "Toruń Old Town",
+    "Copernicus Museum",
+    "Teutonic Castle",
+    "Planetarium",
+    "Toruń Gingerbread Museum",
+    "Vistula Boulevards"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Pierogarnia Stary Młyn",
+      "description": "A cozy eatery famous for its traditional Polish dumplings."
+    },
+    {
+      "name": "Kocia Kawiarnia Kociarnia",
+      "description": "A unique cat café offering a relaxing atmosphere with feline companions."
+    },
+    {
+      "name": "Restauracja Dwa Rybki",
+      "description": "Known for its fresh seafood and modern Polish cuisine."
+    },
+    {
+      "name": "Café Lenkiewicz",
+      "description": "A charming café offering delicious pastries and coffee in a historic setting."
+    },
+    {
+      "name": "Restauracja Trattoria",
+      "description": "An Italian restaurant popular for its pasta and pizza dishes."
+    }
+  ],
+  "weather_summary": "Toruń experiences a temperate climate with cold winters and warm summers, often accompanied by rainfall.",
+  "faqs": [
+    {
+      "question": "What time zone is Toruń in?",
+      "answer": "Toruń is in the Europe/Warsaw time zone."
+    },
+    {
+      "question": "Does Toruń observe daylight saving time?",
+      "answer": "Yes, Toruń observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Toruń?",
+      "answer": "The population of Toruń is approximately 196,935."
+    },
+    {
+      "question": "When does sunrise typically occur in Toruń?",
+      "answer": "Sunrise in Toruń typically occurs around 6:00 AM in summer and 7:30 AM in winter."
+    },
+    {
+      "question": "What is the best time to visit Toruń?",
+      "answer": "The best time to visit Toruń is during spring and early autumn when the weather is mild and ideal for sightseeing."
+    }
+  ]
+}

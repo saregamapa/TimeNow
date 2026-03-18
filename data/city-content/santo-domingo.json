@@ -1,0 +1,59 @@
+{
+  "overview": "Santo Domingo, the vibrant capital of the Dominican Republic, is located on the southern coast of the island of Hispaniola. As the oldest continuously inhabited European settlement in the Americas, it plays a crucial role in the region's history and culture. With a population of over 2.2 million, Santo Domingo serves as the political, economic, and cultural heart of the country, attracting visitors with its rich heritage and lively atmosphere.",
+  "history": "Founded in 1496 by Bartholomew Columbus, Santo Domingo is recognized as the first permanent European settlement in the New World. Its historic Zona Colonial is a UNESCO World Heritage Site, showcasing its significant role in colonial history.",
+  "economy": "Santo Domingo is a major economic hub in the Caribbean, with key industries including tourism, manufacturing, and services. The city hosts numerous businesses and financial institutions, contributing significantly to the Dominican Republic's GDP.",
+  "tourism": "Tourism in Santo Domingo thrives on its rich history and cultural heritage, with visitors flocking to attractions like the Alcázar de Colón and the Cathedral of Santa María la Menor. The city's vibrant nightlife, local cuisine, and beautiful beaches also draw tourists seeking both relaxation and adventure.",
+  "best_places": [
+    "Alcázar de Colón",
+    "Zona Colonial",
+    "Cathedral of Santa María la Menor",
+    "Malecón",
+    "Parque Colón",
+    "National Palace"
+  ],
+  "best_restaurants": [
+    {
+      "name": "El Mesón de la Cava",
+      "description": "A unique dining experience set in a cave, offering traditional Dominican cuisine."
+    },
+    {
+      "name": "Sushi House",
+      "description": "Famous for its fresh sushi and innovative rolls in a modern setting."
+    },
+    {
+      "name": "La Cassina",
+      "description": "An upscale restaurant known for its exquisite Italian dishes and elegant ambiance."
+    },
+    {
+      "name": "Pat'e Palo",
+      "description": "A historic restaurant serving a mix of Dominican and international dishes in the Zona Colonial."
+    },
+    {
+      "name": "Bocao",
+      "description": "Offers a casual atmosphere with a focus on local flavors and fresh ingredients."
+    }
+  ],
+  "weather_summary": "Santo Domingo experiences a tropical climate with warm temperatures year-round and a wet season from May to November.",
+  "faqs": [
+    {
+      "question": "What time zone is Santo Domingo in?",
+      "answer": "Santo Domingo is in the America/Santo_Domingo time zone."
+    },
+    {
+      "question": "Does Santo Domingo observe daylight saving time?",
+      "answer": "No, Santo Domingo does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Santo Domingo?",
+      "answer": "The population of Santo Domingo is approximately 2,201,941."
+    },
+    {
+      "question": "When does sunrise typically occur in Santo Domingo?",
+      "answer": "Sunrise in Santo Domingo typically occurs between 6:00 AM and 6:30 AM throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Santo Domingo?",
+      "answer": "The best time to visit Santo Domingo is during the dry season from December to April, when the weather is pleasant."
+    }
+  ]
+}

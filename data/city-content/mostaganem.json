@@ -1,0 +1,54 @@
+{
+  "overview": "Mostaganem, located on the northern coast of Algeria, is a vibrant city known for its rich history and cultural significance. With a population of approximately 162,885, it serves as a vital economic and administrative center in the region. The city's strategic position along the Mediterranean Sea not only enhances its maritime activities but also makes it a popular destination for tourists seeking to explore its beautiful beaches and historical landmarks.",
+  "history": "Mostaganem was founded in the 10th century and has played a significant role in maritime trade throughout history. Its strategic location made it an important port city during various historical periods.",
+  "economy": "The economy of Mostaganem is primarily driven by agriculture, fishing, and tourism. The city is known for its production of olives and citrus fruits, while its coastal location supports a thriving fishing industry, attracting both local and international businesses.",
+  "tourism": "Mostaganem boasts stunning Mediterranean beaches and historical sites that attract visitors year-round. Key attractions include the ancient fortress of El Mehdia, the picturesque Corniche, and vibrant local markets, offering a taste of the city's rich culture and heritage.",
+  "best_places": [
+    "El Mehdia Fortress",
+    "Mostaganem Corniche",
+    "Sidi Lakhdar Beach",
+    "Local Markets",
+    "Saint Augustine Church"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant Le Méditerranée",
+      "description": "A popular spot offering a variety of traditional Algerian dishes with a stunning sea view."
+    },
+    {
+      "name": "La Table de Mostaganem",
+      "description": "Known for its fresh seafood and local specialties in a cozy atmosphere."
+    },
+    {
+      "name": "Café des Arts",
+      "description": "A charming café featuring local pastries and coffee, perfect for a relaxing break."
+    },
+    {
+      "name": "Restaurant El Bahdja",
+      "description": "Offers a delightful selection of Mediterranean cuisine in a welcoming environment."
+    }
+  ],
+  "weather_summary": "Mostaganem experiences a Mediterranean climate with hot, dry summers and mild, wet winters.",
+  "faqs": [
+    {
+      "question": "What time zone is Mostaganem in?",
+      "answer": "Mostaganem is in the Africa/Algiers time zone."
+    },
+    {
+      "question": "Does Mostaganem observe daylight saving time?",
+      "answer": "No, Mostaganem does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Mostaganem?",
+      "answer": "The population of Mostaganem is approximately 162,885."
+    },
+    {
+      "question": "When does sunrise typically occur in Mostaganem?",
+      "answer": "Sunrise in Mostaganem typically occurs between 6:30 AM and 7:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Mostaganem?",
+      "answer": "The best time to visit Mostaganem is during the spring and early autumn when the weather is mild and pleasant."
+    }
+  ]
+}

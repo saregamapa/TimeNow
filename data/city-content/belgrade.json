@@ -1,0 +1,59 @@
+{
+  "overview": "Belgrade, the capital of Serbia, is a vibrant city situated at the confluence of the River Sava and Danube. As one of the oldest cities in Europe, it serves as a cultural and economic hub, showcasing a rich blend of history and modernity. With a population of approximately 1.27 million, Belgrade plays a crucial role in the Balkan region, attracting visitors with its lively nightlife, historical landmarks, and diverse culinary scene.",
+  "history": "Belgrade's history dates back to the 3rd century BC, when it was founded as a Celtic settlement. Over the centuries, it has been a significant military and cultural center, influenced by various empires, including the Romans and Ottomans.",
+  "economy": "Belgrade is the economic powerhouse of Serbia, contributing significantly to the national GDP. Key industries include manufacturing, information technology, and services, with a growing emphasis on startups and innovation, making it an attractive destination for business investments.",
+  "tourism": "Tourism in Belgrade is thriving, with visitors drawn to its historic sites, such as the Belgrade Fortress and St. Sava Temple. The city's vibrant atmosphere is complemented by its bustling cafes and bars, particularly in the Skadarlija district, offering a taste of local culture and cuisine.",
+  "best_places": [
+    "Belgrade Fortress",
+    "St. Sava Temple",
+    "Knez Mihailova Street",
+    "Ada Ciganlija",
+    "Skadarlija",
+    "Museum of Yugoslavia"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restoran Manufaktura",
+      "description": "Known for its traditional Serbian dishes and local wines in a rustic setting."
+    },
+    {
+      "name": "Mali Kalemegdan",
+      "description": "Offers stunning views of the confluence and a menu of Serbian specialties."
+    },
+    {
+      "name": "Homa",
+      "description": "A modern eatery blending international flavors with local ingredients."
+    },
+    {
+      "name": "Tri Šešira",
+      "description": "A historic restaurant in Skadarlija famous for its authentic Serbian cuisine."
+    },
+    {
+      "name": "Bistro Grad Hometown",
+      "description": "A cozy bistro serving hearty meals with a focus on seasonal ingredients."
+    }
+  ],
+  "weather_summary": "Belgrade experiences a continental climate with hot summers and cold winters, featuring moderate rainfall throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Belgrade in?",
+      "answer": "Belgrade is in the Europe/Belgrade time zone."
+    },
+    {
+      "question": "Does Belgrade observe daylight saving time?",
+      "answer": "Yes, Belgrade observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Belgrade?",
+      "answer": "The population of Belgrade is approximately 1,273,651."
+    },
+    {
+      "question": "When does sunrise typically occur in Belgrade?",
+      "answer": "Sunrise in Belgrade typically occurs between 5:30 AM and 7:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Belgrade?",
+      "answer": "The best time to visit Belgrade is during spring (April to June) and autumn (September to October) when the weather is mild and pleasant."
+    }
+  ]
+}

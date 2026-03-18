@@ -1,0 +1,55 @@
+{
+  "overview": "Salé, a vibrant city located on the Atlantic coast of Morocco, serves as a significant cultural and economic hub. Situated just across the Bou Regreg River from the capital city of Rabat, Salé is known for its rich history, diverse architecture, and bustling markets. With a population of approximately 972,299, it plays a crucial role in the region's development and offers a unique blend of traditional Moroccan life and modern urban influences.",
+  "history": "Founded in ancient times, Salé has served as a vital port and trade center throughout its history. The city gained prominence during the 17th century as a haven for pirates and traders.",
+  "economy": "Salé's economy is primarily driven by trade, manufacturing, and tourism. The city is home to numerous markets and industries, including textiles and handicrafts, which contribute to its economic vitality and provide employment opportunities for its residents.",
+  "tourism": "Visitors to Salé can explore its historical medina, which features narrow streets and traditional Moroccan architecture. Key attractions include the Great Mosque, the ancient ramparts, and the picturesque beaches along the Atlantic coast, making it a perfect destination for both cultural exploration and relaxation.",
+  "best_places": [
+    "Great Mosque of Salé",
+    "Salé Medina",
+    "Rabat-Salé Airport",
+    "Bou Regreg River",
+    "Kasbah des Oudayas",
+    "Plage de Salé"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant Al-Madina",
+      "description": "A popular spot offering traditional Moroccan cuisine in a cozy setting."
+    },
+    {
+      "name": "Le Relais de Paris",
+      "description": "Known for its delicious French dishes and elegant atmosphere."
+    },
+    {
+      "name": "Dar Zaki",
+      "description": "Famous for its authentic Moroccan tagines and warm hospitality."
+    },
+    {
+      "name": "Les Jardins de la Medina",
+      "description": "A beautiful restaurant set in lush gardens, serving Mediterranean-inspired dishes."
+    }
+  ],
+  "weather_summary": "Salé experiences mild winters and warm summers, with a Mediterranean climate that includes occasional rain.",
+  "faqs": [
+    {
+      "question": "What time zone is Salé in?",
+      "answer": "Salé is in the Africa/Casablanca time zone."
+    },
+    {
+      "question": "Does Salé observe daylight saving time?",
+      "answer": "Yes, Salé observes daylight saving time, typically from late March to late October."
+    },
+    {
+      "question": "What is the population of Salé?",
+      "answer": "The population of Salé is approximately 972,299."
+    },
+    {
+      "question": "When does sunrise typically occur in Salé?",
+      "answer": "Sunrise in Salé typically occurs between 6:30 AM and 7:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Salé?",
+      "answer": "The best time to visit Salé is during the spring and fall when the weather is mild and pleasant."
+    }
+  ]
+}

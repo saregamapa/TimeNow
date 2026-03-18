@@ -1,0 +1,60 @@
+{
+  "overview": "Brighton, located on the southern coast of England, is a vibrant city known for its rich cultural scene and historic seaside charm. As part of the Greater Brighton Metropolitan Area, it plays a crucial role in the region's economy and tourism. With a population of approximately 277,103, Brighton is a hub for arts, entertainment, and education, making it a significant destination for both residents and visitors alike.",
+  "history": "Brighton began as a small fishing village in the 8th century and grew into a fashionable seaside resort in the 18th century. Its development was spurred by the arrival of the railway in the 19th century, which transformed it into a popular destination for Londoners.",
+  "economy": "Brighton's economy is diverse, with key industries including tourism, creative arts, and digital technology. The city is also home to various businesses, ranging from independent shops to large corporations, contributing to its vibrant economic landscape.",
+  "tourism": "Brighton attracts millions of visitors each year, drawn by its iconic attractions such as the Royal Pavilion, Brighton Pier, and the bustling Lanes shopping district. The city's vibrant nightlife, cultural festivals, and beautiful beaches make it a popular destination for tourists seeking both relaxation and entertainment.",
+  "best_places": [
+    "Royal Pavilion",
+    "Brighton Pier",
+    "The Lanes",
+    "British Airways i360",
+    "Brighton Beach",
+    "Victoria Gardens",
+    "Brighton Museum & Art Gallery"
+  ],
+  "best_restaurants": [
+    {
+      "name": "The Coal Shed",
+      "description": "A renowned steak and seafood restaurant offering a unique dining experience."
+    },
+    {
+      "name": "Murmur",
+      "description": "A chic eatery known for its fresh, locally sourced ingredients and innovative dishes."
+    },
+    {
+      "name": "The Chilli Pickle",
+      "description": "A vibrant Indian restaurant celebrated for its authentic flavors and contemporary twist."
+    },
+    {
+      "name": "Terre à Terre",
+      "description": "A vegetarian restaurant famous for its creative and flavorful plant-based dishes."
+    },
+    {
+      "name": "Food for Friends",
+      "description": "A beloved spot offering delicious vegetarian and vegan cuisine in a cozy atmosphere."
+    }
+  ],
+  "weather_summary": "Brighton experiences mild, rainy winters and warm summers with occasional heat waves.",
+  "faqs": [
+    {
+      "question": "What time zone is Brighton in?",
+      "answer": "Brighton is in the Europe/London time zone."
+    },
+    {
+      "question": "Does Brighton observe daylight saving time?",
+      "answer": "Yes, Brighton observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Brighton?",
+      "answer": "The population of Brighton is approximately 277,103."
+    },
+    {
+      "question": "When does sunrise typically occur in Brighton?",
+      "answer": "Sunrise in Brighton typically occurs around 6:00 AM in summer and around 8:00 AM in winter."
+    },
+    {
+      "question": "What is the best time to visit Brighton?",
+      "answer": "The best time to visit Brighton is during late spring and summer, when the weather is warm and events are plentiful."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "overview": "Innsbruck, located in the heart of the Austrian Alps, is a vibrant city renowned for its stunning mountain scenery and rich cultural heritage. As the capital of Tyrol, it serves as a key hub for winter sports and outdoor activities, attracting visitors year-round. With a population of approximately 132,493, Innsbruck blends historical charm with modern amenities, making it an essential destination for both tourists and locals alike.",
+  "history": "Innsbruck was founded in the 12th century and quickly became an important trade route center. It has played a significant role in Tyrolean history, particularly as a site for imperial meetings and events.",
+  "economy": "Innsbruck's economy is driven by tourism, with skiing and outdoor activities being major contributors. Additionally, the city has a growing technology sector and hosts various educational institutions, enhancing its business landscape.",
+  "tourism": "Visitors flock to Innsbruck for its breathtaking alpine views, historic architecture, and vibrant cultural scene. Key attractions include the Golden Roof, Ambras Castle, and the Nordkette Mountain Range, where outdoor enthusiasts can enjoy skiing, hiking, and stunning panoramic vistas.",
+  "best_places": [
+    "Golden Roof",
+    "Ambras Castle",
+    "Nordkette Mountain Range",
+    "Innsbruck Cathedral",
+    "Bergisel Ski Jump",
+    "Tyrolean State Museum"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Die Pizzerei",
+      "description": "A popular spot for delicious pizzas with a cozy atmosphere."
+    },
+    {
+      "name": "Gasthof Weisses Kreuz",
+      "description": "Known for its traditional Tyrolean cuisine and warm hospitality."
+    },
+    {
+      "name": "Stiftskeller",
+      "description": "Offers a unique dining experience with local dishes and a historic setting."
+    },
+    {
+      "name": "Cafe Munding",
+      "description": "Famous for its pastries and coffee, perfect for a sweet treat."
+    },
+    {
+      "name": "Restaurant Lichtblick",
+      "description": "Features modern Austrian cuisine with stunning views of the city."
+    }
+  ],
+  "weather_summary": "Innsbruck experiences cold, snowy winters and mild summers, making it ideal for year-round outdoor activities.",
+  "faqs": [
+    {
+      "question": "What time zone is Innsbruck in?",
+      "answer": "Innsbruck is in the Europe/Vienna time zone."
+    },
+    {
+      "question": "Does Innsbruck observe daylight saving time?",
+      "answer": "Yes, Innsbruck observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Innsbruck?",
+      "answer": "The population of Innsbruck is approximately 132,493."
+    },
+    {
+      "question": "When does sunrise typically occur in Innsbruck?",
+      "answer": "Sunrise in Innsbruck varies throughout the year, generally occurring between 6:00 AM and 7:30 AM."
+    },
+    {
+      "question": "What is the best time to visit Innsbruck?",
+      "answer": "The best time to visit Innsbruck is during the winter for skiing or in late spring and summer for hiking and outdoor activities."
+    }
+  ]
+}

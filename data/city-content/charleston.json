@@ -1,0 +1,59 @@
+{
+  "overview": "Charleston, located in the southeastern United States, is a historic city known for its rich cultural heritage and picturesque waterfront. As the largest city in South Carolina, it plays a significant role in the region's economy and tourism. With its charming cobblestone streets, antebellum architecture, and vibrant arts scene, Charleston attracts visitors from around the world, making it a key destination in North America.",
+  "history": "Founded in 1670, Charleston played a crucial role in American history, notably during the Revolutionary War and the Civil War. Its strategic port made it a center for trade and military activity.",
+  "economy": "Charleston's economy is diverse, with key industries including tourism, manufacturing, and technology. The city's historic charm and modern amenities make it a hub for businesses and entrepreneurs, contributing to its growth and economic vitality.",
+  "tourism": "Tourism is a major driver of Charleston's economy, with visitors flocking to attractions like the historic Battery, Fort Sumter, and the vibrant French Quarter. Guests can enjoy guided tours, local cuisine, and cultural festivals, all while soaking in the city's unique Southern charm.",
+  "best_places": [
+    "The Battery",
+    "Fort Sumter",
+    "Rainbow Row",
+    "Charleston City Market",
+    "Magnolia Plantation and Gardens",
+    "South Carolina Aquarium"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Husk",
+      "description": "A renowned restaurant focusing on Southern ingredients and innovative dishes."
+    },
+    {
+      "name": "FIG",
+      "description": "An upscale eatery known for its farm-to-table approach and seasonal menu."
+    },
+    {
+      "name": "Poogan's Porch",
+      "description": "A charming spot serving classic Southern comfort food in a historic home."
+    },
+    {
+      "name": "The Ordinary",
+      "description": "A seafood hall and oyster bar offering fresh, local catches in a vibrant setting."
+    },
+    {
+      "name": "Fleet Landing",
+      "description": "A waterfront restaurant known for its fresh seafood and stunning harbor views."
+    }
+  ],
+  "weather_summary": "Charleston experiences mild winters and hot, humid summers, with occasional thunderstorms in the warmer months.",
+  "faqs": [
+    {
+      "question": "What time zone is Charleston in?",
+      "answer": "Charleston is in the America/New_York time zone."
+    },
+    {
+      "question": "Does Charleston observe daylight saving time?",
+      "answer": "Yes, Charleston observes daylight saving time, moving forward one hour in spring and back one hour in fall."
+    },
+    {
+      "question": "What is the population of Charleston?",
+      "answer": "The population of Charleston is approximately 132,609 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Charleston?",
+      "answer": "Sunrise in Charleston typically occurs between 6:30 AM and 7:00 AM, varying slightly by season."
+    },
+    {
+      "question": "What is the best time to visit Charleston?",
+      "answer": "The best time to visit Charleston is during the spring and fall when the weather is mild and festivals are abundant."
+    }
+  ]
+}

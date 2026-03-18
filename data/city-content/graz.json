@@ -1,0 +1,60 @@
+{
+  "overview": "Graz, Austria's second-largest city, is a vibrant cultural hub located in the southeastern part of the country. Known for its rich history and stunning architecture, Graz serves as a center for education and innovation, housing several universities and research institutions. Its well-preserved medieval old town, a UNESCO World Heritage site, attracts visitors and locals alike, making Graz a significant player in Austria's cultural and economic landscape.",
+  "history": "Graz was founded in the 12th century and quickly became an important trade center. Its strategic location along trade routes contributed to its growth and historical significance.",
+  "economy": "Graz boasts a diverse economy with key industries including automotive, information technology, and education. The presence of numerous startups and research institutions fosters innovation and contributes to the city’s economic vitality.",
+  "tourism": "Tourism in Graz is thriving, with visitors drawn to its historic sites, such as the Schlossberg and the Kunsthaus Graz. The city's vibrant arts scene, local festivals, and culinary delights further enhance its appeal, making it a must-visit destination in Austria.",
+  "best_places": [
+    "Schlossberg",
+    "Kunsthaus Graz",
+    "Eggenberg Palace",
+    "Graz Cathedral",
+    "Murinsel",
+    "Landhaus",
+    "Stadtpark"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Die Scherbe",
+      "description": "A cozy eatery known for its local Austrian dishes with a modern twist."
+    },
+    {
+      "name": "Aiola Upstairs",
+      "description": "Offers stunning views and a menu featuring seasonal ingredients and creative cuisine."
+    },
+    {
+      "name": "Gasthaus Stainzerbauer",
+      "description": "Famous for traditional Styrian dishes in a rustic setting."
+    },
+    {
+      "name": "Lokal",
+      "description": "A popular spot for innovative vegetarian and vegan options."
+    },
+    {
+      "name": "Pizzeria La Gondola",
+      "description": "Renowned for its authentic Italian pizzas and warm atmosphere."
+    }
+  ],
+  "weather_summary": "Graz experiences mild winters and warm summers, with occasional rain throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Graz in?",
+      "answer": "Graz is in the Europe/Vienna time zone."
+    },
+    {
+      "question": "Does Graz observe daylight saving time?",
+      "answer": "Yes, Graz observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Graz?",
+      "answer": "The population of Graz is approximately 303,270."
+    },
+    {
+      "question": "When does sunrise typically occur in Graz?",
+      "answer": "Sunrise in Graz varies throughout the year, generally occurring between 6:00 AM and 7:30 AM."
+    },
+    {
+      "question": "What is the best time to visit Graz?",
+      "answer": "The best time to visit Graz is during the spring and early autumn when the weather is pleasant for outdoor activities."
+    }
+  ]
+}

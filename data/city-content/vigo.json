@@ -1,0 +1,59 @@
+{
+  "overview": "Vigo, located in the northwest of Spain in the Galicia region, is a vibrant port city known for its rich maritime heritage and cultural significance. As the largest city in Galicia, it plays a crucial role in the region's economy and serves as a gateway to the stunning Atlantic coastline. With a population of approximately 293,642, Vigo is renowned for its seafood, beautiful landscapes, and lively atmosphere, making it an essential destination for both tourists and locals alike.",
+  "history": "Vigo has a deep historical background, with its origins dating back to Roman times when it was known as 'Vicus'. The city played a significant role in naval battles during the 17th century, contributing to its development as a key maritime center.",
+  "economy": "Vigo's economy is driven by its robust fishing industry, shipbuilding, and automotive manufacturing. The city's strategic port facilitates international trade, making it an important hub for businesses and contributing significantly to the regional economy.",
+  "tourism": "Tourism in Vigo is vibrant, attracting visitors to its stunning coastal views and rich cultural heritage. Key attractions include the picturesque Casco Vello, the bustling port area, and the nearby Cíes Islands, known for their natural beauty and outdoor activities such as hiking and water sports.",
+  "best_places": [
+    "Cíes Islands",
+    "Casco Vello",
+    "Pazo de Castro",
+    "Port of Vigo",
+    "Museo Quiñones de León",
+    "Plaza de España"
+  ],
+  "best_restaurants": [
+    {
+      "name": "O Marisquero",
+      "description": "Famous for its fresh seafood and traditional Galician dishes."
+    },
+    {
+      "name": "Taberna A Pedra",
+      "description": "Offers a cozy atmosphere with a focus on local cuisine and wines."
+    },
+    {
+      "name": "Casa Marco",
+      "description": "Known for its innovative takes on classic Galician recipes."
+    },
+    {
+      "name": "O Portón",
+      "description": "A popular spot for tapas and regional specialties in a vibrant setting."
+    },
+    {
+      "name": "Restaurante La Bodega",
+      "description": "Renowned for its extensive wine list and authentic Spanish tapas."
+    }
+  ],
+  "weather_summary": "Vigo experiences mild, rainy winters and warm summers, with occasional heat waves during peak season.",
+  "faqs": [
+    {
+      "question": "What time zone is Vigo in?",
+      "answer": "Vigo is in the Europe/Madrid time zone."
+    },
+    {
+      "question": "Does Vigo observe daylight saving time?",
+      "answer": "Yes, Vigo observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Vigo?",
+      "answer": "The population of Vigo is approximately 293,642."
+    },
+    {
+      "question": "When does sunrise typically occur in Vigo?",
+      "answer": "Sunrise in Vigo typically occurs between 7:30 AM and 8:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Vigo?",
+      "answer": "The best time to visit Vigo is during the late spring and early autumn when the weather is pleasant and outdoor activities are abundant."
+    }
+  ]
+}

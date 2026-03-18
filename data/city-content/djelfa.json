@@ -1,0 +1,55 @@
+{
+  "overview": "Djelfa is a prominent city located in the central region of Algeria, serving as the capital of Djelfa Province. With a population of approximately 265,833, it plays a vital role in the local economy and culture. The city is strategically positioned along major transportation routes, making it a hub for trade and commerce while also being surrounded by stunning natural landscapes, including the Saharan foothills, which attract visitors and nature enthusiasts alike.",
+  "history": "Djelfa was founded in the early 19th century and has since grown into an important urban center. Its historical significance is tied to its role as a crossroads for various cultures and trade routes in Algeria.",
+  "economy": "The economy of Djelfa is diverse, with key industries including agriculture, livestock, and small-scale manufacturing. The city also serves as a commercial hub for surrounding rural areas, facilitating trade and providing essential services to the local population.",
+  "tourism": "Tourism in Djelfa is centered around its rich cultural heritage and natural beauty. Visitors can explore historical sites such as the ancient Roman ruins at Timgad, enjoy the scenic landscapes of the Saharan foothills, and experience local traditions through vibrant markets and festivals.",
+  "best_places": [
+    "Timgad Ruins",
+    "Djelfa Museum",
+    "Ksar of Djelfa",
+    "Mount Ouarsenis",
+    "Lac de Djelfa",
+    "Ksar of Aïn Ouessara"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant El-Moustaqbal",
+      "description": "A popular spot known for its traditional Algerian cuisine."
+    },
+    {
+      "name": "Le Palais des Saveurs",
+      "description": "Offers a diverse menu with a focus on local flavors."
+    },
+    {
+      "name": "Café de la Paix",
+      "description": "A cozy café perfect for enjoying coffee and pastries."
+    },
+    {
+      "name": "Restaurant La Cascade",
+      "description": "Features a lovely ambiance and a variety of Mediterranean dishes."
+    }
+  ],
+  "weather_summary": "Djelfa experiences hot summers and mild winters, with minimal rainfall throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Djelfa in?",
+      "answer": "Djelfa is in the Africa/Algiers time zone."
+    },
+    {
+      "question": "Does Djelfa observe daylight saving time?",
+      "answer": "No, Djelfa does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Djelfa?",
+      "answer": "The population of Djelfa is approximately 265,833."
+    },
+    {
+      "question": "When does sunrise typically occur in Djelfa?",
+      "answer": "Sunrise in Djelfa typically occurs around 6:00 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Djelfa?",
+      "answer": "The best time to visit Djelfa is during the spring and autumn months when the weather is mild and pleasant."
+    }
+  ]
+}

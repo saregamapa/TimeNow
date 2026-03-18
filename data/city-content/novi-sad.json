@@ -1,0 +1,59 @@
+{
+  "overview": "Novi Sad, located in northern Serbia along the banks of the Danube River, is the administrative center of the Vojvodina province. With a population of approximately 215,400, it serves as a cultural and economic hub in the region. Known for its vibrant festivals, including the renowned EXIT Festival, Novi Sad attracts visitors with its rich history, diverse architecture, and lively atmosphere, making it a significant destination in Europe.",
+  "history": "Novi Sad was founded in the 17th century and quickly became a center for Serbian culture and education. Its strategic location on the Danube River facilitated trade and cultural exchange throughout its history.",
+  "economy": "Novi Sad's economy is diverse, with key industries including agriculture, manufacturing, and information technology. The city serves as a business hub, hosting numerous companies and contributing to Serbia's overall economic growth.",
+  "tourism": "Tourism in Novi Sad is flourishing, with visitors drawn to its stunning architecture, historical landmarks, and vibrant cultural scene. Key attractions include the Petrovaradin Fortress, the Museum of Vojvodina, and the beautiful Danube Park, where tourists can enjoy leisure activities, festivals, and local cuisine.",
+  "best_places": [
+    "Petrovaradin Fortress",
+    "Danube Park",
+    "Museum of Vojvodina",
+    "Novi Sad Cathedral",
+    "EXIT Festival",
+    "Liberty Bridge"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restaurant 4 Ušća",
+      "description": "A popular spot known for its delicious Serbian cuisine and riverside views."
+    },
+    {
+      "name": "Café Veliki",
+      "description": "A charming café offering a variety of local pastries and coffee."
+    },
+    {
+      "name": "Fish & Zeleniš",
+      "description": "Specializes in fresh seafood dishes with a modern twist."
+    },
+    {
+      "name": "Café Dvorište",
+      "description": "A cozy café with a relaxed atmosphere and a selection of homemade meals."
+    },
+    {
+      "name": "Café Duga",
+      "description": "Famous for its trendy ambiance and diverse menu options."
+    }
+  ],
+  "weather_summary": "Novi Sad experiences mild winters and warm summers, with occasional rain and heat waves during the summer months.",
+  "faqs": [
+    {
+      "question": "What time zone is Novi Sad in?",
+      "answer": "Novi Sad is in the Europe/Belgrade time zone."
+    },
+    {
+      "question": "Does Novi Sad observe daylight saving time?",
+      "answer": "Yes, Novi Sad observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Novi Sad?",
+      "answer": "The population of Novi Sad is approximately 215,400."
+    },
+    {
+      "question": "When does sunrise typically occur in Novi Sad?",
+      "answer": "Sunrise in Novi Sad typically occurs around 6:00 AM in summer and 7:30 AM in winter."
+    },
+    {
+      "question": "What is the best time to visit Novi Sad?",
+      "answer": "The best time to visit Novi Sad is during the spring and early fall when the weather is pleasant and festivals are abundant."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tools | TimeNow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body>
+  <header class="app-header" role="banner">
+    <div class="header-container">
+      <div class="header-left"><a class="logo" href="/"><img src="/favicon.svg" alt="" class="logo-icon"/>TimeNow</a></div>
+      <div class="header-right">
+        <a href="/continents">Continents</a>
+        <a href="/countries">Countries</a>
+        <a href="/world-clock">World Clock</a>
+        <a href="/tools" aria-current="page">Tools</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main list-page">
+    <section class="section">
+      <h1 class="section-title">Tools</h1>
+      <p class="muted">Quick utilities for time zones and planning.</p>
+
+      <div class="tool-block">
+        <h2>⏱️ Time difference</h2>
+        <div class="tool-form">
+          <label for="diff-city-a">City A (IANA)</label>
+          <input type="text" id="diff-city-a" placeholder="America/Chicago" />
+          <label for="diff-city-b">City B (IANA)</label>
+          <input type="text" id="diff-city-b" placeholder="Europe/London" />
+          <button type="button" id="btn-diff">Explain</button>
+          <pre class="tool-output" id="out-diff"></pre>
+        </div>
+      </div>
+
+      <div class="tool-block">
+        <h2>📅 Event time in other zones</h2>
+        <div class="tool-form">
+          <label for="event-time">Time</label>
+          <input type="text" id="event-time" placeholder="14:00" />
+          <label for="event-tz">Timezone (IANA)</label>
+          <input type="text" id="event-tz" placeholder="America/New_York" />
+          <label for="event-targets">Show in (comma IANA)</label>
+          <input type="text" id="event-targets" placeholder="Europe/London, Asia/Tokyo" />
+          <button type="button" id="btn-event">Get times</button>
+          <pre class="tool-output" id="out-event"></pre>
+        </div>
+      </div>
+
+      <div class="tool-block">
+        <h2>✈️ Jet lag planner</h2>
+        <div class="tool-form">
+          <label for="jetlag-origin">Origin</label>
+          <input type="text" id="jetlag-origin" placeholder="America/Chicago" />
+          <label for="jetlag-dest">Destination</label>
+          <input type="text" id="jetlag-dest" placeholder="Europe/London" />
+          <label for="jetlag-date">Travel date</label>
+          <input type="date" id="jetlag-date" />
+          <button type="button" id="btn-jetlag">Get schedule</button>
+          <pre class="tool-output" id="out-jetlag"></pre>
+        </div>
+      </div>
+
+      <div class="tool-block">
+        <h2>👥 Work hours overlap</h2>
+        <div class="tool-form">
+          <label for="overlap-zones">Zones (one per line)</label>
+          <textarea id="overlap-zones" rows="3" placeholder="America/New_York\nEurope/London"></textarea>
+          <label for="overlap-hours">Hours (e.g. 9-17)</label>
+          <input type="text" id="overlap-hours" value="9-17" />
+          <button type="button" id="btn-overlap">Find overlap</button>
+          <pre class="tool-output" id="out-overlap"></pre>
+          <div class="overlap-bars" id="overlap-bars"></div>
+        </div>
+      </div>
+
+      <div class="tool-block">
+        <h2>💬 Relative time</h2>
+        <div class="tool-form">
+          <label for="relative-phrase">Phrase</label>
+          <input type="text" id="relative-phrase" placeholder="tomorrow morning" />
+          <label for="relative-tz">Timezone</label>
+          <input type="text" id="relative-tz" placeholder="America/Chicago" />
+          <label for="relative-others">Also in (comma IANA)</label>
+          <input type="text" id="relative-others" placeholder="Europe/London" />
+          <button type="button" id="btn-relative">Translate</button>
+          <pre class="tool-output" id="out-relative"></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="global-footer" role="contentinfo">
+    <p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="/about">📄 About</a>
+      <a href="/privacy">🔒 Privacy</a>
+      <a href="/terms">📋 Terms</a>
+      <a href="/contact">✉️ Contact</a>
+      <a href="/sitemap.xml">🗺️ Sitemap</a>
+    </nav>
+  </footer>
+
+  <script type="module" src="/js/app.js"></script>
+  <script src="/js/search.js" defer></script>
+</body>
+</html>

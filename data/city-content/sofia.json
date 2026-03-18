@@ -1,0 +1,59 @@
+{
+  "overview": "Sofia, the capital of Bulgaria, is a vibrant city located in the western part of the country. As the largest city in Bulgaria, with a population of over 1.1 million, it serves as the political, economic, and cultural heart of the nation. Nestled at the foot of Mount Vitosha, Sofia is known for its rich history, diverse architecture, and dynamic atmosphere, making it an important hub for both locals and visitors alike.",
+  "history": "Sofia's history dates back over 2,000 years, originally founded as Serdica by the Romans. It has served as an important crossroads of trade and culture throughout its existence.",
+  "economy": "Sofia plays a crucial role in Bulgaria's economy, contributing significantly to the country's GDP. Key industries include information technology, telecommunications, and finance, with a growing number of startups and multinational companies establishing operations in the city.",
+  "tourism": "Visitors to Sofia can explore a blend of ancient history and modern life. Major attractions include the iconic Alexander Nevsky Cathedral, the historic ruins of Serdica, and the vibrant Vitosha Boulevard, known for its shops and cafes, making it a popular destination for both sightseeing and leisure activities.",
+  "best_places": [
+    "Alexander Nevsky Cathedral",
+    "Vitosha Boulevard",
+    "National Palace of Culture",
+    "Boyana Church",
+    "Serdica Archaeological Complex",
+    "Mount Vitosha"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Sasa Asian Pub",
+      "description": "A trendy spot offering a fusion of Asian cuisines in a lively atmosphere."
+    },
+    {
+      "name": "Manastirska Magernitsa",
+      "description": "A charming restaurant serving traditional Bulgarian dishes in a rustic setting."
+    },
+    {
+      "name": "Sense Hotel Rooftop Bar",
+      "description": "An upscale bar with stunning views of the city, perfect for cocktails and sunset watching."
+    },
+    {
+      "name": "Happy Bar & Grill",
+      "description": "A popular chain known for its diverse menu and casual dining experience."
+    },
+    {
+      "name": "Raffy Bar & Gelato",
+      "description": "A vibrant eatery famous for its gelato and Mediterranean-inspired dishes."
+    }
+  ],
+  "weather_summary": "Sofia experiences cold winters and warm summers, with occasional thunderstorms in the summer months.",
+  "faqs": [
+    {
+      "question": "What time zone is Sofia in?",
+      "answer": "Sofia is in the Europe/Sofia time zone."
+    },
+    {
+      "question": "Does Sofia observe daylight saving time?",
+      "answer": "Yes, Sofia observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Sofia?",
+      "answer": "The population of Sofia is approximately 1,152,556."
+    },
+    {
+      "question": "When does sunrise typically occur in Sofia?",
+      "answer": "Sunrise in Sofia varies by season, generally occurring between 6:30 AM and 7:30 AM."
+    },
+    {
+      "question": "What is the best time to visit Sofia?",
+      "answer": "The best time to visit Sofia is during spring (April to June) and fall (September to October) when the weather is mild and pleasant."
+    }
+  ]
+}

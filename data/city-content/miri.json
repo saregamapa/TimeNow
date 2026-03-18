@@ -1,0 +1,59 @@
+{
+  "overview": "Miri, located in the northern part of Sarawak, Malaysia, is a vibrant city known for its rich cultural diversity and economic significance. It serves as a gateway to Borneo's natural wonders, including pristine rainforests and stunning coastlines. With a population of over 300,000, Miri plays a crucial role in the region's oil and gas industry while also promoting tourism through its unique attractions and heritage.",
+  "history": "Miri was founded in 1910 when oil was discovered, marking the beginning of the city's development. It has since evolved into a key economic hub in East Malaysia.",
+  "economy": "Miri's economy is primarily driven by the oil and gas sector, contributing significantly to Malaysia's energy resources. Additionally, agriculture, tourism, and retail play vital roles in the city's economic landscape, supporting local businesses and providing employment opportunities.",
+  "tourism": "Miri attracts visitors with its stunning natural attractions, including the UNESCO-listed Mulu Caves and Niah Caves, offering unique experiences for adventure seekers. The city also features beautiful beaches, vibrant markets, and cultural festivals that showcase the rich heritage of the region.",
+  "best_places": [
+    "Mulu Caves",
+    "Niah Caves",
+    "Lambir Hills National Park",
+    "Tusan Beach",
+    "Canada Hill",
+    "Miri Handicraft Centre"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Lau Ya Keng",
+      "description": "A popular spot known for its delicious local cuisine and vibrant atmosphere."
+    },
+    {
+      "name": "Kedai Kopi Dan Makanan 88",
+      "description": "Renowned for its authentic Malaysian dishes and great coffee."
+    },
+    {
+      "name": "The Coffee Bean & Tea Leaf",
+      "description": "A cozy café offering a wide selection of coffee and pastries."
+    },
+    {
+      "name": "Taman Selera",
+      "description": "A food court featuring a variety of local street food options."
+    },
+    {
+      "name": "Sushi King",
+      "description": "A well-known chain offering fresh sushi and Japanese cuisine."
+    }
+  ],
+  "weather_summary": "Miri experiences a tropical climate with high humidity, warm temperatures, and frequent rainfall throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Miri in?",
+      "answer": "Miri is in the Asia/Kuching time zone."
+    },
+    {
+      "question": "Does Miri observe daylight saving time?",
+      "answer": "No, Miri does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Miri?",
+      "answer": "Miri has a population of approximately 300,543 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Miri?",
+      "answer": "Sunrise in Miri typically occurs around 6:30 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Miri?",
+      "answer": "The best time to visit Miri is during the dry season from March to October, when the weather is more favorable for outdoor activities."
+    }
+  ]
+}

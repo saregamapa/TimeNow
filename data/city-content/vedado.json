@@ -1,0 +1,59 @@
+{
+  "overview": "Vedado is a vibrant district located in the heart of Havana, Cuba, known for its rich cultural heritage and historical significance. As a prominent residential and commercial area, it showcases a blend of modern architecture and classic Cuban charm. Home to a population of approximately 108,369, Vedado plays a crucial role in the social and economic life of Havana, making it a key destination for both locals and tourists seeking to experience the essence of Cuban life.",
+  "history": "Vedado was established in the late 19th century as a residential neighborhood for the affluent. It has since evolved into a cultural hub, hosting significant events and institutions that reflect Cuba's rich history.",
+  "economy": "The economy of Vedado is diverse, with key industries including tourism, hospitality, and retail. Numerous businesses, ranging from local markets to upscale restaurants, contribute to the area’s economic vitality, attracting both residents and visitors.",
+  "tourism": "Vedado is a popular destination for tourists, offering a variety of attractions such as the iconic Malecón, historic theaters, and vibrant nightlife. Visitors can explore cultural sites, enjoy local cuisine, and experience the lively atmosphere that characterizes this dynamic neighborhood.",
+  "best_places": [
+    "Malecón",
+    "Hotel Nacional de Cuba",
+    "Teatro Nacional de Cuba",
+    "Cementerio de Colón",
+    "Plaza de la Revolución",
+    "Parque John Lennon"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Zorra y El Cuervo",
+      "description": "A famous jazz club and restaurant known for its live music and vibrant atmosphere."
+    },
+    {
+      "name": "El Cocinero",
+      "description": "A trendy spot featuring a rooftop terrace and a menu of contemporary Cuban cuisine."
+    },
+    {
+      "name": "Los Naranjos",
+      "description": "A popular eatery offering traditional Cuban dishes in a cozy setting."
+    },
+    {
+      "name": "Café de los Artistas",
+      "description": "A charming café known for its artistic vibe and delicious coffee."
+    },
+    {
+      "name": "Paladar La Casa",
+      "description": "A private restaurant serving authentic Cuban flavors in a welcoming environment."
+    }
+  ],
+  "weather_summary": "Vedado experiences a tropical climate with warm temperatures year-round and a wet season from May to October.",
+  "faqs": [
+    {
+      "question": "What time zone is Vedado in?",
+      "answer": "Vedado is in the America/Havana time zone."
+    },
+    {
+      "question": "Does Vedado observe daylight saving time?",
+      "answer": "Yes, Vedado observes daylight saving time, typically from March to November."
+    },
+    {
+      "question": "What is the population of Vedado?",
+      "answer": "The population of Vedado is approximately 108,369."
+    },
+    {
+      "question": "When does sunrise typically occur in Vedado?",
+      "answer": "Sunrise in Vedado typically occurs around 6:30 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Vedado?",
+      "answer": "The best time to visit Vedado is during the dry season from November to April when the weather is more pleasant."
+    }
+  ]
+}

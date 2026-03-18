@@ -1,0 +1,55 @@
+{
+  "overview": "El Jadida is a vibrant coastal city located in Morocco, known for its rich history and stunning architecture. Situated along the Atlantic Ocean, it serves as an important port and tourist destination, attracting visitors with its blend of Moroccan culture and Portuguese heritage. With a population of approximately 212,863, El Jadida plays a significant role in the region's economy and tourism, offering a unique experience for those looking to explore Morocco's diverse landscapes and historical sites.",
+  "history": "Founded in the 16th century by the Portuguese, El Jadida was originally named Mazagan. It served as a strategic trading post and is now recognized for its well-preserved historical structures, including the UNESCO-listed citadel.",
+  "economy": "El Jadida's economy is primarily driven by tourism, fishing, and agriculture. The city's beautiful beaches and historical sites attract visitors year-round, while its fishing industry supports local livelihoods and contributes to the region's culinary scene.",
+  "tourism": "Tourists flock to El Jadida for its stunning beaches, historical sites, and vibrant markets. Key attractions include the Citadel of El Jadida, the beautiful Portuguese Cistern, and the scenic seaside promenade, where visitors can enjoy water sports or relax by the ocean.",
+  "best_places": [
+    "Citadel of El Jadida",
+    "Portuguese Cistern",
+    "El Jadida Beach",
+    "Moulay Abdellah Amghar Mosque",
+    "El Jadida Market",
+    "Sidi Bouzid Beach"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Grillardière",
+      "description": "Known for its delicious seafood and grilled dishes, offering a cozy dining experience."
+    },
+    {
+      "name": "Le Tapis Rouge",
+      "description": "A popular spot for traditional Moroccan cuisine with a warm atmosphere."
+    },
+    {
+      "name": "Restaurant Al Akhawayn",
+      "description": "Offers a mix of Moroccan and Mediterranean dishes, perfect for family dining."
+    },
+    {
+      "name": "Café Restaurant La Place",
+      "description": "A charming café with a lovely terrace, ideal for enjoying coffee and pastries."
+    }
+  ],
+  "weather_summary": "El Jadida experiences mild, rainy winters and warm, dry summers, making it a pleasant year-round destination.",
+  "faqs": [
+    {
+      "question": "What time zone is El Jadida in?",
+      "answer": "El Jadida is in the Africa/Casablanca time zone."
+    },
+    {
+      "question": "Does El Jadida observe daylight saving time?",
+      "answer": "Yes, El Jadida observes daylight saving time, typically from late March to late October."
+    },
+    {
+      "question": "What is the population of El Jadida?",
+      "answer": "The population of El Jadida is approximately 212,863."
+    },
+    {
+      "question": "When does sunrise typically occur in El Jadida?",
+      "answer": "Sunrise in El Jadida typically occurs between 6:30 AM and 7:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit El Jadida?",
+      "answer": "The best time to visit El Jadida is during the spring and fall, when the weather is mild and pleasant."
+    }
+  ]
+}

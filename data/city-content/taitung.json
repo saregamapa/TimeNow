@@ -1,0 +1,59 @@
+{
+  "overview": "Taitung is a vibrant city located on the southeastern coast of Taiwan, serving as a crucial hub for culture and tourism in the region. Known for its stunning natural landscapes, including mountains and beaches, Taitung attracts visitors seeking adventure and relaxation. The city plays a vital role in connecting various indigenous cultures and traditions, making it an essential destination for those interested in Taiwan's rich heritage.",
+  "history": "Taitung was officially established in the late 19th century and has since evolved into a significant administrative and cultural center. The city has historically been a melting pot of indigenous cultures and Han Chinese settlers.",
+  "economy": "Taitung's economy is primarily driven by agriculture, tourism, and fishing. The fertile land surrounding the city supports the cultivation of various crops, while its scenic beauty draws tourists, contributing significantly to local businesses and services.",
+  "tourism": "Taitung is famous for its breathtaking attractions such as the East Rift Valley, Taroko Gorge, and the picturesque beaches of Dulan. Visitors can enjoy outdoor activities like hiking, cycling, and water sports, as well as explore the vibrant local arts scene and indigenous culture.",
+  "best_places": [
+    "Taroko Gorge",
+    "East Rift Valley",
+    "Dulan Beach",
+    "Taitung Forest Park",
+    "Luye Highland",
+    "Jhiben Hot Springs"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Taitung Night Market",
+      "description": "A bustling market offering a variety of local street foods and snacks."
+    },
+    {
+      "name": "Chao's Seafood Restaurant",
+      "description": "Known for its fresh seafood dishes and local flavors."
+    },
+    {
+      "name": "Dulan Sugar Factory",
+      "description": "A unique spot serving delicious desserts and local delicacies."
+    },
+    {
+      "name": "Fengzhiguo Restaurant",
+      "description": "Famous for its traditional Taiwanese cuisine and cozy atmosphere."
+    },
+    {
+      "name": "The Dulan Cafe",
+      "description": "A charming cafe offering coffee and light meals with ocean views."
+    }
+  ],
+  "weather_summary": "Taitung experiences a humid subtropical climate with warm summers and mild winters, featuring occasional rainfall throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Taitung in?",
+      "answer": "Taitung is in the Asia/Taipei time zone."
+    },
+    {
+      "question": "Does Taitung observe daylight saving time?",
+      "answer": "No, Taitung does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Taitung?",
+      "answer": "The population of Taitung is approximately 103,260 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Taitung?",
+      "answer": "Sunrise in Taitung typically occurs around 5:30 AM to 6:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Taitung?",
+      "answer": "The best time to visit Taitung is during the spring and autumn months when the weather is mild and pleasant."
+    }
+  ]
+}

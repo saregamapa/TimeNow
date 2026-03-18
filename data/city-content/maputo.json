@@ -1,0 +1,59 @@
+{
+  "overview": "Maputo, the capital city of Mozambique, is a vibrant coastal metropolis located in the southeastern region of Africa. As a key economic and cultural hub, it plays a significant role in the nation's development and connectivity to the Indian Ocean. With its rich history, diverse population of approximately 1.25 million, and stunning architecture, Maputo attracts visitors and businesses alike, making it a vital center for trade and tourism in the region.",
+  "history": "Founded in the late 18th century, Maputo was originally a small fishing village known as Lourenço Marques. It became the capital of Mozambique in 1975, following the country's independence from Portugal.",
+  "economy": "Maputo's economy is primarily driven by trade, tourism, and agriculture. The city's port is one of the busiest in the region, facilitating the import and export of goods, while sectors like telecommunications and construction are also rapidly growing.",
+  "tourism": "Tourism in Maputo offers a blend of cultural and natural attractions, including the vibrant Mercado Municipal, the historic Fort of Nossa Senhora da Conceição, and the stunning beaches along the coastline. Visitors can explore the city's rich heritage through its museums, art galleries, and lively street markets, making it a delightful destination for travelers.",
+  "best_places": [
+    "Fort of Nossa Senhora da Conceição",
+    "Maputo Railway Station",
+    "Mercado Municipal",
+    "Praia da Costa do Sol",
+    "Museum of the Revolution",
+    "Tunduru Botanical Gardens"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Zambi",
+      "description": "A popular seafood restaurant known for its fresh catch and stunning ocean views."
+    },
+    {
+      "name": "Taverna do Pombo",
+      "description": "Famous for its Mozambican cuisine, offering a cozy atmosphere and traditional dishes."
+    },
+    {
+      "name": "O Farol",
+      "description": "An elegant dining spot with a diverse menu, specializing in both local and international cuisine."
+    },
+    {
+      "name": "Dona Ana",
+      "description": "A charming restaurant known for its delicious grilled meats and vibrant ambiance."
+    },
+    {
+      "name": "Cafe Sol",
+      "description": "A favorite among locals for its relaxed vibe and excellent coffee."
+    }
+  ],
+  "weather_summary": "Maputo typically experiences a tropical climate with warm, humid summers and mild, dry winters.",
+  "faqs": [
+    {
+      "question": "What time zone is Maputo in?",
+      "answer": "Maputo is in the Africa/Maputo time zone."
+    },
+    {
+      "question": "Does Maputo observe daylight saving time?",
+      "answer": "No, Maputo does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Maputo?",
+      "answer": "The population of Maputo is approximately 1,254,837."
+    },
+    {
+      "question": "When does sunrise typically occur in Maputo?",
+      "answer": "Sunrise in Maputo typically occurs between 5:30 AM and 6:00 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Maputo?",
+      "answer": "The best time to visit Maputo is during the dry season, from May to October, when the weather is cooler and less humid."
+    }
+  ]
+}

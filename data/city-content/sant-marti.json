@@ -1,0 +1,54 @@
+{
+  "overview": "Sant Martí, a vibrant district in Barcelona, Spain, is known for its rich cultural diversity and modern urban landscape. Located along the Mediterranean coast, it plays a significant role in the city's economy and social life, attracting both residents and tourists alike. With a population of approximately 235,719, Sant Martí is a hub of innovation, featuring a blend of historic architecture and contemporary developments, making it a vital part of Barcelona's allure.",
+  "history": "Sant Martí was originally a rural area that began to urbanize in the late 19th century. It became a key industrial zone, contributing significantly to Barcelona's economic growth.",
+  "economy": "The economy of Sant Martí is robust, driven by technology, services, and tourism. The district is home to the 22@ innovation district, which fosters startups and tech companies, making it a vital economic engine for Barcelona.",
+  "tourism": "Tourism in Sant Martí is vibrant, with visitors drawn to its beautiful beaches, parks, and unique architecture. Key attractions include the iconic Torre Glòries and the historic Poblenou neighborhood, where guests can explore local art, dining, and waterfront activities.",
+  "best_places": [
+    "Torre Glòries",
+    "Poblenou Cemetery",
+    "Mar Bella Beach",
+    "Parc de la Ciutadella",
+    "Barcelona Design Museum"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Can Dende",
+      "description": "A trendy spot offering a fusion of traditional and modern Spanish cuisine."
+    },
+    {
+      "name": "La Mar Salada",
+      "description": "Known for its fresh seafood and stunning beach views."
+    },
+    {
+      "name": "Pizzeria Da Nanni",
+      "description": "A beloved local pizzeria famous for its authentic Italian pizzas."
+    },
+    {
+      "name": "Els Pescadors",
+      "description": "Offers a delightful menu of Mediterranean dishes in a charming setting."
+    }
+  ],
+  "weather_summary": "Sant Martí enjoys a Mediterranean climate with mild, rainy winters and warm summers, perfect for outdoor activities.",
+  "faqs": [
+    {
+      "question": "What time zone is Sant Martí in?",
+      "answer": "Sant Martí is in the Europe/Madrid time zone."
+    },
+    {
+      "question": "Does Sant Martí observe daylight saving time?",
+      "answer": "Yes, Sant Martí observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Sant Martí?",
+      "answer": "The population of Sant Martí is approximately 235,719 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Sant Martí?",
+      "answer": "Sunrise in Sant Martí typically occurs around 7:00 AM in the summer and around 8:00 AM in the winter."
+    },
+    {
+      "question": "What is the best time to visit Sant Martí?",
+      "answer": "The best time to visit Sant Martí is during the spring and fall when the weather is pleasant and crowds are smaller."
+    }
+  ]
+}

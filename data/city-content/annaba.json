@@ -1,0 +1,59 @@
+{
+  "overview": "Annaba, a vibrant port city in northeastern Algeria, is known for its rich history and cultural significance. Located along the Mediterranean coast, it serves as a vital economic hub and a gateway to the region's stunning beaches and historical sites. With a population of approximately 342,703, Annaba blends modern development with ancient heritage, making it a key player in Algeria's tourism and trade sectors.",
+  "history": "Founded as Hippo Regius in ancient times, Annaba was an important center of early Christianity and home to St. Augustine. The city has witnessed various civilizations, contributing to its diverse cultural tapestry.",
+  "economy": "Annaba's economy is primarily driven by its port, which facilitates trade and commerce. Key industries include agriculture, manufacturing, and tourism, with many businesses catering to both local and international markets, enhancing the city's economic landscape.",
+  "tourism": "Visitors to Annaba are drawn to its beautiful beaches, historical landmarks, and vibrant local culture. Key attractions include the ruins of Hippo Regius, the stunning Basilica of St. Augustine, and the picturesque coastal promenade, offering a mix of relaxation and exploration.",
+  "best_places": [
+    "Basilica of St. Augustine",
+    "Hippo Regius",
+    "Annaba Beach",
+    "La Calle",
+    "Ras El Hamra",
+    "Chateau de la Mer"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Le Restaurant de la Mer",
+      "description": "A popular seafood restaurant known for its fresh catches and stunning sea views."
+    },
+    {
+      "name": "La Table d'El Madina",
+      "description": "Offers a mix of traditional Algerian and Mediterranean cuisine in a cozy setting."
+    },
+    {
+      "name": "Restaurant El-Bahdja",
+      "description": "Famous for its authentic Algerian dishes and friendly atmosphere."
+    },
+    {
+      "name": "Café des Arts",
+      "description": "A charming café perfect for enjoying local pastries and coffee."
+    },
+    {
+      "name": "Café du Port",
+      "description": "Known for its vibrant ambiance and delicious snacks, ideal for a casual meal."
+    }
+  ],
+  "weather_summary": "Annaba experiences a Mediterranean climate with hot, dry summers and mild, wet winters.",
+  "faqs": [
+    {
+      "question": "What time zone is Annaba in?",
+      "answer": "Annaba is in the Africa/Algiers time zone."
+    },
+    {
+      "question": "Does Annaba observe daylight saving time?",
+      "answer": "No, Annaba does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Annaba?",
+      "answer": "The population of Annaba is approximately 342,703."
+    },
+    {
+      "question": "When does sunrise typically occur in Annaba?",
+      "answer": "Sunrise in Annaba typically occurs around 6:30 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Annaba?",
+      "answer": "The best time to visit Annaba is during spring and early autumn when the weather is mild and pleasant."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "overview": "Shimla, the capital city of Himachal Pradesh, India, is a picturesque hill station nestled in the Himalayas. Known for its colonial architecture and lush green landscapes, Shimla plays a significant role as a popular tourist destination, attracting visitors year-round. Its strategic location on the northern slopes of the Himalayas makes it a vital hub for tourism and culture, offering a unique blend of natural beauty and historical significance.",
+  "history": "Shimla was established as a summer retreat by the British in the early 19th century, serving as the summer capital of British India. Its strategic location and pleasant climate made it a favored destination for colonial officials.",
+  "economy": "Shimla's economy is primarily driven by tourism, with a significant focus on hospitality, retail, and handicrafts. The city also benefits from agriculture, particularly apple cultivation, which contributes to the local economy and provides employment opportunities.",
+  "tourism": "Shimla is renowned for its stunning landscapes and historical landmarks, including the Ridge, Mall Road, and Jakhoo Temple. Visitors can enjoy activities like trekking, shopping for local handicrafts, and savoring the scenic views from various viewpoints, making it a perfect getaway for nature lovers and adventure enthusiasts alike.",
+  "best_places": [
+    "The Ridge",
+    "Mall Road",
+    "Jakhoo Temple",
+    "Christ Church",
+    "Viceregal Lodge",
+    "Shimla State Museum"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Cafe Simla Times",
+      "description": "A cozy cafe known for its delicious coffee and vibrant atmosphere."
+    },
+    {
+      "name": "The Oberoi Cecil",
+      "description": "An upscale dining experience offering a blend of local and international cuisine."
+    },
+    {
+      "name": "Ashiana & Goofa",
+      "description": "Famous for its authentic Indian dishes and warm hospitality."
+    },
+    {
+      "name": "Sita Ram And Sons",
+      "description": "Popular for its traditional North Indian snacks and sweets."
+    },
+    {
+      "name": "Zamindara Restaurant",
+      "description": "Offers a variety of Punjabi and Himachali dishes in a rustic setting."
+    }
+  ],
+  "weather_summary": "Shimla experiences mild summers and cold winters, with occasional snowfall during the winter months.",
+  "faqs": [
+    {
+      "question": "What time zone is Shimla in?",
+      "answer": "Shimla is in the Asia/Kolkata time zone."
+    },
+    {
+      "question": "Does Shimla observe daylight saving time?",
+      "answer": "No, Shimla does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Shimla?",
+      "answer": "The population of Shimla is approximately 173,503."
+    },
+    {
+      "question": "When does sunrise typically occur in Shimla?",
+      "answer": "Sunrise in Shimla typically occurs between 6:00 AM and 6:30 AM, depending on the season."
+    },
+    {
+      "question": "What is the best time to visit Shimla?",
+      "answer": "The best time to visit Shimla is from March to June and September to December for pleasant weather and scenic beauty."
+    }
+  ]
+}

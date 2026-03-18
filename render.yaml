@@ -1,0 +1,12 @@
+# Render Blueprint — deploy via Dashboard: New → Blueprint → select this repo
+# https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: timenow-global
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: BASE_URL
+        sync: false
+        # After first deploy, set to your service URL (e.g. https://timenow-global.onrender.com)

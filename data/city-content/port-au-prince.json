@@ -1,0 +1,60 @@
+{
+  "overview": "Port-au-Prince, the vibrant capital of Haiti, is situated on the Caribbean coast and serves as the country's political, economic, and cultural hub. With a population of approximately 1.2 million, it plays a crucial role in the region's development and connectivity. The city's rich history, diverse culture, and strategic location make it a focal point for trade and tourism in North America, attracting visitors eager to explore its unique heritage and dynamic atmosphere.",
+  "history": "Founded in 1749, Port-au-Prince became the capital of Haiti in 1804 after the country declared independence from France. It has since played a significant role in the nation’s history, particularly during the Haitian Revolution.",
+  "economy": "Port-au-Prince is the economic center of Haiti, with key industries including textiles, agriculture, and tourism. The city hosts numerous businesses and markets, contributing significantly to the national economy and providing employment opportunities for its residents.",
+  "tourism": "Tourism in Port-au-Prince offers visitors a glimpse into Haiti's rich cultural heritage and stunning landscapes. Key attractions include the Iron Market, the National Palace, and the vibrant art scene, where travelers can engage with local artisans and enjoy traditional Haitian cuisine.",
+  "best_places": [
+    "Iron Market",
+    "National Palace",
+    "Musée du Panthéon National Haïtien",
+    "Place des Héros",
+    "Parc La Visite",
+    "Forte de Joux",
+    "Cité Soleil"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Souvenance",
+      "description": "A popular spot known for its authentic Haitian dishes and vibrant atmosphere."
+    },
+    {
+      "name": "Le Restaurant de la Place",
+      "description": "Offers a mix of local and international cuisine, perfect for a casual dining experience."
+    },
+    {
+      "name": "L'Atelier",
+      "description": "A chic eatery known for its gourmet takes on traditional Haitian flavors."
+    },
+    {
+      "name": "Chez Micky",
+      "description": "Famous for its seafood and beautiful views of the Caribbean."
+    },
+    {
+      "name": "Kokiyaj",
+      "description": "A cozy restaurant specializing in Haitian street food and local delicacies."
+    }
+  ],
+  "weather_summary": "Port-au-Prince experiences a tropical climate with warm temperatures year-round and a distinct wet season from May to October.",
+  "faqs": [
+    {
+      "question": "What time zone is Port-au-Prince in?",
+      "answer": "Port-au-Prince is in the America/Port-au-Prince time zone."
+    },
+    {
+      "question": "Does Port-au-Prince observe daylight saving time?",
+      "answer": "No, Port-au-Prince does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Port-au-Prince?",
+      "answer": "The population of Port-au-Prince is approximately 1,234,742."
+    },
+    {
+      "question": "When does sunrise typically occur in Port-au-Prince?",
+      "answer": "Sunrise in Port-au-Prince typically occurs around 6:00 AM throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Port-au-Prince?",
+      "answer": "The best time to visit Port-au-Prince is during the dry season, from November to March, when the weather is cooler and less humid."
+    }
+  ]
+}

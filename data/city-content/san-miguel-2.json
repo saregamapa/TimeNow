@@ -1,0 +1,59 @@
+{
+  "overview": "San Miguel, located in eastern El Salvador, is the country's third-largest city and a vital economic and cultural hub. Known for its vibrant markets and rich history, San Miguel plays a significant role in the region's agriculture and commerce. Its strategic location enhances trade opportunities, making it a key player in the development of El Salvador. With a population of approximately 247,126, the city is a melting pot of traditions and modern influences, attracting visitors and businesses alike.",
+  "history": "San Miguel was founded in 1530 and has historically served as an important agricultural center. The city played a significant role during the Salvadoran Civil War in the 1980s.",
+  "economy": "San Miguel's economy is primarily driven by agriculture, with coffee and sugar being key crops. The city also hosts various businesses and industries, contributing to regional trade and employment opportunities, making it a crucial economic center in El Salvador.",
+  "tourism": "Tourists visiting San Miguel can explore its stunning architecture, including the iconic San Miguel Cathedral and vibrant local markets. The nearby beaches, such as El Cuco, offer opportunities for relaxation and water sports, while the annual San Miguel Carnival attracts visitors with its lively celebrations and cultural events.",
+  "best_places": [
+    "San Miguel Cathedral",
+    "El Cuco Beach",
+    "Parque Benjamín Castañeda",
+    "Museo Regional de Oriente",
+    "Iglesia El Calvario",
+    "Plaza de la Independencia"
+  ],
+  "best_restaurants": [
+    {
+      "name": "La Pampa",
+      "description": "A popular steakhouse known for its delicious grilled meats."
+    },
+    {
+      "name": "Restaurante El Mirador",
+      "description": "Offers stunning views and a diverse menu featuring local cuisine."
+    },
+    {
+      "name": "Café La Perla",
+      "description": "A cozy café famous for its coffee and pastries."
+    },
+    {
+      "name": "Mariscos El Cangrejo",
+      "description": "Specializes in fresh seafood dishes, attracting both locals and tourists."
+    },
+    {
+      "name": "Comedor El Salvador",
+      "description": "Known for its traditional Salvadoran dishes in a casual setting."
+    }
+  ],
+  "weather_summary": "San Miguel typically experiences a tropical climate with warm temperatures year-round and a distinct wet season from May to October.",
+  "faqs": [
+    {
+      "question": "What time zone is San Miguel in?",
+      "answer": "San Miguel is in the America/El_Salvador time zone."
+    },
+    {
+      "question": "Does San Miguel observe daylight saving time?",
+      "answer": "No, San Miguel does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of San Miguel?",
+      "answer": "The population of San Miguel is approximately 247,126."
+    },
+    {
+      "question": "When does sunrise typically occur in San Miguel?",
+      "answer": "Sunrise in San Miguel typically occurs around 5:45 AM to 6:00 AM throughout the year."
+    },
+    {
+      "question": "What is the best time to visit San Miguel?",
+      "answer": "The best time to visit San Miguel is during the dry season, from November to April, when the weather is more pleasant."
+    }
+  ]
+}

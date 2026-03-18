@@ -1,0 +1,55 @@
+{
+  "overview": "Jacmel is a vibrant coastal city located in Haiti, renowned for its rich cultural heritage and stunning natural beauty. Situated on the southern coast, it plays a significant role as an artistic hub, attracting visitors with its colorful architecture and lively arts scene. The city is also known for its picturesque beaches and historical significance, making it a vital part of Haiti's tourism landscape and cultural identity.",
+  "history": "Jacmel was founded in the late 17th century and became an important port during the colonial era. It played a key role in the trade of coffee and other goods, contributing to Haiti's economic development.",
+  "economy": "The economy of Jacmel is primarily driven by tourism, agriculture, and handicrafts. The city is famous for its vibrant arts and crafts scene, particularly in papier-mâché, which attracts both local and international buyers, thereby supporting small businesses and artisans.",
+  "tourism": "Jacmel is a popular tourist destination, known for its beautiful beaches, such as Jacmel Beach and Raymond Les Bains, as well as its historic architecture, including the Jacmel Cathedral. Visitors can explore local art galleries, enjoy vibrant festivals, and participate in various water sports, making it a culturally rich and adventurous location.",
+  "best_places": [
+    "Jacmel Beach",
+    "Raymond Les Bains",
+    "Jacmel Cathedral",
+    "Artisan Market",
+    "Bassins Bleu",
+    "Café des Arts"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Le Jardin du Roi",
+      "description": "A charming restaurant offering a blend of local and international cuisine in a lush garden setting."
+    },
+    {
+      "name": "L'Abri Côtier",
+      "description": "Known for its fresh seafood dishes and stunning ocean views, perfect for a relaxing dining experience."
+    },
+    {
+      "name": "La Plage",
+      "description": "A beachfront eatery famous for its delicious Haitian dishes and vibrant atmosphere."
+    },
+    {
+      "name": "Café des Arts",
+      "description": "A cozy spot featuring local art and a menu of traditional Haitian fare."
+    }
+  ],
+  "weather_summary": "Jacmel experiences a tropical climate with warm temperatures year-round and a distinct rainy season from May to October.",
+  "faqs": [
+    {
+      "question": "What time zone is Jacmel in?",
+      "answer": "Jacmel is in the America/Port-au-Prince time zone."
+    },
+    {
+      "question": "Does Jacmel observe daylight saving time?",
+      "answer": "No, Jacmel does not observe daylight saving time."
+    },
+    {
+      "question": "What is the population of Jacmel?",
+      "answer": "Jacmel has a population of approximately 137,966 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Jacmel?",
+      "answer": "Sunrise in Jacmel typically occurs around 6:00 AM, varying slightly throughout the year."
+    },
+    {
+      "question": "What is the best time to visit Jacmel?",
+      "answer": "The best time to visit Jacmel is from December to April, when the weather is dry and pleasant."
+    }
+  ]
+}

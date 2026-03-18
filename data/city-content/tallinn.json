@@ -1,0 +1,60 @@
+{
+  "overview": "Tallinn, the capital of Estonia, is a vibrant city located on the northern coast of the country along the Baltic Sea. Known for its well-preserved medieval architecture and a rich cultural heritage, Tallinn serves as a significant economic and political hub in Northern Europe. With a population of approximately 394,024, it blends modernity with history, making it an essential destination for travelers and business professionals alike.",
+  "history": "Tallinn was founded in the early medieval period, with its first mention in historical records dating back to 1154. It has played a crucial role as a trading hub in the Baltic region throughout its history.",
+  "economy": "Tallinn's economy is diverse, with key industries including information technology, telecommunications, and tourism. The city is a growing startup hub, attracting entrepreneurs and investors, contributing significantly to Estonia's overall economic development.",
+  "tourism": "Tourism in Tallinn thrives on its stunning medieval Old Town, a UNESCO World Heritage site, and attractions like the Alexander Nevsky Cathedral and Toompea Castle. Visitors enjoy exploring its cobblestone streets, vibrant markets, and a lively arts scene, making it a popular destination for cultural enthusiasts.",
+  "best_places": [
+    "Tallinn Old Town",
+    "Alexander Nevsky Cathedral",
+    "Toompea Castle",
+    "Kadriorg Palace",
+    "Tallinn Town Hall",
+    "Seaplane Harbour",
+    "Kumu Art Museum"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Restoran Moon",
+      "description": "A popular spot known for its innovative Estonian cuisine and cozy atmosphere."
+    },
+    {
+      "name": "Rataskaevu 16",
+      "description": "Famous for its warm service and delicious local dishes in a charming setting."
+    },
+    {
+      "name": "F-hoone",
+      "description": "A trendy restaurant located in a former factory, offering a unique dining experience."
+    },
+    {
+      "name": "Oleme",
+      "description": "A modern eatery focusing on seasonal ingredients and contemporary Estonian flavors."
+    },
+    {
+      "name": "La Bottega",
+      "description": "An Italian restaurant known for its authentic dishes and welcoming ambiance."
+    }
+  ],
+  "weather_summary": "Tallinn experiences cold winters and mild summers, with occasional rain throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Tallinn in?",
+      "answer": "Tallinn is in the Europe/Tallinn time zone."
+    },
+    {
+      "question": "Does Tallinn observe daylight saving time?",
+      "answer": "Yes, Tallinn observes daylight saving time, typically from the last Sunday in March to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of Tallinn?",
+      "answer": "The population of Tallinn is approximately 394,024."
+    },
+    {
+      "question": "When does sunrise typically occur in Tallinn?",
+      "answer": "Sunrise in Tallinn varies by season, generally occurring between 5:00 AM and 9:00 AM."
+    },
+    {
+      "question": "What is the best time to visit Tallinn?",
+      "answer": "The best time to visit Tallinn is during late spring and early autumn when the weather is mild and festivals are abundant."
+    }
+  ]
+}

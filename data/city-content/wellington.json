@@ -1,0 +1,60 @@
+{
+  "overview": "Wellington, the capital city of New Zealand, is located at the southern tip of the North Island. Known for its vibrant arts scene and rich cultural heritage, it serves as the political and administrative heart of the country. With a population of approximately 381,900, Wellington is a hub for innovation and creativity, making it a significant player in Oceania's economic and cultural landscape.",
+  "history": "Wellington was founded in 1839 by European settlers and became the capital of New Zealand in 1865. Its strategic location and natural harbor have made it an important center for trade and governance.",
+  "economy": "Wellington's economy is diverse, with key industries including government services, information technology, and film production. The city is home to major businesses and creative enterprises, contributing significantly to New Zealand's overall economic growth.",
+  "tourism": "Tourism in Wellington thrives on its stunning landscapes and cultural attractions. Visitors flock to the iconic Te Papa Museum, the vibrant waterfront, and the historic Cable Car, while also enjoying the city's renowned coffee culture and lively festivals.",
+  "best_places": [
+    "Te Papa Museum",
+    "Wellington Cable Car",
+    "Wellington Botanic Garden",
+    "Cuba Street",
+    "Mount Victoria Lookout",
+    "Zealandia",
+    "Weta Workshop"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Logan Brown",
+      "description": "A fine dining restaurant known for its contemporary New Zealand cuisine."
+    },
+    {
+      "name": "Cuba Street Bistro",
+      "description": "Offers a relaxed atmosphere with a focus on local ingredients."
+    },
+    {
+      "name": "Hippopotamus",
+      "description": "An upscale restaurant with stunning views and a French-inspired menu."
+    },
+    {
+      "name": "Ortega Fish Shack",
+      "description": "A popular spot for fresh seafood and a casual dining experience."
+    },
+    {
+      "name": "The Sugar Club",
+      "description": "Located on the top floor, it features a creative menu and breathtaking views."
+    }
+  ],
+  "weather_summary": "Wellington experiences a temperate maritime climate with mild, windy winters and warm summers.",
+  "faqs": [
+    {
+      "question": "What time zone is Wellington in?",
+      "answer": "Wellington is in the Pacific/Auckland time zone."
+    },
+    {
+      "question": "Does Wellington observe daylight saving time?",
+      "answer": "Yes, Wellington observes daylight saving time, typically from late September to early April."
+    },
+    {
+      "question": "What is the population of Wellington?",
+      "answer": "Wellington has a population of approximately 381,900 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Wellington?",
+      "answer": "Sunrise in Wellington varies throughout the year, generally occurring between 6:30 AM and 7:30 AM."
+    },
+    {
+      "question": "What is the best time to visit Wellington?",
+      "answer": "The best time to visit Wellington is during the spring and summer months, from September to March, when the weather is mild and events are plentiful."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "overview": "San José del Cabo, located in the southern tip of Mexico's Baja California Peninsula, serves as a vital cultural and economic hub within the Los Cabos region. Known for its charming colonial architecture and vibrant art scene, the city attracts both tourists and expatriates. With a population of approximately 136,285, San José del Cabo balances modern amenities with traditional Mexican culture, making it an essential destination for visitors seeking relaxation and adventure alike.",
+  "history": "San José del Cabo was founded in 1730 as a mission and later grew into a significant agricultural center. Its strategic location made it a key point for trade and commerce in the region.",
+  "economy": "The economy of San José del Cabo is primarily driven by tourism, agriculture, and real estate. The city boasts a thriving hospitality sector, with numerous hotels, restaurants, and recreational activities catering to visitors from around the globe.",
+  "tourism": "Tourism in San José del Cabo is vibrant, with visitors drawn to its stunning beaches, world-class golf courses, and rich cultural heritage. Main attractions include the historic downtown area, art galleries, and the nearby natural beauty of the Sierra de la Laguna mountains, making it a perfect spot for relaxation and exploration.",
+  "best_places": [
+    "San José del Cabo Art Walk",
+    "Plaza Mijares",
+    "Estero San José",
+    "Cabo Pulmo National Park",
+    "Palmilla Beach",
+    "Mission San José del Cabo",
+    "Wirikuta Garden"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Flora's Field Kitchen",
+      "description": "A farm-to-table restaurant featuring fresh, locally sourced ingredients in a beautiful garden setting."
+    },
+    {
+      "name": "The Tropicana Inn",
+      "description": "Known for its authentic Mexican cuisine and vibrant atmosphere, perfect for casual dining."
+    },
+    {
+      "name": "La Lupita Taco & Mezcal",
+      "description": "Offers a creative twist on traditional tacos and an extensive selection of mezcal."
+    },
+    {
+      "name": "Café des Artistes",
+      "description": "A fine dining restaurant blending French cuisine with local flavors in an elegant atmosphere."
+    },
+    {
+      "name": "Los Tres Gallos",
+      "description": "A popular spot for authentic Mexican dishes served in a charming courtyard."
+    }
+  ],
+  "weather_summary": "San José del Cabo enjoys a warm desert climate with mild winters and hot summers, ideal for year-round visits.",
+  "faqs": [
+    {
+      "question": "What time zone is San José del Cabo in?",
+      "answer": "San José del Cabo is in the America/Mazatlan time zone."
+    },
+    {
+      "question": "Does San José del Cabo observe daylight saving time?",
+      "answer": "Yes, San José del Cabo observes daylight saving time, typically from the first Sunday in April to the last Sunday in October."
+    },
+    {
+      "question": "What is the population of San José del Cabo?",
+      "answer": "The population of San José del Cabo is approximately 136,285."
+    },
+    {
+      "question": "When does sunrise typically occur in San José del Cabo?",
+      "answer": "Sunrise in San José del Cabo typically occurs between 6:30 AM and 7:00 AM, depending on the time of year."
+    },
+    {
+      "question": "What is the best time to visit San José del Cabo?",
+      "answer": "The best time to visit San José del Cabo is from November to April, when the weather is most pleasant and dry."
+    }
+  ]
+}

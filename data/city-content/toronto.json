@@ -1,0 +1,60 @@
+{
+  "overview": "Toronto, the capital of Ontario and the largest city in Canada, is a vibrant metropolis known for its diverse culture, economic significance, and stunning skyline. Located on the northwestern shore of Lake Ontario, it serves as a major hub for finance, technology, and arts, attracting millions of visitors and residents alike. With a population of over 2.7 million, Toronto plays a crucial role in shaping Canada's identity and economy, making it a key player on the global stage.",
+  "history": "Toronto was founded in 1793 as York, serving as the capital of Upper Canada. It was renamed Toronto in 1834 and has since evolved into a major North American city.",
+  "economy": "Toronto boasts a robust economy, driven by key industries such as finance, technology, healthcare, and education. It is home to the Toronto Stock Exchange, one of the largest in the world, and serves as a vital business center for both national and international enterprises.",
+  "tourism": "Toronto is a top tourist destination, offering a mix of cultural attractions, entertainment, and outdoor activities. Visitors flock to iconic sites like the CN Tower, Royal Ontario Museum, and Toronto Islands, while enjoying vibrant neighborhoods such as Kensington Market and the Distillery District.",
+  "best_places": [
+    "CN Tower",
+    "Royal Ontario Museum",
+    "Toronto Islands",
+    "Art Gallery of Ontario",
+    "St. Lawrence Market",
+    "Kensington Market",
+    "Ripley's Aquarium of Canada"
+  ],
+  "best_restaurants": [
+    {
+      "name": "Alo Restaurant",
+      "description": "An upscale dining experience offering contemporary French cuisine."
+    },
+    {
+      "name": "Bar Isabel",
+      "description": "A lively spot known for its Spanish-inspired dishes and tapas."
+    },
+    {
+      "name": "St. Lawrence Market",
+      "description": "A historic market featuring a variety of local and international foods."
+    },
+    {
+      "name": "Kōjin",
+      "description": "A unique restaurant focusing on wood-fired cooking and local ingredients."
+    },
+    {
+      "name": "Richmond Station",
+      "description": "A popular eatery known for its seasonal menu and farm-to-table approach."
+    }
+  ],
+  "weather_summary": "Toronto experiences cold, snowy winters and warm, humid summers, with a mix of sunny and rainy days throughout the year.",
+  "faqs": [
+    {
+      "question": "What time zone is Toronto in?",
+      "answer": "Toronto is in the America/Toronto time zone."
+    },
+    {
+      "question": "Does Toronto observe daylight saving time?",
+      "answer": "Yes, Toronto observes daylight saving time, typically starting in March and ending in November."
+    },
+    {
+      "question": "What is the population of Toronto?",
+      "answer": "Toronto has a population of approximately 2,794,356 residents."
+    },
+    {
+      "question": "When does sunrise typically occur in Toronto?",
+      "answer": "Sunrise in Toronto varies by season, generally occurring between 6:00 AM and 7:30 AM."
+    },
+    {
+      "question": "What is the best time to visit Toronto?",
+      "answer": "The best time to visit Toronto is during the spring and fall when the weather is mild and festivals abound."
+    }
+  ]
+}
