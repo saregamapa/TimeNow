@@ -1155,23 +1155,24 @@ const server = http.createServer((req, res) => {
     }
     const status = agent.status === 'inactive' ? 'Inactive' : 'Active';
     const statusClass = agent.status === 'inactive' ? 'badge badge--off' : 'badge badge--ok';
+    const keyMissing = !OPENAI_API_KEY;
     const html = '<!DOCTYPE html><html lang="en"><head><title>' + escapeHtml(agent.name) + ' | TimeNow</title>' + LIST_PAGE_HEAD + '<link rel="stylesheet" href="/css/agents-tools.css"/></head><body>' + GTM_NOSCRIPT + APP_HEADER_HTML + '<main class="main list-page"><section class="page-section">'
-      + '<header class="page-section__head"><div class="page-section__icon">⏱️</div><div><h1 class="page-section__title">' + escapeHtml(agent.name) + '</h1><div class="page-section__meta"><span class="' + statusClass + '">' + status + '</span><span class="badge">AI Agent</span></div></div></header>'
+      + '<header class="page-section__head"><div class="page-section__icon">⏱️</div><div><h1 class="page-section__title">' + escapeHtml(agent.name) + '</h1><div class="page-section__meta"><span class="' + statusClass + '">' + status + '</span><span class="badge">AI Agent</span>' + (keyMissing ? ' <span class="badge badge--off">Configure OPENAI_API_KEY</span>' : '') + '</div></div></header>'
       + '<p class="page-section__desc">' + escapeHtml(agent.desc) + '</p>'
       + '<div class="page-cards">'
       +   '<article class="ui-card"><h2>Run</h2>'
       +     '<form id="agent-form" class="run-form" method="post" action="/api/agent/' + agent.slug + '">'
       +       '<label for="prompt">Prompt</label>'
-      +       '<textarea name="prompt" id="prompt" rows="4" placeholder="Ask about time zones, meetings, daylight, etc."></textarea>'
-      +       '<div class="run-actions"><button type="submit" class="btn btn--primary">Run</button><button type="button" class="btn" id="btn-test">Test</button><a class="btn btn--ghost" href="/agents">Back</a></div>'
-      +       '<pre id="agent-output" class="run-output"></pre>'
+      +       '<textarea name="prompt" id="prompt" rows="4" placeholder="Ask about time zones, meetings, daylight, etc." ' + (keyMissing ? 'disabled' : '') + '></textarea>'
+      +       '<div class="run-actions"><button type="submit" class="btn btn--primary" ' + (keyMissing ? 'disabled' : '') + '>Run</button><button type="button" class="btn" id="btn-test">Test</button><a class="btn btn--ghost" href="/agents">Back</a></div>'
+      +       '<pre id="agent-output" class="run-output">' + (keyMissing ? 'Configure OPENAI_API_KEY in your Render environment to enable AI Time Agents.' : '') + '</pre>'
       +     '</form>'
       +   '</article>'
       +   '<article class="ui-card"><h2>Examples</h2>'
       +     '<div class="example"><span class="example__label">Input</span><pre class="example__code">Explain London vs New York for Friday 2pm London.</pre></div>'
       +     '<div class="example"><span class="example__label">Output</span><pre class="example__code">New York is 5h behind London (standard)…</pre></div>'
       +   '</article>'
-      + '</div></section></main>' + APP_FOOTER_HTML + '<script>document.getElementById("agent-form").addEventListener("submit", async (e) => {e.preventDefault(); const form = e.target; const ta = document.getElementById("prompt"); const out = document.getElementById("agent-output"); out.textContent = "Thinking..."; const res = await fetch(form.action, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ prompt: ta.value }) }); const data = await res.json().catch(()=>({error:"Invalid response"})); out.textContent = data.error ? ("Error: " + data.error) : (data.text || ""); }); document.getElementById("btn-test").addEventListener("click", ()=>{document.getElementById("prompt").value = "Explain America/Chicago vs Europe/London at 14:00 CT";});</script></body></html>';
+      + '</div></section></main>' + APP_FOOTER_HTML + '<script>if(!' + (keyMissing ? '0' : '1') + '){document.getElementById("agent-form").addEventListener("submit", async (e) => {e.preventDefault(); const form = e.target; const ta = document.getElementById("prompt"); const out = document.getElementById("agent-output"); out.textContent = "Thinking..."; const res = await fetch(form.action, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ prompt: ta.value }) }); const data = await res.json().catch(()=>({error:"Invalid response"})); out.textContent = data.error ? ("Error: " + data.error) : (data.text || ""); });} document.getElementById("btn-test").addEventListener("click", ()=>{const p = document.getElementById("prompt"); if(p){p.value = "Explain America/Chicago vs Europe/London at 14:00 CT";}});</script></body></html>';
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
     res.end(html);
     return;
