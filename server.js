@@ -296,9 +296,13 @@ function serveFile(filePath, res, contentType) {
       if (!/\/css\/agents-tools\.css/.test(html)) {
         html = html.replace(/<\/head>/i, '<link rel="stylesheet" href="/css/agents-tools.css"/></head>');
       }
-      // Inject agents footer if not already present
-      if (!html.includes('agents-footer')) {
-        html = html.replace(/<\/footer>/i, '</footer>').replace(/<\/body>/i, (m) => (agentsFooterHtml() + m));
+      // Inject AI Time Agents above footer; fallback before </body>
+      if (!/agents-bar__track/.test(html)) {
+        if (/<\/footer>/i.test(html)) {
+          html = html.replace(/<\/footer>/i, (m) => agentsFooterHtml() + m);
+        } else {
+          html = html.replace(/<\/body>/i, (m) => agentsFooterHtml() + m);
+        }
       }
       res.end(html);
     } else {
@@ -566,11 +570,35 @@ const AI_AGENTS = [
 ];
 
 function agentsFooterHtml() {
-  const links = AI_AGENTS.slice(0, 40).map(a => '<a href="/agents/' + a.slug + '">' + escapeHtml(a.name) + '</a>').join(' · ');
-  return '<div class="agents-footer"><h3 class="section-title">AI Agents</h3><p class="agents-links">' + links + '</p></div>';
+  const cards = AI_AGENTS.slice(0, 40).map(a => {
+    const statusClass = a.status === 'inactive' ? 'badge badge--off' : 'badge badge--ok';
+    const statusText = a.status === 'inactive' ? 'Inactive' : 'Active';
+    return `
+      <a class="agent-card" href="/agents/${a.slug}" role="listitem" aria-label="${escapeHtml(a.name)}">
+        <div class="agent-card__top">
+          <span class="agent-card__icon">⏱️</span>
+          <span class="agent-card__status ${statusClass}">${statusText}</span>
+        </div>
+        <h3 class="agent-card__title">${escapeHtml(a.name)}</h3>
+        <p class="agent-card__desc">${escapeHtml((a.desc||'').slice(0, 120))}</p>
+      </a>
+    `;
+  }).join('');
+  return `
+    <section class="agents-bar" aria-label="AI Time Agents">
+      <div class="agents-bar__head">
+        <h2 class="agents-bar__title">AI Time Agents</h2>
+        <a class="agents-bar__all" href="/agents">View all</a>
+      </div>
+      <div class="agents-bar__track" role="list">${cards}</div>
+    </section>
+  `;
 }
 
-const APP_FOOTER_HTML = '<footer class="global-footer" role="contentinfo"><p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p><nav class="footer-nav" aria-label="Footer"><a href="/about">📄 About</a><a href="/privacy">🔒 Privacy</a><a href="/terms">📋 Terms</a><a href="/contact">✉️ Contact</a><a href="/sitemap.xml">🗺️ Sitemap</a></nav>' + agentsFooterHtml() + '</footer>';
+// Footer without agents; agents are rendered just above the footer universally
+const BASE_FOOTER_HTML = '<footer class="global-footer" role="contentinfo"><p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p><nav class="footer-nav" aria-label="Footer"><a href="/about">📄 About</a><a href="/privacy">🔒 Privacy</a><a href="/terms">📋 Terms</a><a href="/contact">✉️ Contact</a><a href="/sitemap.xml">🗺️ Sitemap</a></nav></footer>';
+// Dynamic pages will use: agents section + base footer
+const APP_FOOTER_HTML = agentsFooterHtml() + BASE_FOOTER_HTML;
 
 /** Render city page from template: replace all {{key}} with values. */
 function renderCityPage(data) {
