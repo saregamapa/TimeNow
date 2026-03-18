@@ -37,3 +37,5 @@
 .btn--primary{background:#1f6feb;color:#fff;border-color:#1f6feb}
 .btn--ghost{background:transparent}
 .run-output{margin:0;background:#0b1220;color:#d6e1ff;padding:.7rem .8rem;border-radius:10px;min-height:2.2rem;border:1px solid #141b2d;white-space:pre-wrap;word-break:break-word}
+/* Active nav link */
+.header-right a.is-active{color:var(--accent-primary,#1f6feb);border-bottom:2px solid var(--accent-primary,#1f6feb)}

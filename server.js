@@ -296,6 +296,10 @@ function serveFile(filePath, res, contentType) {
       if (!/\/css\/agents-tools\.css/.test(html)) {
         html = html.replace(/<\/head>/i, '<link rel="stylesheet" href="/css/agents-tools.css"/></head>');
       }
+      // Add active nav highlighting on header links (client-side init)
+      if (!/nav-active-init/.test(html)) {
+        html = html.replace(/<\/body>/i, '<script>/* nav-active-init */(function(){try{var p=location.pathname||"/";var links=document.querySelectorAll(\".header-right a\");links.forEach(function(a){var href=a.getAttribute(\"href\");if(!href)return;var match = (href===\"/\"? p===\"/\" : p.startsWith(href));if(match){a.classList.add(\"is-active\");}});}catch(e){}})();</script></body>');
+      }
       // No longer inject Agents bar in footer; it lives on /agents page only
       res.end(html);
     } else {
