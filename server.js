@@ -292,18 +292,11 @@ function serveFile(filePath, res, contentType) {
     res.setHeader('Content-Type', ct);
     if (ct.startsWith('text/html')) {
       let html = text;
-      // Ensure agents-tools.css is linked
+      // Ensure agents-tools.css is linked (for future components)
       if (!/\/css\/agents-tools\.css/.test(html)) {
         html = html.replace(/<\/head>/i, '<link rel="stylesheet" href="/css/agents-tools.css"/></head>');
       }
-      // Inject AI Time Agents above footer; fallback before </body>
-      if (!/agents-bar__track/.test(html)) {
-        if (/<\/footer>/i.test(html)) {
-          html = html.replace(/<\/footer>/i, (m) => agentsFooterHtml() + m);
-        } else {
-          html = html.replace(/<\/body>/i, (m) => agentsFooterHtml() + m);
-        }
-      }
+      // No longer inject Agents bar in footer; it lives on /agents page only
       res.end(html);
     } else {
       res.end(text);
@@ -509,7 +502,7 @@ function getAboutCitySectionHtml(data) {
 /** Compact search bar HTML (in header-right, reused on city, country, time-diff pages). */
 const SEARCH_BAR_HTML = '<div class="header-search-wrap"><label for="global-search" class="visually-hidden">Search cities</label><input type="text" id="global-search" class="header-search-input" placeholder="Search" autocomplete="off" aria-label="Search cities"/><div id="global-search-results" class="global-search-results" aria-live="polite"></div></div>';
 /** Header right: nav links + search + theme + sound (same as frontpage on all pages). */
-const HEADER_RIGHT_HTML = '<a href="/continents">Continents</a><a href="/countries">Countries</a><a href="/world-clock">World Clock</a><a href="/tools">Tools</a>' + SEARCH_BAR_HTML + '<button type="button" class="theme-btn" id="theme-btn" title="Toggle theme" aria-label="Toggle dark/light theme">🌙</button><button type="button" class="sound-btn theme-btn" id="sound-btn" title="Clock tick sound" aria-label="Toggle clock tick sound">🔇</button>';
+const HEADER_RIGHT_HTML = '<a href="/continents">Continents</a><a href="/countries">Countries</a><a href="/world-clock">World Clock</a><a href="/agents">Time Agents</a><a href="/tools">Tools</a>' + SEARCH_BAR_HTML + '<button type="button" class="theme-btn" id="theme-btn" title="Toggle theme" aria-label="Toggle dark/light theme">🌙</button><button type="button" class="sound-btn theme-btn" id="sound-btn" title="Clock tick sound" aria-label="Toggle clock tick sound">🔇</button>';
 /** Full app header HTML for list pages (continents, countries) that build HTML in server. */
 const APP_HEADER_HTML = '<header class="app-header" role="banner"><div class="header-container"><div class="header-left"><a href="/" class="logo" aria-label="TimeNow home"><img src="/favicon.svg" alt="" class="logo-icon"/>TimeNow</a></div><div class="header-right">' + HEADER_RIGHT_HTML + '</div></div></header>';
 /** Google Tag Manager (GTM-5764J5L6): inject in head and after body on every page. */
@@ -598,7 +591,7 @@ function agentsFooterHtml() {
 // Footer without agents; agents are rendered just above the footer universally
 const BASE_FOOTER_HTML = '<footer class="global-footer" role="contentinfo"><p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p><nav class="footer-nav" aria-label="Footer"><a href="/about">📄 About</a><a href="/privacy">🔒 Privacy</a><a href="/terms">📋 Terms</a><a href="/contact">✉️ Contact</a><a href="/sitemap.xml">🗺️ Sitemap</a></nav></footer>';
 // Dynamic pages will use: agents section + base footer
-const APP_FOOTER_HTML = agentsFooterHtml() + BASE_FOOTER_HTML;
+const APP_FOOTER_HTML = BASE_FOOTER_HTML;
 
 /** Render city page from template: replace all {{key}} with values. */
 function renderCityPage(data) {
@@ -1136,8 +1129,21 @@ const server = http.createServer((req, res) => {
 
   // Agents directory page
   if (pathname === '/agents' || pathname === '/agents/') {
-    const items = AI_AGENTS.map(a => '<li><a href="/agents/' + a.slug + '"><strong>' + escapeHtml(a.name) + '</strong></a> — ' + escapeHtml(a.desc) + '</li>').join('');
-    const html = '<!DOCTYPE html><html lang="en"><head><title>AI Agents | TimeNow</title>' + LIST_PAGE_HEAD + '</head><body>' + GTM_NOSCRIPT + APP_HEADER_HTML + '<main class="main list-page"><section class="section"><h1 class="section-title">AI Agents</h1><ul class="agents-list">' + items + '</ul></section><section class="section"><p class="muted">Agents use OpenAI on the server. Set OPENAI_API_KEY on Render.</p></section></main>' + APP_FOOTER_HTML + '<script type="module" src="/js/app.js"></script></body></html>';
+    const cards = AI_AGENTS.map(a => {
+      const statusClass = a.status === 'inactive' ? 'badge badge--off' : 'badge badge--ok';
+      const statusText = a.status === 'inactive' ? 'Inactive' : 'Active';
+      return `
+        <a class="agent-card" href="/agents/${a.slug}" role="listitem" aria-label="${escapeHtml(a.name)}">
+          <div class="agent-card__top">
+            <span class="agent-card__icon">⏱️</span>
+            <span class="agent-card__status ${statusClass}">${statusText}</span>
+          </div>
+          <h3 class="agent-card__title">${escapeHtml(a.name)}</h3>
+          <p class="agent-card__desc">${escapeHtml((a.desc||'').slice(0, 120))}</p>
+        </a>
+      `;
+    }).join('');
+    const html = '<!DOCTYPE html><html lang="en"><head><title>Time Agents | TimeNow</title>' + LIST_PAGE_HEAD + '</head><body>' + GTM_NOSCRIPT + APP_HEADER_HTML + '<main class="main list-page"><section class="section"><h1 class="section-title">Time Agents</h1><div class="agents-bar__track" role="list">' + cards + '</div></section></main>' + APP_FOOTER_HTML + '<script type="module" src="/js/app.js"></script></body></html>';
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
     res.end(html);
     return;
@@ -1155,24 +1161,23 @@ const server = http.createServer((req, res) => {
     }
     const status = agent.status === 'inactive' ? 'Inactive' : 'Active';
     const statusClass = agent.status === 'inactive' ? 'badge badge--off' : 'badge badge--ok';
-    const keyMissing = !OPENAI_API_KEY;
     const html = '<!DOCTYPE html><html lang="en"><head><title>' + escapeHtml(agent.name) + ' | TimeNow</title>' + LIST_PAGE_HEAD + '<link rel="stylesheet" href="/css/agents-tools.css"/></head><body>' + GTM_NOSCRIPT + APP_HEADER_HTML + '<main class="main list-page"><section class="page-section">'
-      + '<header class="page-section__head"><div class="page-section__icon">⏱️</div><div><h1 class="page-section__title">' + escapeHtml(agent.name) + '</h1><div class="page-section__meta"><span class="' + statusClass + '">' + status + '</span><span class="badge">AI Agent</span>' + (keyMissing ? ' <span class="badge badge--off">Configure OPENAI_API_KEY</span>' : '') + '</div></div></header>'
+      + '<header class="page-section__head"><div class="page-section__icon">⏱️</div><div><h1 class="page-section__title">' + escapeHtml(agent.name) + '</h1><div class="page-section__meta"><span class="' + statusClass + '">' + status + '</span><span class="badge">AI Agent</span></div></div></header>'
       + '<p class="page-section__desc">' + escapeHtml(agent.desc) + '</p>'
       + '<div class="page-cards">'
       +   '<article class="ui-card"><h2>Run</h2>'
       +     '<form id="agent-form" class="run-form" method="post" action="/api/agent/' + agent.slug + '">'
       +       '<label for="prompt">Prompt</label>'
-      +       '<textarea name="prompt" id="prompt" rows="4" placeholder="Ask about time zones, meetings, daylight, etc." ' + (keyMissing ? 'disabled' : '') + '></textarea>'
-      +       '<div class="run-actions"><button type="submit" class="btn btn--primary" ' + (keyMissing ? 'disabled' : '') + '>Run</button><button type="button" class="btn" id="btn-test">Test</button><a class="btn btn--ghost" href="/agents">Back</a></div>'
-      +       '<pre id="agent-output" class="run-output">' + (keyMissing ? 'Configure OPENAI_API_KEY in your Render environment to enable AI Time Agents.' : '') + '</pre>'
+      +       '<textarea name="prompt" id="prompt" rows="4" placeholder="Ask about time zones, meetings, daylight, etc."></textarea>'
+      +       '<div class="run-actions"><button type="submit" class="btn btn--primary">Submit</button><a class="btn btn--ghost" href="/agents">Back</a></div>'
+      +       '<pre id="agent-output" class="run-output"></pre>'
       +     '</form>'
       +   '</article>'
       +   '<article class="ui-card"><h2>Examples</h2>'
       +     '<div class="example"><span class="example__label">Input</span><pre class="example__code">Explain London vs New York for Friday 2pm London.</pre></div>'
       +     '<div class="example"><span class="example__label">Output</span><pre class="example__code">New York is 5h behind London (standard)…</pre></div>'
       +   '</article>'
-      + '</div></section></main>' + APP_FOOTER_HTML + '<script>if(!' + (keyMissing ? '0' : '1') + '){document.getElementById("agent-form").addEventListener("submit", async (e) => {e.preventDefault(); const form = e.target; const ta = document.getElementById("prompt"); const out = document.getElementById("agent-output"); out.textContent = "Thinking..."; const res = await fetch(form.action, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ prompt: ta.value }) }); const data = await res.json().catch(()=>({error:"Invalid response"})); out.textContent = data.error ? ("Error: " + data.error) : (data.text || ""); });} document.getElementById("btn-test").addEventListener("click", ()=>{const p = document.getElementById("prompt"); if(p){p.value = "Explain America/Chicago vs Europe/London at 14:00 CT";}});</script></body></html>';
+      + '</div></section></main>' + APP_FOOTER_HTML + '<script>document.getElementById("agent-form").addEventListener("submit", async (e) => {e.preventDefault(); const form = e.target; const ta = document.getElementById("prompt"); const out = document.getElementById("agent-output"); out.textContent = "Thinking..."; const res = await fetch(form.action, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ prompt: ta.value }) }); const data = await res.json().catch(()=>({error:"Invalid response"})); out.textContent = data.error ? ("Error: " + data.error) : (data.text || ""); });</script></body></html>';
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
     res.end(html);
     return;
