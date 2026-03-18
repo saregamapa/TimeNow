@@ -282,14 +282,22 @@ function getContinentBySlug(continentSlug) {
 }
 
 function serveFile(filePath, res, contentType) {
-  fs.readFile(filePath, (err, data) => {
+  fs.readFile(filePath, 'utf8', (err, text) => {
     if (err) {
       res.writeHead(404);
       res.end('Not found');
       return;
     }
-    res.setHeader('Content-Type', contentType || MIME[path.extname(filePath)] || 'application/octet-stream');
-    res.end(data);
+    const ct = contentType || MIME[path.extname(filePath)] || 'application/octet-stream';
+    res.setHeader('Content-Type', ct);
+    if (ct.startsWith('text/html')) {
+      // Inject agents footer if not already present
+      const injected = text.includes('agents-footer') ? text : text.replace(/<\/footer>/i, '</footer>')
+        .replace(/<\/body>/i, (m) => (agentsFooterHtml() + m));
+      res.end(injected);
+    } else {
+      res.end(text);
+    }
   });
 }
 
@@ -504,7 +512,59 @@ const FAVICON_LINK = '<link rel="icon" href="/favicon.svg" type="image/svg+xml"/
 /** Head (fonts + CSS) same as frontpage so footer and typography match. */
 const LIST_PAGE_HEAD = GTAG_HEAD + GTM_HEAD + ADSENSE_HEAD + FAVICON_LINK + '<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Libre+Baskerville:700&family=Oswald:wght@500&family=DM+Sans:wght@600&display=swap" rel="stylesheet"/><link rel="stylesheet" href="/css/main.css"/>';
 /** Footer HTML (same as frontpage): brand + nav with emojis. */
-const APP_FOOTER_HTML = '<footer class="global-footer" role="contentinfo"><p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p><nav class="footer-nav" aria-label="Footer"><a href="/about">📄 About</a><a href="/privacy">🔒 Privacy</a><a href="/terms">📋 Terms</a><a href="/contact">✉️ Contact</a><a href="/sitemap.xml">🗺️ Sitemap</a></nav></footer>';
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY || '';
+const OPENAI_MODEL = process.env.OPENAI_MODEL || 'gpt-4o-mini';
+
+// 40 AI agents related to time and scheduling
+const AI_AGENTS = [
+  { slug: 'timezone-expert', name: 'Timezone Expert', desc: 'Explains any IANA timezone and offset math clearly.', system: 'You are a timezone expert. Explain offsets, DST, and conversions step by step, with concise examples.' },
+  { slug: 'meeting-coach', name: 'Meeting Coach', desc: 'Suggests fair meeting times across time zones.', system: 'You propose 3–5 fair meeting time options across given time zones with pros/cons.' },
+  { slug: 'jetlag-advisor', name: 'Jet Lag Advisor', desc: 'Creates pre/post-flight sleep shift plans.', system: 'You create a simple, safe jet lag plan with sleep/wake shift steps. Avoid medical claims.' },
+  { slug: 'dst-explainer', name: 'DST Explainer', desc: 'Explains DST rules and next changes.', system: 'Explain DST start/end and next change dates. Be precise and concise.' },
+  { slug: 'sunrise-sunset', name: 'Sunrise & Sunset', desc: 'Summarizes daylight, sunrise/sunset, golden hour.', system: 'Given a location and date, describe sunrise, sunset, day length and golden hour windows conceptually (no live data).' },
+  { slug: 'relative-time', name: 'Relative Time Translator', desc: 'Translates phrases like “tomorrow 9am” across zones.', system: 'Translate relative phrases into specific local times across time zones. Show assumptions.' },
+  { slug: 'overlap-planner', name: 'Overlap Planner', desc: 'Finds working-hours overlap for teams.', system: 'Compute overlap windows for 9–17 local hours across listed time zones. Suggest best 2–3 slots.' },
+  { slug: 'event-converter', name: 'Event Converter', desc: 'Converts an event time to multiple zones.', system: 'Convert a given event time in a source zone to multiple target zones. Present clean table.' },
+  { slug: 'itinerary-balancer', name: 'Itinerary Balancer', desc: 'Balances activities across jet lag + daylight.', system: 'Given a trip plan, propose time-balanced schedule with rest and daylight-aware suggestions.' },
+  { slug: 'calendar-cleanup', name: 'Calendar Cleanup', desc: 'Suggests fixes for timezone-cal chaos.', system: 'Given event list and zones, find likely timezone mistakes and propose fixed times.' },
+  { slug: 'tv-sports-times', name: 'TV/Sports Times', desc: 'Explains global TV sports times differences.', system: 'Explain prime-time differences for sports broadcasts across regions succinctly.' },
+  { slug: 'stock-market-hours', name: 'Market Hours', desc: 'Explains global market opens/closes and overlaps.', system: 'Explain major stock exchange hours and overlap windows. No financial advice.' },
+  { slug: 'flight-buffer', name: 'Flight Buffer Planner', desc: 'Suggests airport/connection buffers by time.', system: 'Suggest sensible buffer times for flights across time zones. Always advise checking airline rules.' },
+  { slug: 'prayer-time-context', name: 'Prayer Time Context', desc: 'Explains how prayer times shift by season/zone.', system: 'General, respectful explanation of prayer time shifts by season and latitude; avoid precise calculations.' },
+  { slug: 'work-shift-rotator', name: 'Shift Rotator', desc: 'Proposes rotating shifts across time zones.', system: 'Propose equitable rotating shift schedules across listed time zones.' },
+  { slug: 'support-sla', name: 'Support SLA Windows', desc: 'Finds best live-support coverage windows.', system: 'Given customer geos and SLAs, propose coverage windows and staffing blocks.' },
+  { slug: 'office-hours', name: 'Office Hours Advisor', desc: 'Suggests office hours aligned to audiences.', system: 'Suggest weekly office hours across time zones; include friendly framing text.' },
+  { slug: 'content-publisher', name: 'Content Publisher Times', desc: 'Suggests publish times per region.', system: 'Suggest publish times by region with simple reasoning and a backup slot.' },
+  { slug: 'release-train', name: 'Release Train Planner', desc: 'Schedules global app releases safely.', system: 'Propose phased release times to reduce risk across time zones with rollback buffer.' },
+  { slug: 'ops-handover', name: 'Ops Handover', desc: 'Designs timezone-based handovers.', system: 'Design daily handover timeline for ops teams across zones; crisp checklist format.' },
+  { slug: 'school-parent', name: 'School/Parent Planner', desc: 'Coordinates school events across zones.', system: 'Help parents coordinate school meetings across zones; suggest reminders.' },
+  { slug: 'broadcast-planner', name: 'Broadcast Planner', desc: 'Plans streams/podcasts for multi-timezone.', system: 'Suggest optimal live broadcast windows and re-run schedules.' },
+  { slug: 'festival-timer', name: 'Festival Timer', desc: 'Outlines festival/event times across geos.', system: 'Summarize key festival times by region; avoid cultural generalizations.' },
+  { slug: 'sports-viewer', name: 'Sports Viewer Planner', desc: 'Builds personal watch schedules.', system: 'Given user zone and league schedule, propose humane watch plan.' },
+  { slug: 'study-clock', name: 'Study Clock', desc: 'Time-blocks study around circadian rhythm.', system: 'Propose a study schedule aligned to circadian rhythm; disclaim variability.' },
+  { slug: 'workout-timer', name: 'Workout Timer', desc: 'Best workout windows by daylight/sleep.', system: 'Suggest 2–3 daily workout windows considering daylight and sleep; gentle tone.' },
+  { slug: 'sleep-window', name: 'Sleep Window Helper', desc: 'Sets wake/sleep windows around changes.', system: 'Suggest wake/sleep windows around DST or trip; non-medical advice only.' },
+  { slug: 'deadline-aligner', name: 'Deadline Aligner', desc: 'Aligns deadlines across client time zones.', system: 'Turn fuzzy deadlines into precise ones across zones; present table + reminders.' },
+  { slug: 'reminder-writer', name: 'Reminder Writer', desc: 'Writes reminders with exact localized times.', system: 'Rewrite reminders inserting explicit local times for recipients.' },
+  { slug: 'countdown-crafter', name: 'Countdown Crafter', desc: 'Builds event countdown copy.', system: 'Write short event countdown text with exact local timestamp references.' },
+  { slug: 'holiday-coordinator', name: 'Holiday Coordinator', desc: 'Explains regional holidays/time impacts.', system: 'Explain holiday timing impacts on meetings and deliveries cross-region.' },
+  { slug: 'open-hours', name: 'Open Hours Helper', desc: 'Normalizes store open hours globally.', system: 'Normalize open hours into local times; flag ambiguous entries.' },
+  { slug: 'team-standup', name: 'Team Standup Suggester', desc: 'Finds humane standup times.', system: 'Propose humane standup times across zones and an async backup.' },
+  { slug: 'clock-nerd', name: 'Clock Nerd', desc: 'Explains clock math simply.', system: 'Explain time math clearly; include 1–2 worked examples.' },
+  { slug: 'deadline-remapper', name: 'Deadline Remapper', desc: 'Maps deadlines between org/client zones.', system: 'Map N deadlines from org zone to client zones; show table and edge cases.' },
+  { slug: 'timephrase-parser', name: 'Timephrase Parser', desc: 'Parses fuzzy time phrases.', system: 'Parse phrases like “end of day” or “tomorrow COB” into explicit local times; show assumptions.' },
+  { slug: 'light-planner', name: 'Light Planner', desc: 'Plans outdoor activity times by light.', system: 'Suggest general outdoor windows by light; note lat/season variance.' },
+  { slug: 'call-window', name: 'Call Window Finder', desc: 'Finds best 30–45 min call windows.', system: 'Suggest top 3 call windows across zones with quick rationale.' },
+  { slug: 'qa-slotter', name: 'QA Slotter', desc: 'Slots QA passes across dev/QA zones.', system: 'Slot QA passes around dev/QA time zones to reduce idle time.' },
+  { slug: 'support-rotas', name: 'Support Rotas', desc: 'Generates light on-call rotas.', system: 'Draft lightweight on-call rotations that cover peak hours; humane first.' },
+];
+
+function agentsFooterHtml() {
+  const links = AI_AGENTS.slice(0, 40).map(a => '<a href="/agents/' + a.slug + '">' + escapeHtml(a.name) + '</a>').join(' · ');
+  return '<div class="agents-footer"><h3 class="section-title">AI Agents</h3><p class="agents-links">' + links + '</p></div>';
+}
+
+const APP_FOOTER_HTML = '<footer class="global-footer" role="contentinfo"><p class="footer-brand">🕐 TimeNow — Exact time, any time zone</p><nav class="footer-nav" aria-label="Footer"><a href="/about">📄 About</a><a href="/privacy">🔒 Privacy</a><a href="/terms">📋 Terms</a><a href="/contact">✉️ Contact</a><a href="/sitemap.xml">🗺️ Sitemap</a></nav>' + agentsFooterHtml() + '</footer>';
 
 /** Render city page from template: replace all {{key}} with values. */
 function renderCityPage(data) {
@@ -1040,11 +1100,98 @@ const server = http.createServer((req, res) => {
     return;
   }
 
+  // Agents directory page
+  if (pathname === '/agents' || pathname === '/agents/') {
+    const items = AI_AGENTS.map(a => '<li><a href="/agents/' + a.slug + '"><strong>' + escapeHtml(a.name) + '</strong></a> — ' + escapeHtml(a.desc) + '</li>').join('');
+    const html = '<!DOCTYPE html><html lang="en"><head><title>AI Agents | TimeNow</title>' + LIST_PAGE_HEAD + '</head><body>' + GTM_NOSCRIPT + APP_HEADER_HTML + '<main class="main list-page"><section class="section"><h1 class="section-title">AI Agents</h1><ul class="agents-list">' + items + '</ul></section><section class="section"><p class="muted">Agents use OpenAI on the server. Set OPENAI_API_KEY on Render.</p></section></main>' + APP_FOOTER_HTML + '<script type="module" src="/js/app.js"></script></body></html>';
+    res.setHeader('Content-Type', 'text/html; charset=utf-8');
+    res.end(html);
+    return;
+  }
+
+  // Agent page
+  const agentMatch = pathname.match(/^\/agents\/([a-z0-9-]+)\/?$/);
+  if (agentMatch) {
+    const slug = agentMatch[1];
+    const agent = AI_AGENTS.find(a => a.slug === slug);
+    if (!agent) {
+      res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
+      res.end('<!DOCTYPE html><html><head><title>Not found</title><link rel="stylesheet" href="/css/main.css"/></head><body><main class="main"><section class="section"><h1>Agent not found</h1><p><a href="/agents">All agents</a></p></section></main>' + APP_FOOTER_HTML + '</body></html>');
+      return;
+    }
+    const html = '<!DOCTYPE html><html lang="en"><head><title>' + escapeHtml(agent.name) + ' | TimeNow</title>' + LIST_PAGE_HEAD + '</head><body>' + GTM_NOSCRIPT + APP_HEADER_HTML + '<main class="main list-page"><section class="section"><h1 class="section-title">' + escapeHtml(agent.name) + '</h1><p class="muted">' + escapeHtml(agent.desc) + '</p><form id="agent-form" class="tool-form" method="post" action="/api/agent/' + agent.slug + '"><label for="prompt">Your question</label><textarea name="prompt" id="prompt" rows="4" placeholder="Ask about time zones, meetings, daylight, etc."></textarea><button type="submit">Ask</button></form><pre id="agent-output" class="tool-output"></pre></section></main>' + APP_FOOTER_HTML + '<script>document.getElementById("agent-form").addEventListener("submit", async (e) => {e.preventDefault(); const form = e.target; const ta = document.getElementById("prompt"); const out = document.getElementById("agent-output"); out.textContent = "Thinking..."; const res = await fetch(form.action, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ prompt: ta.value }) }); const data = await res.json().catch(()=>({error:"Invalid response"})); out.textContent = data.error ? ("Error: " + data.error) : (data.text || ''); });</script></body></html>';
+    res.setHeader('Content-Type', 'text/html; charset=utf-8');
+    res.end(html);
+    return;
+  }
+
   // API: server time for NTP-style sync
   if (pathname === '/api/time') {
     res.setHeader('Content-Type', 'application/json');
     res.setHeader('Cache-Control', 'no-store');
     res.end(JSON.stringify({ now: Date.now() }));
+    return;
+  }
+
+  // API: agent call — POST /api/agent/:slug { prompt }
+  const agentApiMatch = pathname.match(/^\/api\/agent\/([a-z0-9-]+)\/?$/);
+  if (agentApiMatch) {
+    res.setHeader('Content-Type', 'application/json');
+    if (req.method !== 'POST') {
+      res.writeHead(405);
+      res.end(JSON.stringify({ error: 'Method not allowed' }));
+      return;
+    }
+    if (!OPENAI_API_KEY) {
+      res.writeHead(503);
+      res.end(JSON.stringify({ error: 'OPENAI_API_KEY not set' }));
+      return;
+    }
+    const slug = agentApiMatch[1];
+    const agent = AI_AGENTS.find(a => a.slug === slug);
+    if (!agent) {
+      res.writeHead(404);
+      res.end(JSON.stringify({ error: 'Agent not found' }));
+      return;
+    }
+    let body = '';
+    req.on('data', (ch) => body += ch);
+    req.on('end', async () => {
+      try {
+        const data = JSON.parse(body || '{}');
+        const userPrompt = (data.prompt || '').toString().slice(0, 4000);
+        if (!userPrompt.trim()) {
+          res.writeHead(400);
+          res.end(JSON.stringify({ error: 'Empty prompt' }));
+          return;
+        }
+        const payload = {
+          model: OPENAI_MODEL,
+          messages: [
+            { role: 'system', content: agent.system },
+            { role: 'user', content: userPrompt },
+          ],
+          temperature: 0.4,
+        };
+        const r = await fetch('https://api.openai.com/v1/chat/completions', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + OPENAI_API_KEY },
+          body: JSON.stringify(payload),
+        }).catch((e) => ({ ok: false, status: 0, json: async () => ({ error: e.message }) }));
+        const j = await r.json();
+        const text = (j && j.choices && j.choices[0] && j.choices[0].message && j.choices[0].message.content) ? j.choices[0].message.content : (j.error && j.error.message) || 'No response';
+        if (!r.ok) {
+          res.writeHead(502);
+          res.end(JSON.stringify({ error: text || 'Upstream error' }));
+          return;
+        }
+        res.writeHead(200);
+        res.end(JSON.stringify({ ok: true, text }));
+      } catch (e) {
+        res.writeHead(500);
+        res.end(JSON.stringify({ error: 'Server error' }));
+      }
+    });
     return;
   }
 
