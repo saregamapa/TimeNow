@@ -298,7 +298,7 @@ function serveFile(filePath, res, contentType) {
       }
       // Add active nav highlighting on header links (client-side init)
       if (!/nav-active-init/.test(html)) {
-        html = html.replace(/<\/body>/i, '<script>/* nav-active-init */(function(){try{var p=location.pathname||"/";var links=document.querySelectorAll(\".header-right a\");links.forEach(function(a){var href=a.getAttribute(\"href\");if(!href)return;var match = (href===\"/\"? p===\"/\" : p.startsWith(href));if(match){a.classList.add(\"is-active\");}});}catch(e){}})();</script></body>');
+        html = html.replace(/<\/body>/i, '<script>/* nav-active-init */(function(){try{var p=location.pathname||"/";var nav=document.querySelector(\".header-right\");if(nav){var hasAgents=!!nav.querySelector(\"a[href=\\/agents]\\/\");if(!hasAgents){var a=document.createElement(\"a\");a.href=\"/agents\";a.textContent=\"Time Agents\";var tools=nav.querySelector(\"a[href=\\/tools]\\/\");if(tools&&tools.parentNode===nav){nav.insertBefore(a, tools);} else {nav.insertBefore(a, nav.firstChild);} } var links=nav.querySelectorAll(\"a\");links.forEach(function(a){var href=a.getAttribute(\"href\");if(!href)return;var match=(href===\"/\"? p===\"/\" : p.startsWith(href));if(match){a.classList.add(\"is-active\");}});} }catch(e){}})();</script></body>');
       }
       // No longer inject Agents bar in footer; it lives on /agents page only
       res.end(html);
