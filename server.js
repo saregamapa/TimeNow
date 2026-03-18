@@ -563,13 +563,22 @@ const AI_AGENTS = [
 ];
 
 function agentsFooterHtml() {
+  function iconForAgent(slug){
+    if(/jet|sleep|lag/.test(slug)) return '✈️';
+    if(/meeting|overlap|call|standup|handover|support/.test(slug)) return '👥';
+    if(/timezone|converter|relative|timephrase|deadline|remap|open-hours/.test(slug)) return '🕒';
+    if(/content|publisher|broadcast|festival|countdown/.test(slug)) return '📣';
+    if(/market|stock/.test(slug)) return '📈';
+    return '⏱️';
+  }
   const cards = AI_AGENTS.slice(0, 40).map(a => {
     const statusClass = a.status === 'inactive' ? 'badge badge--off' : 'badge badge--ok';
     const statusText = a.status === 'inactive' ? 'Inactive' : 'Active';
+    const icon = iconForAgent(a.slug);
     return `
       <a class="agent-card" href="/agents/${a.slug}" role="listitem" aria-label="${escapeHtml(a.name)}">
         <div class="agent-card__top">
-          <span class="agent-card__icon">⏱️</span>
+          <span class="agent-card__icon">${icon}</span>
           <span class="agent-card__status ${statusClass}">${statusText}</span>
         </div>
         <h3 class="agent-card__title">${escapeHtml(a.name)}</h3>
