@@ -1028,8 +1028,15 @@ const server = http.createServer((req, res) => {
     return;
   }
   if (pathname === '/tools') {
-    res.writeHead(302, { Location: '/#more-tools' });
-    res.end();
+    // Serve dedicated tools index page if present; else fall back to in-page anchor
+    const toolsIndex = path.join(ROOT, 'tools', 'index.html');
+    if (fs.existsSync(toolsIndex)) {
+      res.setHeader('Content-Type', 'text/html; charset=utf-8');
+      res.end(fs.readFileSync(toolsIndex, 'utf8'));
+    } else {
+      res.writeHead(302, { Location: '/#more-tools' });
+      res.end();
+    }
     return;
   }
 
