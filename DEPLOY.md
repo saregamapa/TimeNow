@@ -41,7 +41,25 @@
 
 ---
 
-## 7. Custom domain (e.g. timenow.co.in on Hostinger)
+## 7. Monetize with AdSense (Optional)
+
+**Note:** Sign up at [Google AdSense](https://adsense.google.com/) first, get your Publisher ID, then add it.
+
+### Step 1: Get Publisher ID
+1. Create an AdSense account
+2. Get your **Publisher ID** (e.g., `ca-pub-1234567890123456`)
+3. Replace `PUB-XXXXX` in `index.html` with your ID
+
+### Step 2: Deploy
+- Deploy via Render as described above
+- AdSense ads will load automatically on your deployed site
+- Ad placements are optimized for layout (see `index.html` ad container structure)
+
+**Estimated revenue:** $50-200/month with 10K+ monthly visitors
+
+---
+
+## 8. Custom domain (e.g. timenow.co.in on Hostinger)
 
 After the app is live on Render (e.g. `https://timenow-global.onrender.com`), you can use your own domain.
 
